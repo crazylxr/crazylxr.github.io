@@ -1,11 +1,12 @@
 <template>
     <div id="post">
-
+{{ post }}
     </div>
 </template>
 
 <script>
-    import Router from 'vue-router'
+import axios from 'axios'
+
 export default {
   data () {
     return {
@@ -13,7 +14,10 @@ export default {
     }
   },
   created: function () {
-    console.log($route.params.id);
+    axios.get('https://api.github.com/repos/cobish/cobish.github.io/issues/1')
+    .then(data => {
+      this.post = data.data.body;
+    })
   }
 }
 </script>

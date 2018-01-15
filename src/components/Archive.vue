@@ -7,19 +7,20 @@
  </template>
 
 <script>
-    import axios from 'axios'
+import axios from "axios";
 export default {
-  data () {
+  data() {
     return {
-      archives:[]
-    }
+      archives: []
+    };
   },
-  created: function () {
-    axios.get('https://api.github.com/repos/cobish/cobish.github.io/issues')
+  created: function() {
+    axios
+      .get("https://api.github.com/repos/cobish/cobish.github.io/issues")
       .then(data => {
         this.archives = data.data;
-       console.log(data);
-          })
-      }
-    }
+        console.log(data);
+      });
+  }
+};
 </script>
