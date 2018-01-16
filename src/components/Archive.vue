@@ -1,13 +1,15 @@
 <template>
     <div id="archive">
-        <ul>
-          <li v-for="archive in archives">{{ archive.title }}</li>
+        <ul class="list">
+          <li class="list-post" v-for="archive in archives" @click="handleClick(archive)">{{ archive.title }}</li>
         </ul>
     </div>
  </template>
 
 <script>
 import axios from "axios";
+import '../assets/list.css'
+
 export default {
   data() {
     return {
@@ -21,6 +23,11 @@ export default {
         this.archives = data.data;
         console.log(data);
       });
+  },
+  methods: {
+    handleClick (archive) {
+      this.$router.push({ path: '/post/' + archive.number})
+    }
   }
 };
 </script>
