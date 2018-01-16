@@ -3,6 +3,9 @@
         <div class="log">
          </div>
         <div class="home">
+            <div class="avator">
+                <a href="https://github.com/crazylxr"></a>
+            </div>
             <div class="link">
                 <router-link to="/archive"><a href="#">归档</a></router-link>
                 <a href="#">标签</a>
@@ -33,5 +36,11 @@ export default {
     margin-top: -250px;
     justify-content: center;
     align-items: center;
+}
+.avator {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url("../assets/img/avatar.jpg")
 }
 </style>

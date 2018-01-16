@@ -7,12 +7,12 @@
 import axios from 'axios'
 import marked from 'marked'
 import hljs from 'highlight.js'
-import '../assets/zenburn.css'
-import '../assets/article.css'
+import '../assets/css/zenburn.css'
+import '../assets/css/article.css'
+import { getSingleIssue } from '../api/index'
 
 export default {
   data () {
-    console.log(this.$route.params)
     return {
       post: {}
     }
@@ -23,9 +23,8 @@ export default {
         return hljs.highlightAuto(code).value;
       }
     })
-    console.log(this.$router);
-
-    axios.get('https://api.github.com/repos/cobish/cobish.github.io/issues/' + this.$route.params.id)
+    
+    getSingleIssue('cobish', 'cobish.github.io', this.$route.params.id)
     .then(data => {
       this.post = marked(data.data.body);
     })

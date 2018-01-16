@@ -7,8 +7,8 @@
  </template>
 
 <script>
-import axios from "axios";
-import '../assets/list.css'
+import '../assets/css/list.css'
+import { getIssuesForRepo } from '../api/index'
 
 export default {
   data() {
@@ -17,11 +17,9 @@ export default {
     };
   },
   created: function() {
-    axios
-      .get("https://api.github.com/repos/cobish/cobish.github.io/issues")
+    getIssuesForRepo('cobish', 'cobish.github.io')
       .then(data => {
         this.archives = data.data;
-        console.log(data);
       });
   },
   methods: {
