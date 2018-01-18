@@ -42,5 +42,10 @@ export default {
     width: 100px;
     height: 100px;
     background: url("../assets/img/avatar.jpg")
+    /* background: url(https://gold-cdn.xitu.io/v3/static/img/logo.a7995ad.svg) */
+}
+
+a {
+    color: #4fc08d;
 }
 </style>

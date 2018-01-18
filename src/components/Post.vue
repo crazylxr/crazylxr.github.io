@@ -1,5 +1,10 @@
 <template>
-    <div v-html="post" id="post" class="article article-content">
+<div id="post" class="article article-content">
+    <div class="title">
+        <h1>{{ title }}</h1>
+    </div>
+    <p class="meta">{{ meta }}</p>
+    <div class="content" v-html="content"></div>
     </div>
 </template>
 
@@ -14,7 +19,9 @@ import { getSingleIssue } from '../api/index'
 export default {
   data () {
     return {
-      post: {}
+      title: '',
+      meta: '',
+      content: ''
     }
   },
   created: function () {
@@ -25,9 +32,22 @@ export default {
     })
     
     getSingleIssue('cobish', 'cobish.github.io', this.$route.params.id)
-    .then(data => {
-      this.post = marked(data.data.body);
+      .then(data => {
+        this.title = data.data.title;
+        this.meta = data.data.created_at.substr(0, 10);
+      this.content = marked(data.data.body);
     })
+  },
+  computed: {
+    meta: function () {
+      return this.meta.substr(0, 10)
+    }
   }
 }
 </script>
+
+<style>
+    .title h1{
+        text-align: center;
+    }
+</style>
