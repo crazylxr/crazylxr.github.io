@@ -15,6 +15,7 @@ import hljs from 'highlight.js'
 import '../assets/css/zenburn.css'
 import '../assets/css/article.css'
 import { getSingleIssue } from '../api/index'
+import CONFIG from '../assets/config'
 
 export default {
   data () {
@@ -31,17 +32,12 @@ export default {
       }
     })
     
-    getSingleIssue('cobish', 'cobish.github.io', this.$route.params.id)
+    getSingleIssue(CONFIG.owner, CONFIG.repo, this.$route.params.id)
       .then(data => {
         this.title = data.data.title;
         this.meta = data.data.created_at.substr(0, 10);
       this.content = marked(data.data.body);
     })
-  },
-  computed: {
-    meta: function () {
-      return this.meta.substr(0, 10)
-    }
   }
 }
 </script>
@@ -49,5 +45,10 @@ export default {
 <style>
     .title h1{
         text-align: center;
+        color: #00c;
+    }
+    .meta {
+      text-align: center;
+      color: red;
     }
 </style>

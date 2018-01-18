@@ -9,6 +9,7 @@
 <script>
 import '../assets/css/list.css'
 import { getIssuesForRepo } from '../api/index'
+import CONFIG from '../assets/config'
 
 export default {
   data() {
@@ -17,7 +18,7 @@ export default {
     };
   },
   created: function() {
-    getIssuesForRepo('cobish', 'cobish.github.io')
+    getIssuesForRepo(CONFIG.owner, CONFIG.repo)
       .then(data => {
         this.archives = data.data;
       });
