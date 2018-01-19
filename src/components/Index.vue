@@ -5,8 +5,8 @@
             <a class="avatar" href="https://github.com/crazylxr"></a>
             <div class="link">
                 <router-link to="/archive"><a href="#">归档</a></router-link>
-                <a href="#">标签</a>
-                <a href="#">关于我</a>
+                <router-link to="/tags"><a href="#">标签</a></router-link>
+                <router-link to="/about"><a href="#">关于我</a></router-link>
             </div>
         </div>
    </div>
@@ -42,6 +42,6 @@
 }
 
 a {
-  color: #4fc08d;
+  color: #6ab5fc;
 }
 </style>

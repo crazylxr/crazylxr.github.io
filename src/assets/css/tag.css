@@ -1,0 +1,21 @@
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tag h1 {
+  width: 50%;
+  text-align: center;
+}
+
+.tags {
+  width: 50%;
+  text-align: center;
+}
+
+.tag-item {
+  display: inline-block;
+  margin: 10px;
+}

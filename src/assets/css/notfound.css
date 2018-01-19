@@ -1,0 +1,44 @@
+#not-found h1 {
+  font-size: 300px;
+  text-align: center;
+}
+
+#not-found p {
+  text-align: center;
+  font-size: 30px;
+  color: #999;
+}
+
+.heart-body {
+  position: relative;
+  left: 50%;
+  margin-left: -50px;
+  top: 50px;
+  display: none;
+}
+
+.heart-shape:before {
+  left: -45px;
+}
+
+.heart-shape:after {
+  top: -45px;
+}
+
+.heart-shape {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #f70e0e;
+  transform: rotate(45deg);
+}
+
+.heart-shape:before,
+.heart-shape:after {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f70e0e;
+}

@@ -5,7 +5,7 @@
     </div>
     <p class="meta">{{ meta }}</p>
     <div class="content" v-html="content"></div>
-    </div>
+</div>
 </template>
 
 <script>
@@ -36,8 +36,8 @@ export default {
       .then(data => {
         this.title = data.data.title;
         this.meta = data.data.created_at.substr(0, 10);
-      this.content = marked(data.data.body);
-    })
+        this.content = marked(data.data.body);
+      })
   }
 }
 </script>

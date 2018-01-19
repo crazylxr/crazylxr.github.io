@@ -1,14 +1,13 @@
 <template>
     <div id="archive">
-        <ul class="list">
-          <li class="list-post" v-for="archive in archives" @click="handleClick(archive)">{{ archive.title }}</li>
-        </ul>
+        <ListTitle :archives="archives"></ListTitle>
     </div>
  </template>
 
 <script>
 import '../assets/css/list.css'
 import { getIssuesForRepo } from '../api/index'
+import ListTitle from './ListTitle.vue'
 import CONFIG from '../assets/config'
 
 export default {
@@ -17,15 +16,36 @@ export default {
       archives: []
     };
   },
+  components: { ListTitle },
   created: function() {
+    console.log('fff', this.archives)
     getIssuesForRepo(CONFIG.owner, CONFIG.repo)
       .then(data => {
-        this.archives = data.data;
+        this.archives = this.translatePostData(data.data);
       });
   },
   methods: {
-    handleClick (archive) {
-      this.$router.push({ path: '/post/' + archive.number})
+    /*
+     * 为了按年归档，把年也加入到数组里，然后用类别渲染出来
+     */
+    translatePostData(posts) {
+      const archives = [];
+      let year = new Date(posts[0].created_at).getFullYear();
+
+      archives.push(year);
+
+      posts.forEach((item) => {
+        const itemYear = new Date(item.created_at).getFullYear();
+
+        if (year != itemYear) {
+          archives.push(itemYear);
+          year = itemYear;
+        }else{
+          archives.push(item);
+        }
+      })
+
+      return archives;
     }
   }
 };
