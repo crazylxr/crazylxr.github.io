@@ -29,6 +29,11 @@ export default {
      * 为了按年归档，把年也加入到数组里，然后用类别渲染出来
      */
     translatePostData(posts) {
+      // 如果没有文章直接返回
+      if (posts.length === 0) {
+        return
+      }
+
       const archives = [];
       let year = new Date(posts[0].created_at).getFullYear();
 

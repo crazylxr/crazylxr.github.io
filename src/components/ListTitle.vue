@@ -4,7 +4,7 @@
             <li class="list-post" v-for="(archive, index) in archives">
                 <h2 class="title" v-if="typeof archive !== 'object'">{{ archive }}</h2>
                 <div  @click="handleClick(archive)" v-else>
-                    <a>{{ archive.title }}</a>
+                    <a href="#">{{ archive.title }}</a>
                     <span class="date-long">{{ archive.created_at.substr(0, 10) }}</span>
                 </div>
             </li>
