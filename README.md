@@ -40,7 +40,7 @@ npm run dev
 ```
 npm run build
 ```
-
+不知道如何发布到github page的同学，请点击[这里](https://github.com/crazylxr/crazylxr.github.io/issues/5)
 ## 技术栈
 - vue
 - vue-router
@@ -56,4 +56,4 @@ npm run build
 - 评论
 - 静态资源打包问题
 ## 日志更新
-Log
+[Log](https://github.com/crazylxr/static-blog/releases)

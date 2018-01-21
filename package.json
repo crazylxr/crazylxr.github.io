@@ -1,8 +1,8 @@
 {
-  "name": "parcel-vue",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "零配置VUE开发模板，基于Parcel全新构建",
-  "author": "cheneyweb <457299596@qq.com>",
+  "description": "vue 静态博客",
+  "author": "taoweng <xiaoran.lee@qq.com>",
   "main": "main.js",
   "license": "MIT",
   "scripts": {
