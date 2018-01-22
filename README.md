@@ -1,5 +1,5 @@
 # crazylxr`s blog
-这是一个基于 github page 和 github api 搭建的单页面静态博客。
+这是一个基于 github page 和 github api 搭建的单页面静态博客
 
 ## 环境要求
 - nodejs 8.0 以上
