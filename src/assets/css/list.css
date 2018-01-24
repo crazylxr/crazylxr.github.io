@@ -35,6 +35,10 @@
   text-align: right;
 }
 
+.list-post li {
+  list-style: none;
+}
+
 .list-post .date-long {
   display: inline-block;
   float: right;
