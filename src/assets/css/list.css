@@ -23,7 +23,7 @@
   line-height: 45px;
   border-bottom: 1px solid #e5e5e5;
   font-size: 14px;
-  overflow: hidden;
+  list-style: none;
 }
 
 .list-post:hover {
@@ -33,10 +33,6 @@
 .list-post span {
   color: #999;
   text-align: right;
-}
-
-.list-post li {
-  list-style: none;
 }
 
 .list-post .date-long {

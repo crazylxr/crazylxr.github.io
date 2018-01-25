@@ -15,7 +15,7 @@
 <script>
     import '../assets/css/home.css'
     import CONFIG from '../assets/config.js'
-    
+
     export default {
         data() {
             return {
