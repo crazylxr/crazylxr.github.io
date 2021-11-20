@@ -12,13 +12,70 @@ language: en
 timezone: ''
 
 
-
 # 导航
 navbar:
   blog_title: 桃园
+  menu:
+    - { key: "首页", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "归档", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "分类", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "标签", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "关于", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "友链", link: "/links/", icon: "iconfont icon-link-fill" }
+
+# 友链
+links:
+ comments:
+    enable: true
+    type: waline
+ items:
+    - {
+      title: 'echizen',
+      intro: '亦池',
+      link: 'https://echizen.github.io/',
+      avatar: 'https://echizen.github.io/assets/themes/echizen/img/avatar5.jpg'
+    }
+    - {
+      title: 'shymean',
+      intro: '初识如管中窥豹，可见一斑',
+      link: 'https://www.shymean.com/',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHjqPetPtwNjEmXC9mOEqWSXJ64Mz5KLaB1g&usqp=CAU'
+    }
+
 
 index: 
-  banner_img: /image/banner.jpeg
+  banner_img: /image/banner.png
+  # 头图高度，屏幕百分比
+  # Height ratio of banner image
+  # Available: 0 - 100
+  banner_img_height: 100
+
+  # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
+  # Opacity of the banner mask, 1.0 is completely opaque
+  # Available: 0 - 1.0
+  banner_mask_alpha: 0.3
+   # 自动截取文章摘要
+  # Auto extract post
+  auto_excerpt:
+    enable: true
+
+  # 打开文章的标签方式
+  # The browser tag to open the post
+  # Available: _blank | _self
+  post_url_target: _self
+
+  # 是否显示文章信息（时间、分类、标签）
+  # Meta information of post
+  post_meta:
+    date: true
+    category: true
+    tag: true
+
+  # 文章通过 sticky 排序后，在首页文章标题前显示图标
+  # If the posts are sorted by `sticky`, an icon is displayed in front of the post title
+  post_sticky:
+    enable: true
+    icon: "iconfont icon-top"
   slogan:
     enable: false
     # text: 相信 w3c
@@ -81,10 +138,13 @@ waline:
   emojiMaps:
   anonymous:
 about:
+  avatar: /image/me.JPG
+  name: "桃翁"
+  intro: "一个蚂蚁的前端工程师"
   icons:
     - { class: 'iconfont icon-github-fill', link: 'https://github.com/crazylxr', tip: 'GitHub' }
-    # - { class: 'iconfont icon-douban-fill', link: 'https://douban.com', tip: '豆瓣' }
-    # - { class: 'iconfont icon-wechat-fill', qrcode: '/img/favicon.png' }
+    - { class: 'iconfont icon-douban-fill', link: 'https://www.douban.com/people/crazylxr/', tip: '豆瓣' }
+    - { class: 'iconfont icon-wechat-fill', qrcode: '/image/wechat.jpg' }
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 桃园
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
+description: '一个在蚂蚁的前端工程师，有一个公众号「前端桃园」'
+keywords: 前端
+author: 桃翁
 language: en
 timezone: ''
 
