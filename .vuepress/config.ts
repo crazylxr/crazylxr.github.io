@@ -28,7 +28,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
     navbar: [
       { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/前端/1/" },
+      { text: "Categories", link: "/categories/qianduan/1/" },
       { text: "Tags", link: "/tags/react/1/" },
       {
         text: "Docs",
