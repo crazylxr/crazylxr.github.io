@@ -1,41 +1,41 @@
-import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
+import { defineUserConfig } from "vuepress";
+import type { DefaultThemeOptions } from "vuepress";
 
 export default defineUserConfig<DefaultThemeOptions>({
-  title: '桃园',
-  description: 'Just playing around',
-  theme: 'reco',
+  title: "桃园",
+  description: "Just playing around",
+  theme: "reco",
   themeConfig: {
-    style: '@vuepress-reco/style-default',
-    logo: '/logo.png',
-    author: '桃翁',
-    docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
-    docsBranch: 'main',
-    docsDir: 'example',
-    lastUpdatedText: '',
+    style: "@vuepress-reco/style-default",
+    logo: "/logo.png",
+    author: "桃翁",
+    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    docsBranch: "main",
+    docsDir: "example",
+    lastUpdatedText: "",
     // series 为原 sidebar
     series: {
-      '/docs/theme-reco/': [
+      "/docs/theme-reco/": [
         {
-          text: 'module one',
-          children: ['home', 'theme']
+          text: "module one",
+          children: ["home", "theme"],
         },
         {
-          text: 'module two',
-          children: ['api', 'plugin']
-        }
-      ]
+          text: "module two",
+          children: ["api", "plugin"],
+        },
+      ],
     },
-    navbar:
-    [
-      { text: 'Home', link: '/' },
-      { text: 'Categories', link: '/categories/前端/1/' },
-      { text: 'Tags', link: '/tags/react/1/' },
-      { text: 'Docs',
+    navbar: [
+      { text: "Home", link: "/" },
+      { text: "Categories", link: "/categories/前端/1/" },
+      { text: "Tags", link: "/tags/react/1/" },
+      {
+        text: "Docs",
         children: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/theme' },
-          { text: 'vuepress-theme-reco', link: '/blogs/other/guide' }
-        ]
+          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
+          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+        ],
       },
     ],
     // bulletin: {
@@ -94,9 +94,9 @@ export default defineUserConfig<DefaultThemeOptions>({
     // },
     // valineConfig 配置与 1.x 一致
     valineConfig: {
-      appId: 'xeRpaURzyc74qJbK9hFEqrrh-MdYXbMMI',
-      appKey: 'zoMToCQRNRWaFUooxL0NUTKu',
-      placeholder: '填写邮箱可以收到回复提醒哦！',
+      appId: "xeRpaURzyc74qJbK9hFEqrrh-MdYXbMMI",
+      appKey: "zoMToCQRNRWaFUooxL0NUTKu",
+      placeholder: "填写邮箱可以收到回复提醒哦！",
       verify: true, // 验证码服务
       notify: true,
       recordIP: true,
@@ -105,4 +105,4 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
   },
   // debug: true,
-})
+});
