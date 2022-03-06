@@ -5,7 +5,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: "桃园",
   description: "Just playing around",
   theme: "reco",
-  plugins: [],
+  plugins: [
+  ],
   themeConfig: {
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
@@ -95,8 +96,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     // },
     // valineConfig 配置与 1.x 一致
     valineConfig: {
-      appId: "xeRpaURzyc74qJbK9hFEqrrh-MdYXbMMI",
-      appKey: "zoMToCQRNRWaFUooxL0NUTKu",
+      appId: "JwWqrybFMri5mk9BkL9aA8sS-9Nh9j0Va",
+      appKey: "BWuJdHjQceAHR8HW17vf0Czm",
       placeholder: "填写邮箱可以收到回复提醒哦！",
       verify: true, // 验证码服务
       notify: true,
@@ -104,7 +105,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       visitor: true,
       // hideComments: true // 隐藏评论
     },
-    autoAddCategoryToNavbar: true,
+    autoAddCategoryToNavbar: true
   },
   // debug: true,
 });
