@@ -27,18 +27,18 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
       ],
     },
-    navbar: [
-      { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/qianduan/1/" },
-      { text: "Tags", link: "/tags/react/1/" },
-      {
-        text: "Docs",
-        children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
-        ],
-      },
-    ],
+    // navbar: [
+    //   { text: "Home", link: "/" },
+    //   { text: "Categories", link: "/categories/qianduan/1/" },
+    //   { text: "Tags", link: "/tags/react/1/" },
+    //   {
+    //     text: "Docs",
+    //     children: [
+    //       { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
+    //       { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+    //     ],
+    //   },
+    // ],
     // bulletin: {
     //   body: [
     //     {
@@ -95,8 +95,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     // },
     // valineConfig 配置与 1.x 一致
     valineConfig: {
-      appId: "JwWqrybFMri5mk9BkL9aA8sS-9Nh9j0Va",
-      appKey: "BWuJdHjQceAHR8HW17vf0Czm",
+      appId: "xeRpaURzyc74qJbK9hFEqrrh-MdYXbMMI",
+      appKey: "zoMToCQRNRWaFUooxL0NUTKu",
       placeholder: "填写邮箱可以收到回复提醒哦！",
       verify: true, // 验证码服务
       notify: true,
