@@ -7,11 +7,9 @@ updated: 2018/01/05 20:20:30
 status: publish
 author: 桃翁
 categories: 
-  - 基础教程
+  - 计算机相关
 tags: 
   - node
-  - centos
-  - mongodb
 ---
 
 

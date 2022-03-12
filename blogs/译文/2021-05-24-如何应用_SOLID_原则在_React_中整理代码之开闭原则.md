@@ -7,11 +7,11 @@ updated: 2021/05/24 08:27:43
 status: publish
 author: 桃翁
 categories: 
-  - 译文
-  - 前端
+  - 技术
 tags: 
   - react
   - 设计模式
+  - 译文
 ---
 
 

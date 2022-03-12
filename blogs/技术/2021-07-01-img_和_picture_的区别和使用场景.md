@@ -6,7 +6,7 @@ updated: '2021/07/01 23:15:32'
 status: publish
 author: 桃翁
 categories:
-  - 前端
+  - 技术
   - 笔记本
 tags:
   - 笔记本

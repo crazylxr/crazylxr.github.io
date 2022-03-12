@@ -7,7 +7,7 @@ updated: 2018/11/20 22:12:36
 status: publish
 author: 桃翁
 categories: 
-  - 前端
+  - 技术
 tags: 
   - JavaScript
   - 数据结构

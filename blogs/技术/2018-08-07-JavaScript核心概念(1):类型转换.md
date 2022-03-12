@@ -7,7 +7,7 @@ updated: 2018/11/20 21:58:33
 status: publish
 author: 桃翁
 categories: 
-  - 前端
+  - 技术
 tags: 
   - JavaScript
   - 核心概念

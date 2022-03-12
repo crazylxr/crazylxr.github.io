@@ -10,7 +10,6 @@ categories:
   - 计算机相关
 tags: 
   - emacs
-  - spacemacs
 ---
 
 

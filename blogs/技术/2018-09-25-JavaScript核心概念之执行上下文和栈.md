@@ -8,7 +8,7 @@ updated: 2020/04/08 12:23:15
 status: publish
 author: 桃翁
 categories: 
-  - 前端
+  - 技术
 tags: 
   - JavaScript
 thumb: https://upload-images.jianshu.io/upload_images/1784374-19c91d87d8923fa2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/630/format/webp

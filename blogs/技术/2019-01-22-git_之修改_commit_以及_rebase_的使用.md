@@ -8,9 +8,9 @@ status: publish
 author: 桃翁
 categories: 
   - 计算机相关
-  - 译文
 tags: 
   - git
+  - 译文
 thumb: http://ipengineer.net/wp-content/uploads/2015/04/git-logo.jpg?w=640
 ---
 

@@ -7,10 +7,10 @@ updated: 2020/03/03 10:10:01
 status: publish
 author: 桃翁
 categories: 
-  - 译文
-  - 前端
+  - 技术
 tags: 
   - typescript
+  - 译文
 ---
 
 

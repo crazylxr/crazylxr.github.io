@@ -7,10 +7,10 @@ updated: 2021/06/06 21:43:41
 status: publish
 author: 桃翁
 categories: 
-  - 译文
-  - 前端
+  - 技术
 tags: 
   - JavaScript
+  - 译文
 ---
 
 

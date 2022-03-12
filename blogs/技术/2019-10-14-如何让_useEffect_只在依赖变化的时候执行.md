@@ -7,7 +7,7 @@ updated: 2020/03/10 12:29:54
 status: publish
 author: 桃翁
 categories: 
-  - 前端
+  - 技术
 tags: 
   - react
   - JavaScript

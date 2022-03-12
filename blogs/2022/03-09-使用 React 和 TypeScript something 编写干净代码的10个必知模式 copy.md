@@ -1,13 +1,13 @@
 ---
-title: 使用 React 和 TypeScript something 编写干净代码的10个必知模式
+title: 使用 React 和 TypeScript 编写干净代码的10个必知模式
 date: 2022/03/09 08:20:00
 author: 桃翁
 categories: 
-  - 前端
-  - 译文
+  - 技术
 tags: 
   - react
   - typescript
+  - 译文
 ---
 
 

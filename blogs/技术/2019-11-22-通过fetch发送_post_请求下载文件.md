@@ -7,11 +7,9 @@ updated: 2020/03/10 12:29:17
 status: publish
 author: 桃翁
 categories: 
-  - 前端
-  - 笔记本
+  - 技术
 tags: 
-  - fetch
-  - 文件下载
+  - 常用技巧
 ---
 
 

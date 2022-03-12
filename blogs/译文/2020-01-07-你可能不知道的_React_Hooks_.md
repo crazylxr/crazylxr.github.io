@@ -7,10 +7,10 @@ updated: 2020/01/21 12:10:04
 status: publish
 author: 桃翁
 categories: 
-  - 译文
-  - 前端
+  - 技术
 tags: 
   - react
+  - 译文
 ---
 
 

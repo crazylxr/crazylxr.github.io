@@ -8,7 +8,7 @@ status: publish
 author: 桃翁
 categories: 
   - 观点与感想
-  - 前端
+  - 技术
 tags: 
   - JavaScript
 ---

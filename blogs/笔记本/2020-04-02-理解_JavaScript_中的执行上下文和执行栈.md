@@ -7,9 +7,10 @@ updated: 2020/04/02 16:52:50
 status: publish
 author: 桃翁
 categories: 
-  - 笔记本
+  - 技术
 tags: 
-  - react
+  - JavaScript
+  - 译文
 ---
 
 
