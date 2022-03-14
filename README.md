@@ -19,9 +19,6 @@ bannerBrand: # bannerBrand 模块的配置
   heroText: 前端桃园
   tagline: Enjoy when you can, and endure when you must.
   heroImage: /logo.png
-  heroImageStyle:
-    maxWidth: 200px
-    margin: 0 auto 2rem
   bgImage: /banner.jpg
   bgImageStyle:
     height: 450px

@@ -19,15 +19,21 @@ export default defineUserConfig<DefaultThemeOptions>({
     series: {
       "/docs/theme-reco/": [
         {
-          text: "module one",
-          children: ["home", "theme"],
-        },
-        {
-          text: "module two",
-          children: ["api", "plugin"],
+          text: "常用导航",
+          children: ["foreign-bloggers", "domestic-bloggers"],
         },
       ],
     },
+    navbar: [{
+      text: '导航',
+      children: [{
+        text: '国外博主',
+        link: '/docs/theme-reco/foreign-bloggers'
+      }, {
+        text: '国内博主',
+        link: '/docs/theme-reco/domestic-bloggers'
+      }]
+    }],
     // navbar: [
     //   { text: "Home", link: "/" },
     //   { text: "Categories", link: "/categories/qianduan/1/" },
