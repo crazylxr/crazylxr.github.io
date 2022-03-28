@@ -12,7 +12,7 @@ banner: # banner 模块的配置
   heroImageStyle:
     maxWidth: 200px
     margin: 0 auto 2rem
-  bgImage: /banner.jpg
+  # bgImage: /banner.jpg
   bgImageStyle:
     height: 450px
 bannerBrand: # bannerBrand 模块的配置
