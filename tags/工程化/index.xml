@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>工程化 on ExampleSite</title>
+    <link>https://examplesite.com/tags/%E5%B7%A5%E7%A8%8B%E5%8C%96/</link>
+    <description>Recent content in 工程化 on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Apr 2020 16:51:22 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E5%B7%A5%E7%A8%8B%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React 代码规范</title>
+      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</link>
+      <pubDate>Thu, 02 Apr 2020 16:51:22 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</guid>
+      <description>基本规范 每个文件只包含的一个 React 组件： 联系紧密的组件可以使用「命名空间」的形式； 每个文件中可包含多个纯函数组件。 始终使用 JSX 语法，不要使用 React.createElement 创建 ReactElement，以提高编写速度、可读性、可维护性（没有 JSX 转换的特殊场景例外，如在 console 中测试组件）。 文件规范 组件文件使用一致的.js或 .jsx后缀。所有组件文件的后缀名从.js或.jsx中任选其一。不应在项目中出现部分组件为.js文件，部分为.jsx的情况。
+每个存放组件的目录使用一个index.js/index.jsx以命名导出的形式暴露所有组件。同目录内的组件相互引用使用import Foo from &#39;./Foo&#39;;进行。引用其它目录的组件使用import {Foo} from &#39;../component&#39;;进行。
+命名规范 文件名：使用大驼峰命名法（PascalCase），如 MyComponent.jsx；
+组件命名：组件名称和文件名一致，如 MyComponent.jsx 里的组件名应该是 MyComponent；一个目录的根组件使用 index.jsx 命名，以目录名称作为组件名称；
+引用命名：React 组件使用大驼峰命名法（PascalCase）；
+高阶组件使用camelCase命名。高阶组件事实上并非一个组件，而是一个“生成组件类型”的函数，因此遵守JavaScript函数命名的规范，使用camelCase命名。
+使用onXxx形式作为props中用于回调的属性名称。使用统一的命名规则用以区分props中回调和非回调部分的属性，在JSX上可以清晰地看到一个组件向上和向下的逻辑交互。
+使用withXxx或xxxable形式的词作为高阶组件的名称。高阶组件是为组件添加行为和功能的函数，因此使用如上形式的词有助于对其功能进行理解。
+带命名空间的组件 如果一个组件有许多关联子组件，可以以该组件作为命名空间编写、调用子组件。 class Form extends React.Component { // ... } class Row extends React.Component {} class Label extends React.Component {} class Input extends React.Component {} Form.Row = Row; Form.Label = Label; Form.</description>
+    </item>
+    
+  </channel>
+</rss>

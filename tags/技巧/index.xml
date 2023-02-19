@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>技巧 on ExampleSite</title>
+    <link>https://examplesite.com/tags/%E6%8A%80%E5%B7%A7/</link>
+    <description>Recent content in 技巧 on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Mar 2022 19:25:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【实战】分享一个花了 499 学到的写作方法：问题 &#43; 回答</title>
+      <link>https://examplesite.com/posts/2022/%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E8%8A%B1%E4%BA%86-499-%E5%AD%A6%E5%88%B0%E7%9A%84%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E9%97%AE%E9%A2%98-&#43;-%E5%9B%9E%E7%AD%94/</link>
+      <pubDate>Tue, 01 Mar 2022 19:25:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/2022/%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E8%8A%B1%E4%BA%86-499-%E5%AD%A6%E5%88%B0%E7%9A%84%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E9%97%AE%E9%A2%98-&#43;-%E5%9B%9E%E7%AD%94/</guid>
+      <description>大家好，我是桃翁，一个不止前端的前端工程师。
+前言 前几天在一个写作课里学习到一个写作技巧：文章 = 问题 + 答案。
+大概就是说当你看到一个话题，想写成文章的时候，可以想一想你针对这个话题会有哪些问题。然后挨个回答一下这个问题，把回答组合一下，就成为一篇文章了。
+我发现这个方法跟我有一些文章的方法很像，但是我并没有这样总结出来，而是在写的时候自然而然就这么去设计了。
+以这篇用 husky 和 lint-staged 构建代码检查工作流 文章举个例，做一个实战教学，建议看下面的内容的时候先阅读一下这篇文章。
+实战 一、提问题
+我要介绍的主题是：构建代码检查工作流。
+针对这个主题，我想到了几个问题：
+什么是代码检查？ 什么情况下需要用到代码检查？ 怎么做代码检查？ 怎么把代码检查做成工作流？ 注意：每个人想到的问题不一样，所以写的思路可能也不太一样。
+如果想不到什么问题，我这里给到的建议可以提 what、when、why、how 这样的问题，这也是一种写作方法，后面再讲。
+根据以上的思路就可以把大纲列出来。
+二、列大纲 其实一般可以直接把这些问题当做大纲。
+但是我这篇文章后面又考虑到怎么做代码检查东西比较多，只有在知道了最基础的代码检查方法之后，才可能推到出要用 husky 和 lint-staged 这样的工具。
+所以我最终还是以陈述的方式为大纲，一步一步的引导，最终把把代码检查做成工作流。
+所以最终这篇文章的目录大概是这样的。
+前言里面回答了什么是代码检查和什么情况下需要用到代码检查。
+在最简单的方法这个大纲里就是怎么做代码检查。
+最后的三个都是讲怎么把代码检查做成工作流。
+三、回答问题
+大纲做好了，就开始填内容了。
+前言就没什么好说的了，主要是介绍背景，然后引出我们怎么做代码检查。
+接下来就写了最简单的方法来做代码检查，再提出了两个问题。
+其实这两个问题就是来解决工作流的问题。
+下面的两个段落就是来解决这两个问题，看到没有，这又是问题 + 回答的模式，不仅大话题可以引发问题，还可以问题里套问题。
+标题：通过 scripts 来解决如果检测工具多，需要多次处理，解决问题 1.
+标题：通过 husky(哈士奇)来解决容易遗忘的问题，解决问题 2.
+所以整篇文章都是以问题驱动，一步一步引导读者把小问题解决了，最终串起来就把大问题解决了。
+总结 总结一下，这种问题 + 回答的写作方式有什么好处：
+**段落之间具有连贯性。**每个标题之前都是承上启下，都是来解决上面一个标题的问题，然后引出下面一个问题。 读者读起来很流畅，会产生恍然大悟的感觉。 最后在复盘一下这篇用 husky 和 lint-staged 构建代码检查工作流 我觉得不好的地方：
+标题不够小白，导致受众不够多，导致打开率低。 在前言里背景介绍得不够细致，如果以前没做过这方面的，可能体感不强。 </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>emacs on ExampleSite</title>
+    <link>https://examplesite.com/tags/emacs/</link>
+    <description>Recent content in emacs on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 29 Jan 2018 16:15:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在spacemacs中支持editorconfig</title>
+      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/37/</link>
+      <pubDate>Mon, 29 Jan 2018 16:15:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/37/</guid>
+      <description>editorconfig 是在项目存储库中有一个名为 .editorconfig 的文件，这样参与的开发者的编辑和 ide 可以自动调整。
+有一个 emacs/spacemacs 模式，可以很容易地在以下步骤中进行集成：
+将 editorconfig 添加到 dotspacemacs-additional-packages。 将（editorconfig-mode 1）添加到 dotspacemacs/user-config。 更多的细节记录在插件库的 README。
+源码片段 第一步：添加插件到 additional packages:
+dotspacemacs-additional-packages &amp;#39;( editorconfig ) 第二步：从你的 user-config 激活插件：
+(defun dotspacemacs/user-config () (editorconfig-mode 1) ) </description>
+    </item>
+    
+  </channel>
+</rss>

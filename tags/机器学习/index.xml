@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>机器学习 on ExampleSite</title>
+    <link>https://examplesite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 机器学习 on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://examplesite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前端桃园周刊第六期</title>
+      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/294/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/294/</guid>
+      <description>小知识 伪类before/after中的图片大小是不是不能设置的? 文章 编写组件的 10 个原则 一篇英文文章，之前面试被面到过设计组件的时候要注意哪些，当时我大脑空白，根本答不出来，看了这篇文章之后，也许知道怎么答了。
+深入解析ES Module（二）：彻底禁用default export 文章介绍了 export default object 这种方式所带来的问题，主要是在转换的时候不兼容 cjs，当然这篇文章也有助于更深刻的理解 ES Module。
+「圣诞特辑」纯前端实现人脸识别自动佩戴圣诞帽 通过使用 TensorFlow.js 来进行人脸识别，然后自动佩戴圣诞帽，我最近也在学习机器学习相关的，当然也绕不开 TensorFlow.js ，学完课程之后再来看这篇文章。
+那些你用错了的 React 生命周期 这篇文章的中心思想跟我之前在 React 官方博客里面看到那篇「你也许不需要派生 State」基本类似，主要是 componentWillReceiveProps 和getDerivedStateFromProps 这两个声明周期可能会写成反模式。
+独家 | 阿里张勇湖畔分享：领导者如何“落子无悔” 张勇的演讲全文，看到很多大佬推荐这篇文章，先 mark 一波。</description>
+    </item>
+    
+  </channel>
+</rss>

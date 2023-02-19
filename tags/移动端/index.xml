@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>移动端 on ExampleSite</title>
+    <link>https://examplesite.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</link>
+    <description>Recent content in 移动端 on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Mar 2018 15:19:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>像素相关概念：PPI、DPI、设备像素、独立像素</title>
+      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/146/</link>
+      <pubDate>Fri, 30 Mar 2018 15:19:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/146/</guid>
+      <description>欢迎访问我的个人站点
+前言 我相信对于像素，英文「pixel」，缩写「px」，这个概念并不陌生吧，不管是设计师设计图片用的单位 px，还是前端工程师在 css 里面的单位 px等等，很多领域都会用到这个单位，但是当我问他们一些问题的时候，基本上都答得不好。
+比如：
+iPhone 6 的分辨率是 750 x 1334 像素，然而我们我们在写 css 的时候是以 375 x 667 来调的； 为什么我们做的一个网页在 pc 端可以正常显示，在移动端也可以正常显示，但是有时候又不正常显示； 我们如果在 pc 端把浏览器的宽度调到只有 200px 宽，里面写一个 100px 宽的 div ，然后再调整浏览器的放大为 200%，然后这个 div 可以充满整个显示器。 如果都能答上来，已经很不错了哦！
+像素 定义：是指在由一个数字序列表示的图像中的一个最小单位，称为像素。 &amp;mdash;- 百度百科
+注意: 我觉得这里最关键的是『单位』，像素是一个单位，而不是一个点，我认为理解为一个长度单位比较好理解，后面我会解释为什么我会觉得是一个长度单位比较好理解。
+我在很多文章里看到的定义是，像素就是组成图像的一个一个的点，这会让人感觉像素是个面积单位，我觉得这样有点不妥，并不是不对，要根据上下文而定。
+比如 设备像素比(device pixels ratio)，简称 DPR，DPR = 设备像素 / 设备独立像素。现在我们就拿 iPhone 6 来做例子，我们可以通过 window.devicePixelRatio 获取设备的 DPR 为 2，设备独立像素，在这里可以认为是 css 像素，整个 iPhone 6 的像素点就有 375 * 667 个。</description>
+    </item>
+    
+  </channel>
+</rss>

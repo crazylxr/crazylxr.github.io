@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>投资理财 on ExampleSite</title>
+    <link>https://examplesite.com/categories/%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2/</link>
+    <description>Recent content in 投资理财 on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 19 Mar 2022 22:55:22 +0000</lastBuildDate><atom:link href="https://examplesite.com/categories/%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>债券基金</title>
+      <link>https://examplesite.com/posts/2022/03-19-%E5%80%BA%E5%88%B8%E5%9F%BA%E9%87%91/</link>
+      <pubDate>Sat, 19 Mar 2022 22:55:22 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/2022/03-19-%E5%80%BA%E5%88%B8%E5%9F%BA%E9%87%91/</guid>
+      <description>债基是什么？ 债券型基金，就是主要投资债券的基金，规定基金资产80%以上要投资于债券，也可以有一小部分资金投资于股票市场、可转债、打新股等等。
+债券基金分类 只做债券的，叫“纯债基金”；
+做债券+打新股的叫“一级债基”；
+做债券+打新股+炒股的叫“二级债基”。
+主要投资可转债的叫“可转债基”。
+债券基金是怎么赚钱的？ 1、利息收入
+即债券持有到期所获得的票面利息收入。只要债券不出现兑付困难，持有至到期一般是不会出现亏损的。这个角度来看，长期债券基金的收益要高于短期债券基金。
+2、价差收入
+债券一般在银行间市场或沪深交易所交易，因流动性、市场利率、信用情况变化等，债券的价格是存在波动的。一般而言，利率上升，债券价格下降；利率下降，债券价格上升。因而根据债券二级市场价格变动，低买高卖可以赚取差价。
+3、债券回购
+这主要是通过回购业务将持有的债券质押进行融资，融得的资金又继续投入到债券市场，这就可以获得额外的杠杆收入。目前开放式基金杠杆比例不超过140%，封闭式基金以及定期开放式基金杠杆比例可以达200%。
+4、股票投资收入
+这主要说的是二级债券基金，
+可以通过参与二级市场股票投资，增厚基金收益。
+当然，这也要相应承担股票市场波动的风险。
+债基什么情况会跌 第一， 国债收益率快速上行
+因为国债利率大涨，那些求稳的大资金肯定会想配置更多国债，那么势必卖出一部分公司类债券。所以大多数债券遭到抛售，债券价格大跌，拖累债券基金净值下跌。
+第二， 碰到债券违约
+第 三 ，可转换债波动很大
+可转换债券和一般债券不一样，除了本身有还本付息的债券属性外，还有转股的权利。那么如果正股上涨，可转换债券就会上涨。</description>
+    </item>
+    
+  </channel>
+</rss>

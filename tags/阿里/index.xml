@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>阿里 on ExampleSite</title>
+    <link>https://examplesite.com/tags/%E9%98%BF%E9%87%8C/</link>
+    <description>Recent content in 阿里 on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://examplesite.com/tags/%E9%98%BF%E9%87%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>另一个视角看待这次 antd</title>
+      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</guid>
+      <description>公众号相信大家今天都已经知道了 antd 这次的事故了，不知道的简单回顾一下。
+今天圣诞节，所以在 type 是 primary 的 Button 上都加上了雪花。
+就是在 antd 3.9.3 的时候增加了一个定时器，到 12 月 25 的时候增加一个 christmas 的 css 类，还给 title 改为了 Ho Ho Ho。具体 commit 见：https://github.com/ant-design/ant-design/commit/00aebeb9756afecc884ad48486084836b9a2707a
+然后就导致今天开发者早上一来看，就觉得莫名其妙，还以为是病毒啥的，还有人因此被解雇(issue 上说的，不知道是否是真)，总之，这个事情还是挺严重的。
+作为一个有温度的前端号，肯定不是带你们吃瓜的，要是带你们吃瓜，肯定大早上的这篇文章就出来了，我们从另外的角度来看下这个问题。
+功不抵过
+开源及责任
+批评没有任何好处
+功不抵过 Antd 作为全世界最好的 React 前端组件库之一，目前将近 4 万的 star，国内外很多企业都会使用 antd 做前端开发。
+我估计最近几年大部分人接触 React 的人，使用的 UI 库都会是 antd，Vue 的话可能 Element UI 和 iView 还可以拼杀一下，但是 antd 在 React 界是绝对的老大，这是 antd 的功。
+但是这一次彩蛋事件，就导致很多人因此而放弃它。
+然后网上骂声一片。
+这是为什么呢？
+因为这次失误触犯了使用者的底线，本来使用 antd 就是因为他的稳定，用起来放心。
+结果这个彩蛋，出其不意，在没有给用户任何提示的情况下，悄悄的代码里面加一些“副作用”，导致让用户感觉用 antd 不再放心，担心下次加点获取用户信息啥的。</description>
+    </item>
+    
+  </channel>
+</rss>

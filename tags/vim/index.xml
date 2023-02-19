@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>vim on ExampleSite</title>
+    <link>https://examplesite.com/tags/vim/</link>
+    <description>Recent content in vim on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Mar 2018 23:28:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vim 入门指南</title>
+      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</link>
+      <pubDate>Tue, 20 Mar 2018 23:28:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</guid>
+      <description>个人站点：桃园
+0. 前言 0.1 简介 vim 被誉为『编辑器之神』，与之同时代的 emacs 被誉为『神之编辑器』。可以看得出 vim 在编辑器的地位是很高的，得益于 vim 的指法，敲起代码来如行云流水。特别膜拜创始人创始出这么方便的敲代码的指法，这篇文章就是来带你入坑 vim 指法操作。
+0.2 前端的我为什么要学习 vim 在当今前端开发工具百花齐放的时代（VS Code、Sublime、Atom 以及 IDE Webstorm），我为什么还要介绍 20 多年前开发的一个老古董呢？在这里我想说的是出身虽然老，但是所带来的价值并没有减,一旦习惯了 vim 的指法之后，你会觉得不用 vim 操作写代码会觉得很不习惯，甚至不知道怎么操作。然而用在支持 vim 指法的编辑上写代码你会觉得如行云流水，如果再配个机械键盘，简直是享受，特别符合极客的风格。
+一旦学会了 vim 的指法，会让你终身受益，至少在你敲代码的年代会收益，毫无夸张, 它会让你摆脱烦人的，在敲代码的时候频繁的移动鼠标，这也是 vim 的设计理念之一 &amp;ndash; 脱离鼠标。
+0.3 文章适用读者 本篇文章比较适合前端开发者，因为我也只是用 vim 在前端领域做过一些开发，其他领域我没有发言权。
+0.4 Q&amp;amp;A Q：你推荐 vim 是要我们完全放弃以前的编辑器而投入 vim 的怀抱吗？
+A：当然不是。首先 vim 的学习成本还是很高的，因为他跟平时我们用的编辑器敲代码的方式根本不同，因为它是不用鼠标的，纯键盘操作。你想想如果你在你的 vs code 上不用鼠标操作，你上下左右全靠方向键，那敲代码的速度得有多慢。而且初学者想把 vim 打造成一个自己的 IDE 还是很有难度的。所以我这里推荐的是，不管是你的 vs code、sublime等，装一个 vim 插件。我在 vs code 上试过，很爽，只不过现在投身到 emacs 的怀抱了。</description>
+    </item>
+    
+  </channel>
+</rss>
