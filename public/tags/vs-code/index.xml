@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>VS Code on 桃园</title>
+    <link>/tags/vs-code/</link>
+    <description>Recent content in VS Code on 桃园</description>
+    <image>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为 VSCode 添加上程序员专用字体 Fira Code</title>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</guid>
+      <description>简介 推荐一款号称程序员的字体 Fira Code，Fira 是 Mozilla 主推的字体系列，Fira Code 是基于 Fira Mono 等宽字体的一个扩展，主要特点是加入了编程连字特性（ligatures）。
+Fira Code 就是利用这个特性对编程中的常用符号进行优化，比如把输入的「!=」直接显示成「≠」或者把「&amp;gt;=」变成「≥ 」等等，以此来提高代码的可读性。
+效果如下：
+经过我体验一周来看，这款字体还是不错的。
+更多请前往GitHub地址查看。
+设置步骤 Step 1. 下载 前往 Fira Code 字体的 GitHub 地址，clone 或者 download字体文件，主要有 5 个 .ttf 字体文件，地址https://github.com/tonsky/FiraCode/tree/master/distr/ttf
+Step 2. 安装 安装刚刚下载的 5 个字体文件：选择文件后点击鼠标右键，点击安装命令即可安装字体。
+Step 3. 修改设置 打开 VS Code，如果在安装字体之前已经打开了，**一定要重启 **VS Code，否则识别不到新字体。
+打开菜单File &amp;gt; Preferences &amp;gt; Settings，或者点击 File 后使用快捷键 Ctrl+,即可打开，然后打开 settings.json 文件，找到 editor.fontFamily字段，然后再把 Fira Code 添加到第一个，并且加上 &amp;quot;editor.fontLigatures&amp;quot;: true 。
+&amp;#34;editor.fontFamily&amp;#34;: &amp;#34;&amp;#39;Fira Code&amp;#39;, Menlo, Monaco, &amp;#39;Courier New&amp;#39;, monospace&amp;#34;, &amp;#34;editor.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ES6 on 桃园</title>
+    <link>/tags/es6/</link>
+    <description>Recent content in ES6 on 桃园</description>
+    <image>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 29 Sep 2018 18:12:00 +0000</lastBuildDate><atom:link href="/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一篇文章搞定 ES6</title>
+      <link>/posts/%E6%8A%80%E6%9C%AF/115/</link>
+      <pubDate>Sat, 29 Sep 2018 18:12:00 +0000</pubDate>
+      
+      <guid>/posts/%E6%8A%80%E6%9C%AF/115/</guid>
+      <description>JavaScript ES6 带来了新的语法和新的强大功能，使您的代码更现代，更易读。它允许您编写更少的代码并执行更多操作。 ES6 向我们介绍了许多强大的功能，如箭头函数，模板字符串，对象结构，模块等，让我们来看看。
+const and let const 是 ES6 中用于声明变量的新关键字。 const 比 var 更强大。使用后，无法重新分配变量。换句话说，它是一个不可变的变量，除非它与对象一起使用。
+这对于定位选择器非常有用。例如，当我们有一个触发事件的按钮时，或者当您想在 JavaScript 中选择 HTML 元素时，请使用 const 而不是 var。这是因为 var 会被提升，当不想重新分配变量时，最好使用 const。
+// ES5 var MyBtn = document.getElementId(&amp;#39;mybtn&amp;#39;); // ES6 const MyBtn = document.getElementById(&amp;#39;mybtn&amp;#39;); 在上面的代码中，const 不会更改，也不能重新分配。如果您尝试为其赋予新值，则会返回错误。
+let name = &amp;#34;Said&amp;#34;; name = &amp;#34;Rick&amp;#34;; console.log(name); // Rick let 可以重新分配并获得新的价值。它创建了一个可变变量。
+let 与 const 相同，因为两者都是块级作用域，这意味着该变量仅在其块级范围内可用。
+箭头函数 箭头函数非常棒，使您的代码更具可读性，更具结构性，并且看起来像现代代码，而不是使用这个：
+// ES5 function myFunc(name) { return &amp;#39;Hello &amp;#39; + name; } console.</description>
+    </item>
+    
+    <item>
+      <title>ES6之路之模块详解</title>
+      <link>/posts/%E6%8A%80%E6%9C%AF/88/</link>
+      <pubDate>Mon, 14 May 2018 17:09:00 +0000</pubDate>
+      
+      <guid>/posts/%E6%8A%80%E6%9C%AF/88/</guid>
+      <description>简介 何为模块 一个模块只不过是一个写在文件中的 JavaScript 代码块。
+模块中的函数或变量不可用，除非模块文件导出它们。
+简单地说，这些模块可以帮助你在你的模块中编写代码，并且只公开应该被你的代码的其他部分访问的代码部分。
+为什么要使用模块 增加可维护性：由于每个模块都是独立的，每个人写的代码是不会相互影响的，在维护代码的时候很好排查是哪个模块出错。 可复用性：在日常的开发中，特别是大点的项目，代码的可复用性就更重要了，也许你会用复制粘贴的形式，但是直接一个 import 命令就可以搞定，岂不快哉。 避免命名污染：在 javascript 脚本中，所有的 js 文件的顶级作用域创建的变量，会被添加到共享的全局作用域，这就会导致不同的人开发的代码可能会有相同的变量名，导致变量名污染。 如何使用 导出模块 导出模块所用的命令是 export。
+前面也提到一个模块就是一个 javascript 文件，在这个模块中定义的变量，外部是无法获取到的，只有通过 export 导出的变量其他模块才可以用
+最简单的导出方式就是在声明的变量、函数、类前面加一个 export
+// export1.js // 导出变量 export let name = &amp;#39;桃翁&amp;#39;; // 导出函数 export function print() { console.log(&amp;#34;欢迎关注公众号：前端桃园&amp;#34;); } // 导出类 export class Person { constructor(name) { this.name = name; } } // 私有函数 function privateFunction () { console.log(&amp;#39;我是私有函数，外部访问不了我&amp;#39;); } 注意：
+被导出的函数或者类，都必须要有名称，意思就是说不能用这种方式导出匿名函数或者匿名类。 privateFunction 函数，没有加 export 命令，被当做这个模块的私有变量，其他模块是访问不到的。 除了上面那种导出方式，还有另外一种</description>
+    </item>
+    
+    <item>
+      <title>ES6之路之块级作用域</title>
+      <link>/posts/%E6%8A%80%E6%9C%AF/70/</link>
+      <pubDate>Thu, 19 Apr 2018 21:24:00 +0000</pubDate>
+      
+      <guid>/posts/%E6%8A%80%E6%9C%AF/70/</guid>
+      <description>作用域 作用域指变量所作用的范围，在 Javascript 中有两种作用域：
+全局作用域 函数作用域 变量提升 变量提升（Hoisting）被认为是， Javascript 中执行上下文 （特别是创建和执行阶段）工作方式的一种认识。具体表现就是所有通过 var 声明的变量会提升到当前作用域的最前面。
+function foo() { console.log(temp); } function bar() { console.log(temp); var temp; } foo(); // ReferenceError: temp is not defined bar(); // undefined 可以看到用 var 声明了的并不会报错。因为其实函数 bar 等同于
+function bar() { var temp; console.log(temp); } 大多数类 C 语言语法的语言都拥有块级作用域。在一个代码块（括在一对花括号中的一组语句）中定义的所有变量在代码块的外部是不可见的。定义在代码块中的变量在代码块被执行结束后会变释放掉。这是件好事。
+糟糕的是，尽管 Javascript 的代码貌似支持块级作用域，但实际上 Javascript 并不支持（就是因为有变量提升）。这个混淆之处可能成为错误之源。
+所以在 ES6 中规定了 let 和 const 来支持块级作用域。但是，是不是真的提升就不存在了呢，可以看下面暂时性死区这部分。
+let let 可以理解为『更完美的 var』，使用方法很简单；
+let foo = 3; 使用方法基本和 var 相同，而且声明的变量只在其块和子块中可用，这点也与 var 相同。 二者之间最主要的区别在于 var 声明的变量的作用域是整个封闭函数。</description>
+    </item>
+    
+    <item>
+      <title>ES6之路--Symbol</title>
+      <link>/posts/%E6%8A%80%E6%9C%AF/41/</link>
+      <pubDate>Wed, 14 Mar 2018 09:49:00 +0000</pubDate>
+      
+      <guid>/posts/%E6%8A%80%E6%9C%AF/41/</guid>
+      <description>欢迎访问我的个人站点
+1. 概述 简介 Symbol 是一种特殊的、不可变的数据类型，可以作为对象属性的标识符使用，表示独一无二的值。Symbol 对象是一个 symbol primitive data type 的隐式对象包装器。它是JavaScript语言的第七种数据类型，前6种分别是：Undefined、Null、Boolean、String、Number、Object。
+语法 Symbol([description])
+Parameters description : 可选的字符串。可用于调试但不访问符号本身的符号的说明。如果不加参数，在控制台打印的都是Symbol，不利于区分。
+demo var s1 = Symbol(&#39;symbol1&#39;);s1 //Symbol(symbol1); 因为Symbol函数返回的值都是独一无二的，所以Symbol函数返回的值都是不相等的。
+//无参数var s1 = Symbol();var s2 = Symbol();s1 === s2 // false//有参数var s1 = Symbol(&#39;symbol&#39;);var s2 = Symbol(&#39;symbol&#39;);s1 === s2 //false2. 作为属性名的Symbol 由于每一个Symbol值都是不相等的，那么作为属性标识符是一种非常好的选择。
+定义方式： let symbolProp = Symbol();var obj = {};obj[symbolProp] = &#39;hello Symbol&#39;;//或者var obj = {[symbolProp] : &#39;hello Symbol&#39;;}//或者var obj = {};Object.</description>
+    </item>
+    
+    <item>
+      <title>ES6之对象的扩展</title>
+      <link>/posts/%E6%8A%80%E6%9C%AF/24/</link>
+      <pubDate>Fri, 05 Jan 2018 20:21:00 +0000</pubDate>
+      
+      <guid>/posts/%E6%8A%80%E6%9C%AF/24/</guid>
+      <description>&lt;h3 id=&#34;1-属性的简洁表示法&#34;&gt;1. 属性的简洁表示法&lt;/h3&gt;
+&lt;p&gt;ES6允许直接写入变量和函数作为对象的属性和方法。意思就是说允许在对象中只写属性名，不用写属性值。这时，属性值等于属性名称所代表的变量。下面分别举一个例子来说明：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>三个比它们等效 ES5 速度慢的 ES 6 函数</title>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
+      <description>[Meting] [Music server=&amp;ldquo;tencent&amp;rdquo; id=&amp;ldquo;000AwJtd3Wp27b&amp;rdquo; type=&amp;ldquo;song&amp;rdquo;/] [/Meting]
+我在 medium 上看到一篇 3 JavaScript Performance Mistakes You Should Stop Doing 文章(点击阅读全文可以查看原文，需要科学上网)，大概意思就是说有 3 个 JavaScript 性能错误，你不应该再去写了。很多“歪果仁”也是一看到这个标题就开始**“喷”**作者了，下文会详细说。我先介绍下这篇文章的主要内容
+文章主要内容： 当 ES5 发布的时候，JavaScript 引入了很多新的数组函数。其中包括 forEach，reduce，map，filter - 它们让我们感觉语言在不断增长，功能越来越强大，编写代码变得更加有趣和流畅，结果更易于阅读和理解。
+大约在同一时间，一个新的环境&amp;ndash;Node.js，它使我们能够从前端到后端平稳过渡，同时真正重新定义完整的全栈开发。
+所以作者就测试了一下新提供的这些方法是否会影响我们程序的性能。他在 macOS 上对Node.js v10.11.0 和 Chrome 浏览器执行了以下测试。
+1. 循环数组
+他想到的第一次很常见的场景，就是计算一下 10k 项的总和。然后比较了使用 for，for of，while，forEach 和 reduce 的随机 10k 项的总和。运行测试 10,000 次返回以下结果：
+For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 microsecondsForEach, average loop time: ~77 microsecondsWhile, average loop time: ~11 microsecondsReduce, average loop time: ~113 microseconds 在谷歌搜索如何对数组求和时，reduce 是最好的解决方案，但它是最慢的。即使是最新的（ES6）也提供了较差的性能。事实证明，老的 for 循环提供了迄今为止最好的性能 - 超过 10 倍以上！</description>
+    </item>
+    
+  </channel>
+</rss>

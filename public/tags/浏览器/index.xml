@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>浏览器 on 桃园</title>
+    <link>/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+    <description>Recent content in 浏览器 on 桃园</description>
+    <image>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Mar 2022 22:14:22 +0000</lastBuildDate><atom:link href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【面试系列一】如何回答如何理解重排和重绘</title>
+      <link>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</link>
+      <pubDate>Tue, 15 Mar 2022 22:14:22 +0000</pubDate>
+      
+      <guid>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</guid>
+      <description>最近在面试的时候经常会问：如何理解重排和重绘？
+我发现很多候选人都没有答道关键点上，感觉是在哪里看到过相关的文章，听起来零零散散，毫无逻辑。
+错误示范 一般的面试过程就是这样的：
+面试官：如何理解重排和重绘?
+候选人：重排就是当页面的结构发生变化了，就会重排，比如改变变字体的大小，增删 DOM 元素这样的。重绘就是页面结构没有变化，只是外观变了，比如改了一下字体颜色、背景颜色这样的。就只会发生重绘。
+当然他说的也没错，我也不能直接说他错，就继续引导
+面试官：那重排和重绘有什么关系吗？
+候选人：重排一定会导致重绘，重绘不一定会导致重排。
+面试官：为什么呢？
+候选人：因为重排结构发生变化了嘛，肯定会导致重绘。
+我这时候表情就是这样：
+如果你觉得上面的回答很真实，那下面的你确定得好好看看。
+接下来一般我不会直接跳过，我会再问一下浏览器关键渲染路径引导一下。
+如果不知道的话，我会再引导一下(这个时候其实基本已经放弃了)。
+问一下你知道当浏览器加载到一个 HTML 会发生什么事情吗？
+如果还是不知道的话，这下一题了。
+如果知道关键渲染路径的，基本引导一下还是可以搞明白，如果不清楚的，肯定是理解不了重排和重绘的。
+考点 这道题我一般考察两个点：
+浏览器的关键渲染路径。如果答不到这上面，一般这个题就凉了。 性能优化，如果减少重绘和回流，当然这个点肯定也是要基于对 关键渲染路径 的理解（这点不是关键点）。 复习 复习的目的是为了知道考点是啥，简单的给大家复习一下，更详细的内容希望按我介绍的知识点(可以看我文末推荐的文章进行深入学习)，毕竟复习不是上课。
+我们可以能知道，写了 HTML、CSS、JavaScript 就可以将页面渲染到屏幕上，但是浏览器是如何把我们的代码渲染到屏幕上的像素点的呢？这就需要了解到这么一个概念 CRP：
+关键渲染路径(Critical Rendering Path)是浏览器将 HTML，CSS 和 JavaScript 转换为屏幕上的像素所经历的步骤序列。优化关键渲染路径可提高渲染性能。
+大致步骤是这样：在解析 HTML 时会创建 DOM，HTML 可以请求 JavaScript，而 JavaScript 反过来，又可以更改 DOM。HTML 包含或请求样式，依次来构建 CSSOM。浏览器引擎将两者结合起来以创建 Render Tree (渲染树)，Layout(布局)确定页面上所有内容的大小和位置，确定布局后，将像素 Paint (绘制)到屏幕上。
+优化关键渲染路径可以缩短首次渲染的时间。了解和优化关键渲染路径对于确保重排和重绘可以每秒 60 帧的速度进行，以确保高效的用户交互并避免讨厌是很重要的。
+接下来研究一下详细的过程：
+步骤 1. 生成DOM DOM构建是增量的。浏览器从远程下载 Byte =&amp;gt; 根据相应的编码 (如 utf8) 转化为字符串 =&amp;gt; 通过 AST 解析为 Token =&amp;gt; 生成 Node =&amp;gt; 生成 DOM。</description>
+    </item>
+    
+  </channel>
+</rss>

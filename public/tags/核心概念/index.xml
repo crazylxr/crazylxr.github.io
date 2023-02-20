@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>核心概念 on 桃园</title>
+    <link>/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</link>
+    <description>Recent content in 核心概念 on 桃园</description>
+    <image>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Aug 2018 10:34:00 +0000</lastBuildDate><atom:link href="/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript核心概念(1):类型转换</title>
+      <link>/posts/%E6%8A%80%E6%9C%AF/105/</link>
+      <pubDate>Tue, 07 Aug 2018 10:34:00 +0000</pubDate>
+      
+      <guid>/posts/%E6%8A%80%E6%9C%AF/105/</guid>
+      <description>看到这个是不是有一种想打人的感觉，垃圾 JavaScript，这特么都什么鬼，相信很多人不管是笔试还是面试，都被 JS 的类型转换难道过，相信认真看完我这篇文章，妈妈再也不用担心类型转换的问题了。
+原始值到原始值的转换 原始值转化为布尔值
+所有的假值(undefined、null、0、-0、NaN、””)会被转化为 false，其他都会被转为 true
+原始值转化为字符串 都相当于 原始值 + &amp;quot;&amp;quot;
+原始值转为数字
+布尔转数字：true -&amp;gt; 1, false -&amp;gt; 0 字符串转数字：以数字表示的字符串可以直接会转为字符串，如果字符串头尾有空格会忽略，但是空格在中间，转换结果就是 NaN。 +&amp;#34; 66&amp;#34; // 66 +&amp;#34; 6 7 &amp;#34; // NaN 原始值到对象的转换 null 和 undefined 转对象直接抛异常 原始值通过调用 String()、Number()、Boolean()构造函数，转换为他们各自的包装对象 对象到原始值的转换 对象转为布尔都为 true 对象到字符串 如果对象有 toString() 方法，就调用 toString() 方法。如果该方法返回原始值，就讲这个值转化为字符串。 如果对象没有 toString() 方法或者 该方法返回的不是原始值，就会调用该对象的 valueOf() 方法。如果存在就调用这个方法，如果返回值是原始值，就转化为字符串。 否则就报错 对象到数字 对象转化为数字做了跟对象转化为字符串做了想同的事儿，不同的是后者是先调用 valueOf 方法，如果调用失败或者返回不是原始值，就调用 toString 方法。 补充。一些常用内置对象 toString 方法和 valueOf 的转换规则 toString 相关 valueOf 相关 == 运算符如何进行类型转换 如果一个值是null，另一个值是undefined，则相等 如果一个是字符串，另一个值是数字，则把字符串转换成数字，进行比较 如果任意值是true，则把true转换成1再进行比较；如果任意值是false，则把false转换成0再进行比较 如果一个是对象，另一个是数值或字符串，把对象转换成基础类型的值再比较。对象转换成基础类型，利用它的 toString 或者 valueOf 方法。 js 核心内置类，会尝试 valueOf 先于 toString（可以理解为对象优先转换成数字）；例外的是 Date，Date 利用的是 toString 转换。非 js 核心的对象，通过自己的实现中定义的方法转换成原始值。 + 运算符如何进行类型转化 如果作为一元运算符就是转化为数字，常常用来将字符串转化为数字 +&amp;ldquo;2&amp;rdquo; // 2 2+false // 0 ```</description>
+    </item>
+    
+  </channel>
+</rss>

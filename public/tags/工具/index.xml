@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>工具 on 桃园</title>
+    <link>/tags/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 工具 on 桃园</description>
+    <image>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为 VSCode 添加上程序员专用字体 Fira Code</title>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</guid>
+      <description>简介 推荐一款号称程序员的字体 Fira Code，Fira 是 Mozilla 主推的字体系列，Fira Code 是基于 Fira Mono 等宽字体的一个扩展，主要特点是加入了编程连字特性（ligatures）。
+Fira Code 就是利用这个特性对编程中的常用符号进行优化，比如把输入的「!=」直接显示成「≠」或者把「&amp;gt;=」变成「≥ 」等等，以此来提高代码的可读性。
+效果如下：
+经过我体验一周来看，这款字体还是不错的。
+更多请前往GitHub地址查看。
+设置步骤 Step 1. 下载 前往 Fira Code 字体的 GitHub 地址，clone 或者 download字体文件，主要有 5 个 .ttf 字体文件，地址https://github.com/tonsky/FiraCode/tree/master/distr/ttf
+Step 2. 安装 安装刚刚下载的 5 个字体文件：选择文件后点击鼠标右键，点击安装命令即可安装字体。
+Step 3. 修改设置 打开 VS Code，如果在安装字体之前已经打开了，**一定要重启 **VS Code，否则识别不到新字体。
+打开菜单File &amp;gt; Preferences &amp;gt; Settings，或者点击 File 后使用快捷键 Ctrl+,即可打开，然后打开 settings.json 文件，找到 editor.fontFamily字段，然后再把 Fira Code 添加到第一个，并且加上 &amp;quot;editor.fontLigatures&amp;quot;: true 。
+&amp;#34;editor.fontFamily&amp;#34;: &amp;#34;&amp;#39;Fira Code&amp;#39;, Menlo, Monaco, &amp;#39;Courier New&amp;#39;, monospace&amp;#34;, &amp;#34;editor.</description>
+    </item>
+    
+    <item>
+      <title>前端桃园周刊第五期</title>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</guid>
+      <description>文章 1. Thinking in React Hooks 当从 React 类组件切换到函数组件 + hook 时，基本的思维模式发生了什么变化。
+2. Ant Design 1.0 背后的故事：把艺术变成技术 我以前一直不喜欢读历史，今年了解吴军老师比较多，听他的硅谷来信，看他的书：《浪潮之巅》、《文明之光》才决定历史背景原来那么重要，了解历史你会发现现在很多的东西都是必然会出现的。 Ant Desgin 这么伟大的东西，了解一个产品背后的故事，我觉得还是很有必要的，看看为什么别人能做出伟大的东西，而我们不能。
+3. 前端API层架构，也许你做得还不够 架构设计是一条永远走不完的路，没有最好，只有更好。这个道理适用于软件设计的各个场景，前端API 层的设计也不例外，如果您觉得在调用接口时还存在诸多槽点，那就说明您的接口层架构还待优化。作者以 vue + axios 为例，为大家梳理下我的一些经历和设想。
+4. 你的 Mac 用对了吗？推荐一些 Mac 上比较好用的软件 这些 mac 软件都挺好用的，强烈推荐。
+5. 再谈编程范式—程序语言背后的思想 详细讲述了命令式、过程式、说明式、面向对象、函数式、泛型编程各个编程范式的特性。
+6. 少讲大道理，多解决小问题 二爷这篇文章以很多亲身体验的例子来阐述了多做事，少废话的道理，非常值得一读。
+挖宝 1. vscode 字体 fira code 一款为程序员专属的字体。
+2. 大四学生开源文言文编程语言 这一项目并不是简单的将程序中的英文字符换成了中文，而是利用 NLP 的一些技术，将文言文程序语法转换到 JavaScript 或 Python 运行，有一定的技术难度。
+如果读者想快速试一试，你也可以玩一玩在线 IDE，上面有很多预定义的函数。即使在手机上，我们也能编辑并运行「文言文代码」。
+3. lutaonan.com 一款很简洁的博客，文章阅读页的样式准备参考他的。
+4. 方凳雅集 方凳雅集是阿里B系前端技术团队的专属公众号，内容来自1688、阿里巴巴国际站、零售通、AliExpress、企业金融、考拉等多个BU的前端团队，涵盖阿里原创技术、精彩翻译和公司文化、职业成长等内容。
+最近关注到的质量比较高的前端公众号了，不过不太适合初级工程师，文章话题一般比较高大上，都是他们团队内部的一些解决方案，而不是基础知识。
+5. 第十四届D2前端技术论坛「创心」 12 月 14 日，第十四届 D2 前端技术论坛在杭州圆满举办。来自全国各地的近千名开发者齐聚杭州，聆听 3 大会场、来自 24 位海内外嘉宾的 21 个主题分享。</description>
+    </item>
+    
+  </channel>
+</rss>

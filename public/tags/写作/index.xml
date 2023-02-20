@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>写作 on 桃园</title>
+    <link>/tags/%E5%86%99%E4%BD%9C/</link>
+    <description>Recent content in 写作 on 桃园</description>
+    <image>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 10 May 2020 21:35:00 +0000</lastBuildDate><atom:link href="/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac写作环境搭建</title>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</link>
+      <pubDate>Sun, 10 May 2020 21:35:00 +0000</pubDate>
+      
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</guid>
+      <description>前言 写作是我一直都提倡每个人去做的一件事情，也许你是通过写作来进行总结，也许你是通过写作生计，也许像我一样写文章提升自己的影响力，不管怎么样，工欲善其事必先利其器，今天我将两年以来最好用的一套写作软件配置介绍给大家。
+在这篇文章中你可以了解到三个工具：
+最好用的 markdown 写作编辑器 mac 平台专属的图床工具 选取合适的工具美化排版 写作软件(Typora) 我使用过很多的 markdown 编辑器，bear、MWeb、UIysses、印象笔记等等，每个都号称最专业的 markdown 软件，但是这些软件对于图片的处理都不是特别满足我的需求。
+只有 typora，让文字和图片完美的结合在一起，并且支持将文章复制到其他平台。
+接下来，我将介绍一下 Typora 吸引我的几个地方：
+1. 所见即所得的特性 实时预览，不需要分两栏。
+2. 自定义主题。 你可以从官网下载主题，或者自己写主题。
+3. 大纲与文章目录。 自动识别标题，展示出目录。
+4. 可以方便的将图片自动上传到自己的图床上 大部分的写作编辑器都需要手动的去将图片上传到图床上，然后再把链接写到编辑器来，这样来回切换很麻烦。typora 可以自动识别图片然后直接上传上自己的图床上。
+当你把图片直接拖到编辑器，或者说截屏之后复制到编辑器的时候，就会让你选择是否上传图片，点击上传图片就可以直接上传到图床上，然后将链接替换成图床的链接。
+你只需要在偏好设置图像的上传服务设置为 iPic 即可，下面我会介绍 iPic。
+上传服务这里还可以选择自定义命令，也就是说你可以自己写一个上传图片的 shell 然后上传到自己的图床上，图片处理非常的强大。
+5. 可以直接复制富文本格式(包括主题样式)到公众号或者其他支持富文本的地方。 公众号后台排版其实不是特别好用，另外我们程序员往往喜欢写 markdown 而不是富文本，所以就需要一个将 markdown 转富文本的一个工具，typora 在这方面也很擅长。
+图片处理(iPic 和 iPic Move) 怎么获得免费图床 对于图床这个东西，我觉得还是用自己的比较好，或者说付费的图床，而不是选用网上一些免费的，比如微博图床，其他网站的图床(比如掘金)，使用别人的图床虽然免费，但是一旦加了防盗链，你想迁移图片就非常的麻烦(我就踩过这个坑)，那么这个时候免费的其实就更贵了。
+所以很早我就开始研究怎么能用上专业的，自己的图床，我就发现了七牛云这个良心云服务商。七牛云对于新用户免费送 10 个 G 的空间，你可以将图片通过对象存储的方式存在七牛云里。而且这些图片还是都可以增加 CDN 的。
+具体如何去创建自己的对象存储空间，你可以参考官网教程。
+有了图床，如何将图片上传到图床上面去呢？在 Mac 下 iPic 就是一个很好的工具。
+iPic iPic 是一个 Markdown 图床上传工具，将你的图片上传到你的图床上后，你可以得到一个 markdown 格式的图片文本，然后你可以直接复制到你的编辑器中。</description>
+    </item>
+    
+  </channel>
+</rss>
