@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ES6 on ExampleSite</title>
-    <link>https://examplesite.com/tags/es6/</link>
-    <description>Recent content in ES6 on ExampleSite</description>
+    <title>ES6 on 桃园</title>
+    <link>/tags/es6/</link>
+    <description>Recent content in ES6 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 29 Sep 2018 18:12:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Sep 2018 18:12:00 +0000</lastBuildDate><atom:link href="/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一篇文章搞定 ES6</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/115/</link>
       <pubDate>Sat, 29 Sep 2018 18:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/115/</guid>
       <description>JavaScript ES6 带来了新的语法和新的强大功能，使您的代码更现代，更易读。它允许您编写更少的代码并执行更多操作。 ES6 向我们介绍了许多强大的功能，如箭头函数，模板字符串，对象结构，模块等，让我们来看看。
 const and let const 是 ES6 中用于声明变量的新关键字。 const 比 var 更强大。使用后，无法重新分配变量。换句话说，它是一个不可变的变量，除非它与对象一起使用。
 这对于定位选择器非常有用。例如，当我们有一个触发事件的按钮时，或者当您想在 JavaScript 中选择 HTML 元素时，请使用 const 而不是 var。这是因为 var 会被提升，当不想重新分配变量时，最好使用 const。
@@ -29,10 +29,10 @@ let 与 const 相同，因为两者都是块级作用域，这意味着该变量
     
     <item>
       <title>ES6之路之模块详解</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/88/</link>
       <pubDate>Mon, 14 May 2018 17:09:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/88/</guid>
       <description>简介 何为模块 一个模块只不过是一个写在文件中的 JavaScript 代码块。
 模块中的函数或变量不可用，除非模块文件导出它们。
 简单地说，这些模块可以帮助你在你的模块中编写代码，并且只公开应该被你的代码的其他部分访问的代码部分。
@@ -45,10 +45,10 @@ let 与 const 相同，因为两者都是块级作用域，这意味着该变量
     
     <item>
       <title>ES6之路之块级作用域</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/70/</link>
       <pubDate>Thu, 19 Apr 2018 21:24:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/70/</guid>
       <description>作用域 作用域指变量所作用的范围，在 Javascript 中有两种作用域：
 全局作用域 函数作用域 变量提升 变量提升（Hoisting）被认为是， Javascript 中执行上下文 （特别是创建和执行阶段）工作方式的一种认识。具体表现就是所有通过 var 声明的变量会提升到当前作用域的最前面。
 function foo() { console.log(temp); } function bar() { console.log(temp); var temp; } foo(); // ReferenceError: temp is not defined bar(); // undefined 可以看到用 var 声明了的并不会报错。因为其实函数 bar 等同于
@@ -61,10 +61,10 @@ let foo = 3; 使用方法基本和 var 相同，而且声明的变量只在其�
     
     <item>
       <title>ES6之路--Symbol</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/41/</link>
       <pubDate>Wed, 14 Mar 2018 09:49:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/41/</guid>
       <description>欢迎访问我的个人站点
 1. 概述 简介 Symbol 是一种特殊的、不可变的数据类型，可以作为对象属性的标识符使用，表示独一无二的值。Symbol 对象是一个 symbol primitive data type 的隐式对象包装器。它是JavaScript语言的第七种数据类型，前6种分别是：Undefined、Null、Boolean、String、Number、Object。
 语法 Symbol([description])
@@ -76,20 +76,20 @@ demo var s1 = Symbol(&#39;symbol1&#39;);s1 //Symbol(symbol1); 因为Symbol函�
     
     <item>
       <title>ES6之对象的扩展</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/24/</link>
       <pubDate>Fri, 05 Jan 2018 20:21:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/24/</guid>
       <description>&lt;h3 id=&#34;1-属性的简洁表示法&#34;&gt;1. 属性的简洁表示法&lt;/h3&gt;
 &lt;p&gt;ES6允许直接写入变量和函数作为对象的属性和方法。意思就是说允许在对象中只写属性名，不用写属性值。这时，属性值等于属性名称所代表的变量。下面分别举一个例子来说明：&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>三个比它们等效 ES5 速度慢的 ES 6 函数</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
       <description>[Meting] [Music server=&amp;ldquo;tencent&amp;rdquo; id=&amp;ldquo;000AwJtd3Wp27b&amp;rdquo; type=&amp;ldquo;song&amp;rdquo;/] [/Meting]
 我在 medium 上看到一篇 3 JavaScript Performance Mistakes You Should Stop Doing 文章(点击阅读全文可以查看原文，需要科学上网)，大概意思就是说有 3 个 JavaScript 性能错误，你不应该再去写了。很多“歪果仁”也是一看到这个标题就开始**“喷”**作者了，下文会详细说。我先介绍下这篇文章的主要内容
 文章主要内容： 当 ES5 发布的时候，JavaScript 引入了很多新的数组函数。其中包括 forEach，reduce，map，filter - 它们让我们感觉语言在不断增长，功能越来越强大，编写代码变得更加有趣和流畅，结果更易于阅读和理解。

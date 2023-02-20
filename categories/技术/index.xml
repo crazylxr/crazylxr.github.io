@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>技术 on ExampleSite</title>
-    <link>https://examplesite.com/categories/%E6%8A%80%E6%9C%AF/</link>
-    <description>Recent content in 技术 on ExampleSite</description>
+    <title>技术 on 桃园</title>
+    <link>/categories/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Mar 2022 22:14:22 +0000</lastBuildDate><atom:link href="https://examplesite.com/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 22:14:22 +0000</lastBuildDate><atom:link href="/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【面试系列一】如何回答如何理解重排和重绘</title>
-      <link>https://examplesite.com/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</link>
+      <link>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</link>
       <pubDate>Tue, 15 Mar 2022 22:14:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</guid>
+      <guid>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</guid>
       <description>最近在面试的时候经常会问：如何理解重排和重绘？
 我发现很多候选人都没有答道关键点上，感觉是在哪里看到过相关的文章，听起来零零散散，毫无逻辑。
 错误示范 一般的面试过程就是这样的：
@@ -46,10 +46,10 @@
     
     <item>
       <title>使用 React 和 TypeScript 编写干净代码的10个必知模式</title>
-      <link>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</link>
+      <link>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</link>
       <pubDate>Wed, 09 Mar 2022 08:20:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</guid>
+      <guid>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</guid>
       <description>React 是一个 JavaScript 库，它是当今最流行和行业领先的前端开发库。
 JavaScript 是一种松散的类型化语言，因此，它捕获了运行时。这样做的结果就是 JavaScript 错误被捕获得非常晚，这可能导致严重的 bug。
 当然 React 作为一个 JavaScript 库，也继承了这个问题。
@@ -68,10 +68,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>img 和 picture 的区别和使用场景</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</link>
       <pubDate>Thu, 01 Jul 2021 15:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</guid>
       <description>img img 是 HTML4 时就有的标签， 至今仍然是在网页中嵌入图片的最常用的方式。 与 &amp;lt;span&amp;gt;, &amp;lt;em&amp;gt; 等标签一样属于行内标签 （准确地说属于 Phrasing Content）。下面是一个示例：
 &amp;lt;img src=&amp;#34;favicon72.png&amp;#34; alt=&amp;#34;MDN logo&amp;#34; srcset=&amp;#34;favicon144.png 2x&amp;#34;&amp;gt; img 其实也可以控制在高清屏幕采用哪个图片，适合用在移动端
 picture &amp;lt;picture&amp;gt; &amp;lt;source srcset=&amp;#34;/media/cc0-images/surfer-240-200.jpg&amp;#34; media=&amp;#34;(min-width: 800px)&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;/media/cc0-images/painted-hand-298-332.jpg&amp;#34; alt=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;/picture&amp;gt; 要决定加载哪个URL，user agent 检查每个 &amp;lt;source&amp;gt; 的 srcset、media 和 type 属性，来选择最匹配页面当前布局、显示设备特征等的兼容图像。
@@ -82,10 +82,10 @@ picture 是 HTML5 中定义新标签， 其中可以定义若干个 &amp;lt;sour
     
     <item>
       <title>如何应用 SOLID 原则在 React 中整理代码之开闭原则</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/336/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/336/</link>
       <pubDate>Mon, 24 May 2021 08:27:43 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/336/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/336/</guid>
       <description>SOLID 是一套原则。它们主要是关心代码质量和可维护性的软件专业人员的指导方针。
 React 不是面向对象，但这些原则背后的主要思想可能是有帮助的。在本文中，我将尝试演示如何应用这些原则来编写更好的代码。
 在前一篇文章中，我们讨论了单一责任原则。今天，我们将讨论 SOLID 的第二个原则: 开闭原则。
@@ -102,10 +102,10 @@ import React from &amp;#39;react&amp;#39;; export const User = ({user}) =&amp;gt
     
     <item>
       <title>理解 JavaScript 中的执行上下文和执行栈</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</link>
       <pubDate>Thu, 02 Apr 2020 16:52:06 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</guid>
       <description>译者序 最近在研究 JavaScript 基础性的东西，但是看到对于执行上下文的解释我发现有两种，一种是执行上下文包含：scope(作用域)、variable object(变量对象)、this value(this 值)，另外一个种是包含：lexical environment(词法环境)、variable environment(变量环境)、this value(this 值)。
 后面我查阅了不少博客以及 ES3 和 ES5 的规范才了解到，第一种是 ES3 的规范，经典书籍《JavaScript高级程序设计》第三版就是这样解释的，也是网上广为流传的一种，另一种是 ES5 的规范。
 然后我接着又去翻了 ES2018 中的，发现又有变化了，已经增加了更多的内容了，考虑到这部分内容颇为复杂，准备后面再进行总结分享，查资料的时候看到这篇讲执行上下文(ES5 )的还不错，所以就翻译出来先分享给大家。
@@ -122,10 +122,10 @@ let a = &amp;#39;Hello World!</description>
     
     <item>
       <title>React 代码规范</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</link>
       <pubDate>Thu, 02 Apr 2020 16:51:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</guid>
       <description>基本规范 每个文件只包含的一个 React 组件： 联系紧密的组件可以使用「命名空间」的形式； 每个文件中可包含多个纯函数组件。 始终使用 JSX 语法，不要使用 React.createElement 创建 ReactElement，以提高编写速度、可读性、可维护性（没有 JSX 转换的特殊场景例外，如在 console 中测试组件）。 文件规范 组件文件使用一致的.js或 .jsx后缀。所有组件文件的后缀名从.js或.jsx中任选其一。不应在项目中出现部分组件为.js文件，部分为.jsx的情况。
 每个存放组件的目录使用一个index.js/index.jsx以命名导出的形式暴露所有组件。同目录内的组件相互引用使用import Foo from &#39;./Foo&#39;;进行。引用其它目录的组件使用import {Foo} from &#39;../component&#39;;进行。
 命名规范 文件名：使用大驼峰命名法（PascalCase），如 MyComponent.jsx；
@@ -139,10 +139,10 @@ let a = &amp;#39;Hello World!</description>
     
     <item>
       <title>从两个角度看 Typescript 中的类型是什么?</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/302/</link>
       <pubDate>Tue, 03 Mar 2020 10:09:33 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/302/</guid>
       <description>0. 作者以及原文介绍 作者是 Dr. Axel Rauschmayer，号称”德国阮一峰“，本文原文来自于他的博客：https://2ality.com/2020-02/understanding-types-typescript.html，不熟悉他的可以关注一下他的博客。
 1. 每个角度都从这三个问题来解释 以下三个问题对于理解类型是如何工作的非常重要，需要从这两个角度中的每一个角度来回答。
 myVariable 的类型 MyType 意味着什么？ let myVariable: MyType = /*...*/; Sourcetype 可以分配给 TargetType 吗? let source: SourceType = /*...*/; let target: TargetType = source; TypeUnion 是如何从 Type1、 Type2 和 Type3 衍生而来的？ type TypeUnion = Type1 | Type2 | Type3; 2. 角度 1： 类型是一组值 从这个角度来看，类型是一组值：
@@ -152,10 +152,10 @@ myVariable 的类型 MyType 意味着什么？ let myVariable: MyType = /*...*/;
     
     <item>
       <title>你可能不知道的 React Hooks</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/296/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/296/</link>
       <pubDate>Tue, 07 Jan 2020 21:50:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/296/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/296/</guid>
       <description>本文是译文，原文地址是：https://medium.com/@sdolidze/the-iceberg-of-react-hooks-af0b588f43fb
 React Hooks 与类组件不同，它提供了用于优化和组合应用程序的简单方式，并且使用了最少的样板文件。
 如果没有深入的知识，由于微妙的 bug 和抽象层漏洞，可能会出现性能问题，代码复杂性也会增加。
@@ -167,10 +167,10 @@ Level 1：setInterval export default function Level01() { console.</description>
     
     <item>
       <title>通过fetch发送 post 请求下载文件</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/284/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/284/</link>
       <pubDate>Fri, 22 Nov 2019 17:46:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/284/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/284/</guid>
       <description>背景 最近遇到一个下载的需求，由于 url 参数太长(常用的下载方法 a 标签或者 location.href 的方法都是 get 请求，get 请求参数长度有限制)，无法下载，考虑了好几种方案，最终还是觉得通过 ajax 的 POST 方法进行下载，比较容易实现，下面记录实现过程以及遇到的问题。
 但是由于 AJAX 并不会唤起浏览器的下载窗口，AJAX设计的初衷就是用来实现异步刷新的，用以改善原始的 form 表单提交刷新页面的问题，那么如何来解决呢？
 POST 方法下载实现原理 通过 fetch 请求获取文件，然后利用 Blob 对象来接收处理，在接收到后端返回的文件后，把其转化一下，放入a标签的href中，并触发下载行为。
@@ -180,10 +180,10 @@ fetch(url, { method: &amp;#39;POST&amp;#39;, body: JSON.stringify(params), heade
     
     <item>
       <title>如何对 React 函数式组件进行优化</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/280/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/280/</link>
       <pubDate>Tue, 19 Nov 2019 08:32:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/280/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/280/</guid>
       <description>前言 目的 本文只介绍函数式组件特有的性能优化方式，类组件和函数式组件都有的不介绍，比如 key 的使用。另外本文不详细的介绍 API 的使用，后面也许会写，其实想用好 hooks 还是蛮难的。
 面向读者 有过 React 函数式组件的实践，并且对 hooks 有过实践，对 useState、useCallback、useMemo API 至少看过文档，如果你有过对类组件的性能优化经历，那么这篇文章会让你有种熟悉的感觉。
 React 性能优化思路 我觉得React 性能优化的理念的主要方向就是这两个：
@@ -198,20 +198,20 @@ React.memo 首先要介绍的就是 React.memo，这个 API 可以说是对标�
     
     <item>
       <title>如何让 useEffect 只在依赖变化的时候执行</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/271/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/271/</link>
       <pubDate>Mon, 14 Oct 2019 21:51:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/271/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/271/</guid>
       <description>遇到问题 今天遇到一个 useEffect 的问题，遇到一个问题：在 useEffect 里面发异步请求，然后第二个参数的依赖也是异步请求之后得到的结果，然后就导致最终结果会请求两次 useEffect 里的函数。
 const [metaKey, setMetaKey] = useState&amp;lt;string[]&amp;gt;([]) // useEffect1 useEffect(() =&amp;gt; { getServiceCoreIndexParam().then((res: IResult) =&amp;gt; { setMetaKey(res.data.defaultValue) return res.data }) }, []) // useEffect2 useEffect(() =&amp;gt; { getAdvisorIndexTable({ visitdate: props.visitdate, advisorSupervisor: props.advisorSupervisor, comparevisitdate: props.comparevisitdate, metaKeys: metaKey || [] }).then((res: IResult) =&amp;gt; { res.success &amp;amp;&amp;amp; setTable(res.data) }) }, [props.visitdate, props.advisorSupervisor, metaKey, props.comparevisitdate]) 分析一下这段代码，首先在组件 mount 的时候，useEffect2 会调用一次 getAdvisorIndexTable，当 useEffect1 执行完毕之后 setMetaKey 后，由于 metaKey 发生改变，导致 getAdvisorIndexTable 还会调用一次，这很明显是我们不想看到的结果，因为这只是一个默认请求，然而发了两次请求。</description>
     </item>
     
     <item>
       <title>新手学习 React 迷惑的点</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/257/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/257/</link>
       <pubDate>Thu, 05 Sep 2019 21:37:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/257/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/257/</guid>
       <description>网上各种言论说 React 上手比 Vue 难，可能难就难不能深刻理解 JSX，或者对 ES6 的一些特性理解得不够深刻，导致觉得有些点难以理解，然后说 React 比较难上手，还反人类啥的，所以我打算写两篇文章来讲新手学习 React 的时候容易迷惑的点写出来，如果你还以其他的对于学习 React 很迷惑的点，可以在留言区里给我留言。
 为什么要引入 React 在写 React 的时候，你可能会写类似这样的代码：
 import React from &amp;#39;react&amp;#39; function A() { // ...other code return &amp;lt;h1&amp;gt;前端桃园&amp;lt;/h1&amp;gt; } 你肯定疑惑过，下面的代码都没有用到 React，为什么要引入 React 呢？
@@ -223,10 +223,10 @@ function A() { // ...other code return React.createElement(&amp;#34;h1&amp;#34;,
     
     <item>
       <title>Deep In React 之详谈 React 16 Diff 策略(二)</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/261/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/261/</link>
       <pubDate>Tue, 30 Jul 2019 21:42:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/261/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/261/</guid>
       <description>文章首发于个人博客
 这是我 Deep In React 系列的第二篇文章，如果还没有读过的强烈建议你先读第一篇：详谈 React Fiber 架构(1)。
 前言 我相信在看这篇文章的读者一般都已经了解过 React 16 以前的 Diff 算法了，这个算法也算是 React 跨时代或者说最有影响力的一点了，使 React 在保持了可维护性的基础上性能大大的提高，但 Diff 过程不仅不是免费的，而且对性能影响很大，有时候更新页面的时候往往 Diff 所花的时间 js 运行时间比 Rendering 和 Painting 花费更多的时间，所以我一直传达的观念是 React 或者说框架的意义是为了提高代码的可维护性，而不是为了提高性能的，现在所做的提升性能的操作，只是在可维护性的基础上对性能的优化。具体可以参考我公众号以前发的这两篇文章：
@@ -241,10 +241,10 @@ Web UI 中 DOM 节点跨层级的移动操作特别少，可以忽略不计。 �
     
     <item>
       <title>发布 react 组件到 npm 上</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</link>
       <pubDate>Mon, 28 Jan 2019 15:43:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</guid>
       <description>我发布了我的第一个 npm 组件，一个基于 react 的 3d 标签云组件。在这途中我也是遇到了很多的坑，花在完善整个发布流程的时间远多于写这个组件本身的时间，所以我记录下我觉得一个正常的 react 组件的发布流程
 最后记录这篇文章花的时间比我完成整个组件的时间都多，最终希望能给新手带来帮助
 在整个发布组件的过程我做了如下几件事儿：
@@ -257,20 +257,20 @@ npm i @babel/cli @babel/core @babel/preset-env @babel/preset-react -D 采用 web
     
     <item>
       <title>前端书籍推荐</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/227/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/227/</link>
       <pubDate>Tue, 22 Jan 2019 17:34:33 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/227/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/227/</guid>
       <description>HTML 与 CSS 《Head First HTML与CSS(第2版)》&amp;ndash;豆瓣评分 9.3。入门真的是经典书籍，手把手教学，丰富的案例让你从 0 开始学前端。 《CSS权威指南(第三版)》&amp;ndash;豆瓣评分 8.5。这本书也是非常的经典了，2007 年的书了，但是无不影响这本书作为 CSS 的经典著作，把原理讲得非常的通透，除了 w3c 标准，算最权威的一本了，毕竟权威指南。这本书都是 css 2.1 的，与张鑫旭的《CSS 世界》可以说是一个类别的，我没看过这本书，但是据我朋友说没有权威指南好，口水话太多，也许是让读者好理解，权威指南这本我是看过的，学 CSS 必读经典。 《CSS揭秘》&amp;ndash;豆瓣评分9.4。神书，47 和 css 技巧让你在面对各种 css 问题的时候游刃有余。豆瓣评分 9.4 ，是 css 书籍中评分最高的了，css 进阶必备。 总结：所以对于 css 来说，《Head First HTML与CSS(第2版)》是入门，权威指南是基础，css 揭秘是进阶，可以按照这个顺序来阅读。
 JavaScript 《javascript语言精粹》&amp;ndash;豆瓣评分 9.1。这本书可以在入门之前了解一下基本语法，以及在学习之前可以了解下 JS 里面的精粹以及糟粕，虽然这本书很薄很薄，但是值得反复去读的一本书，当时学习前端半年，一年再回来看这本书会跟你第一看应该有更深刻的理解。 《JavaScript DOM编程艺术(第2版)》&amp;ndash; 豆瓣评分 8.7。本 书在简洁明快地讲述JavaScript和DOM的基本知识之后，通过几个实例演示了专业水准的网页开发技术，透彻阐述了平稳退化等一批至关重要的 JavaScript编程原则和最佳实践。 《JavaScript权威指南》：犀牛书是每个FE都绕不过的一本书，可以先大致通读几遍，也可以把其当作工具书，时时翻阅。 《JavaScript高级程序设计》：红宝书虽然号称高级，但其实是帮助入门的，Zakas大神把概念深入浅出，将JavaScript的语法要点讲清楚明白。小红书配合犀牛书，相互印证，谁读谁知道。 《你不知道的JavaScript 上中下》：这本绝对是神书，让你了解JavaScript不为人知的另一面，把闭包、异步这些讲得很通透。 《ES6 标准入门（第3版）》&amp;ndash;豆瓣评分 8.9。阮老师的书，国内最好的一本 ES6 ES7 ES8 的入门书籍，第三版相对于第二版多了 ES8 的内容，所以也厚了很多。因为现在框架盛行，特别是 React 基本是已经完全拥抱了 ES6 了，还没学 ES6 赶紧补起来，不然要落后了。 《深入理解 ES6》&amp;ndash;豆瓣评分9.</description>
     </item>
     
     <item>
       <title>不要再说虚拟 DOM 有多快了</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/124/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/124/</link>
       <pubDate>Tue, 20 Nov 2018 12:03:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/124/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/124/</guid>
       <description>如果你觉得它很快，那么这篇文章可能就是你所缺少的
 我经常听到有人在群里，或者在社区里说的一个很严重的错误，那就是说 React 的 Virtual Dom 是以快出名的，比原生 Dom 快多了，啥啥啥的，每次都一两句话说不清楚，所以下次有谁再说 React 是以快出名的，你就把这篇文章丢给他，下面进入正题。
 在过去的几年里，你一直在跟踪 JavaScript 社区的发展，你至少听说过 Virtual DOM（React，Vue.js 2，Riot.js，Angular 2等等）。他们承诺（或者更确切地说，他们的宣传）更快的渲染界面，特别是更新，减少麻烦。你很快的上手了使用虚拟DOM的应用程序，这很好。几个月后，您的应用程序现在变得越来越复杂，你可能从用户交互到屏幕更新只需要一两秒钟的更新。你可能会想，这东西很神奇，应该会比 jQuery 快，但是实际上不是这个样子的。
@@ -287,10 +287,10 @@ const userList = document.getElementById(&amp;#34;user-list&amp;#34;); // JS 部
     
     <item>
       <title>浅谈未来几年前端的发展方向</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</link>
       <pubDate>Tue, 13 Nov 2018 16:41:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</guid>
       <description>在知乎上看到这么一个问题，觉得很有意思，以下是原提问者的见解
 过去五年前端的发展过程基本上是一个工程化的过程,框架和工程化工具层出不穷。
 近两年其实发展已经比较迟滞了。
@@ -312,10 +312,10 @@ const userList = document.getElementById(&amp;#34;user-list&amp;#34;); // JS 部
     
     <item>
       <title>一篇文章搞定 ES6</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/115/</link>
       <pubDate>Sat, 29 Sep 2018 18:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/115/</guid>
       <description>JavaScript ES6 带来了新的语法和新的强大功能，使您的代码更现代，更易读。它允许您编写更少的代码并执行更多操作。 ES6 向我们介绍了许多强大的功能，如箭头函数，模板字符串，对象结构，模块等，让我们来看看。
 const and let const 是 ES6 中用于声明变量的新关键字。 const 比 var 更强大。使用后，无法重新分配变量。换句话说，它是一个不可变的变量，除非它与对象一起使用。
 这对于定位选择器非常有用。例如，当我们有一个触发事件的按钮时，或者当您想在 JavaScript 中选择 HTML 元素时，请使用 const 而不是 var。这是因为 var 会被提升，当不想重新分配变量时，最好使用 const。
@@ -328,10 +328,10 @@ let 与 const 相同，因为两者都是块级作用域，这意味着该变量
     
     <item>
       <title>JavaScript核心概念之执行上下文和栈</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/316/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/316/</link>
       <pubDate>Tue, 25 Sep 2018 00:52:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/316/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/316/</guid>
       <description>桃翁桃翁，问个问题呢，据说 js 里面有个执行上下文，这个概念是个什么东东哦？据说挺重要的，给我科普科普呗。
 Emm… 这个概念非常的抽象，简单来说呢，就是 JS 在执行某段代码的时候做的一些事情。
 具体做的事情就是定义了变量或函数有权访问的其他数据决定了它们各自的行为(作用域链)。每个执行环境都有一个与之关联的变量对象（variable object),环境中定义的所有变量和函数都保存在这个对象中(变量包括 this、arguments)。虽然我们编写的代码无法访问这个对象，但解析器在处理数据时会在后台使用它。
@@ -355,10 +355,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>JavaScript核心概念(1):类型转换</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/105/</link>
       <pubDate>Tue, 07 Aug 2018 10:34:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/105/</guid>
       <description>看到这个是不是有一种想打人的感觉，垃圾 JavaScript，这特么都什么鬼，相信很多人不管是笔试还是面试，都被 JS 的类型转换难道过，相信认真看完我这篇文章，妈妈再也不用担心类型转换的问题了。
 原始值到原始值的转换 原始值转化为布尔值
 所有的假值(undefined、null、0、-0、NaN、””)会被转化为 false，其他都会被转为 true
@@ -369,10 +369,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>ES6之路之模块详解</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/88/</link>
       <pubDate>Mon, 14 May 2018 17:09:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/88/</guid>
       <description>简介 何为模块 一个模块只不过是一个写在文件中的 JavaScript 代码块。
 模块中的函数或变量不可用，除非模块文件导出它们。
 简单地说，这些模块可以帮助你在你的模块中编写代码，并且只公开应该被你的代码的其他部分访问的代码部分。
@@ -385,10 +385,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>ES6之路之块级作用域</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/70/</link>
       <pubDate>Thu, 19 Apr 2018 21:24:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/70/</guid>
       <description>作用域 作用域指变量所作用的范围，在 Javascript 中有两种作用域：
 全局作用域 函数作用域 变量提升 变量提升（Hoisting）被认为是， Javascript 中执行上下文 （特别是创建和执行阶段）工作方式的一种认识。具体表现就是所有通过 var 声明的变量会提升到当前作用域的最前面。
 function foo() { console.log(temp); } function bar() { console.log(temp); var temp; } foo(); // ReferenceError: temp is not defined bar(); // undefined 可以看到用 var 声明了的并不会报错。因为其实函数 bar 等同于
@@ -401,20 +401,20 @@ let foo = 3; 使用方法基本和 var 相同，而且声明的变量只在其�
     
     <item>
       <title>JavaScript数据结构之数组栈队列</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/42/</link>
       <pubDate>Wed, 14 Mar 2018 09:53:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/42/</guid>
       <description>1. 数组 数组是平时使用最常用的数据结构，在JavaScript中数组是动态的分配大小,在这里我不会介绍JavaScript里面数组的所有的方法，而是针对数据结构这个方向谈谈所用到的方法。
 1.1 创建和初始化数组 //创建空数组var array = new Array();//[]//初始化数组var array = new Array(1,2,3); var array = Array.of(1,2,3);//ES6的方法//[1,2,3]//创建大小为5的数组var array = new Array();//ES6的方法//[undefined,undefined,undefined,undefined,undefined]//给数组赋值var array = new Array();array[0] = 1 ;array[1] = 2 ;array[2] = 3 ;//[1,2,3] 1.2 添加元素 1.2.1往数组后添加元素 var number = [1,2,3];number[number.length] = 4;//[1,2,3,4]//或者var number = [1,2,3];number.push(4);//[1,2,3,4] 1.2.2往数组前面添加元素 var number = [1,2,3];number.</description>
     </item>
     
     <item>
       <title>ES6之路--Symbol</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/41/</link>
       <pubDate>Wed, 14 Mar 2018 09:49:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/41/</guid>
       <description>欢迎访问我的个人站点
 1. 概述 简介 Symbol 是一种特殊的、不可变的数据类型，可以作为对象属性的标识符使用，表示独一无二的值。Symbol 对象是一个 symbol primitive data type 的隐式对象包装器。它是JavaScript语言的第七种数据类型，前6种分别是：Undefined、Null、Boolean、String、Number、Object。
 语法 Symbol([description])
@@ -426,20 +426,20 @@ demo var s1 = Symbol(&#39;symbol1&#39;);s1 //Symbol(symbol1); 因为Symbol函�
     
     <item>
       <title>ES6之对象的扩展</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/24/</link>
       <pubDate>Fri, 05 Jan 2018 20:21:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/24/</guid>
       <description>&lt;h3 id=&#34;1-属性的简洁表示法&#34;&gt;1. 属性的简洁表示法&lt;/h3&gt;
 &lt;p&gt;ES6允许直接写入变量和函数作为对象的属性和方法。意思就是说允许在对象中只写属性名，不用写属性值。这时，属性值等于属性名称所代表的变量。下面分别举一个例子来说明：&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一个例子来谈react的两大优势</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/20/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/20/</link>
       <pubDate>Fri, 05 Jan 2018 20:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/20/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/20/</guid>
       <description>&lt;p&gt;今天我想谈的react的优势有两点：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;声明式写法更符合人性&lt;/li&gt;
@@ -450,10 +450,10 @@ demo var s1 = Symbol(&#39;symbol1&#39;);s1 //Symbol(symbol1); 因为Symbol函�
     
     <item>
       <title>2020 年你应该知道的 React 库</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/300/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/300/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/300/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/300/</guid>
       <description>声明：本文为译文，原文链接：https://www.robinwieruch.de/react-libraries
 React 已经诞生很久了，自从它诞生开始，围绕组件驱动形成了一个非常全面的生态，但是来自其他编程语言或者框架的开发人员很难找到要构建一个 React 系统的所有组件。如果你是来自于像 Angular 这样的框架的开发者，你可能已经习惯了框架包含了所需要的所有功能，
 然而对于 React 来说，它的核心并不是完善所有的可选库。 这是优势还是劣势取决于你自己。 当我从 Angular 切换到 React，我绝对经历了它作为 React 的优势。
@@ -466,10 +466,10 @@ React 已经诞生很久了，自从它诞生开始，围绕组件驱动形成�
     
     <item>
       <title>4个你从未听说过的强大的 JavaScript 运算符</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/339/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/339/</guid>
       <description>你有没有花一个下午的时间浏览过 Mozilla 文档？如果你有，你会很清楚网上有很多关于 JavaScript 的信息。这使得人们很容易忽略一些不同寻常的 JavaScript 操作符。
 然而，仅仅因为这些操作符不常见并不意味着它们不强大！它们在语法上看起来都很相似，但是当它们以不同的方式工作时，请务必阅读它们。
 让我们开始吧！
@@ -481,10 +481,10 @@ var prevMoney = 1 var currMoney = 0 var noAccount = null var futureMoney = -1 fu
     
     <item>
       <title>clip-path 实战</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/15/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/15/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/15/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/15/</guid>
       <description>&lt;h3 id=&#34;demo演示&#34;&gt;demo演示&lt;/h3&gt;
 &lt;h4 id=&#34;多边形图&#34;&gt;多边形图&lt;/h4&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://upload-images.jianshu.io/upload_images/2974893-23031feaabbb7c38.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;image.png&#34;  /&gt;
@@ -493,19 +493,19 @@ var prevMoney = 1 var currMoney = 0 var noAccount = null var futureMoney = -1 fu
     
     <item>
       <title>css实现图片剪裁</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/6/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/6/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/6/</guid>
       <description>&lt;p&gt;也许，你会遇到这样的情况，UI给你一张图片，然而根据实际情况，比如需要适配XXX手机，或者需要把图片形状搞好看一点，会让前端人员进行图片剪裁工作。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>css计数器教程</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/288/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/288/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/288/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/288/</guid>
       <description>前言 CSS 里面的伪元素其实是非常好用的，但是经常容易被大家忽略，伪元素里面常用到的 content 属性，可能现在很多人仅仅以为 content 属性的值只支持字符串，除了字符串外常用到的还有 uri、counter ，今天所要介绍的就是 conter(计数器)。
 先看如下的例子：
 &amp;lt;div&amp;gt; &amp;lt;h3&amp;gt;桃翁&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;介绍&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;css 计数器&amp;lt;/h3&amp;gt; &amp;lt;/div&amp;gt; 根据如上的 HTML 你是否有办法不通过 JavaScript ，仅仅用 CSS 在 title 前面增加 Title number: 呢？
@@ -520,10 +520,10 @@ counter-increment: 计数器名称[, 增量]; /* 增加计数器值 */ 显示计
     
     <item>
       <title>Deep In React 之浅谈 React Fiber 架构（一）</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/262/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/262/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/262/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/262/</guid>
       <description>文章首发于个人博客
 前言 2016 年都已经透露出来的概念，这都 9102 年了，我才开始写 Fiber 的文章，表示惭愧呀。不过现在好的是关于 Fiber 的资料已经很丰富了，在写文章的时候参考资料比较多，比较容易深刻的理解。
 React 作为我最喜欢的框架，没有之一，我愿意花很多时间来好好的学习他，我发现对于学习一门框架会有四种感受，刚开始没使用过，可能有一种很神奇的感觉；然后接触了，遇到了不熟悉的语法，感觉这是什么垃圾东西，这不是反人类么；然后当你熟悉了之后，真香，设计得挺好的，这个时候它已经改变了你编程的思维方式了；再到后来，看过他的源码，理解他的设计之后，设计得确实好，感觉自己也能写一个的样子。
@@ -538,10 +538,10 @@ React 16 之前的不足 首先我们了解一下 React 的工作过程，当我
     
     <item>
       <title>三个比它们等效 ES5 速度慢的 ES 6 函数</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
       <description>[Meting] [Music server=&amp;ldquo;tencent&amp;rdquo; id=&amp;ldquo;000AwJtd3Wp27b&amp;rdquo; type=&amp;ldquo;song&amp;rdquo;/] [/Meting]
 我在 medium 上看到一篇 3 JavaScript Performance Mistakes You Should Stop Doing 文章(点击阅读全文可以查看原文，需要科学上网)，大概意思就是说有 3 个 JavaScript 性能错误，你不应该再去写了。很多“歪果仁”也是一看到这个标题就开始**“喷”**作者了，下文会详细说。我先介绍下这篇文章的主要内容
 文章主要内容： 当 ES5 发布的时候，JavaScript 引入了很多新的数组函数。其中包括 forEach，reduce，map，filter - 它们让我们感觉语言在不断增长，功能越来越强大，编写代码变得更加有趣和流畅，结果更易于阅读和理解。
@@ -554,10 +554,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>为什么javascript经常被黑？</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</guid>
       <description>前言 这个问题是知乎上有人邀我回答的，感觉挺有意思的，所以发出来大家讨论下
 1. 语言自身问题 Javascript 之父在花 10 天设计出来的，再牛逼的人，10 天设计出来的肯定会有很多设计不合理的东西，哪些不合理的东西，可以去看《JavaScript语言精粹》，导致这本语言一直是最具争论的一门语言。
 但是背负着这么大的舆论，那么多很烂的特性，还要兼容各种浏览器，js 还能发展得这么好，web前端，移动，服务端，桌面端，甚至游戏，物联网，机器学习等，可见那些好的特性还是非常好的，具体可以看我的这篇文章&amp;ndash;Javascript 是最好的语言，不服来辩。
@@ -571,10 +571,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>函数式编程之组合</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/253/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/253/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/253/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/253/</guid>
       <description>该系列文章不是针对前端新手，需要有一定的编程经验，而且了解 JavaScript 里面作用域，闭包等概念
 组合函数 组合是一种为软件的行为，进行清晰建模的一种简单、优雅而富于表现力的方式。通过组合小的、确定性的函数，来创建更大的软件组件和功能的过程，会生成更容易组织、理解、调试、扩展、测试和维护的软件。
 对于组合，我觉得是函数式编程里面最精髓的地方之一，所以我迫不及待的把这个概念拿出来先介绍，因为在整个学习函数式编程里，所遇到的基本上都是以组合的方式来编写代码，这也是改变你从一个面向对象，或者结构化编程思想的一个关键点。
@@ -592,10 +592,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>根据 React 历史来聊如何理解虚拟 DOM</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</guid>
       <description>最近我发现很多面试题里面都有「如何理解虚拟 DOM」这个题，我觉得这个题应该没有想象中那么好答，因为很多人没有真正理解虚拟 DOM 它的价值所在，我这篇从虚拟 DOM 的诞生过程来引出它的价值以及历史地位，帮助你深入的理解它。
 什么是虚拟DOM 本质上是 JavaScript 对象，这个对象就是更加轻量级的对 DOM 的描述。
 对，就是这么简单！
@@ -611,10 +611,10 @@ XHP 时代 - 2010 到了 2010 年，为了更加高效的编码，同时也避�
     
     <item>
       <title>认识函数式编程</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/190/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/190/</guid>
       <description>最开始接触函数式编程的时候是在小米工作的时候，那个时候看老大以前写的代码各种 compose，然后一些 ramda 的一些工具函数，看着很吃力，然后极力吐槽函数式编程，现在回想起来，那个时候的自己真的是见识短浅，只想说,&amp;lsquo;真香&amp;rsquo;。
 最近在研究函数式编程，真的是在学习的过程中感觉自己的思维提升了很多，抽象能力大大的提高了，让我深深的感受到了函数式编程的魅力。所以我打算后面用 5 到 8 篇的篇幅，详细的介绍一下函数式编程的思想，基础、如何设计、测试等。
 今天这篇文章主要介绍函数式编程的思想。

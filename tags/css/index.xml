@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>css on ExampleSite</title>
-    <link>https://examplesite.com/tags/css/</link>
-    <description>Recent content in css on ExampleSite</description>
+    <title>css on 桃园</title>
+    <link>/tags/css/</link>
+    <description>Recent content in css on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Jul 2021 15:12:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 15:12:00 +0000</lastBuildDate><atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>img 和 picture 的区别和使用场景</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</link>
       <pubDate>Thu, 01 Jul 2021 15:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</guid>
       <description>img img 是 HTML4 时就有的标签， 至今仍然是在网页中嵌入图片的最常用的方式。 与 &amp;lt;span&amp;gt;, &amp;lt;em&amp;gt; 等标签一样属于行内标签 （准确地说属于 Phrasing Content）。下面是一个示例：
 &amp;lt;img src=&amp;#34;favicon72.png&amp;#34; alt=&amp;#34;MDN logo&amp;#34; srcset=&amp;#34;favicon144.png 2x&amp;#34;&amp;gt; img 其实也可以控制在高清屏幕采用哪个图片，适合用在移动端
 picture &amp;lt;picture&amp;gt; &amp;lt;source srcset=&amp;#34;/media/cc0-images/surfer-240-200.jpg&amp;#34; media=&amp;#34;(min-width: 800px)&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;/media/cc0-images/painted-hand-298-332.jpg&amp;#34; alt=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;/picture&amp;gt; 要决定加载哪个URL，user agent 检查每个 &amp;lt;source&amp;gt; 的 srcset、media 和 type 属性，来选择最匹配页面当前布局、显示设备特征等的兼容图像。
@@ -27,10 +27,10 @@ picture 是 HTML5 中定义新标签， 其中可以定义若干个 &amp;lt;sour
     
     <item>
       <title>clip-path 实战</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/15/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/15/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/15/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/15/</guid>
       <description>&lt;h3 id=&#34;demo演示&#34;&gt;demo演示&lt;/h3&gt;
 &lt;h4 id=&#34;多边形图&#34;&gt;多边形图&lt;/h4&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://upload-images.jianshu.io/upload_images/2974893-23031feaabbb7c38.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;image.png&#34;  /&gt;
@@ -39,19 +39,19 @@ picture 是 HTML5 中定义新标签， 其中可以定义若干个 &amp;lt;sour
     
     <item>
       <title>css实现图片剪裁</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/6/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/6/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/6/</guid>
       <description>&lt;p&gt;也许，你会遇到这样的情况，UI给你一张图片，然而根据实际情况，比如需要适配XXX手机，或者需要把图片形状搞好看一点，会让前端人员进行图片剪裁工作。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>css计数器教程</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/288/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/288/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/288/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/288/</guid>
       <description>前言 CSS 里面的伪元素其实是非常好用的，但是经常容易被大家忽略，伪元素里面常用到的 content 属性，可能现在很多人仅仅以为 content 属性的值只支持字符串，除了字符串外常用到的还有 uri、counter ，今天所要介绍的就是 conter(计数器)。
 先看如下的例子：
 &amp;lt;div&amp;gt; &amp;lt;h3&amp;gt;桃翁&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;介绍&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;css 计数器&amp;lt;/h3&amp;gt; &amp;lt;/div&amp;gt; 根据如上的 HTML 你是否有办法不通过 JavaScript ，仅仅用 CSS 在 title 前面增加 Title number: 呢？

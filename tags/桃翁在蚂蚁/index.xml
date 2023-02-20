@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>桃翁在蚂蚁 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E6%A1%83%E7%BF%81%E5%9C%A8%E8%9A%82%E8%9A%81/</link>
-    <description>Recent content in 桃翁在蚂蚁 on ExampleSite</description>
+    <title>桃翁在蚂蚁 on 桃园</title>
+    <link>/tags/%E6%A1%83%E7%BF%81%E5%9C%A8%E8%9A%82%E8%9A%81/</link>
+    <description>Recent content in 桃翁在蚂蚁 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Sep 2020 21:22:24 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E6%A1%83%E7%BF%81%E5%9C%A8%E8%9A%82%E8%9A%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Sep 2020 21:22:24 +0000</lastBuildDate><atom:link href="/tags/%E6%A1%83%E7%BF%81%E5%9C%A8%E8%9A%82%E8%9A%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>原来我是个业务性选手</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</link>
       <pubDate>Sat, 12 Sep 2020 21:22:24 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</guid>
       <description>01 前几天我试用期转正答辩了，老板也给过了，给到我的评价大概是：业务型选手，接下来一两年很关键，如果能够在业务中深入挖掘，会是个好苗子，否则就比较平了。
 这个评价其实我还是没想到的，或者说我之前根本没想过结果。
 其实我从大学毕业以来，都觉得自己是个**技术型选手，**之前在蘑菇街的时候我也是按照技术路线走的。在蘑菇街的时候工作不是很忙，所以也有时间去研究技术，也乐于分享然后才经常写文章，才做了公众号。

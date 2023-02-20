@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>面试 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E9%9D%A2%E8%AF%95/</link>
-    <description>Recent content in 面试 on ExampleSite</description>
+    <title>面试 on 桃园</title>
+    <link>/tags/%E9%9D%A2%E8%AF%95/</link>
+    <description>Recent content in 面试 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Mar 2022 22:14:22 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 22:14:22 +0000</lastBuildDate><atom:link href="/tags/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【面试系列一】如何回答如何理解重排和重绘</title>
-      <link>https://examplesite.com/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</link>
+      <link>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</link>
       <pubDate>Tue, 15 Mar 2022 22:14:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</guid>
+      <guid>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</guid>
       <description>最近在面试的时候经常会问：如何理解重排和重绘？
 我发现很多候选人都没有答道关键点上，感觉是在哪里看到过相关的文章，听起来零零散散，毫无逻辑。
 错误示范 一般的面试过程就是这样的：
@@ -46,10 +46,10 @@
     
     <item>
       <title>蚂蚁、字节、滴滴面试经历总结</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</link>
       <pubDate>Mon, 18 May 2020 12:49:46 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</guid>
       <description>前言 最近两篇面试以及离职相关的文章不容错过哦。
 离开蘑菇街后，我最近的一些想法
 拼多多和酷家乐面试总结
@@ -77,10 +77,10 @@ CORS 是如何做的？</description>
     
     <item>
       <title>拼多多和酷家乐面试经历总结</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</link>
       <pubDate>Thu, 07 May 2020 13:17:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</guid>
       <description>前言 离职原因看我这篇文章吧：离开蘑菇街后，我最近的一些想法，然后不得不去找工作恰饭呀。
 我目前面了五家公司：滴滴、蚂蚁、拼多多、酷家乐、字节跳动，拼多多和酷家乐基本已拿到 offer，蚂蚁二面完了，滴滴和字节即将三面，我先把我已经面过的面经先总结出来，其他的不管过没过，这周内我都会总结出来，希望能给到正在找工作同学的帮助。
 在文章里我不仅会列出面试题，还会给到一些答题建议，个人能力有限，也不能保证我回答都正确，如果有错误，希望能纠正我。
@@ -109,10 +109,10 @@ React 优化
     
     <item>
       <title>为什么现在面试都是面试造火箭</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</link>
       <pubDate>Sun, 17 Mar 2019 21:47:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</guid>
       <description>文章首发于个人网站：前端桃园
 很多人总是抱怨面试官问一些平时不常用的知识点，比如算法呀，网络(TCP)等等，也就是大家常说的：面试造火箭，工作拧螺丝。
 但是有没有想过为什么整个前端圈，或者绝大部分面试，不仅是前端，各种职位都是这样呢？难道就没人来解决这个问题吗？
@@ -151,10 +151,10 @@ React 优化
     
     <item>
       <title>5 点可以让你提高面试通过率建议(干货)</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</guid>
       <description>自从我发过几篇关于面试经历的文章，由于我面试结果还不错，所有很多人来询问我一些面试相关的问题， 我这里给到 5 点建议，希望对大家有帮助。
 1. 简历里应该惜字如金 简历简历，可以分为简和历。简，简单简洁之意，历，经历，总体就是简单的表达自己的经历。
 我看到一些人的简历写了四、五页，甚至十来页的都有，每个项目把细节都写出来了，甚至还把项目截图给贴在了简历里面，生怕面试官不能理解需求，我建议最多不超过 2 页，亮点能写两页就已经很牛逼了。

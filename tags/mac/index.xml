@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mac on ExampleSite</title>
-    <link>https://examplesite.com/tags/mac/</link>
-    <description>Recent content in mac on ExampleSite</description>
+    <title>mac on 桃园</title>
+    <link>/tags/mac/</link>
+    <description>Recent content in mac on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 16 Jan 2019 13:12:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jan 2019 13:12:00 +0000</lastBuildDate><atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac Brew 常用命令笔记</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</link>
       <pubDate>Wed, 16 Jan 2019 13:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</guid>
       <description>简介 Homebrew 是一款自由及开放源代码的软件包管理系统，用以简化 macOS 系统上的软件安装过程。每个操作系统都有类似的，比如 Ubuntu 的 apt，Centos 的 yum。
 常用命令 安装 brew ruby -e &amp;#34;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)&amp;#34; 使用brew安装软件 $ brew install git 使用brew卸载软件 $ brew uninstall git 使用brew查询软件 有时候，你不知道你安装的软件的名字， 那么你需要先搜索下, 查到包的名字。
 brew search /wge*/ 其他brew命令 brew list 列出已安装的软件 brew update 更新brew brew home 用浏览器打开brew的官方网站 brew info 显示软件信息 brew deps 显示包依赖 brew upgarde 更新所有 brew upgarde [包名] 更新指定包 brew cleanup 清理所有包的旧版本 brew cleanup [包名] 清理指定包的旧版本 brew cleanup -n 查看可清理的旧版本包，不执行实际操作 卸载 brew cd `brew --prefix` rm -rf Cellar brew prune rm `git ls-files` rm -r Library/Homebrew Library/Aliases Library/Formula Library/Contributions rm -rf .</description>
@@ -24,10 +24,10 @@ brew search /wge*/ 其他brew命令 brew list 列出已安装的软件 brew upda
     
     <item>
       <title>前端桃园周刊第五期</title>
-      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</link>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</guid>
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</guid>
       <description>文章 1. Thinking in React Hooks 当从 React 类组件切换到函数组件 + hook 时，基本的思维模式发生了什么变化。
 2. Ant Design 1.0 背后的故事：把艺术变成技术 我以前一直不喜欢读历史，今年了解吴军老师比较多，听他的硅谷来信，看他的书：《浪潮之巅》、《文明之光》才决定历史背景原来那么重要，了解历史你会发现现在很多的东西都是必然会出现的。 Ant Desgin 这么伟大的东西，了解一个产品背后的故事，我觉得还是很有必要的，看看为什么别人能做出伟大的东西，而我们不能。
 3. 前端API层架构，也许你做得还不够 架构设计是一条永远走不完的路，没有最好，只有更好。这个道理适用于软件设计的各个场景，前端API 层的设计也不例外，如果您觉得在调用接口时还存在诸多槽点，那就说明您的接口层架构还待优化。作者以 vue + axios 为例，为大家梳理下我的一些经历和设想。

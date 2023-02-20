@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>java on ExampleSite</title>
-    <link>https://examplesite.com/tags/java/</link>
-    <description>Recent content in java on ExampleSite</description>
+    <title>java on 桃园</title>
+    <link>/tags/java/</link>
+    <description>Recent content in java on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 22 Mar 2018 10:21:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Mar 2018 10:21:00 +0000</lastBuildDate><atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何将多个 maven 项目统一管理</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/51/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/51/</link>
       <pubDate>Thu, 22 Mar 2018 10:21:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/51/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/51/</guid>
       <description>简介 在我们一个人采用微服务构架的时候，我们会创建很多个 maven 项目。然后如果从 IDE 里面导入项目就要导入很多次，为了方便统一管理，我们可以将多个 maven 放在一个 项目里统一管理，然后我们导入项目的时候就可以直接导入一个项目就 OK。
 操作方法 在多个项目的父目录建立一个文件夹，创建一个 pox.xml 文件 代码规则 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&amp;lt;project xmlns=&amp;#34;http://maven.apache.org/POM/4.0.0&amp;#34; xmlns:xsi=&amp;#34;http://www.w3.org/2001-XMLSchema-instance&amp;#34;xsi:schemaLocation=&amp;#34;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&amp;#34;&amp;gt;&amp;lt;modelVersion&amp;gt;4.0.0&amp;lt;/modelVersion&amp;gt;&amp;lt;groupId&amp;gt;com.lxr&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;maiba_be&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;0.0.1-SNAPSHOT&amp;lt;/version&amp;gt;&amp;lt;!-- packaging 把 jar 改成 pox --&amp;gt;&amp;lt;packaging&amp;gt;pom&amp;lt;/packaging&amp;gt;&amp;lt;!-- 这里面放每个微服务的 artifactId--&amp;gt;&amp;lt;modules&amp;gt;&amp;lt;module&amp;gt;goodsService&amp;lt;/module&amp;gt;&amp;lt;/modules&amp;gt;&amp;lt;!-- 为了解决依赖版本问题 --&amp;gt;&amp;lt;dependencyManagement&amp;gt;&amp;lt;dependencies&amp;gt;&amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;Camden.SR3&amp;lt;/version&amp;gt;&amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&amp;lt;/dependency&amp;gt;&amp;lt;/dependencies&amp;gt;&amp;lt;/dependencyManagement&amp;gt;&amp;lt;properties&amp;gt;&amp;lt;project.build.sourceEncoding&amp;gt;UTF-8&amp;lt;/project.build.sourceEncoding&amp;gt;&amp;lt;project.reporting.outputEncoding&amp;gt;UTF-8&amp;lt;/project.reporting.outputEncoding&amp;gt;&amp;lt;java.version&amp;gt;1.8&amp;lt;/java.version&amp;gt;&amp;lt;/properties&amp;gt;&amp;lt;parent&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-boot-starter-parent&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;1.4.2.RELEASE&amp;lt;/version&amp;gt;&amp;lt;/parent&amp;gt;&amp;lt;build&amp;gt;&amp;lt;plugins&amp;gt;&amp;lt;plugin&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-boot-maven-plugin&amp;lt;/artifactId&amp;gt;&amp;lt;/plugin&amp;gt;&amp;lt;/plugins&amp;gt;&amp;lt;/build&amp;gt;&amp;lt;/project&amp;gt; 每个微服务项目的 pox.</description>
     </item>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>交流 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E4%BA%A4%E6%B5%81/</link>
-    <description>Recent content in 交流 on ExampleSite</description>
+    <title>交流 on 桃园</title>
+    <link>/tags/%E4%BA%A4%E6%B5%81/</link>
+    <description>Recent content in 交流 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Jan 2019 15:16:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E4%BA%A4%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Jan 2019 15:16:00 +0000</lastBuildDate><atom:link href="/tags/%E4%BA%A4%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>群里提问的艺术</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</link>
       <pubDate>Thu, 03 Jan 2019 15:16:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</guid>
       <description>现在互联网发达的时代，大家都会有很多的群，xxx 交流群、xxx 技术交流、xxx开发群、xxx技术学习群等，大家的初心可能都是想交流的，遇到点问题然后就可以在群里问。
 然而很多时候你问的问题没人回答；也有时候问了半天还是没找到答案；也有时候当你把问题发出来了，别人正准备回答你的时候，你说知道了；然后刚开始群里很活跃，慢慢的就死了。
 其实以上问题，都是大家不想看到的，然而在群里提问是我们加入群的初心，但是很多人做不好，最终导致你的问题无人解答，群慢慢的失去意义。

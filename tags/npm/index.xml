@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>npm on ExampleSite</title>
-    <link>https://examplesite.com/tags/npm/</link>
-    <description>Recent content in npm on ExampleSite</description>
+    <title>npm on 桃园</title>
+    <link>/tags/npm/</link>
+    <description>Recent content in npm on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Jan 2019 15:43:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jan 2019 15:43:00 +0000</lastBuildDate><atom:link href="/tags/npm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>发布 react 组件到 npm 上</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</link>
       <pubDate>Mon, 28 Jan 2019 15:43:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</guid>
       <description>我发布了我的第一个 npm 组件，一个基于 react 的 3d 标签云组件。在这途中我也是遇到了很多的坑，花在完善整个发布流程的时间远多于写这个组件本身的时间，所以我记录下我觉得一个正常的 react 组件的发布流程
 最后记录这篇文章花的时间比我完成整个组件的时间都多，最终希望能给新手带来帮助
 在整个发布组件的过程我做了如下几件事儿：
@@ -29,10 +29,10 @@ npm i @babel/cli @babel/core @babel/preset-env @babel/preset-react -D 采用 web
     
     <item>
       <title>前端桃园周刊第四期</title>
-      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</link>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</guid>
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</guid>
       <description>一句话知识 npm v packageName versions npm v packageName versions 查看包的所有版本，不加s 获取新版本。用途，安装了包但是 package.json 里面没有包，需要手动填入的时候。
 typeof null 为什么返回 &amp;ldquo;object&amp;rdquo;？ 不同的对象在底层都表示为二进制，在 JavaScript 中二进制前三位都为 0 的话会被判 断为 object 类型，null 的二进制表示是全 0，自然前三位也是 0，所以执行 typeof 时会返回“object”。
 in 和 hasOwnProperty 区别 in 操作符会检查属性是否在对象及其 [[Prototype]] 原型链中。相比之下， hasOwnProperty(..) 只会检查属性是否在 myObject 对象中，不会检查 [[Prototype]] 链。

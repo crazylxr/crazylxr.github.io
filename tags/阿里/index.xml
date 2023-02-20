@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>阿里 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E9%98%BF%E9%87%8C/</link>
-    <description>Recent content in 阿里 on ExampleSite</description>
+    <title>阿里 on 桃园</title>
+    <link>/tags/%E9%98%BF%E9%87%8C/</link>
+    <description>Recent content in 阿里 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://examplesite.com/tags/%E9%98%BF%E9%87%8C/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/%E9%98%BF%E9%87%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>另一个视角看待这次 antd</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</guid>
       <description>公众号相信大家今天都已经知道了 antd 这次的事故了，不知道的简单回顾一下。
 今天圣诞节，所以在 type 是 primary 的 Button 上都加上了雪花。
 就是在 antd 3.9.3 的时候增加了一个定时器，到 12 月 25 的时候增加一个 christmas 的 css 类，还给 title 改为了 Ho Ho Ho。具体 commit 见：https://github.com/ant-design/ant-design/commit/00aebeb9756afecc884ad48486084836b9a2707a

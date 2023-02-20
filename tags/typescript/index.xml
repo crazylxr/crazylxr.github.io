@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>typescript on ExampleSite</title>
-    <link>https://examplesite.com/tags/typescript/</link>
-    <description>Recent content in typescript on ExampleSite</description>
+    <title>typescript on 桃园</title>
+    <link>/tags/typescript/</link>
+    <description>Recent content in typescript on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Mar 2022 08:20:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Mar 2022 08:20:00 +0000</lastBuildDate><atom:link href="/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 React 和 TypeScript 编写干净代码的10个必知模式</title>
-      <link>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</link>
+      <link>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</link>
       <pubDate>Wed, 09 Mar 2022 08:20:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</guid>
+      <guid>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</guid>
       <description>React 是一个 JavaScript 库，它是当今最流行和行业领先的前端开发库。
 JavaScript 是一种松散的类型化语言，因此，它捕获了运行时。这样做的结果就是 JavaScript 错误被捕获得非常晚，这可能导致严重的 bug。
 当然 React 作为一个 JavaScript 库，也继承了这个问题。
@@ -35,10 +35,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>从两个角度看 Typescript 中的类型是什么?</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/302/</link>
       <pubDate>Tue, 03 Mar 2020 10:09:33 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/302/</guid>
       <description>0. 作者以及原文介绍 作者是 Dr. Axel Rauschmayer，号称”德国阮一峰“，本文原文来自于他的博客：https://2ality.com/2020-02/understanding-types-typescript.html，不熟悉他的可以关注一下他的博客。
 1. 每个角度都从这三个问题来解释 以下三个问题对于理解类型是如何工作的非常重要，需要从这两个角度中的每一个角度来回答。
 myVariable 的类型 MyType 意味着什么？ let myVariable: MyType = /*...*/; Sourcetype 可以分配给 TargetType 吗? let source: SourceType = /*...*/; let target: TargetType = source; TypeUnion 是如何从 Type1、 Type2 和 Type3 衍生而来的？ type TypeUnion = Type1 | Type2 | Type3; 2. 角度 1： 类型是一组值 从这个角度来看，类型是一组值：

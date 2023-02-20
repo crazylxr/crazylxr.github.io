@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>笔记本 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/</link>
-    <description>Recent content in 笔记本 on ExampleSite</description>
+    <title>笔记本 on 桃园</title>
+    <link>/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/</link>
+    <description>Recent content in 笔记本 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Jul 2021 15:12:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 15:12:00 +0000</lastBuildDate><atom:link href="/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>img 和 picture 的区别和使用场景</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</link>
       <pubDate>Thu, 01 Jul 2021 15:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</guid>
       <description>img img 是 HTML4 时就有的标签， 至今仍然是在网页中嵌入图片的最常用的方式。 与 &amp;lt;span&amp;gt;, &amp;lt;em&amp;gt; 等标签一样属于行内标签 （准确地说属于 Phrasing Content）。下面是一个示例：
 &amp;lt;img src=&amp;#34;favicon72.png&amp;#34; alt=&amp;#34;MDN logo&amp;#34; srcset=&amp;#34;favicon144.png 2x&amp;#34;&amp;gt; img 其实也可以控制在高清屏幕采用哪个图片，适合用在移动端
 picture &amp;lt;picture&amp;gt; &amp;lt;source srcset=&amp;#34;/media/cc0-images/surfer-240-200.jpg&amp;#34; media=&amp;#34;(min-width: 800px)&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;/media/cc0-images/painted-hand-298-332.jpg&amp;#34; alt=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;/picture&amp;gt; 要决定加载哪个URL，user agent 检查每个 &amp;lt;source&amp;gt; 的 srcset、media 和 type 属性，来选择最匹配页面当前布局、显示设备特征等的兼容图像。

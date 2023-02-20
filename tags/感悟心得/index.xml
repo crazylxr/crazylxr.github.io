@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>感悟心得 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E6%84%9F%E6%82%9F%E5%BF%83%E5%BE%97/</link>
-    <description>Recent content in 感悟心得 on ExampleSite</description>
+    <title>感悟心得 on 桃园</title>
+    <link>/tags/%E6%84%9F%E6%82%9F%E5%BF%83%E5%BE%97/</link>
+    <description>Recent content in 感悟心得 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Mar 2022 22:22:22 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E6%84%9F%E6%82%9F%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Mar 2022 22:22:22 +0000</lastBuildDate><atom:link href="/tags/%E6%84%9F%E6%82%9F%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>有一种用户增长方案，叫不做“用户增长”</title>
-      <link>https://examplesite.com/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</link>
+      <link>/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</link>
       <pubDate>Mon, 21 Mar 2022 22:22:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</guid>
+      <guid>/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</guid>
       <description>我自己最近由于组织架构的调整，调整到了做用户增长相关的业务，我才去了解了什么是用户增长，用户增长包含用户的获客、激活、留存、变现、推荐，然后知道用户增长是所以企业永远不会过时的话题。
 因为所有的企业如果需要成长，一定需要伴随用户的增长，扩大规模。
 然后我还想着在做用户增长相关的业务，想去深入学习一下，然后把自己的公众号当做产品来做用户增长。
@@ -40,10 +40,10 @@
     
     <item>
       <title>做人要做学习型，做事儿要做价值型</title>
-      <link>https://examplesite.com/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</link>
+      <link>/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</link>
       <pubDate>Fri, 11 Mar 2022 22:29:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</guid>
+      <guid>/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</guid>
       <description>今天在阅读《华与华正道》，读到两句金句：
 做人要做学习型，不要做纠错型 不要批判思维，要价值思维 记忆深刻，分享一下我的理解。
 做人要做学习型 从小我们就学过《论语》的：三人行，必有我师，择其善者而从之,其不善者而改之。
@@ -65,10 +65,10 @@
     
     <item>
       <title>幸福的秘诀--保持低期望</title>
-      <link>https://examplesite.com/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</link>
+      <link>/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</link>
       <pubDate>Thu, 10 Mar 2022 22:55:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</guid>
+      <guid>/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</guid>
       <description>为什么你总是在焦虑，总是对生活感到不满呢？
 也许是因为期望值太高了。由于期望值过高，现实往往不能达到预期的标准，即使达到了预期的标准，也体验不到“超过预期”的欢欣，因此，完美主义者们总是感到忧心忡忡。
 也许是时候把自己的期望值降低一些了，这并不是对现实生活的消极应对，而是对幸福感的积极追寻。
@@ -103,10 +103,10 @@
     
     <item>
       <title>时间管理的三大法宝</title>
-      <link>https://examplesite.com/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</link>
+      <link>/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</link>
       <pubDate>Wed, 09 Mar 2022 22:47:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</guid>
+      <guid>/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</guid>
       <description>今天读《华与华正道》看到一句话：如何管理时间？做到铁石心肠、制定节拍、不追热点。
 这三个法宝基本上已经足以满足绝大部分人的需求了。
 接下来我们来推演一下这三个法宝为什么有用。
@@ -136,10 +136,10 @@
     
     <item>
       <title>回顾过去比展望未来重要一百倍</title>
-      <link>https://examplesite.com/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</link>
+      <link>/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</link>
       <pubDate>Tue, 08 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</guid>
+      <guid>/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</guid>
       <description>今天在阅读《华与华正道》读到这么一句话 ：
 回顾过去比展望未来重要一百倍，如果对过去不认真复盘，就会再次掉进过去的错误里。一个步骤一个步骤地复盘，一个动作一个动作地复盘，才能找到成功或失败的真因。在复盘中钻研，钻研工法，持续改善，最终实现全公司的技术进步。
 我们在哪些方面，应该回顾、复盘？ 工作上的事情，比如每一个项目做完了需要复盘，每个月至少写一个月报复盘一下，最好每周复盘。 自己的情绪，比如跟伴侣吵架了，复盘一下是什么情况，两个的情绪分别是啥样的，然后复盘完之后两个再沟通一下，增加感情。 时间管理，比如每天组内其他同学下班都挺早，为啥自己这么晚。为啥早上规划的 5 件事，到下班只做了 3 件事？是不是被别人占用的时间太多了，还是自己偷懒了？ 如果不回顾，会怎么样？ 如果我们不养成回顾的习惯，一路往前走，肯定是走不远的。
@@ -159,10 +159,10 @@
     
     <item>
       <title>专注于自己能做的最少的事情</title>
-      <link>https://examplesite.com/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</link>
+      <link>/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</link>
       <pubDate>Mon, 07 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</guid>
+      <guid>/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</guid>
       <description>今天读《华与华正道》，读两句话：
 先认识到什么事情是我们做不到的，然后再积极地去做现在能做的事。 要认识到我们知道的有限，能做的事情很少，然后把最少的事情做到最彻底 这两句都是让我们更专注于当前的事的思维。
 一、认识到什么事情是我们做不到的，然后再积极地去做现在能做的事 不知道大家有没有这样一种体感，就是你越读书，越专研一个知识，会发现自己不懂的越来越多，感觉自己越学越菜，越学不懂的越多。
@@ -191,10 +191,10 @@
     
     <item>
       <title>如何正确的花钱</title>
-      <link>https://examplesite.com/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</link>
+      <link>/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</link>
       <pubDate>Sun, 06 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</guid>
+      <guid>/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</guid>
       <description>前言 今天阅读《华与华正道》，看到了跟花钱有关的两句话：
 要舍得多花“冤枉钱”，这样碰上刀刃的概率比较大 钱最贱，人最贵，贵的人，时间更贵 感受颇深，特来解读自己理解。
 要舍得多花“冤枉钱”，才容易花到刀刃上 经常父母会说：在外面不要乱花钱，要把钱花在刀刃上。
@@ -239,10 +239,10 @@
     
     <item>
       <title>如果解决虚度时光，首先做到要事第一</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</link>
       <pubDate>Thu, 07 Nov 2019 21:51:07 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</guid>
       <description>阅读文章之前你可以花半分钟想想你觉得你自己最虚度的时光是时候？
 夸自己 可能在很多人的眼里，我以及算是一个努力、上进的人了，那是因为他们只看到了我努力的时候，没有看到我虚度的时候。
 一般在工作日我还是非常的恪守自己的原则，在不上班的时候都会提升自己，比如看书、听课、阅读、写作等方式。跟一般的人比起来更努力的点就是早上我会先学习一个小时，我一般 7 点半就会起床，然后看书或者听课一小时后，也就是 8 点半的时候才会去洗漱，下班回来也很少除了和女朋友每天至少视频半小时外，其余时间用得都很充分(用的方向对不对先不谈)。
@@ -269,10 +269,10 @@ GTD 会有五个核心步骤：收集、处理、组织、检查、做。其中�
     
     <item>
       <title>高级程序员与初级程序员差别在哪里？</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</link>
       <pubDate>Thu, 15 Aug 2019 21:39:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</guid>
       <description>之前在公众号里有个读者给我留言：
 请教个问题，公司高职级和初中级，都是写业务代码，那么高职级的价值在哪里呢？
 由于公众号回复留言的限制，当时我就简单的回复了如下的几个点：
@@ -304,10 +304,10 @@ TDD 的原理是在开发功能代码之前，先编写单元测试用例代码�
     
     <item>
       <title>针对华为事件，我思考了四点</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</link>
       <pubDate>Thu, 23 May 2019 21:43:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</guid>
       <description>本来我是不喜欢追热点的，不过今天有个群友在群里发了这样一段话。
 结果被我怼了： 后面的我就不截图了，反正我提倡的是，随时我们能做的是好好的提升自己，只有提升自己才是最重要的。
 有些人同意我的看法，有些人不同意我的看法，这都不是我今天说的重点，只是这个导火线引发的我的一些思考。
@@ -345,10 +345,10 @@ TDD 的原理是在开发功能代码之前，先编写单元测试用例代码�
     
     <item>
       <title>中肯的看待 996</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</link>
       <pubDate>Wed, 03 Apr 2019 21:46:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</guid>
       <description>最近 996.ICU 太火了。我本来不太想蹭这个热点，因为我的观念与很多人可能不相同，所以担心被骂，最近有读者问我为啥最近没有更新，最近我在准备晋升的事儿，所以也没怎么准备技术上的内容，但是对于 996 这件事儿上，我最近还是有很多想法，跟大家交流下吧！
 后面我会将最近晋升的一些心得总结出来跟大家交流一下，毕竟涨工资呀，所以希望对大家有帮助。
 一、反对 996 的本质原因 为什么要反对 996，说到底，就是钱给的不够。
@@ -381,10 +381,10 @@ TDD 的原理是在开发功能代码之前，先编写单元测试用例代码�
     
     <item>
       <title>拥有自己的知识体系，形成自己解决问题的方法论</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</link>
       <pubDate>Fri, 03 Aug 2018 16:15:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</guid>
       <description>前言 最近在星球里群里都有小伙伴说道自己对未来的路比较迷茫，一旦闲下来就不知道自己改干啥，今天我这篇文章就是让你觉得一天给你 25 个小时你都不够用，觉得睡觉都是浪费时间。 今天我谈的就是关于【构建知识体系，形成自己解决问题的方法论】，这个话题以前我在给在校准备找工作的同学的几个建议这篇文章中谈到过，但是没有将如何去构建自己的知识体系，这次将深入这个话题进行探讨。
 什么是知识体系 无论是大到一个星系还是小至一个原子，其本质都是一个个的系统。 那我们如何来掌握这个系统呢？通过“框架”来简化对系统构成元素以及元素间有机联系。因此有目的地运用“框架”来思考、学习，能够让我们更全面、更快速、更深入地分析、解决问题，以及更高效地学习新知识和技能。
 简单来说，知识体系就是一个系统构成元素以及元素之间的有机联系的简化体现。

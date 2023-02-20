@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>JavaScript on ExampleSite</title>
-    <link>https://examplesite.com/tags/javascript/</link>
-    <description>Recent content in JavaScript on ExampleSite</description>
+    <title>JavaScript on 桃园</title>
+    <link>/tags/javascript/</link>
+    <description>Recent content in JavaScript on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Apr 2020 16:52:06 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Apr 2020 16:52:06 +0000</lastBuildDate><atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>理解 JavaScript 中的执行上下文和执行栈</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</link>
       <pubDate>Thu, 02 Apr 2020 16:52:06 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</guid>
       <description>译者序 最近在研究 JavaScript 基础性的东西，但是看到对于执行上下文的解释我发现有两种，一种是执行上下文包含：scope(作用域)、variable object(变量对象)、this value(this 值)，另外一个种是包含：lexical environment(词法环境)、variable environment(变量环境)、this value(this 值)。
 后面我查阅了不少博客以及 ES3 和 ES5 的规范才了解到，第一种是 ES3 的规范，经典书籍《JavaScript高级程序设计》第三版就是这样解释的，也是网上广为流传的一种，另一种是 ES5 的规范。
 然后我接着又去翻了 ES2018 中的，发现又有变化了，已经增加了更多的内容了，考虑到这部分内容颇为复杂，准备后面再进行总结分享，查资料的时候看到这篇讲执行上下文(ES5 )的还不错，所以就翻译出来先分享给大家。
@@ -33,10 +33,10 @@ let a = &amp;#39;Hello World!</description>
     
     <item>
       <title>如何对 React 函数式组件进行优化</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/280/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/280/</link>
       <pubDate>Tue, 19 Nov 2019 08:32:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/280/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/280/</guid>
       <description>前言 目的 本文只介绍函数式组件特有的性能优化方式，类组件和函数式组件都有的不介绍，比如 key 的使用。另外本文不详细的介绍 API 的使用，后面也许会写，其实想用好 hooks 还是蛮难的。
 面向读者 有过 React 函数式组件的实践，并且对 hooks 有过实践，对 useState、useCallback、useMemo API 至少看过文档，如果你有过对类组件的性能优化经历，那么这篇文章会让你有种熟悉的感觉。
 React 性能优化思路 我觉得React 性能优化的理念的主要方向就是这两个：
@@ -51,20 +51,20 @@ React.memo 首先要介绍的就是 React.memo，这个 API 可以说是对标�
     
     <item>
       <title>如何让 useEffect 只在依赖变化的时候执行</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/271/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/271/</link>
       <pubDate>Mon, 14 Oct 2019 21:51:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/271/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/271/</guid>
       <description>遇到问题 今天遇到一个 useEffect 的问题，遇到一个问题：在 useEffect 里面发异步请求，然后第二个参数的依赖也是异步请求之后得到的结果，然后就导致最终结果会请求两次 useEffect 里的函数。
 const [metaKey, setMetaKey] = useState&amp;lt;string[]&amp;gt;([]) // useEffect1 useEffect(() =&amp;gt; { getServiceCoreIndexParam().then((res: IResult) =&amp;gt; { setMetaKey(res.data.defaultValue) return res.data }) }, []) // useEffect2 useEffect(() =&amp;gt; { getAdvisorIndexTable({ visitdate: props.visitdate, advisorSupervisor: props.advisorSupervisor, comparevisitdate: props.comparevisitdate, metaKeys: metaKey || [] }).then((res: IResult) =&amp;gt; { res.success &amp;amp;&amp;amp; setTable(res.data) }) }, [props.visitdate, props.advisorSupervisor, metaKey, props.comparevisitdate]) 分析一下这段代码，首先在组件 mount 的时候，useEffect2 会调用一次 getAdvisorIndexTable，当 useEffect1 执行完毕之后 setMetaKey 后，由于 metaKey 发生改变，导致 getAdvisorIndexTable 还会调用一次，这很明显是我们不想看到的结果，因为这只是一个默认请求，然而发了两次请求。</description>
     </item>
     
     <item>
       <title>新手学习 React 迷惑的点</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/257/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/257/</link>
       <pubDate>Thu, 05 Sep 2019 21:37:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/257/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/257/</guid>
       <description>网上各种言论说 React 上手比 Vue 难，可能难就难不能深刻理解 JSX，或者对 ES6 的一些特性理解得不够深刻，导致觉得有些点难以理解，然后说 React 比较难上手，还反人类啥的，所以我打算写两篇文章来讲新手学习 React 的时候容易迷惑的点写出来，如果你还以其他的对于学习 React 很迷惑的点，可以在留言区里给我留言。
 为什么要引入 React 在写 React 的时候，你可能会写类似这样的代码：
 import React from &amp;#39;react&amp;#39; function A() { // ...other code return &amp;lt;h1&amp;gt;前端桃园&amp;lt;/h1&amp;gt; } 你肯定疑惑过，下面的代码都没有用到 React，为什么要引入 React 呢？
@@ -76,10 +76,10 @@ function A() { // ...other code return React.createElement(&amp;#34;h1&amp;#34;,
     
     <item>
       <title>Deep In React 之详谈 React 16 Diff 策略(二)</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/261/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/261/</link>
       <pubDate>Tue, 30 Jul 2019 21:42:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/261/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/261/</guid>
       <description>文章首发于个人博客
 这是我 Deep In React 系列的第二篇文章，如果还没有读过的强烈建议你先读第一篇：详谈 React Fiber 架构(1)。
 前言 我相信在看这篇文章的读者一般都已经了解过 React 16 以前的 Diff 算法了，这个算法也算是 React 跨时代或者说最有影响力的一点了，使 React 在保持了可维护性的基础上性能大大的提高，但 Diff 过程不仅不是免费的，而且对性能影响很大，有时候更新页面的时候往往 Diff 所花的时间 js 运行时间比 Rendering 和 Painting 花费更多的时间，所以我一直传达的观念是 React 或者说框架的意义是为了提高代码的可维护性，而不是为了提高性能的，现在所做的提升性能的操作，只是在可维护性的基础上对性能的优化。具体可以参考我公众号以前发的这两篇文章：
@@ -94,10 +94,10 @@ Web UI 中 DOM 节点跨层级的移动操作特别少，可以忽略不计。 �
     
     <item>
       <title>不要再说虚拟 DOM 有多快了</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/124/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/124/</link>
       <pubDate>Tue, 20 Nov 2018 12:03:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/124/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/124/</guid>
       <description>如果你觉得它很快，那么这篇文章可能就是你所缺少的
 我经常听到有人在群里，或者在社区里说的一个很严重的错误，那就是说 React 的 Virtual Dom 是以快出名的，比原生 Dom 快多了，啥啥啥的，每次都一两句话说不清楚，所以下次有谁再说 React 是以快出名的，你就把这篇文章丢给他，下面进入正题。
 在过去的几年里，你一直在跟踪 JavaScript 社区的发展，你至少听说过 Virtual DOM（React，Vue.js 2，Riot.js，Angular 2等等）。他们承诺（或者更确切地说，他们的宣传）更快的渲染界面，特别是更新，减少麻烦。你很快的上手了使用虚拟DOM的应用程序，这很好。几个月后，您的应用程序现在变得越来越复杂，你可能从用户交互到屏幕更新只需要一两秒钟的更新。你可能会想，这东西很神奇，应该会比 jQuery 快，但是实际上不是这个样子的。
@@ -114,10 +114,10 @@ const userList = document.getElementById(&amp;#34;user-list&amp;#34;); // JS 部
     
     <item>
       <title>浅谈未来几年前端的发展方向</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</link>
       <pubDate>Tue, 13 Nov 2018 16:41:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</guid>
       <description>在知乎上看到这么一个问题，觉得很有意思，以下是原提问者的见解
 过去五年前端的发展过程基本上是一个工程化的过程,框架和工程化工具层出不穷。
 近两年其实发展已经比较迟滞了。
@@ -139,10 +139,10 @@ const userList = document.getElementById(&amp;#34;user-list&amp;#34;); // JS 部
     
     <item>
       <title>一篇文章搞定 ES6</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/115/</link>
       <pubDate>Sat, 29 Sep 2018 18:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/115/</guid>
       <description>JavaScript ES6 带来了新的语法和新的强大功能，使您的代码更现代，更易读。它允许您编写更少的代码并执行更多操作。 ES6 向我们介绍了许多强大的功能，如箭头函数，模板字符串，对象结构，模块等，让我们来看看。
 const and let const 是 ES6 中用于声明变量的新关键字。 const 比 var 更强大。使用后，无法重新分配变量。换句话说，它是一个不可变的变量，除非它与对象一起使用。
 这对于定位选择器非常有用。例如，当我们有一个触发事件的按钮时，或者当您想在 JavaScript 中选择 HTML 元素时，请使用 const 而不是 var。这是因为 var 会被提升，当不想重新分配变量时，最好使用 const。
@@ -155,10 +155,10 @@ let 与 const 相同，因为两者都是块级作用域，这意味着该变量
     
     <item>
       <title>JavaScript核心概念之执行上下文和栈</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/316/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/316/</link>
       <pubDate>Tue, 25 Sep 2018 00:52:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/316/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/316/</guid>
       <description>桃翁桃翁，问个问题呢，据说 js 里面有个执行上下文，这个概念是个什么东东哦？据说挺重要的，给我科普科普呗。
 Emm… 这个概念非常的抽象，简单来说呢，就是 JS 在执行某段代码的时候做的一些事情。
 具体做的事情就是定义了变量或函数有权访问的其他数据决定了它们各自的行为(作用域链)。每个执行环境都有一个与之关联的变量对象（variable object),环境中定义的所有变量和函数都保存在这个对象中(变量包括 this、arguments)。虽然我们编写的代码无法访问这个对象，但解析器在处理数据时会在后台使用它。
@@ -182,10 +182,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>JavaScript核心概念(1):类型转换</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/105/</link>
       <pubDate>Tue, 07 Aug 2018 10:34:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/105/</guid>
       <description>看到这个是不是有一种想打人的感觉，垃圾 JavaScript，这特么都什么鬼，相信很多人不管是笔试还是面试，都被 JS 的类型转换难道过，相信认真看完我这篇文章，妈妈再也不用担心类型转换的问题了。
 原始值到原始值的转换 原始值转化为布尔值
 所有的假值(undefined、null、0、-0、NaN、””)会被转化为 false，其他都会被转为 true
@@ -196,10 +196,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>Javascript 是最好的语言，不服来辩</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</link>
       <pubDate>Thu, 24 May 2018 17:03:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</guid>
       <description>看到这个标题相信很多人就要开始跟我争论了，PHP 才是最好的语言，那就请原谅下，你说是就是，我们来看看就知道了。
 有一条 Atwood 定律：any application that can be written in JavaScript, will eventually be written in JavaScript
 翻译一下就是：任何可以用 JavaScript 来写的应用，最终都将用 JavaScript 来写
@@ -213,10 +213,10 @@ Electron 是由 Github 开发，用 HTML，CSS 和 JavaScript 来构建跨平台
     
     <item>
       <title>ES6之路之模块详解</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/88/</link>
       <pubDate>Mon, 14 May 2018 17:09:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/88/</guid>
       <description>简介 何为模块 一个模块只不过是一个写在文件中的 JavaScript 代码块。
 模块中的函数或变量不可用，除非模块文件导出它们。
 简单地说，这些模块可以帮助你在你的模块中编写代码，并且只公开应该被你的代码的其他部分访问的代码部分。
@@ -229,10 +229,10 @@ Electron 是由 Github 开发，用 HTML，CSS 和 JavaScript 来构建跨平台
     
     <item>
       <title>ES6之路之块级作用域</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/70/</link>
       <pubDate>Thu, 19 Apr 2018 21:24:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/70/</guid>
       <description>作用域 作用域指变量所作用的范围，在 Javascript 中有两种作用域：
 全局作用域 函数作用域 变量提升 变量提升（Hoisting）被认为是， Javascript 中执行上下文 （特别是创建和执行阶段）工作方式的一种认识。具体表现就是所有通过 var 声明的变量会提升到当前作用域的最前面。
 function foo() { console.log(temp); } function bar() { console.log(temp); var temp; } foo(); // ReferenceError: temp is not defined bar(); // undefined 可以看到用 var 声明了的并不会报错。因为其实函数 bar 等同于
@@ -245,20 +245,20 @@ let foo = 3; 使用方法基本和 var 相同，而且声明的变量只在其�
     
     <item>
       <title>JavaScript数据结构之数组栈队列</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/42/</link>
       <pubDate>Wed, 14 Mar 2018 09:53:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/42/</guid>
       <description>1. 数组 数组是平时使用最常用的数据结构，在JavaScript中数组是动态的分配大小,在这里我不会介绍JavaScript里面数组的所有的方法，而是针对数据结构这个方向谈谈所用到的方法。
 1.1 创建和初始化数组 //创建空数组var array = new Array();//[]//初始化数组var array = new Array(1,2,3); var array = Array.of(1,2,3);//ES6的方法//[1,2,3]//创建大小为5的数组var array = new Array();//ES6的方法//[undefined,undefined,undefined,undefined,undefined]//给数组赋值var array = new Array();array[0] = 1 ;array[1] = 2 ;array[2] = 3 ;//[1,2,3] 1.2 添加元素 1.2.1往数组后添加元素 var number = [1,2,3];number[number.length] = 4;//[1,2,3,4]//或者var number = [1,2,3];number.push(4);//[1,2,3,4] 1.2.2往数组前面添加元素 var number = [1,2,3];number.</description>
     </item>
     
     <item>
       <title>ES6之路--Symbol</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/41/</link>
       <pubDate>Wed, 14 Mar 2018 09:49:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/41/</guid>
       <description>欢迎访问我的个人站点
 1. 概述 简介 Symbol 是一种特殊的、不可变的数据类型，可以作为对象属性的标识符使用，表示独一无二的值。Symbol 对象是一个 symbol primitive data type 的隐式对象包装器。它是JavaScript语言的第七种数据类型，前6种分别是：Undefined、Null、Boolean、String、Number、Object。
 语法 Symbol([description])
@@ -270,20 +270,20 @@ demo var s1 = Symbol(&#39;symbol1&#39;);s1 //Symbol(symbol1); 因为Symbol函�
     
     <item>
       <title>ES6之对象的扩展</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/24/</link>
       <pubDate>Fri, 05 Jan 2018 20:21:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/24/</guid>
       <description>&lt;h3 id=&#34;1-属性的简洁表示法&#34;&gt;1. 属性的简洁表示法&lt;/h3&gt;
 &lt;p&gt;ES6允许直接写入变量和函数作为对象的属性和方法。意思就是说允许在对象中只写属性名，不用写属性值。这时，属性值等于属性名称所代表的变量。下面分别举一个例子来说明：&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一个例子来谈react的两大优势</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/20/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/20/</link>
       <pubDate>Fri, 05 Jan 2018 20:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/20/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/20/</guid>
       <description>&lt;p&gt;今天我想谈的react的优势有两点：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;声明式写法更符合人性&lt;/li&gt;
@@ -294,10 +294,10 @@ demo var s1 = Symbol(&#39;symbol1&#39;);s1 //Symbol(symbol1); 因为Symbol函�
     
     <item>
       <title>4个你从未听说过的强大的 JavaScript 运算符</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/339/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/339/</guid>
       <description>你有没有花一个下午的时间浏览过 Mozilla 文档？如果你有，你会很清楚网上有很多关于 JavaScript 的信息。这使得人们很容易忽略一些不同寻常的 JavaScript 操作符。
 然而，仅仅因为这些操作符不常见并不意味着它们不强大！它们在语法上看起来都很相似，但是当它们以不同的方式工作时，请务必阅读它们。
 让我们开始吧！
@@ -309,10 +309,10 @@ var prevMoney = 1 var currMoney = 0 var noAccount = null var futureMoney = -1 fu
     
     <item>
       <title>Deep In React 之浅谈 React Fiber 架构（一）</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/262/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/262/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/262/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/262/</guid>
       <description>文章首发于个人博客
 前言 2016 年都已经透露出来的概念，这都 9102 年了，我才开始写 Fiber 的文章，表示惭愧呀。不过现在好的是关于 Fiber 的资料已经很丰富了，在写文章的时候参考资料比较多，比较容易深刻的理解。
 React 作为我最喜欢的框架，没有之一，我愿意花很多时间来好好的学习他，我发现对于学习一门框架会有四种感受，刚开始没使用过，可能有一种很神奇的感觉；然后接触了，遇到了不熟悉的语法，感觉这是什么垃圾东西，这不是反人类么；然后当你熟悉了之后，真香，设计得挺好的，这个时候它已经改变了你编程的思维方式了；再到后来，看过他的源码，理解他的设计之后，设计得确实好，感觉自己也能写一个的样子。
@@ -327,10 +327,10 @@ React 16 之前的不足 首先我们了解一下 React 的工作过程，当我
     
     <item>
       <title>三个比它们等效 ES5 速度慢的 ES 6 函数</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
       <description>[Meting] [Music server=&amp;ldquo;tencent&amp;rdquo; id=&amp;ldquo;000AwJtd3Wp27b&amp;rdquo; type=&amp;ldquo;song&amp;rdquo;/] [/Meting]
 我在 medium 上看到一篇 3 JavaScript Performance Mistakes You Should Stop Doing 文章(点击阅读全文可以查看原文，需要科学上网)，大概意思就是说有 3 个 JavaScript 性能错误，你不应该再去写了。很多“歪果仁”也是一看到这个标题就开始**“喷”**作者了，下文会详细说。我先介绍下这篇文章的主要内容
 文章主要内容： 当 ES5 发布的时候，JavaScript 引入了很多新的数组函数。其中包括 forEach，reduce，map，filter - 它们让我们感觉语言在不断增长，功能越来越强大，编写代码变得更加有趣和流畅，结果更易于阅读和理解。
@@ -343,10 +343,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>为什么javascript经常被黑？</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</guid>
       <description>前言 这个问题是知乎上有人邀我回答的，感觉挺有意思的，所以发出来大家讨论下
 1. 语言自身问题 Javascript 之父在花 10 天设计出来的，再牛逼的人，10 天设计出来的肯定会有很多设计不合理的东西，哪些不合理的东西，可以去看《JavaScript语言精粹》，导致这本语言一直是最具争论的一门语言。
 但是背负着这么大的舆论，那么多很烂的特性，还要兼容各种浏览器，js 还能发展得这么好，web前端，移动，服务端，桌面端，甚至游戏，物联网，机器学习等，可见那些好的特性还是非常好的，具体可以看我的这篇文章&amp;ndash;Javascript 是最好的语言，不服来辩。
@@ -360,10 +360,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>认识函数式编程</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/190/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/190/</guid>
       <description>最开始接触函数式编程的时候是在小米工作的时候，那个时候看老大以前写的代码各种 compose，然后一些 ramda 的一些工具函数，看着很吃力，然后极力吐槽函数式编程，现在回想起来，那个时候的自己真的是见识短浅，只想说,&amp;lsquo;真香&amp;rsquo;。
 最近在研究函数式编程，真的是在学习的过程中感觉自己的思维提升了很多，抽象能力大大的提高了，让我深深的感受到了函数式编程的魅力。所以我打算后面用 5 到 8 篇的篇幅，详细的介绍一下函数式编程的思想，基础、如何设计、测试等。
 今天这篇文章主要介绍函数式编程的思想。

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on ExampleSite</title>
-    <link>https://examplesite.com/posts/</link>
-    <description>Recent content in Posts on ExampleSite</description>
+    <title>Posts on 桃园</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Feb 2023 20:24:26 +0800</lastBuildDate><atom:link href="https://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 20:24:26 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023 关于图像互动技术前景思考</title>
-      <link>https://examplesite.com/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</link>
+      <link>/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</link>
       <pubDate>Sun, 19 Feb 2023 20:24:26 +0800</pubDate>
       
-      <guid>https://examplesite.com/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</guid>
+      <guid>/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</guid>
       <description>前言 很久没有在外部写文章，跟我的读者们交流了，一些知心一点的同事，也离职了。所以最近感觉有点缺外部的输入，还是想写点文章，跟各种各样的朋友交流一下。 熟悉我的人应该知道，去年参加了支付宝的五福的前端开发，主要负责的是 AI 年画。 年画里面其实是有很多图形互动技术，比如秒轮廓，让后让兔子动起来，然后整个过度动画到装饰页面，装饰页面对于贴纸相关的操作，里面其实用到了大量的图形互动技术，主要用的是蚂蚁的 2D 互动引擎 Tiny.js。
 后面我会整理一下，把年画的一些方案公布出来，有兴趣的可以看一下。
 在做五福之前，我从来没有接触互动技术，对于如何开发互动应用没有任何概念，另外像五福这种大促时间又紧，任务又重，压力十分之大。 还好跟我合作的 partner 是懂的，并且有互动技术大佬给我们当技术顾问，所以才能顺利的上线并取得了不错的效果。
@@ -29,10 +29,10 @@
     
     <item>
       <title>有一种用户增长方案，叫不做“用户增长”</title>
-      <link>https://examplesite.com/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</link>
+      <link>/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</link>
       <pubDate>Mon, 21 Mar 2022 22:22:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</guid>
+      <guid>/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</guid>
       <description>我自己最近由于组织架构的调整，调整到了做用户增长相关的业务，我才去了解了什么是用户增长，用户增长包含用户的获客、激活、留存、变现、推荐，然后知道用户增长是所以企业永远不会过时的话题。
 因为所有的企业如果需要成长，一定需要伴随用户的增长，扩大规模。
 然后我还想着在做用户增长相关的业务，想去深入学习一下，然后把自己的公众号当做产品来做用户增长。
@@ -56,10 +56,10 @@
     
     <item>
       <title>债券基金</title>
-      <link>https://examplesite.com/posts/2022/03-19-%E5%80%BA%E5%88%B8%E5%9F%BA%E9%87%91/</link>
+      <link>/posts/2022/03-19-%E5%80%BA%E5%88%B8%E5%9F%BA%E9%87%91/</link>
       <pubDate>Sat, 19 Mar 2022 22:55:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-19-%E5%80%BA%E5%88%B8%E5%9F%BA%E9%87%91/</guid>
+      <guid>/posts/2022/03-19-%E5%80%BA%E5%88%B8%E5%9F%BA%E9%87%91/</guid>
       <description>债基是什么？ 债券型基金，就是主要投资债券的基金，规定基金资产80%以上要投资于债券，也可以有一小部分资金投资于股票市场、可转债、打新股等等。
 债券基金分类 只做债券的，叫“纯债基金”；
 做债券+打新股的叫“一级债基”；
@@ -84,10 +84,10 @@
     
     <item>
       <title>【面试系列一】如何回答如何理解重排和重绘</title>
-      <link>https://examplesite.com/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</link>
+      <link>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</link>
       <pubDate>Tue, 15 Mar 2022 22:14:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</guid>
+      <guid>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</guid>
       <description>最近在面试的时候经常会问：如何理解重排和重绘？
 我发现很多候选人都没有答道关键点上，感觉是在哪里看到过相关的文章，听起来零零散散，毫无逻辑。
 错误示范 一般的面试过程就是这样的：
@@ -117,10 +117,10 @@
     
     <item>
       <title>做人要做学习型，做事儿要做价值型</title>
-      <link>https://examplesite.com/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</link>
+      <link>/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</link>
       <pubDate>Fri, 11 Mar 2022 22:29:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</guid>
+      <guid>/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</guid>
       <description>今天在阅读《华与华正道》，读到两句金句：
 做人要做学习型，不要做纠错型 不要批判思维，要价值思维 记忆深刻，分享一下我的理解。
 做人要做学习型 从小我们就学过《论语》的：三人行，必有我师，择其善者而从之,其不善者而改之。
@@ -142,10 +142,10 @@
     
     <item>
       <title>幸福的秘诀--保持低期望</title>
-      <link>https://examplesite.com/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</link>
+      <link>/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</link>
       <pubDate>Thu, 10 Mar 2022 22:55:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</guid>
+      <guid>/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</guid>
       <description>为什么你总是在焦虑，总是对生活感到不满呢？
 也许是因为期望值太高了。由于期望值过高，现实往往不能达到预期的标准，即使达到了预期的标准，也体验不到“超过预期”的欢欣，因此，完美主义者们总是感到忧心忡忡。
 也许是时候把自己的期望值降低一些了，这并不是对现实生活的消极应对，而是对幸福感的积极追寻。
@@ -180,10 +180,10 @@
     
     <item>
       <title>时间管理的三大法宝</title>
-      <link>https://examplesite.com/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</link>
+      <link>/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</link>
       <pubDate>Wed, 09 Mar 2022 22:47:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</guid>
+      <guid>/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</guid>
       <description>今天读《华与华正道》看到一句话：如何管理时间？做到铁石心肠、制定节拍、不追热点。
 这三个法宝基本上已经足以满足绝大部分人的需求了。
 接下来我们来推演一下这三个法宝为什么有用。
@@ -213,10 +213,10 @@
     
     <item>
       <title>使用 React 和 TypeScript 编写干净代码的10个必知模式</title>
-      <link>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</link>
+      <link>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</link>
       <pubDate>Wed, 09 Mar 2022 08:20:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</guid>
+      <guid>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</guid>
       <description>React 是一个 JavaScript 库，它是当今最流行和行业领先的前端开发库。
 JavaScript 是一种松散的类型化语言，因此，它捕获了运行时。这样做的结果就是 JavaScript 错误被捕获得非常晚，这可能导致严重的 bug。
 当然 React 作为一个 JavaScript 库，也继承了这个问题。
@@ -235,10 +235,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>回顾过去比展望未来重要一百倍</title>
-      <link>https://examplesite.com/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</link>
+      <link>/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</link>
       <pubDate>Tue, 08 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</guid>
+      <guid>/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</guid>
       <description>今天在阅读《华与华正道》读到这么一句话 ：
 回顾过去比展望未来重要一百倍，如果对过去不认真复盘，就会再次掉进过去的错误里。一个步骤一个步骤地复盘，一个动作一个动作地复盘，才能找到成功或失败的真因。在复盘中钻研，钻研工法，持续改善，最终实现全公司的技术进步。
 我们在哪些方面，应该回顾、复盘？ 工作上的事情，比如每一个项目做完了需要复盘，每个月至少写一个月报复盘一下，最好每周复盘。 自己的情绪，比如跟伴侣吵架了，复盘一下是什么情况，两个的情绪分别是啥样的，然后复盘完之后两个再沟通一下，增加感情。 时间管理，比如每天组内其他同学下班都挺早，为啥自己这么晚。为啥早上规划的 5 件事，到下班只做了 3 件事？是不是被别人占用的时间太多了，还是自己偷懒了？ 如果不回顾，会怎么样？ 如果我们不养成回顾的习惯，一路往前走，肯定是走不远的。
@@ -258,10 +258,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>专注于自己能做的最少的事情</title>
-      <link>https://examplesite.com/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</link>
+      <link>/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</link>
       <pubDate>Mon, 07 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</guid>
+      <guid>/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</guid>
       <description>今天读《华与华正道》，读两句话：
 先认识到什么事情是我们做不到的，然后再积极地去做现在能做的事。 要认识到我们知道的有限，能做的事情很少，然后把最少的事情做到最彻底 这两句都是让我们更专注于当前的事的思维。
 一、认识到什么事情是我们做不到的，然后再积极地去做现在能做的事 不知道大家有没有这样一种体感，就是你越读书，越专研一个知识，会发现自己不懂的越来越多，感觉自己越学越菜，越学不懂的越多。
@@ -290,10 +290,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>如何正确的花钱</title>
-      <link>https://examplesite.com/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</link>
+      <link>/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</link>
       <pubDate>Sun, 06 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</guid>
+      <guid>/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</guid>
       <description>前言 今天阅读《华与华正道》，看到了跟花钱有关的两句话：
 要舍得多花“冤枉钱”，这样碰上刀刃的概率比较大 钱最贱，人最贵，贵的人，时间更贵 感受颇深，特来解读自己理解。
 要舍得多花“冤枉钱”，才容易花到刀刃上 经常父母会说：在外面不要乱花钱，要把钱花在刀刃上。
@@ -338,10 +338,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>【实战】分享一个花了 499 学到的写作方法：问题 &#43; 回答</title>
-      <link>https://examplesite.com/posts/2022/%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E8%8A%B1%E4%BA%86-499-%E5%AD%A6%E5%88%B0%E7%9A%84%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E9%97%AE%E9%A2%98-&#43;-%E5%9B%9E%E7%AD%94/</link>
+      <link>/posts/2022/%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E8%8A%B1%E4%BA%86-499-%E5%AD%A6%E5%88%B0%E7%9A%84%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E9%97%AE%E9%A2%98-&#43;-%E5%9B%9E%E7%AD%94/</link>
       <pubDate>Tue, 01 Mar 2022 19:25:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E8%8A%B1%E4%BA%86-499-%E5%AD%A6%E5%88%B0%E7%9A%84%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E9%97%AE%E9%A2%98-&#43;-%E5%9B%9E%E7%AD%94/</guid>
+      <guid>/posts/2022/%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E8%8A%B1%E4%BA%86-499-%E5%AD%A6%E5%88%B0%E7%9A%84%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E9%97%AE%E9%A2%98-&#43;-%E5%9B%9E%E7%AD%94/</guid>
       <description>大家好，我是桃翁，一个不止前端的前端工程师。
 前言 前几天在一个写作课里学习到一个写作技巧：文章 = 问题 + 答案。
 大概就是说当你看到一个话题，想写成文章的时候，可以想一想你针对这个话题会有哪些问题。然后挨个回答一下这个问题，把回答组合一下，就成为一篇文章了。
@@ -376,10 +376,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>git commit 规范和 如何在 commit 里使用 emoji</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</link>
       <pubDate>Sun, 05 Sep 2021 15:30:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</guid>
       <description>前言 大家好，我是桃翁，今天给大家带来的是关于 git commit 那些事儿，希望大家喜欢。
 对于规范 git commit message 我是分成了两种类型去看待。
 对于通用库、开源项目这类多人维护，而且极大可能别人会来看这份代码的，一定要规范，特别是对于开源项目，往往会要列 Change Log，规范好 commit 节省自己整理 log 的时间，也方便了用户。
@@ -392,10 +392,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>img 和 picture 的区别和使用场景</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</link>
       <pubDate>Thu, 01 Jul 2021 15:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</guid>
       <description>img img 是 HTML4 时就有的标签， 至今仍然是在网页中嵌入图片的最常用的方式。 与 &amp;lt;span&amp;gt;, &amp;lt;em&amp;gt; 等标签一样属于行内标签 （准确地说属于 Phrasing Content）。下面是一个示例：
 &amp;lt;img src=&amp;#34;favicon72.png&amp;#34; alt=&amp;#34;MDN logo&amp;#34; srcset=&amp;#34;favicon144.png 2x&amp;#34;&amp;gt; img 其实也可以控制在高清屏幕采用哪个图片，适合用在移动端
 picture &amp;lt;picture&amp;gt; &amp;lt;source srcset=&amp;#34;/media/cc0-images/surfer-240-200.jpg&amp;#34; media=&amp;#34;(min-width: 800px)&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;/media/cc0-images/painted-hand-298-332.jpg&amp;#34; alt=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;/picture&amp;gt; 要决定加载哪个URL，user agent 检查每个 &amp;lt;source&amp;gt; 的 srcset、media 和 type 属性，来选择最匹配页面当前布局、显示设备特征等的兼容图像。
@@ -406,10 +406,10 @@ picture 是 HTML5 中定义新标签， 其中可以定义若干个 &amp;lt;sour
     
     <item>
       <title>聊聊关于如何选择offer</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</link>
       <pubDate>Thu, 27 May 2021 08:57:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</guid>
       <description>前阵子我们组大量招人，看到一些候选人拿了好几个 offer 摇摆不定，一直在纠结；也有不少读者私下跟我询问怎么选择；另外就是知乎上，我回答了一个 蚂蚁和字节怎么选的问题，阅读量比较高，所以也经常有人问我这个问题。
 所以想写篇文章来聊一聊这个问题。
 最多的就是字节和阿里怎么选 ♀️
@@ -436,10 +436,10 @@ base 上字节是好于蚂蚁，年终奖蚂蚁好于字节，总体薪资我觉
     
     <item>
       <title>如何应用 SOLID 原则在 React 中整理代码之开闭原则</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/336/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/336/</link>
       <pubDate>Mon, 24 May 2021 08:27:43 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/336/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/336/</guid>
       <description>SOLID 是一套原则。它们主要是关心代码质量和可维护性的软件专业人员的指导方针。
 React 不是面向对象，但这些原则背后的主要思想可能是有帮助的。在本文中，我将尝试演示如何应用这些原则来编写更好的代码。
 在前一篇文章中，我们讨论了单一责任原则。今天，我们将讨论 SOLID 的第二个原则: 开闭原则。
@@ -456,10 +456,10 @@ import React from &amp;#39;react&amp;#39;; export const User = ({user}) =&amp;gt
     
     <item>
       <title>理清业务团队开发和业务的关系</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</link>
       <pubDate>Sun, 16 May 2021 10:16:31 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</guid>
       <description>关于开发是否应该深入了解业务，听到两种我觉得不正确的类型：
 「我是开发，我就做好开发就行了，业务交给产品和运营同学」。不懂业务，完全不想了解型。 「懂业务之后就可以跟产品 PK 了，方便砍需求」。懂业务，目的不正确型。 我的观点是要想当一个优秀的开发者，必须懂业务，不是为了跟产品 PK，而是为了预判未来的发展方向，好指导自己写的代码可以适应未来更久的时间。
 懂业务，目的不正确型。 作为一个开发，不知道多少人经常会在耳边听到这么一句话：多了解业务，多了解业务。
@@ -485,10 +485,10 @@ import React from &amp;#39;react&amp;#39;; export const User = ({user}) =&amp;gt
     
     <item>
       <title>在蚂蚁工作是一种什么样的体验(一)</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</link>
       <pubDate>Sat, 13 Mar 2021 14:49:27 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</guid>
       <description>大家好，我是桃翁！ 之前有小伙伴留言让我聊聊「希望聊一些在大厂工作是什么体验，想听如何融入，如何适应，如何成长的规划，遇到过的哪些比较棘手的问题和怎么处理的，期待」。
 他这里这么多问题，我准备每个问题都写一篇文章来聊，首先咱们要聊的就是「大厂的工作体验」。
 身边牛人多 可能很多想去大厂的同学，第一驱动力觉得大厂肯定很多大佬，然后进去了可以带带自己。
@@ -515,10 +515,10 @@ import React from &amp;#39;react&amp;#39;; export const User = ({user}) =&amp;gt
     
     <item>
       <title>桃翁2020年度总结</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</link>
       <pubDate>Sun, 24 Jan 2021 19:19:06 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</guid>
       <description>前言 2020 年真的是不平凡的一年， 疫情夺走了很多人的生命，还夺走了我的工作(公司因为疫情被迫裁员)，所以今年换了工作来到了蚂蚁，在蚂蚁的工作经历跟之前在蘑菇街完全不一样。。。
 工作 来蚂蚁这半年我觉得在工作上的成长比我之前在蘑菇街一年半的成长都还多，经历比较丰富。
 阿里一直都有拥抱变化的文化，我来大概五个月的时候就换了三个主管，经历了好几次的组织架构变动，我刚进来的时候同组的同事（之前组内大概 12 人）到现在还跟我一组的仅剩一名。
@@ -551,10 +551,10 @@ import React from &amp;#39;react&amp;#39;; export const User = ({user}) =&amp;gt
     
     <item>
       <title>原来我是个业务性选手</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</link>
       <pubDate>Sat, 12 Sep 2020 21:22:24 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</guid>
       <description>01 前几天我试用期转正答辩了，老板也给过了，给到我的评价大概是：业务型选手，接下来一两年很关键，如果能够在业务中深入挖掘，会是个好苗子，否则就比较平了。
 这个评价其实我还是没想到的，或者说我之前根本没想过结果。
 其实我从大学毕业以来，都觉得自己是个**技术型选手，**之前在蘑菇街的时候我也是按照技术路线走的。在蘑菇街的时候工作不是很忙，所以也有时间去研究技术，也乐于分享然后才经常写文章，才做了公众号。
@@ -582,10 +582,10 @@ import React from &amp;#39;react&amp;#39;; export const User = ({user}) =&amp;gt
     
     <item>
       <title>蚂蚁、字节、滴滴面试经历总结</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</link>
       <pubDate>Mon, 18 May 2020 12:49:46 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</guid>
       <description>前言 最近两篇面试以及离职相关的文章不容错过哦。
 离开蘑菇街后，我最近的一些想法
 拼多多和酷家乐面试总结
@@ -613,10 +613,10 @@ CORS 是如何做的？</description>
     
     <item>
       <title>Mac写作环境搭建</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</link>
       <pubDate>Sun, 10 May 2020 21:35:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</guid>
       <description>前言 写作是我一直都提倡每个人去做的一件事情，也许你是通过写作来进行总结，也许你是通过写作生计，也许像我一样写文章提升自己的影响力，不管怎么样，工欲善其事必先利其器，今天我将两年以来最好用的一套写作软件配置介绍给大家。
 在这篇文章中你可以了解到三个工具：
 最好用的 markdown 写作编辑器 mac 平台专属的图床工具 选取合适的工具美化排版 写作软件(Typora) 我使用过很多的 markdown 编辑器，bear、MWeb、UIysses、印象笔记等等，每个都号称最专业的 markdown 软件，但是这些软件对于图片的处理都不是特别满足我的需求。
@@ -639,10 +639,10 @@ iPic iPic 是一个 Markdown 图床上传工具，将你的图片上传到你的
     
     <item>
       <title>拼多多和酷家乐面试经历总结</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</link>
       <pubDate>Thu, 07 May 2020 13:17:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</guid>
       <description>前言 离职原因看我这篇文章吧：离开蘑菇街后，我最近的一些想法，然后不得不去找工作恰饭呀。
 我目前面了五家公司：滴滴、蚂蚁、拼多多、酷家乐、字节跳动，拼多多和酷家乐基本已拿到 offer，蚂蚁二面完了，滴滴和字节即将三面，我先把我已经面过的面经先总结出来，其他的不管过没过，这周内我都会总结出来，希望能给到正在找工作同学的帮助。
 在文章里我不仅会列出面试题，还会给到一些答题建议，个人能力有限，也不能保证我回答都正确，如果有错误，希望能纠正我。
@@ -671,10 +671,10 @@ React 优化
     
     <item>
       <title>离开蘑菇街后，我最近的一些想法</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</link>
       <pubDate>Thu, 30 Apr 2020 16:19:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</guid>
       <description>前言 被裁之后我就一直在家复习，面试，所以就一直没有写文章，没有太多心思搭理公众号，现在也拿了两个 offer 了，所以开始回到正途。
 胎死腹中的 Vue 3.0 Beta 文章 4 月 17 日，早上我收到了浪浪(浪里行舟)的消息，给我发了一个微博消息，尤大在微博上宣布发布 Vue 3.0 Beta 了，然后跟我说这是热点，让我写一篇文章，我就暂停了前一天晚上定时发的文章，准备写一篇详细介绍 Vue 3.0 Beta 所发布的东西。
 所以当天我早早的来到了公司，希望在上班前能搞定，然后就开始翻阅 vue-next 的文档以及草案，想从根源去探究 vue 3.0 Beta 能给我们带来什么。
@@ -709,10 +709,10 @@ React 优化
     
     <item>
       <title>理解 JavaScript 中的执行上下文和执行栈</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</link>
       <pubDate>Thu, 02 Apr 2020 16:52:06 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</guid>
       <description>译者序 最近在研究 JavaScript 基础性的东西，但是看到对于执行上下文的解释我发现有两种，一种是执行上下文包含：scope(作用域)、variable object(变量对象)、this value(this 值)，另外一个种是包含：lexical environment(词法环境)、variable environment(变量环境)、this value(this 值)。
 后面我查阅了不少博客以及 ES3 和 ES5 的规范才了解到，第一种是 ES3 的规范，经典书籍《JavaScript高级程序设计》第三版就是这样解释的，也是网上广为流传的一种，另一种是 ES5 的规范。
 然后我接着又去翻了 ES2018 中的，发现又有变化了，已经增加了更多的内容了，考虑到这部分内容颇为复杂，准备后面再进行总结分享，查资料的时候看到这篇讲执行上下文(ES5 )的还不错，所以就翻译出来先分享给大家。
@@ -729,10 +729,10 @@ let a = &amp;#39;Hello World!</description>
     
     <item>
       <title>React 代码规范</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</link>
       <pubDate>Thu, 02 Apr 2020 16:51:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</guid>
       <description>基本规范 每个文件只包含的一个 React 组件： 联系紧密的组件可以使用「命名空间」的形式； 每个文件中可包含多个纯函数组件。 始终使用 JSX 语法，不要使用 React.createElement 创建 ReactElement，以提高编写速度、可读性、可维护性（没有 JSX 转换的特殊场景例外，如在 console 中测试组件）。 文件规范 组件文件使用一致的.js或 .jsx后缀。所有组件文件的后缀名从.js或.jsx中任选其一。不应在项目中出现部分组件为.js文件，部分为.jsx的情况。
 每个存放组件的目录使用一个index.js/index.jsx以命名导出的形式暴露所有组件。同目录内的组件相互引用使用import Foo from &#39;./Foo&#39;;进行。引用其它目录的组件使用import {Foo} from &#39;../component&#39;;进行。
 命名规范 文件名：使用大驼峰命名法（PascalCase），如 MyComponent.jsx；
@@ -746,10 +746,10 @@ let a = &amp;#39;Hello World!</description>
     
     <item>
       <title>从两个角度看 Typescript 中的类型是什么?</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/302/</link>
       <pubDate>Tue, 03 Mar 2020 10:09:33 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/302/</guid>
       <description>0. 作者以及原文介绍 作者是 Dr. Axel Rauschmayer，号称”德国阮一峰“，本文原文来自于他的博客：https://2ality.com/2020-02/understanding-types-typescript.html，不熟悉他的可以关注一下他的博客。
 1. 每个角度都从这三个问题来解释 以下三个问题对于理解类型是如何工作的非常重要，需要从这两个角度中的每一个角度来回答。
 myVariable 的类型 MyType 意味着什么？ let myVariable: MyType = /*...*/; Sourcetype 可以分配给 TargetType 吗? let source: SourceType = /*...*/; let target: TargetType = source; TypeUnion 是如何从 Type1、 Type2 和 Type3 衍生而来的？ type TypeUnion = Type1 | Type2 | Type3; 2. 角度 1： 类型是一组值 从这个角度来看，类型是一组值：
@@ -759,10 +759,10 @@ myVariable 的类型 MyType 意味着什么？ let myVariable: MyType = /*...*/;
     
     <item>
       <title>读者问题|关于如何学习的讨论</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</link>
       <pubDate>Mon, 13 Jan 2020 23:23:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</guid>
       <description>一个读者的困惑，我做了简单的解答，希望能对他有所帮助。
 ## ##1. 如何把一个知识由浅入深的学习？
 见问题 2
@@ -790,10 +790,10 @@ myVariable 的类型 MyType 意味着什么？ let myVariable: MyType = /*...*/;
     
     <item>
       <title>你可能不知道的 React Hooks</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/296/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/296/</link>
       <pubDate>Tue, 07 Jan 2020 21:50:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/296/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/296/</guid>
       <description>本文是译文，原文地址是：https://medium.com/@sdolidze/the-iceberg-of-react-hooks-af0b588f43fb
 React Hooks 与类组件不同，它提供了用于优化和组合应用程序的简单方式，并且使用了最少的样板文件。
 如果没有深入的知识，由于微妙的 bug 和抽象层漏洞，可能会出现性能问题，代码复杂性也会增加。
@@ -805,10 +805,10 @@ Level 1：setInterval export default function Level01() { console.</description>
     
     <item>
       <title>2019 个人深度总结</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</link>
       <pubDate>Fri, 03 Jan 2020 17:01:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</guid>
       <description>又一年过去了，2018 年写年终总结的场景还历历在目，写这篇文章之前还专门去看了下 2018 年的年度总结，主要是看自己在 2018 学的东西自己还能记得啥。
 印象最深刻的应该是还是函数式编程相关的东西，因为确实在我深入的去接触它过后，我的很多编程思维都被它所影响。虽然在项目中不会去用很多函数式的方式去写，但是函数式的那些特点深深的指导着我如何去设计一个更容易维护的函数，其中一些思维可以见我去年的写 函数式编程，真香。
 做个预测：三年之内，函数式编程要火一波，原因是 serverless 的兴起。
@@ -831,10 +831,10 @@ Level 1：setInterval export default function Level01() { console.</description>
     
     <item>
       <title>通过fetch发送 post 请求下载文件</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/284/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/284/</link>
       <pubDate>Fri, 22 Nov 2019 17:46:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/284/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/284/</guid>
       <description>背景 最近遇到一个下载的需求，由于 url 参数太长(常用的下载方法 a 标签或者 location.href 的方法都是 get 请求，get 请求参数长度有限制)，无法下载，考虑了好几种方案，最终还是觉得通过 ajax 的 POST 方法进行下载，比较容易实现，下面记录实现过程以及遇到的问题。
 但是由于 AJAX 并不会唤起浏览器的下载窗口，AJAX设计的初衷就是用来实现异步刷新的，用以改善原始的 form 表单提交刷新页面的问题，那么如何来解决呢？
 POST 方法下载实现原理 通过 fetch 请求获取文件，然后利用 Blob 对象来接收处理，在接收到后端返回的文件后，把其转化一下，放入a标签的href中，并触发下载行为。
@@ -844,10 +844,10 @@ fetch(url, { method: &amp;#39;POST&amp;#39;, body: JSON.stringify(params), heade
     
     <item>
       <title>如何对 React 函数式组件进行优化</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/280/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/280/</link>
       <pubDate>Tue, 19 Nov 2019 08:32:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/280/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/280/</guid>
       <description>前言 目的 本文只介绍函数式组件特有的性能优化方式，类组件和函数式组件都有的不介绍，比如 key 的使用。另外本文不详细的介绍 API 的使用，后面也许会写，其实想用好 hooks 还是蛮难的。
 面向读者 有过 React 函数式组件的实践，并且对 hooks 有过实践，对 useState、useCallback、useMemo API 至少看过文档，如果你有过对类组件的性能优化经历，那么这篇文章会让你有种熟悉的感觉。
 React 性能优化思路 我觉得React 性能优化的理念的主要方向就是这两个：
@@ -862,10 +862,10 @@ React.memo 首先要介绍的就是 React.memo，这个 API 可以说是对标�
     
     <item>
       <title>在mac上安装XAMPP并搭建 typecho 博客</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/272/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/272/</link>
       <pubDate>Thu, 14 Nov 2019 21:45:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/272/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/272/</guid>
       <description>在 v 站上看一个自己非常喜欢的博客主题：阿星Plus，但是由于是用 .Net 写的，自己完全不熟悉 .Net，所以就准备自己按照他的博客风格写一份 typecho的主题。
 我也没接触过 PHP，在安装环境这一步就把我难住了，历经磨难，最终选择了 XAMPP 来搭建 PHP 环境，在这里记下搭建的过程和遇到的坑。
 我刚开始去搜索 「XAMPP 搭建 typecho」，然而由于 typecho 资料太少，根本搜不到，所以选择了搜索「XAMPP 搭建 wordpress」，然后才一步一步的安装好了 XAMPP。
@@ -880,10 +880,10 @@ React.memo 首先要介绍的就是 React.memo，这个 API 可以说是对标�
     
     <item>
       <title>如果解决虚度时光，首先做到要事第一</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</link>
       <pubDate>Thu, 07 Nov 2019 21:51:07 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</guid>
       <description>阅读文章之前你可以花半分钟想想你觉得你自己最虚度的时光是时候？
 夸自己 可能在很多人的眼里，我以及算是一个努力、上进的人了，那是因为他们只看到了我努力的时候，没有看到我虚度的时候。
 一般在工作日我还是非常的恪守自己的原则，在不上班的时候都会提升自己，比如看书、听课、阅读、写作等方式。跟一般的人比起来更努力的点就是早上我会先学习一个小时，我一般 7 点半就会起床，然后看书或者听课一小时后，也就是 8 点半的时候才会去洗漱，下班回来也很少除了和女朋友每天至少视频半小时外，其余时间用得都很充分(用的方向对不对先不谈)。
@@ -910,20 +910,20 @@ GTD 会有五个核心步骤：收集、处理、组织、检查、做。其中�
     
     <item>
       <title>如何让 useEffect 只在依赖变化的时候执行</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/271/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/271/</link>
       <pubDate>Mon, 14 Oct 2019 21:51:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/271/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/271/</guid>
       <description>遇到问题 今天遇到一个 useEffect 的问题，遇到一个问题：在 useEffect 里面发异步请求，然后第二个参数的依赖也是异步请求之后得到的结果，然后就导致最终结果会请求两次 useEffect 里的函数。
 const [metaKey, setMetaKey] = useState&amp;lt;string[]&amp;gt;([]) // useEffect1 useEffect(() =&amp;gt; { getServiceCoreIndexParam().then((res: IResult) =&amp;gt; { setMetaKey(res.data.defaultValue) return res.data }) }, []) // useEffect2 useEffect(() =&amp;gt; { getAdvisorIndexTable({ visitdate: props.visitdate, advisorSupervisor: props.advisorSupervisor, comparevisitdate: props.comparevisitdate, metaKeys: metaKey || [] }).then((res: IResult) =&amp;gt; { res.success &amp;amp;&amp;amp; setTable(res.data) }) }, [props.visitdate, props.advisorSupervisor, metaKey, props.comparevisitdate]) 分析一下这段代码，首先在组件 mount 的时候，useEffect2 会调用一次 getAdvisorIndexTable，当 useEffect1 执行完毕之后 setMetaKey 后，由于 metaKey 发生改变，导致 getAdvisorIndexTable 还会调用一次，这很明显是我们不想看到的结果，因为这只是一个默认请求，然而发了两次请求。</description>
     </item>
     
     <item>
       <title>看到这段话，真的觉得现在的读者要求比较高</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</link>
       <pubDate>Mon, 09 Sep 2019 21:35:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</guid>
       <description>最近看到这样一段文字，然后掘金的运营还发了一个沸点，看了心理觉得真不是滋味呀。
 图片具体内容如下：
 如果你在阅读文章的过程中，觉得有不同意的，请憋住，把文章看完再说。
@@ -968,10 +968,10 @@ list 愿意点赞的往往是想收藏，然后可能是设计的原因，不管
     
     <item>
       <title>新手学习 React 迷惑的点</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/257/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/257/</link>
       <pubDate>Thu, 05 Sep 2019 21:37:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/257/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/257/</guid>
       <description>网上各种言论说 React 上手比 Vue 难，可能难就难不能深刻理解 JSX，或者对 ES6 的一些特性理解得不够深刻，导致觉得有些点难以理解，然后说 React 比较难上手，还反人类啥的，所以我打算写两篇文章来讲新手学习 React 的时候容易迷惑的点写出来，如果你还以其他的对于学习 React 很迷惑的点，可以在留言区里给我留言。
 为什么要引入 React 在写 React 的时候，你可能会写类似这样的代码：
 import React from &amp;#39;react&amp;#39; function A() { // ...other code return &amp;lt;h1&amp;gt;前端桃园&amp;lt;/h1&amp;gt; } 你肯定疑惑过，下面的代码都没有用到 React，为什么要引入 React 呢？
@@ -983,10 +983,10 @@ function A() { // ...other code return React.createElement(&amp;#34;h1&amp;#34;,
     
     <item>
       <title>高级程序员与初级程序员差别在哪里？</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</link>
       <pubDate>Thu, 15 Aug 2019 21:39:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</guid>
       <description>之前在公众号里有个读者给我留言：
 请教个问题，公司高职级和初中级，都是写业务代码，那么高职级的价值在哪里呢？
 由于公众号回复留言的限制，当时我就简单的回复了如下的几个点：
@@ -1018,10 +1018,10 @@ TDD 的原理是在开发功能代码之前，先编写单元测试用例代码�
     
     <item>
       <title>Deep In React 之详谈 React 16 Diff 策略(二)</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/261/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/261/</link>
       <pubDate>Tue, 30 Jul 2019 21:42:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/261/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/261/</guid>
       <description>文章首发于个人博客
 这是我 Deep In React 系列的第二篇文章，如果还没有读过的强烈建议你先读第一篇：详谈 React Fiber 架构(1)。
 前言 我相信在看这篇文章的读者一般都已经了解过 React 16 以前的 Diff 算法了，这个算法也算是 React 跨时代或者说最有影响力的一点了，使 React 在保持了可维护性的基础上性能大大的提高，但 Diff 过程不仅不是免费的，而且对性能影响很大，有时候更新页面的时候往往 Diff 所花的时间 js 运行时间比 Rendering 和 Painting 花费更多的时间，所以我一直传达的观念是 React 或者说框架的意义是为了提高代码的可维护性，而不是为了提高性能的，现在所做的提升性能的操作，只是在可维护性的基础上对性能的优化。具体可以参考我公众号以前发的这两篇文章：
@@ -1036,10 +1036,10 @@ Web UI 中 DOM 节点跨层级的移动操作特别少，可以忽略不计。 �
     
     <item>
       <title>针对华为事件，我思考了四点</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</link>
       <pubDate>Thu, 23 May 2019 21:43:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</guid>
       <description>本来我是不喜欢追热点的，不过今天有个群友在群里发了这样一段话。
 结果被我怼了： 后面的我就不截图了，反正我提倡的是，随时我们能做的是好好的提升自己，只有提升自己才是最重要的。
 有些人同意我的看法，有些人不同意我的看法，这都不是我今天说的重点，只是这个导火线引发的我的一些思考。
@@ -1077,10 +1077,10 @@ Web UI 中 DOM 节点跨层级的移动操作特别少，可以忽略不计。 �
     
     <item>
       <title>每个前端工程师都应该了解的图片知识</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/264/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/264/</link>
       <pubDate>Mon, 20 May 2019 21:44:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/264/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/264/</guid>
       <description>前言 随着web的发展，网站资源的流量也变得越来越大。据统计，60% 的网站流量均来自网站图片，可见对图片合理优化可以大幅影响网站流量，减小带宽消耗和服务器压力。
 有时候你花大力气去配置 webpack 使打包体积减少，不如好好优化几张图片，这篇文章就是让你明白如何选择正确的图片，并且让你明白这么多图片格式，在什么场景下使用什么格式，如果想看答案，那么直接滑到文末看图即可。
 我的更多文章可以看 GitHub博客,
@@ -1111,10 +1111,10 @@ GIF 的特性是帧动画。</description>
     
     <item>
       <title>中肯的看待 996</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</link>
       <pubDate>Wed, 03 Apr 2019 21:46:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</guid>
       <description>最近 996.ICU 太火了。我本来不太想蹭这个热点，因为我的观念与很多人可能不相同，所以担心被骂，最近有读者问我为啥最近没有更新，最近我在准备晋升的事儿，所以也没怎么准备技术上的内容，但是对于 996 这件事儿上，我最近还是有很多想法，跟大家交流下吧！
 后面我会将最近晋升的一些心得总结出来跟大家交流一下，毕竟涨工资呀，所以希望对大家有帮助。
 一、反对 996 的本质原因 为什么要反对 996，说到底，就是钱给的不够。
@@ -1147,10 +1147,10 @@ GIF 的特性是帧动画。</description>
     
     <item>
       <title>为什么现在面试都是面试造火箭</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</link>
       <pubDate>Sun, 17 Mar 2019 21:47:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</guid>
       <description>文章首发于个人网站：前端桃园
 很多人总是抱怨面试官问一些平时不常用的知识点，比如算法呀，网络(TCP)等等，也就是大家常说的：面试造火箭，工作拧螺丝。
 但是有没有想过为什么整个前端圈，或者绝大部分面试，不仅是前端，各种职位都是这样呢？难道就没人来解决这个问题吗？
@@ -1189,10 +1189,10 @@ GIF 的特性是帧动画。</description>
     
     <item>
       <title>pm2 使用教程</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</link>
       <pubDate>Wed, 30 Jan 2019 10:10:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</guid>
       <description>简介 PM2 是 node 进程管理工具，可以利用它来简化很多 node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等，而且使用非常简单。
 安装 npm install -g pm2 快速使用 pm2 start app.js 常用命令 启动 参数说明：
 --watch：监听应用目录的变化，一旦发生变化，自动重启。如果要精确监听、不见听的目录，最好通过配置文件。 -i --instances：启用多少个实例，可用于负载均衡。如果-i 0或者-i max，则根据当前机器核数确定实例数目。 --ignore-watch：排除监听的目录/文件，可以是特定的文件名，也可以是正则。比如--ignore-watch=&amp;quot;test node_modules &amp;quot;some scripts&amp;quot;&amp;quot; -n --name：应用的名称。查看应用信息的时候可以用到。 -o --output &amp;lt;path&amp;gt;：标准输出日志文件的路径。 -e --error &amp;lt;path&amp;gt;：错误输出日志文件的路径。 --interpreter &amp;lt;interpreter&amp;gt;：the interpreter pm2 should use for executing app (bash, python&amp;hellip;)。比如你用的coffee script来编写应用。 重启 pm2 restart app.js 3.3 停止 停止特定的应用。可以先通过pm2 list获取应用的名字（&amp;ndash;name指定的）或者进程id。
@@ -1203,10 +1203,10 @@ pm2 stop app_name|app_id pm2 stop all 从进程列表删除进程 // pm2 delete 
     
     <item>
       <title>发布 react 组件到 npm 上</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</link>
       <pubDate>Mon, 28 Jan 2019 15:43:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</guid>
       <description>我发布了我的第一个 npm 组件，一个基于 react 的 3d 标签云组件。在这途中我也是遇到了很多的坑，花在完善整个发布流程的时间远多于写这个组件本身的时间，所以我记录下我觉得一个正常的 react 组件的发布流程
 最后记录这篇文章花的时间比我完成整个组件的时间都多，最终希望能给新手带来帮助
 在整个发布组件的过程我做了如下几件事儿：
@@ -1219,10 +1219,10 @@ npm i @babel/cli @babel/core @babel/preset-env @babel/preset-react -D 采用 web
     
     <item>
       <title>git 之修改 commit 以及 rebase 的使用</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/228/</link>
       <pubDate>Tue, 22 Jan 2019 18:27:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/228/</guid>
       <description>我在提交中犯了一个错误，我该如何解决？
 我的提交历史一团遭，我改如何让它整洁？
 如果您有过上述问题，那么这篇文章适合您。这篇文章介绍了一个让你成为 Git 专家的主题列表。
@@ -1243,20 +1243,20 @@ git commit --amend --author“作者姓名&amp;lt;作者电子邮件&amp;gt;” 
     
     <item>
       <title>前端书籍推荐</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/227/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/227/</link>
       <pubDate>Tue, 22 Jan 2019 17:34:33 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/227/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/227/</guid>
       <description>HTML 与 CSS 《Head First HTML与CSS(第2版)》&amp;ndash;豆瓣评分 9.3。入门真的是经典书籍，手把手教学，丰富的案例让你从 0 开始学前端。 《CSS权威指南(第三版)》&amp;ndash;豆瓣评分 8.5。这本书也是非常的经典了，2007 年的书了，但是无不影响这本书作为 CSS 的经典著作，把原理讲得非常的通透，除了 w3c 标准，算最权威的一本了，毕竟权威指南。这本书都是 css 2.1 的，与张鑫旭的《CSS 世界》可以说是一个类别的，我没看过这本书，但是据我朋友说没有权威指南好，口水话太多，也许是让读者好理解，权威指南这本我是看过的，学 CSS 必读经典。 《CSS揭秘》&amp;ndash;豆瓣评分9.4。神书，47 和 css 技巧让你在面对各种 css 问题的时候游刃有余。豆瓣评分 9.4 ，是 css 书籍中评分最高的了，css 进阶必备。 总结：所以对于 css 来说，《Head First HTML与CSS(第2版)》是入门，权威指南是基础，css 揭秘是进阶，可以按照这个顺序来阅读。
 JavaScript 《javascript语言精粹》&amp;ndash;豆瓣评分 9.1。这本书可以在入门之前了解一下基本语法，以及在学习之前可以了解下 JS 里面的精粹以及糟粕，虽然这本书很薄很薄，但是值得反复去读的一本书，当时学习前端半年，一年再回来看这本书会跟你第一看应该有更深刻的理解。 《JavaScript DOM编程艺术(第2版)》&amp;ndash; 豆瓣评分 8.7。本 书在简洁明快地讲述JavaScript和DOM的基本知识之后，通过几个实例演示了专业水准的网页开发技术，透彻阐述了平稳退化等一批至关重要的 JavaScript编程原则和最佳实践。 《JavaScript权威指南》：犀牛书是每个FE都绕不过的一本书，可以先大致通读几遍，也可以把其当作工具书，时时翻阅。 《JavaScript高级程序设计》：红宝书虽然号称高级，但其实是帮助入门的，Zakas大神把概念深入浅出，将JavaScript的语法要点讲清楚明白。小红书配合犀牛书，相互印证，谁读谁知道。 《你不知道的JavaScript 上中下》：这本绝对是神书，让你了解JavaScript不为人知的另一面，把闭包、异步这些讲得很通透。 《ES6 标准入门（第3版）》&amp;ndash;豆瓣评分 8.9。阮老师的书，国内最好的一本 ES6 ES7 ES8 的入门书籍，第三版相对于第二版多了 ES8 的内容，所以也厚了很多。因为现在框架盛行，特别是 React 基本是已经完全拥抱了 ES6 了，还没学 ES6 赶紧补起来，不然要落后了。 《深入理解 ES6》&amp;ndash;豆瓣评分9.</description>
     </item>
     
     <item>
       <title>Mac Brew 常用命令笔记</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</link>
       <pubDate>Wed, 16 Jan 2019 13:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</guid>
       <description>简介 Homebrew 是一款自由及开放源代码的软件包管理系统，用以简化 macOS 系统上的软件安装过程。每个操作系统都有类似的，比如 Ubuntu 的 apt，Centos 的 yum。
 常用命令 安装 brew ruby -e &amp;#34;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)&amp;#34; 使用brew安装软件 $ brew install git 使用brew卸载软件 $ brew uninstall git 使用brew查询软件 有时候，你不知道你安装的软件的名字， 那么你需要先搜索下, 查到包的名字。
 brew search /wge*/ 其他brew命令 brew list 列出已安装的软件 brew update 更新brew brew home 用浏览器打开brew的官方网站 brew info 显示软件信息 brew deps 显示包依赖 brew upgarde 更新所有 brew upgarde [包名] 更新指定包 brew cleanup 清理所有包的旧版本 brew cleanup [包名] 清理指定包的旧版本 brew cleanup -n 查看可清理的旧版本包，不执行实际操作 卸载 brew cd `brew --prefix` rm -rf Cellar brew prune rm `git ls-files` rm -r Library/Homebrew Library/Aliases Library/Formula Library/Contributions rm -rf .</description>
@@ -1264,10 +1264,10 @@ brew search /wge*/ 其他brew命令 brew list 列出已安装的软件 brew upda
     
     <item>
       <title>2018 年度总结, 三个角色的转变</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</link>
       <pubDate>Tue, 15 Jan 2019 16:54:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</guid>
       <description>2018已经结束了，总结自己这一年来就是三个角色的转变：自己从一个学生成为了一个社会人，从一个读者变成了一个自媒体人，从一个在校学习者变成了终身学习者。
 每一种角色的转变意味着责任的转变，每多一种角色，就会多承担一份责任。角色变得越大，责任也会承担得越大，当然收获得也更大。
 技术成长 对于技术成长，我感觉我莫名其妙的就走在了前端的前沿，刚刚在知乎上看到一个帖子2019 前端技术规划该包含什么？很多大佬在规划里面都谈到 Rxjs、Typescript、函数式编程、Flutter、PWA、Node 相关, 然而事实就是这么巧(或者可以说我眼界比较远，偷笑)，在 2018 年我很多都已经接触过了，比如 Rxjs、TS、函数式编程、Node 等。
@@ -1282,19 +1282,19 @@ Rxjs 官网 30 天精通 Rxjs 程墨老师的深入浅出 Rxjs 聊函数式编�
     
     <item>
       <title>函数式编程里面的基本工具函数实现</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</link>
       <pubDate>Wed, 09 Jan 2019 13:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</guid>
       <description>compose 实现 function compose(...args) { return (result) =&amp;gt; { return args.reduceRight((result, fn) =&amp;gt; { return fn(result) }, result) } } pipe 实现 function compose(...args) { return (result) =&amp;gt; { return args.reduce((result, fn) =&amp;gt; { return fn(result) }, result) } } 柯里化实现 function currying(fn, ...args) { if (args.length &amp;gt;= fn.length) { return fn(...args) } return function (...args2) { return currying(fn, ...args, ...args2) } } 部分应用实现 function partial(fn, ...args) { return (..._arg) =&amp;gt; { return fn(.</description>
     </item>
     
     <item>
       <title>群里提问的艺术</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</link>
       <pubDate>Thu, 03 Jan 2019 15:16:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</guid>
       <description>现在互联网发达的时代，大家都会有很多的群，xxx 交流群、xxx 技术交流、xxx开发群、xxx技术学习群等，大家的初心可能都是想交流的，遇到点问题然后就可以在群里问。
 然而很多时候你问的问题没人回答；也有时候问了半天还是没找到答案；也有时候当你把问题发出来了，别人正准备回答你的时候，你说知道了；然后刚开始群里很活跃，慢慢的就死了。
 其实以上问题，都是大家不想看到的，然而在群里提问是我们加入群的初心，但是很多人做不好，最终导致你的问题无人解答，群慢慢的失去意义。
@@ -1319,10 +1319,10 @@ Good：在使用 xxx 版本的 react ，我操作了 xxx，也写了 xxx，但�
     
     <item>
       <title>破坏开发人员生产力的十二件事</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/157/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/157/</link>
       <pubDate>Fri, 23 Nov 2018 18:26:34 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/157/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/157/</guid>
       <description>今天的文章是来自 medium 的一篇文章，点赞数有将近 1 万 9，所以翻译出来给大家分享一下，有些概念怕大家不了解，所以我放了一些 维基百科的解释。如果有翻译得不是很好的地方，请看原文：https://hackernoon.com/top-12-things-that-destroy-developer-productivity-2ddf0abc190
 正文：
 很多文章都涉及技术主管和项目经理的角色。我们经常遇到的一个共同主题是如何提高团队的工作效率。但是在你集中精力来提高生产力之前，你可能首先要考虑是什么在摧毁它，以便建立一个可靠的基础。不幸的是，即使 Peopleware 近 30 年前发布，我们也看到许多团队在一些（消极的）显着方式中遭受巨大的生产力损失！
@@ -1337,10 +1337,10 @@ As Paul Graham wrote, “A single meeting can blow a whole afternoon by breaking
     
     <item>
       <title>不要再说虚拟 DOM 有多快了</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/124/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/124/</link>
       <pubDate>Tue, 20 Nov 2018 12:03:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/124/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/124/</guid>
       <description>如果你觉得它很快，那么这篇文章可能就是你所缺少的
 我经常听到有人在群里，或者在社区里说的一个很严重的错误，那就是说 React 的 Virtual Dom 是以快出名的，比原生 Dom 快多了，啥啥啥的，每次都一两句话说不清楚，所以下次有谁再说 React 是以快出名的，你就把这篇文章丢给他，下面进入正题。
 在过去的几年里，你一直在跟踪 JavaScript 社区的发展，你至少听说过 Virtual DOM（React，Vue.js 2，Riot.js，Angular 2等等）。他们承诺（或者更确切地说，他们的宣传）更快的渲染界面，特别是更新，减少麻烦。你很快的上手了使用虚拟DOM的应用程序，这很好。几个月后，您的应用程序现在变得越来越复杂，你可能从用户交互到屏幕更新只需要一两秒钟的更新。你可能会想，这东西很神奇，应该会比 jQuery 快，但是实际上不是这个样子的。
@@ -1357,10 +1357,10 @@ const userList = document.getElementById(&amp;#34;user-list&amp;#34;); // JS 部
     
     <item>
       <title>浅谈未来几年前端的发展方向</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</link>
       <pubDate>Tue, 13 Nov 2018 16:41:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</guid>
       <description>在知乎上看到这么一个问题，觉得很有意思，以下是原提问者的见解
 过去五年前端的发展过程基本上是一个工程化的过程,框架和工程化工具层出不穷。
 近两年其实发展已经比较迟滞了。
@@ -1382,10 +1382,10 @@ const userList = document.getElementById(&amp;#34;user-list&amp;#34;); // JS 部
     
     <item>
       <title>一篇文章搞定 ES6</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/115/</link>
       <pubDate>Sat, 29 Sep 2018 18:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/115/</guid>
       <description>JavaScript ES6 带来了新的语法和新的强大功能，使您的代码更现代，更易读。它允许您编写更少的代码并执行更多操作。 ES6 向我们介绍了许多强大的功能，如箭头函数，模板字符串，对象结构，模块等，让我们来看看。
 const and let const 是 ES6 中用于声明变量的新关键字。 const 比 var 更强大。使用后，无法重新分配变量。换句话说，它是一个不可变的变量，除非它与对象一起使用。
 这对于定位选择器非常有用。例如，当我们有一个触发事件的按钮时，或者当您想在 JavaScript 中选择 HTML 元素时，请使用 const 而不是 var。这是因为 var 会被提升，当不想重新分配变量时，最好使用 const。
@@ -1398,10 +1398,10 @@ let 与 const 相同，因为两者都是块级作用域，这意味着该变量
     
     <item>
       <title>JavaScript核心概念之执行上下文和栈</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/316/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/316/</link>
       <pubDate>Tue, 25 Sep 2018 00:52:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/316/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/316/</guid>
       <description>桃翁桃翁，问个问题呢，据说 js 里面有个执行上下文，这个概念是个什么东东哦？据说挺重要的，给我科普科普呗。
 Emm… 这个概念非常的抽象，简单来说呢，就是 JS 在执行某段代码的时候做的一些事情。
 具体做的事情就是定义了变量或函数有权访问的其他数据决定了它们各自的行为(作用域链)。每个执行环境都有一个与之关联的变量对象（variable object),环境中定义的所有变量和函数都保存在这个对象中(变量包括 this、arguments)。虽然我们编写的代码无法访问这个对象，但解析器在处理数据时会在后台使用它。
@@ -1425,10 +1425,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>JavaScript核心概念(1):类型转换</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/105/</link>
       <pubDate>Tue, 07 Aug 2018 10:34:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/105/</guid>
       <description>看到这个是不是有一种想打人的感觉，垃圾 JavaScript，这特么都什么鬼，相信很多人不管是笔试还是面试，都被 JS 的类型转换难道过，相信认真看完我这篇文章，妈妈再也不用担心类型转换的问题了。
 原始值到原始值的转换 原始值转化为布尔值
 所有的假值(undefined、null、0、-0、NaN、””)会被转化为 false，其他都会被转为 true
@@ -1439,10 +1439,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>拥有自己的知识体系，形成自己解决问题的方法论</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</link>
       <pubDate>Fri, 03 Aug 2018 16:15:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</guid>
       <description>前言 最近在星球里群里都有小伙伴说道自己对未来的路比较迷茫，一旦闲下来就不知道自己改干啥，今天我这篇文章就是让你觉得一天给你 25 个小时你都不够用，觉得睡觉都是浪费时间。 今天我谈的就是关于【构建知识体系，形成自己解决问题的方法论】，这个话题以前我在给在校准备找工作的同学的几个建议这篇文章中谈到过，但是没有将如何去构建自己的知识体系，这次将深入这个话题进行探讨。
 什么是知识体系 无论是大到一个星系还是小至一个原子，其本质都是一个个的系统。 那我们如何来掌握这个系统呢？通过“框架”来简化对系统构成元素以及元素间有机联系。因此有目的地运用“框架”来思考、学习，能够让我们更全面、更快速、更深入地分析、解决问题，以及更高效地学习新知识和技能。
 简单来说，知识体系就是一个系统构成元素以及元素之间的有机联系的简化体现。
@@ -1463,10 +1463,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>毕业记—我的大学无憾了</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</link>
       <pubDate>Sat, 07 Jul 2018 16:47:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</guid>
       <description>如果玩抖音的同学，我相信对上面这个图片并不陌生，在六月份的时候疯狂刷这个，但是当时并没有任何感觉，直到我那毕业的那天，提起背包离开学校的那天，我才真正的感受到，我要离开学校了。
 自己已经不是一个学生了，熟悉的学校，熟悉的班级，熟悉的同学，熟悉的老师，这次，真的说再见了。
 还没来得及跟给我传授过知识老师，陪了我四年的大学同学，以及实验室的学弟学妹们好好的说再见，就提着行李，背着书包离开了学校。
@@ -1492,10 +1492,10 @@ Global 代码：代码第一次执行时默认的环境。 Function 代码：执
     
     <item>
       <title>Javascript 是最好的语言，不服来辩</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</link>
       <pubDate>Thu, 24 May 2018 17:03:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</guid>
       <description>看到这个标题相信很多人就要开始跟我争论了，PHP 才是最好的语言，那就请原谅下，你说是就是，我们来看看就知道了。
 有一条 Atwood 定律：any application that can be written in JavaScript, will eventually be written in JavaScript
 翻译一下就是：任何可以用 JavaScript 来写的应用，最终都将用 JavaScript 来写
@@ -1509,10 +1509,10 @@ Electron 是由 Github 开发，用 HTML，CSS 和 JavaScript 来构建跨平台
     
     <item>
       <title>给在校准备找工作的同学的几个建议</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</link>
       <pubDate>Tue, 22 May 2018 12:23:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</guid>
       <description>了解 vim 养成 git 规范 学深比学广更重要 拥有自己的知识体系，形成解决问题的方法论 了解 vim Vim 被誉为&amp;quot;编辑器之神&amp;quot;，这可不是虚的。
 在我用了 vim 半年之后，我建议我身边的每一位程序员都去学习 vim 。
 因为一旦你学会了 vim 的操作，你就像中了毒一样，你会讨厌鼠标，讨厌在你敲着敲着键盘，突然又要去移动光标，因为把手从键盘移动到鼠标上的时间远远大于手指在键盘按键的切换。
@@ -1534,10 +1534,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>ES6之路之模块详解</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/88/</link>
       <pubDate>Mon, 14 May 2018 17:09:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/88/</guid>
       <description>简介 何为模块 一个模块只不过是一个写在文件中的 JavaScript 代码块。
 模块中的函数或变量不可用，除非模块文件导出它们。
 简单地说，这些模块可以帮助你在你的模块中编写代码，并且只公开应该被你的代码的其他部分访问的代码部分。
@@ -1550,10 +1550,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>桃园周刊 2018-5-14</title>
-      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/87/</link>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/87/</link>
       <pubDate>Mon, 14 May 2018 14:25:07 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/87/</guid>
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/87/</guid>
       <description>如何更好的编写 async 函数 虽然 async/await 方式来处理异步请求，已经是比较非常好的方式了，但是有时候新手会乱用导致性能堪忧，这篇文章作者总结了他在项目迁移中更好的编写 aysnc 函数的方法。
 实现双向绑定 Proxy 比 defineproperty 优劣如何? 双向绑定其实已经是一个老掉牙的问题了,只要涉及到 MVVM 框架就不得不谈的知识点。
 可以实现双向绑定的方法有很多, KnockoutJS 基于观察者模式的双向绑定, Ember 基于数据模型的双向绑定, Angular 基于脏检查的双向绑定,本篇文章我们重点讲面试中常见的基于数据劫持的双向绑定。
@@ -1562,10 +1562,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>三板斧使你走上人生巅峰</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</link>
       <pubDate>Fri, 11 May 2018 14:32:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</guid>
       <description>在我目前的认知里，我觉得未来有三个技能是需要掌握的，分别是：写作、编程、理财。我相信如果这三个技能都掌握了，我相信你里财富自由之路已经不远了。
 想要走上财富自由，主要看你的「睡后」收入，就是在你睡觉的时候还有的输入，比如你录视频卖、写书、做自媒体写文章、理财等等，程序员如果增加「睡后」输入，请看 Stromzhang 的 这篇文章 。这些都会让你在你睡觉了之后还有收入，跟你上班出售自己的时间相比，你花在这些能增加「睡后」收入的时间可以重复卖这些时间。
 比如一个作家花一年的时间写了一本书，可以畅销十年；那些做自媒体的写出一款爆文，到处转发，也可以流行好多天。
@@ -1603,10 +1603,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>桃园周刊 2018-5-5</title>
-      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/74/</link>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/74/</link>
       <pubDate>Sat, 05 May 2018 19:18:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/74/</guid>
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/74/</guid>
       <description>### Mvvm 前端数据流框架精讲 带大家了解什么是 mvvm，mvvm 的原理，以及近几年产生了哪些演变。
 同时借 mvvm 这个话题拓展到对各类前端数据流方案的思考，形成对前端数据流整体认知，帮助大家在团队中更好的做技术选型。
 译-RxJS 游戏之贪吃蛇 众所周知，Web 发展的很快。如今，响应式编程和 Angular 或 React 这样的框架一样，已经是 Web 开发领域中最热门的话题之一。响应式编程变得越来越流行，尤其是在当今的 JavaScript 世界。从命令式编程范式到响应式编程范式，社区已经发生了巨大的变化。然而，许多开发者还是十分纠结，常常因为响应式编程的复杂度(大量 API)、思维转换(从命令式到响应式)和众多概念而畏缩。
@@ -1616,10 +1616,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>ES6之路之块级作用域</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/70/</link>
       <pubDate>Thu, 19 Apr 2018 21:24:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/70/</guid>
       <description>作用域 作用域指变量所作用的范围，在 Javascript 中有两种作用域：
 全局作用域 函数作用域 变量提升 变量提升（Hoisting）被认为是， Javascript 中执行上下文 （特别是创建和执行阶段）工作方式的一种认识。具体表现就是所有通过 var 声明的变量会提升到当前作用域的最前面。
 function foo() { console.log(temp); } function bar() { console.log(temp); var temp; } foo(); // ReferenceError: temp is not defined bar(); // undefined 可以看到用 var 声明了的并不会报错。因为其实函数 bar 等同于
@@ -1632,10 +1632,10 @@ let foo = 3; 使用方法基本和 var 相同，而且声明的变量只在其�
     
     <item>
       <title>你不知道的黑客</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</link>
       <pubDate>Fri, 13 Apr 2018 22:32:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</guid>
       <description>前言 我相信大家对于『黑客』这个词并不陌生，特别是对我们搞计算机的人来说，那是相当的熟悉。
 在一般人的眼里『黑客』（hacker）就是入侵计算机的人，就是『计算机犯罪』的同义词。但是，它的原意并非如此。
 起源 在 20 世纪 60 年代初，麻省理工学院有一个学生团体叫做『铁路模型技术俱乐部』，他们把难题的解决方法称为 hack。
@@ -1658,10 +1658,10 @@ let foo = 3; 使用方法基本和 var 相同，而且声明的变量只在其�
     
     <item>
       <title>像素相关概念：PPI、DPI、设备像素、独立像素</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/146/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/146/</link>
       <pubDate>Fri, 30 Mar 2018 15:19:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/146/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/146/</guid>
       <description>欢迎访问我的个人站点
 前言 我相信对于像素，英文「pixel」，缩写「px」，这个概念并不陌生吧，不管是设计师设计图片用的单位 px，还是前端工程师在 css 里面的单位 px等等，很多领域都会用到这个单位，但是当我问他们一些问题的时候，基本上都答得不好。
 比如：
@@ -1674,20 +1674,20 @@ iPhone 6 的分辨率是 750 x 1334 像素，然而我们我们在写 css 的时
     
     <item>
       <title>如何将多个 maven 项目统一管理</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/51/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/51/</link>
       <pubDate>Thu, 22 Mar 2018 10:21:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/51/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/51/</guid>
       <description>简介 在我们一个人采用微服务构架的时候，我们会创建很多个 maven 项目。然后如果从 IDE 里面导入项目就要导入很多次，为了方便统一管理，我们可以将多个 maven 放在一个 项目里统一管理，然后我们导入项目的时候就可以直接导入一个项目就 OK。
 操作方法 在多个项目的父目录建立一个文件夹，创建一个 pox.xml 文件 代码规则 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&amp;lt;project xmlns=&amp;#34;http://maven.apache.org/POM/4.0.0&amp;#34; xmlns:xsi=&amp;#34;http://www.w3.org/2001-XMLSchema-instance&amp;#34;xsi:schemaLocation=&amp;#34;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&amp;#34;&amp;gt;&amp;lt;modelVersion&amp;gt;4.0.0&amp;lt;/modelVersion&amp;gt;&amp;lt;groupId&amp;gt;com.lxr&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;maiba_be&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;0.0.1-SNAPSHOT&amp;lt;/version&amp;gt;&amp;lt;!-- packaging 把 jar 改成 pox --&amp;gt;&amp;lt;packaging&amp;gt;pom&amp;lt;/packaging&amp;gt;&amp;lt;!-- 这里面放每个微服务的 artifactId--&amp;gt;&amp;lt;modules&amp;gt;&amp;lt;module&amp;gt;goodsService&amp;lt;/module&amp;gt;&amp;lt;/modules&amp;gt;&amp;lt;!-- 为了解决依赖版本问题 --&amp;gt;&amp;lt;dependencyManagement&amp;gt;&amp;lt;dependencies&amp;gt;&amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;Camden.SR3&amp;lt;/version&amp;gt;&amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&amp;lt;/dependency&amp;gt;&amp;lt;/dependencies&amp;gt;&amp;lt;/dependencyManagement&amp;gt;&amp;lt;properties&amp;gt;&amp;lt;project.build.sourceEncoding&amp;gt;UTF-8&amp;lt;/project.build.sourceEncoding&amp;gt;&amp;lt;project.reporting.outputEncoding&amp;gt;UTF-8&amp;lt;/project.reporting.outputEncoding&amp;gt;&amp;lt;java.version&amp;gt;1.8&amp;lt;/java.version&amp;gt;&amp;lt;/properties&amp;gt;&amp;lt;parent&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-boot-starter-parent&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;1.4.2.RELEASE&amp;lt;/version&amp;gt;&amp;lt;/parent&amp;gt;&amp;lt;build&amp;gt;&amp;lt;plugins&amp;gt;&amp;lt;plugin&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-boot-maven-plugin&amp;lt;/artifactId&amp;gt;&amp;lt;/plugin&amp;gt;&amp;lt;/plugins&amp;gt;&amp;lt;/build&amp;gt;&amp;lt;/project&amp;gt; 每个微服务项目的 pox.</description>
     </item>
     
     <item>
       <title>vim 入门指南</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/50/</link>
       <pubDate>Tue, 20 Mar 2018 23:28:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/50/</guid>
       <description>个人站点：桃园
 0. 前言 0.1 简介 vim 被誉为『编辑器之神』，与之同时代的 emacs 被誉为『神之编辑器』。可以看得出 vim 在编辑器的地位是很高的，得益于 vim 的指法，敲起代码来如行云流水。特别膜拜创始人创始出这么方便的敲代码的指法，这篇文章就是来带你入坑 vim 指法操作。
 0.2 前端的我为什么要学习 vim 在当今前端开发工具百花齐放的时代（VS Code、Sublime、Atom 以及 IDE Webstorm），我为什么还要介绍 20 多年前开发的一个老古董呢？在这里我想说的是出身虽然老，但是所带来的价值并没有减,一旦习惯了 vim 的指法之后，你会觉得不用 vim 操作写代码会觉得很不习惯，甚至不知道怎么操作。然而用在支持 vim 指法的编辑上写代码你会觉得如行云流水，如果再配个机械键盘，简直是享受，特别符合极客的风格。
@@ -1699,20 +1699,20 @@ A：当然不是。首先 vim 的学习成本还是很高的，因为他跟平�
     
     <item>
       <title>JavaScript数据结构之数组栈队列</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/42/</link>
       <pubDate>Wed, 14 Mar 2018 09:53:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/42/</guid>
       <description>1. 数组 数组是平时使用最常用的数据结构，在JavaScript中数组是动态的分配大小,在这里我不会介绍JavaScript里面数组的所有的方法，而是针对数据结构这个方向谈谈所用到的方法。
 1.1 创建和初始化数组 //创建空数组var array = new Array();//[]//初始化数组var array = new Array(1,2,3); var array = Array.of(1,2,3);//ES6的方法//[1,2,3]//创建大小为5的数组var array = new Array();//ES6的方法//[undefined,undefined,undefined,undefined,undefined]//给数组赋值var array = new Array();array[0] = 1 ;array[1] = 2 ;array[2] = 3 ;//[1,2,3] 1.2 添加元素 1.2.1往数组后添加元素 var number = [1,2,3];number[number.length] = 4;//[1,2,3,4]//或者var number = [1,2,3];number.push(4);//[1,2,3,4] 1.2.2往数组前面添加元素 var number = [1,2,3];number.</description>
     </item>
     
     <item>
       <title>ES6之路--Symbol</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/41/</link>
       <pubDate>Wed, 14 Mar 2018 09:49:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/41/</guid>
       <description>欢迎访问我的个人站点
 1. 概述 简介 Symbol 是一种特殊的、不可变的数据类型，可以作为对象属性的标识符使用，表示独一无二的值。Symbol 对象是一个 symbol primitive data type 的隐式对象包装器。它是JavaScript语言的第七种数据类型，前6种分别是：Undefined、Null、Boolean、String、Number、Object。
 语法 Symbol([description])
@@ -1724,10 +1724,10 @@ demo var s1 = Symbol(&#39;symbol1&#39;);s1 //Symbol(symbol1); 因为Symbol函�
     
     <item>
       <title>在spacemacs中支持editorconfig</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/37/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/37/</link>
       <pubDate>Mon, 29 Jan 2018 16:15:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/37/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/37/</guid>
       <description>editorconfig 是在项目存储库中有一个名为 .editorconfig 的文件，这样参与的开发者的编辑和 ide 可以自动调整。
 有一个 emacs/spacemacs 模式，可以很容易地在以下步骤中进行集成：
 将 editorconfig 添加到 dotspacemacs-additional-packages。 将（editorconfig-mode 1）添加到 dotspacemacs/user-config。 更多的细节记录在插件库的 README。
@@ -1738,20 +1738,20 @@ dotspacemacs-additional-packages &amp;#39;( editorconfig ) 第二步：从你的
     
     <item>
       <title>ES6之对象的扩展</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/24/</link>
       <pubDate>Fri, 05 Jan 2018 20:21:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/24/</guid>
       <description>&lt;h3 id=&#34;1-属性的简洁表示法&#34;&gt;1. 属性的简洁表示法&lt;/h3&gt;
 &lt;p&gt;ES6允许直接写入变量和函数作为对象的属性和方法。意思就是说允许在对象中只写属性名，不用写属性值。这时，属性值等于属性名称所代表的变量。下面分别举一个例子来说明：&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一个例子来谈react的两大优势</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/20/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/20/</link>
       <pubDate>Fri, 05 Jan 2018 20:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/20/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/20/</guid>
       <description>&lt;p&gt;今天我想谈的react的优势有两点：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;声明式写法更符合人性&lt;/li&gt;
@@ -1762,29 +1762,29 @@ dotspacemacs-additional-packages &amp;#39;( editorconfig ) 第二步：从你的
     
     <item>
       <title>数据库基础知识</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/19/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/19/</link>
       <pubDate>Fri, 05 Jan 2018 19:43:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/19/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/19/</guid>
       <description>&lt;p&gt;数据库基础知识&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>函数式编程笔记</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</link>
       <pubDate>Fri, 05 Jan 2018 19:25:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</guid>
       <description>&lt;p&gt;过去编程方式主要是以命令式编程为主，什么意思呢？简单说电脑的思维方式和我们人类的思考方式是不一样的。我们人类的大脑擅长的是分析问题，提出一个解决问题的方案，电脑则是生硬的执行指令，命令式编程就像是给电脑下达命令，让电脑去执行一样，现在主要的编程语言（比如：Java，C，C++等）都是由命令式编程构建起来的。
 ​ 而函数式编程就不一样了，这是模仿我们人类的思维方式发明出来的。例如：操作某个数组的每一个元素然后返回一个新数组，如果是计算机的思考方式，会这样想：创建一个新数组=&amp;gt;遍历旧数组=&amp;gt;给新数组赋值。如果是人类的思考方式，会这样想：创建一个数组方法，作用在旧数组上，返回新数组。这样此方法可以被重复利用。而这就是函数式编程了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>cenos下安装node.js和mongodb</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</link>
       <pubDate>Fri, 05 Jan 2018 19:20:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</guid>
       <description>&lt;h2 id=&#34;nodejs安装&#34;&gt;node.js安装&lt;/h2&gt;
 &lt;p&gt;下载源码&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /usr/local/src/
@@ -1794,19 +1794,19 @@ dotspacemacs-additional-packages &amp;#39;( editorconfig ) 第二步：从你的
     
     <item>
       <title>2017文章汇总</title>
-      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/16/</link>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/16/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/16/</guid>
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/16/</guid>
       <description>&lt;p&gt;2017年微信收藏的文章&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2020 年你应该知道的 React 库</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/300/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/300/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/300/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/300/</guid>
       <description>声明：本文为译文，原文链接：https://www.robinwieruch.de/react-libraries
 React 已经诞生很久了，自从它诞生开始，围绕组件驱动形成了一个非常全面的生态，但是来自其他编程语言或者框架的开发人员很难找到要构建一个 React 系统的所有组件。如果你是来自于像 Angular 这样的框架的开发者，你可能已经习惯了框架包含了所需要的所有功能，
 然而对于 React 来说，它的核心并不是完善所有的可选库。 这是优势还是劣势取决于你自己。 当我从 Angular 切换到 React，我绝对经历了它作为 React 的优势。
@@ -1819,10 +1819,10 @@ React 已经诞生很久了，自从它诞生开始，围绕组件驱动形成�
     
     <item>
       <title>2021 年度总结</title>
-      <link>https://examplesite.com/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+      <link>/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+      <guid>/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
       <description>当我起笔写总结的第一感受就是 2021 在写作这件事儿上，我变懒了，对外输出才 8 篇文章。
 我翻了下前几年的年度终结，每年好像都觉得自己输出不够多，所以打心底里还是很想把写作这个事情做好的，但是由于自己思维的懒惰，总是没有落实下去。
 工作 最近几年自己把工作的地位还是放得很高的，特别是来了蚂蚁之后，一个是因为工作任务比较重，暂用比较多的时间；二是因为在现在的财富积累上绝大部分来自于这份工作。
@@ -1852,10 +1852,10 @@ React 已经诞生很久了，自从它诞生开始，围绕组件驱动形成�
     
     <item>
       <title>4个你从未听说过的强大的 JavaScript 运算符</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/339/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/339/</guid>
       <description>你有没有花一个下午的时间浏览过 Mozilla 文档？如果你有，你会很清楚网上有很多关于 JavaScript 的信息。这使得人们很容易忽略一些不同寻常的 JavaScript 操作符。
 然而，仅仅因为这些操作符不常见并不意味着它们不强大！它们在语法上看起来都很相似，但是当它们以不同的方式工作时，请务必阅读它们。
 让我们开始吧！
@@ -1867,10 +1867,10 @@ var prevMoney = 1 var currMoney = 0 var noAccount = null var futureMoney = -1 fu
     
     <item>
       <title>5 点可以让你提高面试通过率建议(干货)</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</guid>
       <description>自从我发过几篇关于面试经历的文章，由于我面试结果还不错，所有很多人来询问我一些面试相关的问题， 我这里给到 5 点建议，希望对大家有帮助。
 1. 简历里应该惜字如金 简历简历，可以分为简和历。简，简单简洁之意，历，经历，总体就是简单的表达自己的经历。
 我看到一些人的简历写了四、五页，甚至十来页的都有，每个项目把细节都写出来了，甚至还把项目截图给贴在了简历里面，生怕面试官不能理解需求，我建议最多不超过 2 页，亮点能写两页就已经很牛逼了。
@@ -1901,10 +1901,10 @@ var prevMoney = 1 var currMoney = 0 var noAccount = null var futureMoney = -1 fu
     
     <item>
       <title>clip-path 实战</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/15/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/15/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/15/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/15/</guid>
       <description>&lt;h3 id=&#34;demo演示&#34;&gt;demo演示&lt;/h3&gt;
 &lt;h4 id=&#34;多边形图&#34;&gt;多边形图&lt;/h4&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://upload-images.jianshu.io/upload_images/2974893-23031feaabbb7c38.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;image.png&#34;  /&gt;
@@ -1913,19 +1913,19 @@ var prevMoney = 1 var currMoney = 0 var noAccount = null var futureMoney = -1 fu
     
     <item>
       <title>css实现图片剪裁</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/6/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/6/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/6/</guid>
       <description>&lt;p&gt;也许，你会遇到这样的情况，UI给你一张图片，然而根据实际情况，比如需要适配XXX手机，或者需要把图片形状搞好看一点，会让前端人员进行图片剪裁工作。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>css计数器教程</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/288/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/288/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/288/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/288/</guid>
       <description>前言 CSS 里面的伪元素其实是非常好用的，但是经常容易被大家忽略，伪元素里面常用到的 content 属性，可能现在很多人仅仅以为 content 属性的值只支持字符串，除了字符串外常用到的还有 uri、counter ，今天所要介绍的就是 conter(计数器)。
 先看如下的例子：
 &amp;lt;div&amp;gt; &amp;lt;h3&amp;gt;桃翁&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;介绍&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;css 计数器&amp;lt;/h3&amp;gt; &amp;lt;/div&amp;gt; 根据如上的 HTML 你是否有办法不通过 JavaScript ，仅仅用 CSS 在 title 前面增加 Title number: 呢？
@@ -1940,10 +1940,10 @@ counter-increment: 计数器名称[, 增量]; /* 增加计数器值 */ 显示计
     
     <item>
       <title>Deep In React 之浅谈 React Fiber 架构（一）</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/262/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/262/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/262/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/262/</guid>
       <description>文章首发于个人博客
 前言 2016 年都已经透露出来的概念，这都 9102 年了，我才开始写 Fiber 的文章，表示惭愧呀。不过现在好的是关于 Fiber 的资料已经很丰富了，在写文章的时候参考资料比较多，比较容易深刻的理解。
 React 作为我最喜欢的框架，没有之一，我愿意花很多时间来好好的学习他，我发现对于学习一门框架会有四种感受，刚开始没使用过，可能有一种很神奇的感觉；然后接触了，遇到了不熟悉的语法，感觉这是什么垃圾东西，这不是反人类么；然后当你熟悉了之后，真香，设计得挺好的，这个时候它已经改变了你编程的思维方式了；再到后来，看过他的源码，理解他的设计之后，设计得确实好，感觉自己也能写一个的样子。
@@ -1958,10 +1958,10 @@ React 16 之前的不足 首先我们了解一下 React 的工作过程，当我
     
     <item>
       <title>三个比它们等效 ES5 速度慢的 ES 6 函数</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
       <description>[Meting] [Music server=&amp;ldquo;tencent&amp;rdquo; id=&amp;ldquo;000AwJtd3Wp27b&amp;rdquo; type=&amp;ldquo;song&amp;rdquo;/] [/Meting]
 我在 medium 上看到一篇 3 JavaScript Performance Mistakes You Should Stop Doing 文章(点击阅读全文可以查看原文，需要科学上网)，大概意思就是说有 3 个 JavaScript 性能错误，你不应该再去写了。很多“歪果仁”也是一看到这个标题就开始**“喷”**作者了，下文会详细说。我先介绍下这篇文章的主要内容
 文章主要内容： 当 ES5 发布的时候，JavaScript 引入了很多新的数组函数。其中包括 forEach，reduce，map，filter - 它们让我们感觉语言在不断增长，功能越来越强大，编写代码变得更加有趣和流畅，结果更易于阅读和理解。
@@ -1974,10 +1974,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>为 VSCode 添加上程序员专用字体 Fira Code</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</guid>
       <description>简介 推荐一款号称程序员的字体 Fira Code，Fira 是 Mozilla 主推的字体系列，Fira Code 是基于 Fira Mono 等宽字体的一个扩展，主要特点是加入了编程连字特性（ligatures）。
 Fira Code 就是利用这个特性对编程中的常用符号进行优化，比如把输入的「!=」直接显示成「≠」或者把「&amp;gt;=」变成「≥ 」等等，以此来提高代码的可读性。
 效果如下：
@@ -1992,10 +1992,10 @@ Step 3. 修改设置 打开 VS Code，如果在安装字体之前已经打开了
     
     <item>
       <title>为什么javascript经常被黑？</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</guid>
       <description>前言 这个问题是知乎上有人邀我回答的，感觉挺有意思的，所以发出来大家讨论下
 1. 语言自身问题 Javascript 之父在花 10 天设计出来的，再牛逼的人，10 天设计出来的肯定会有很多设计不合理的东西，哪些不合理的东西，可以去看《JavaScript语言精粹》，导致这本语言一直是最具争论的一门语言。
 但是背负着这么大的舆论，那么多很烂的特性，还要兼容各种浏览器，js 还能发展得这么好，web前端，移动，服务端，桌面端，甚至游戏，物联网，机器学习等，可见那些好的特性还是非常好的，具体可以看我的这篇文章&amp;ndash;Javascript 是最好的语言，不服来辩。
@@ -2009,10 +2009,10 @@ Step 3. 修改设置 打开 VS Code，如果在安装字体之前已经打开了
     
     <item>
       <title>函数式编程之组合</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/253/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/253/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/253/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/253/</guid>
       <description>该系列文章不是针对前端新手，需要有一定的编程经验，而且了解 JavaScript 里面作用域，闭包等概念
 组合函数 组合是一种为软件的行为，进行清晰建模的一种简单、优雅而富于表现力的方式。通过组合小的、确定性的函数，来创建更大的软件组件和功能的过程，会生成更容易组织、理解、调试、扩展、测试和维护的软件。
 对于组合，我觉得是函数式编程里面最精髓的地方之一，所以我迫不及待的把这个概念拿出来先介绍，因为在整个学习函数式编程里，所遇到的基本上都是以组合的方式来编写代码，这也是改变你从一个面向对象，或者结构化编程思想的一个关键点。
@@ -2030,10 +2030,10 @@ Step 3. 修改设置 打开 VS Code，如果在安装字体之前已经打开了
     
     <item>
       <title>函数式编程资料</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</guid>
       <description>Eric Elliott 函数式教程 征服 JavaScript 面试: 什么是函数式编程？ 组合软件：1. 函数式编程的兴衰 为什么用 JavaScript 学习函数式编程？（软件编写）（第二部分） 函数式程序员的 JavaScript 简介 (软件编写)（第三部分） 高阶函数（软件编写）（第四部分） Reduce（软件编写）（第五部分） Functor 与 Category （软件编写）（第六部分） 函数式 Mixin（软件编写）（第七部分） 为什么在使用了类之后会使得组合变得愈发困难（软件编写）（第九部分） 借助函数完成可组合的数据类型（软件编写）（第十部分） JavaScript 让 Monad 更简单（软件编写）（第十一部分） JavaScript 轻量级函数式编程 JavaScript 轻量级函数式编程
 Starkwang.log JavaScript函数式编程（一）
 JavaScript函数式编程（二）
@@ -2043,10 +2043,10 @@ JavaScript函数式编程（三）
     
     <item>
       <title>前端桃园周刊第五期</title>
-      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</link>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</guid>
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</guid>
       <description>文章 1. Thinking in React Hooks 当从 React 类组件切换到函数组件 + hook 时，基本的思维模式发生了什么变化。
 2. Ant Design 1.0 背后的故事：把艺术变成技术 我以前一直不喜欢读历史，今年了解吴军老师比较多，听他的硅谷来信，看他的书：《浪潮之巅》、《文明之光》才决定历史背景原来那么重要，了解历史你会发现现在很多的东西都是必然会出现的。 Ant Desgin 这么伟大的东西，了解一个产品背后的故事，我觉得还是很有必要的，看看为什么别人能做出伟大的东西，而我们不能。
 3. 前端API层架构，也许你做得还不够 架构设计是一条永远走不完的路，没有最好，只有更好。这个道理适用于软件设计的各个场景，前端API 层的设计也不例外，如果您觉得在调用接口时还存在诸多槽点，那就说明您的接口层架构还待优化。作者以 vue + axios 为例，为大家梳理下我的一些经历和设想。
@@ -2064,10 +2064,10 @@ JavaScript函数式编程（三）
     
     <item>
       <title>前端桃园周刊第六期</title>
-      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/294/</link>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/294/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/294/</guid>
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/294/</guid>
       <description>小知识 伪类before/after中的图片大小是不是不能设置的? 文章 编写组件的 10 个原则 一篇英文文章，之前面试被面到过设计组件的时候要注意哪些，当时我大脑空白，根本答不出来，看了这篇文章之后，也许知道怎么答了。
 深入解析ES Module（二）：彻底禁用default export 文章介绍了 export default object 这种方式所带来的问题，主要是在转换的时候不兼容 cjs，当然这篇文章也有助于更深刻的理解 ES Module。
 「圣诞特辑」纯前端实现人脸识别自动佩戴圣诞帽 通过使用 TensorFlow.js 来进行人脸识别，然后自动佩戴圣诞帽，我最近也在学习机器学习相关的，当然也绕不开 TensorFlow.js ，学完课程之后再来看这篇文章。
@@ -2077,10 +2077,10 @@ JavaScript函数式编程（三）
     
     <item>
       <title>前端桃园周刊第四期</title>
-      <link>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</link>
+      <link>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</guid>
+      <guid>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</guid>
       <description>一句话知识 npm v packageName versions npm v packageName versions 查看包的所有版本，不加s 获取新版本。用途，安装了包但是 package.json 里面没有包，需要手动填入的时候。
 typeof null 为什么返回 &amp;ldquo;object&amp;rdquo;？ 不同的对象在底层都表示为二进制，在 JavaScript 中二进制前三位都为 0 的话会被判 断为 object 类型，null 的二进制表示是全 0，自然前三位也是 0，所以执行 typeof 时会返回“object”。
 in 和 hasOwnProperty 区别 in 操作符会检查属性是否在对象及其 [[Prototype]] 原型链中。相比之下， hasOwnProperty(..) 只会检查属性是否在 myObject 对象中，不会检查 [[Prototype]] 链。
@@ -2092,10 +2092,10 @@ function Foo() { /* .</description>
     
     <item>
       <title>另一个视角看待这次 antd</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</guid>
       <description>公众号相信大家今天都已经知道了 antd 这次的事故了，不知道的简单回顾一下。
 今天圣诞节，所以在 type 是 primary 的 Button 上都加上了雪花。
 就是在 antd 3.9.3 的时候增加了一个定时器，到 12 月 25 的时候增加一个 christmas 的 css 类，还给 title 改为了 Ho Ho Ho。具体 commit 见：https://github.com/ant-design/ant-design/commit/00aebeb9756afecc884ad48486084836b9a2707a
@@ -2115,10 +2115,10 @@ function Foo() { /* .</description>
     
     <item>
       <title>我不喜欢这世界，我只喜欢你</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/3/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/3/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/3/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;我这人运气一向不好，我这辈子最幸运的事大概就是遇见你，所以我特别特别珍惜，长这么大唯一坚持下来的事情就是爱你。&lt;/li&gt;
 &lt;li&gt;反正得听你啰嗦一辈子，习惯就好。&lt;/li&gt;
@@ -2129,10 +2129,10 @@ function Foo() { /* .</description>
     
     <item>
       <title>我也想做自己喜欢做的事儿</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</guid>
       <description>我今天看到一视频，给了我非常大感触。是 B 站上的一个视频，标题名叫：《这有可能是我最后一期视频了，再见了 B 站》， 视频链接可以点击「原文链接」得到。
 这个视频大概讲的是这样：
 一个富二代，大学毕业以后没有去家里帮爸妈，由于自己非常喜欢游戏，所以就想做自媒体，自己赚钱养自己，做了差不多一年半，在 B 站拥有不多不少的 25 万粉丝，由于他自己喜欢的是单机游戏，但是国内喜欢单机游戏的人太少，所以在 B 站涨粉缓慢，慢慢的，迫于生计，不得追求快速涨粉，不至于入不敷出。
@@ -2158,10 +2158,10 @@ function Foo() { /* .</description>
     
     <item>
       <title>根据 React 历史来聊如何理解虚拟 DOM</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</guid>
       <description>最近我发现很多面试题里面都有「如何理解虚拟 DOM」这个题，我觉得这个题应该没有想象中那么好答，因为很多人没有真正理解虚拟 DOM 它的价值所在，我这篇从虚拟 DOM 的诞生过程来引出它的价值以及历史地位，帮助你深入的理解它。
 什么是虚拟DOM 本质上是 JavaScript 对象，这个对象就是更加轻量级的对 DOM 的描述。
 对，就是这么简单！
@@ -2177,10 +2177,10 @@ XHP 时代 - 2010 到了 2010 年，为了更加高效的编码，同时也避�
     
     <item>
       <title>认识函数式编程</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/190/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/190/</guid>
       <description>最开始接触函数式编程的时候是在小米工作的时候，那个时候看老大以前写的代码各种 compose，然后一些 ramda 的一些工具函数，看着很吃力，然后极力吐槽函数式编程，现在回想起来，那个时候的自己真的是见识短浅，只想说,&amp;lsquo;真香&amp;rsquo;。
 最近在研究函数式编程，真的是在学习的过程中感觉自己的思维提升了很多，抽象能力大大的提高了，让我深深的感受到了函数式编程的魅力。所以我打算后面用 5 到 8 篇的篇幅，详细的介绍一下函数式编程的思想，基础、如何设计、测试等。
 今天这篇文章主要介绍函数式编程的思想。

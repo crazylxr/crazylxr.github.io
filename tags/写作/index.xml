@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>写作 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E5%86%99%E4%BD%9C/</link>
-    <description>Recent content in 写作 on ExampleSite</description>
+    <title>写作 on 桃园</title>
+    <link>/tags/%E5%86%99%E4%BD%9C/</link>
+    <description>Recent content in 写作 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 May 2020 21:35:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2020 21:35:00 +0000</lastBuildDate><atom:link href="/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac写作环境搭建</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</link>
       <pubDate>Sun, 10 May 2020 21:35:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</guid>
       <description>前言 写作是我一直都提倡每个人去做的一件事情，也许你是通过写作来进行总结，也许你是通过写作生计，也许像我一样写文章提升自己的影响力，不管怎么样，工欲善其事必先利其器，今天我将两年以来最好用的一套写作软件配置介绍给大家。
 在这篇文章中你可以了解到三个工具：
 最好用的 markdown 写作编辑器 mac 平台专属的图床工具 选取合适的工具美化排版 写作软件(Typora) 我使用过很多的 markdown 编辑器，bear、MWeb、UIysses、印象笔记等等，每个都号称最专业的 markdown 软件，但是这些软件对于图片的处理都不是特别满足我的需求。

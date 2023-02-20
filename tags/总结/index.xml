@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>总结 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E6%80%BB%E7%BB%93/</link>
-    <description>Recent content in 总结 on ExampleSite</description>
+    <title>总结 on 桃园</title>
+    <link>/tags/%E6%80%BB%E7%BB%93/</link>
+    <description>Recent content in 总结 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 24 Jan 2021 19:19:06 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 19:19:06 +0000</lastBuildDate><atom:link href="/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>桃翁2020年度总结</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</link>
       <pubDate>Sun, 24 Jan 2021 19:19:06 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</guid>
       <description>前言 2020 年真的是不平凡的一年， 疫情夺走了很多人的生命，还夺走了我的工作(公司因为疫情被迫裁员)，所以今年换了工作来到了蚂蚁，在蚂蚁的工作经历跟之前在蘑菇街完全不一样。。。
 工作 来蚂蚁这半年我觉得在工作上的成长比我之前在蘑菇街一年半的成长都还多，经历比较丰富。
 阿里一直都有拥抱变化的文化，我来大概五个月的时候就换了三个主管，经历了好几次的组织架构变动，我刚进来的时候同组的同事（之前组内大概 12 人）到现在还跟我一组的仅剩一名。
@@ -49,10 +49,10 @@
     
     <item>
       <title>读者问题|关于如何学习的讨论</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</link>
       <pubDate>Mon, 13 Jan 2020 23:23:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</guid>
       <description>一个读者的困惑，我做了简单的解答，希望能对他有所帮助。
 ## ##1. 如何把一个知识由浅入深的学习？
 见问题 2
@@ -80,10 +80,10 @@
     
     <item>
       <title>2019 个人深度总结</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</link>
       <pubDate>Fri, 03 Jan 2020 17:01:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</guid>
       <description>又一年过去了，2018 年写年终总结的场景还历历在目，写这篇文章之前还专门去看了下 2018 年的年度总结，主要是看自己在 2018 学的东西自己还能记得啥。
 印象最深刻的应该是还是函数式编程相关的东西，因为确实在我深入的去接触它过后，我的很多编程思维都被它所影响。虽然在项目中不会去用很多函数式的方式去写，但是函数式的那些特点深深的指导着我如何去设计一个更容易维护的函数，其中一些思维可以见我去年的写 函数式编程，真香。
 做个预测：三年之内，函数式编程要火一波，原因是 serverless 的兴起。
@@ -106,10 +106,10 @@
     
     <item>
       <title>2018 年度总结, 三个角色的转变</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</link>
       <pubDate>Tue, 15 Jan 2019 16:54:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</guid>
       <description>2018已经结束了，总结自己这一年来就是三个角色的转变：自己从一个学生成为了一个社会人，从一个读者变成了一个自媒体人，从一个在校学习者变成了终身学习者。
 每一种角色的转变意味着责任的转变，每多一种角色，就会多承担一份责任。角色变得越大，责任也会承担得越大，当然收获得也更大。
 技术成长 对于技术成长，我感觉我莫名其妙的就走在了前端的前沿，刚刚在知乎上看到一个帖子2019 前端技术规划该包含什么？很多大佬在规划里面都谈到 Rxjs、Typescript、函数式编程、Flutter、PWA、Node 相关, 然而事实就是这么巧(或者可以说我眼界比较远，偷笑)，在 2018 年我很多都已经接触过了，比如 Rxjs、TS、函数式编程、Node 等。
@@ -124,10 +124,10 @@ Rxjs 官网 30 天精通 Rxjs 程墨老师的深入浅出 Rxjs 聊函数式编�
     
     <item>
       <title>2021 年度总结</title>
-      <link>https://examplesite.com/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+      <link>/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+      <guid>/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
       <description>当我起笔写总结的第一感受就是 2021 在写作这件事儿上，我变懒了，对外输出才 8 篇文章。
 我翻了下前几年的年度终结，每年好像都觉得自己输出不够多，所以打心底里还是很想把写作这个事情做好的，但是由于自己思维的懒惰，总是没有落实下去。
 工作 最近几年自己把工作的地位还是放得很高的，特别是来了蚂蚁之后，一个是因为工作任务比较重，暂用比较多的时间；二是因为在现在的财富积累上绝大部分来自于这份工作。

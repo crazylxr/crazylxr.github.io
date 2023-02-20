@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>观点与感想 on ExampleSite</title>
-    <link>https://examplesite.com/categories/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/</link>
-    <description>Recent content in 观点与感想 on ExampleSite</description>
+    <title>观点与感想 on 桃园</title>
+    <link>/categories/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/</link>
+    <description>Recent content in 观点与感想 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Mar 2022 22:22:22 +0000</lastBuildDate><atom:link href="https://examplesite.com/categories/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Mar 2022 22:22:22 +0000</lastBuildDate><atom:link href="/categories/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>有一种用户增长方案，叫不做“用户增长”</title>
-      <link>https://examplesite.com/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</link>
+      <link>/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</link>
       <pubDate>Mon, 21 Mar 2022 22:22:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</guid>
+      <guid>/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</guid>
       <description>我自己最近由于组织架构的调整，调整到了做用户增长相关的业务，我才去了解了什么是用户增长，用户增长包含用户的获客、激活、留存、变现、推荐，然后知道用户增长是所以企业永远不会过时的话题。
 因为所有的企业如果需要成长，一定需要伴随用户的增长，扩大规模。
 然后我还想着在做用户增长相关的业务，想去深入学习一下，然后把自己的公众号当做产品来做用户增长。
@@ -40,10 +40,10 @@
     
     <item>
       <title>做人要做学习型，做事儿要做价值型</title>
-      <link>https://examplesite.com/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</link>
+      <link>/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</link>
       <pubDate>Fri, 11 Mar 2022 22:29:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</guid>
+      <guid>/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</guid>
       <description>今天在阅读《华与华正道》，读到两句金句：
 做人要做学习型，不要做纠错型 不要批判思维，要价值思维 记忆深刻，分享一下我的理解。
 做人要做学习型 从小我们就学过《论语》的：三人行，必有我师，择其善者而从之,其不善者而改之。
@@ -65,10 +65,10 @@
     
     <item>
       <title>幸福的秘诀--保持低期望</title>
-      <link>https://examplesite.com/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</link>
+      <link>/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</link>
       <pubDate>Thu, 10 Mar 2022 22:55:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</guid>
+      <guid>/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</guid>
       <description>为什么你总是在焦虑，总是对生活感到不满呢？
 也许是因为期望值太高了。由于期望值过高，现实往往不能达到预期的标准，即使达到了预期的标准，也体验不到“超过预期”的欢欣，因此，完美主义者们总是感到忧心忡忡。
 也许是时候把自己的期望值降低一些了，这并不是对现实生活的消极应对，而是对幸福感的积极追寻。
@@ -103,10 +103,10 @@
     
     <item>
       <title>时间管理的三大法宝</title>
-      <link>https://examplesite.com/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</link>
+      <link>/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</link>
       <pubDate>Wed, 09 Mar 2022 22:47:22 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</guid>
+      <guid>/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</guid>
       <description>今天读《华与华正道》看到一句话：如何管理时间？做到铁石心肠、制定节拍、不追热点。
 这三个法宝基本上已经足以满足绝大部分人的需求了。
 接下来我们来推演一下这三个法宝为什么有用。
@@ -136,10 +136,10 @@
     
     <item>
       <title>回顾过去比展望未来重要一百倍</title>
-      <link>https://examplesite.com/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</link>
+      <link>/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</link>
       <pubDate>Tue, 08 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</guid>
+      <guid>/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</guid>
       <description>今天在阅读《华与华正道》读到这么一句话 ：
 回顾过去比展望未来重要一百倍，如果对过去不认真复盘，就会再次掉进过去的错误里。一个步骤一个步骤地复盘，一个动作一个动作地复盘，才能找到成功或失败的真因。在复盘中钻研，钻研工法，持续改善，最终实现全公司的技术进步。
 我们在哪些方面，应该回顾、复盘？ 工作上的事情，比如每一个项目做完了需要复盘，每个月至少写一个月报复盘一下，最好每周复盘。 自己的情绪，比如跟伴侣吵架了，复盘一下是什么情况，两个的情绪分别是啥样的，然后复盘完之后两个再沟通一下，增加感情。 时间管理，比如每天组内其他同学下班都挺早，为啥自己这么晚。为啥早上规划的 5 件事，到下班只做了 3 件事？是不是被别人占用的时间太多了，还是自己偷懒了？ 如果不回顾，会怎么样？ 如果我们不养成回顾的习惯，一路往前走，肯定是走不远的。
@@ -159,10 +159,10 @@
     
     <item>
       <title>专注于自己能做的最少的事情</title>
-      <link>https://examplesite.com/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</link>
+      <link>/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</link>
       <pubDate>Mon, 07 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</guid>
+      <guid>/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</guid>
       <description>今天读《华与华正道》，读两句话：
 先认识到什么事情是我们做不到的，然后再积极地去做现在能做的事。 要认识到我们知道的有限，能做的事情很少，然后把最少的事情做到最彻底 这两句都是让我们更专注于当前的事的思维。
 一、认识到什么事情是我们做不到的，然后再积极地去做现在能做的事 不知道大家有没有这样一种体感，就是你越读书，越专研一个知识，会发现自己不懂的越来越多，感觉自己越学越菜，越学不懂的越多。
@@ -191,10 +191,10 @@
     
     <item>
       <title>如何正确的花钱</title>
-      <link>https://examplesite.com/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</link>
+      <link>/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</link>
       <pubDate>Sun, 06 Mar 2022 22:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</guid>
+      <guid>/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</guid>
       <description>前言 今天阅读《华与华正道》，看到了跟花钱有关的两句话：
 要舍得多花“冤枉钱”，这样碰上刀刃的概率比较大 钱最贱，人最贵，贵的人，时间更贵 感受颇深，特来解读自己理解。
 要舍得多花“冤枉钱”，才容易花到刀刃上 经常父母会说：在外面不要乱花钱，要把钱花在刀刃上。
@@ -239,10 +239,10 @@
     
     <item>
       <title>聊聊关于如何选择offer</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</link>
       <pubDate>Thu, 27 May 2021 08:57:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</guid>
       <description>前阵子我们组大量招人，看到一些候选人拿了好几个 offer 摇摆不定，一直在纠结；也有不少读者私下跟我询问怎么选择；另外就是知乎上，我回答了一个 蚂蚁和字节怎么选的问题，阅读量比较高，所以也经常有人问我这个问题。
 所以想写篇文章来聊一聊这个问题。
 最多的就是字节和阿里怎么选 ♀️
@@ -269,10 +269,10 @@ base 上字节是好于蚂蚁，年终奖蚂蚁好于字节，总体薪资我觉
     
     <item>
       <title>理清业务团队开发和业务的关系</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</link>
       <pubDate>Sun, 16 May 2021 10:16:31 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</guid>
       <description>关于开发是否应该深入了解业务，听到两种我觉得不正确的类型：
 「我是开发，我就做好开发就行了，业务交给产品和运营同学」。不懂业务，完全不想了解型。 「懂业务之后就可以跟产品 PK 了，方便砍需求」。懂业务，目的不正确型。 我的观点是要想当一个优秀的开发者，必须懂业务，不是为了跟产品 PK，而是为了预判未来的发展方向，好指导自己写的代码可以适应未来更久的时间。
 懂业务，目的不正确型。 作为一个开发，不知道多少人经常会在耳边听到这么一句话：多了解业务，多了解业务。
@@ -298,10 +298,10 @@ base 上字节是好于蚂蚁，年终奖蚂蚁好于字节，总体薪资我觉
     
     <item>
       <title>在蚂蚁工作是一种什么样的体验(一)</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</link>
       <pubDate>Sat, 13 Mar 2021 14:49:27 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</guid>
       <description>大家好，我是桃翁！ 之前有小伙伴留言让我聊聊「希望聊一些在大厂工作是什么体验，想听如何融入，如何适应，如何成长的规划，遇到过的哪些比较棘手的问题和怎么处理的，期待」。
 他这里这么多问题，我准备每个问题都写一篇文章来聊，首先咱们要聊的就是「大厂的工作体验」。
 身边牛人多 可能很多想去大厂的同学，第一驱动力觉得大厂肯定很多大佬，然后进去了可以带带自己。
@@ -328,10 +328,10 @@ base 上字节是好于蚂蚁，年终奖蚂蚁好于字节，总体薪资我觉
     
     <item>
       <title>桃翁2020年度总结</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</link>
       <pubDate>Sun, 24 Jan 2021 19:19:06 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</guid>
       <description>前言 2020 年真的是不平凡的一年， 疫情夺走了很多人的生命，还夺走了我的工作(公司因为疫情被迫裁员)，所以今年换了工作来到了蚂蚁，在蚂蚁的工作经历跟之前在蘑菇街完全不一样。。。
 工作 来蚂蚁这半年我觉得在工作上的成长比我之前在蘑菇街一年半的成长都还多，经历比较丰富。
 阿里一直都有拥抱变化的文化，我来大概五个月的时候就换了三个主管，经历了好几次的组织架构变动，我刚进来的时候同组的同事（之前组内大概 12 人）到现在还跟我一组的仅剩一名。
@@ -364,10 +364,10 @@ base 上字节是好于蚂蚁，年终奖蚂蚁好于字节，总体薪资我觉
     
     <item>
       <title>原来我是个业务性选手</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</link>
       <pubDate>Sat, 12 Sep 2020 21:22:24 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</guid>
       <description>01 前几天我试用期转正答辩了，老板也给过了，给到我的评价大概是：业务型选手，接下来一两年很关键，如果能够在业务中深入挖掘，会是个好苗子，否则就比较平了。
 这个评价其实我还是没想到的，或者说我之前根本没想过结果。
 其实我从大学毕业以来，都觉得自己是个**技术型选手，**之前在蘑菇街的时候我也是按照技术路线走的。在蘑菇街的时候工作不是很忙，所以也有时间去研究技术，也乐于分享然后才经常写文章，才做了公众号。
@@ -395,10 +395,10 @@ base 上字节是好于蚂蚁，年终奖蚂蚁好于字节，总体薪资我觉
     
     <item>
       <title>离开蘑菇街后，我最近的一些想法</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</link>
       <pubDate>Thu, 30 Apr 2020 16:19:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</guid>
       <description>前言 被裁之后我就一直在家复习，面试，所以就一直没有写文章，没有太多心思搭理公众号，现在也拿了两个 offer 了，所以开始回到正途。
 胎死腹中的 Vue 3.0 Beta 文章 4 月 17 日，早上我收到了浪浪(浪里行舟)的消息，给我发了一个微博消息，尤大在微博上宣布发布 Vue 3.0 Beta 了，然后跟我说这是热点，让我写一篇文章，我就暂停了前一天晚上定时发的文章，准备写一篇详细介绍 Vue 3.0 Beta 所发布的东西。
 所以当天我早早的来到了公司，希望在上班前能搞定，然后就开始翻阅 vue-next 的文档以及草案，想从根源去探究 vue 3.0 Beta 能给我们带来什么。
@@ -433,10 +433,10 @@ base 上字节是好于蚂蚁，年终奖蚂蚁好于字节，总体薪资我觉
     
     <item>
       <title>读者问题|关于如何学习的讨论</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</link>
       <pubDate>Mon, 13 Jan 2020 23:23:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</guid>
       <description>一个读者的困惑，我做了简单的解答，希望能对他有所帮助。
 ## ##1. 如何把一个知识由浅入深的学习？
 见问题 2
@@ -464,10 +464,10 @@ base 上字节是好于蚂蚁，年终奖蚂蚁好于字节，总体薪资我觉
     
     <item>
       <title>如果解决虚度时光，首先做到要事第一</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</link>
       <pubDate>Thu, 07 Nov 2019 21:51:07 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</guid>
       <description>阅读文章之前你可以花半分钟想想你觉得你自己最虚度的时光是时候？
 夸自己 可能在很多人的眼里，我以及算是一个努力、上进的人了，那是因为他们只看到了我努力的时候，没有看到我虚度的时候。
 一般在工作日我还是非常的恪守自己的原则，在不上班的时候都会提升自己，比如看书、听课、阅读、写作等方式。跟一般的人比起来更努力的点就是早上我会先学习一个小时，我一般 7 点半就会起床，然后看书或者听课一小时后，也就是 8 点半的时候才会去洗漱，下班回来也很少除了和女朋友每天至少视频半小时外，其余时间用得都很充分(用的方向对不对先不谈)。
@@ -494,10 +494,10 @@ GTD 会有五个核心步骤：收集、处理、组织、检查、做。其中�
     
     <item>
       <title>看到这段话，真的觉得现在的读者要求比较高</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</link>
       <pubDate>Mon, 09 Sep 2019 21:35:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</guid>
       <description>最近看到这样一段文字，然后掘金的运营还发了一个沸点，看了心理觉得真不是滋味呀。
 图片具体内容如下：
 如果你在阅读文章的过程中，觉得有不同意的，请憋住，把文章看完再说。
@@ -542,10 +542,10 @@ list 愿意点赞的往往是想收藏，然后可能是设计的原因，不管
     
     <item>
       <title>高级程序员与初级程序员差别在哪里？</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</link>
       <pubDate>Thu, 15 Aug 2019 21:39:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</guid>
       <description>之前在公众号里有个读者给我留言：
 请教个问题，公司高职级和初中级，都是写业务代码，那么高职级的价值在哪里呢？
 由于公众号回复留言的限制，当时我就简单的回复了如下的几个点：
@@ -577,10 +577,10 @@ TDD 的原理是在开发功能代码之前，先编写单元测试用例代码�
     
     <item>
       <title>针对华为事件，我思考了四点</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</link>
       <pubDate>Thu, 23 May 2019 21:43:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</guid>
       <description>本来我是不喜欢追热点的，不过今天有个群友在群里发了这样一段话。
 结果被我怼了： 后面的我就不截图了，反正我提倡的是，随时我们能做的是好好的提升自己，只有提升自己才是最重要的。
 有些人同意我的看法，有些人不同意我的看法，这都不是我今天说的重点，只是这个导火线引发的我的一些思考。
@@ -618,10 +618,10 @@ TDD 的原理是在开发功能代码之前，先编写单元测试用例代码�
     
     <item>
       <title>中肯的看待 996</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</link>
       <pubDate>Wed, 03 Apr 2019 21:46:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</guid>
       <description>最近 996.ICU 太火了。我本来不太想蹭这个热点，因为我的观念与很多人可能不相同，所以担心被骂，最近有读者问我为啥最近没有更新，最近我在准备晋升的事儿，所以也没怎么准备技术上的内容，但是对于 996 这件事儿上，我最近还是有很多想法，跟大家交流下吧！
 后面我会将最近晋升的一些心得总结出来跟大家交流一下，毕竟涨工资呀，所以希望对大家有帮助。
 一、反对 996 的本质原因 为什么要反对 996，说到底，就是钱给的不够。
@@ -654,10 +654,10 @@ TDD 的原理是在开发功能代码之前，先编写单元测试用例代码�
     
     <item>
       <title>为什么现在面试都是面试造火箭</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</link>
       <pubDate>Sun, 17 Mar 2019 21:47:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</guid>
       <description>文章首发于个人网站：前端桃园
 很多人总是抱怨面试官问一些平时不常用的知识点，比如算法呀，网络(TCP)等等，也就是大家常说的：面试造火箭，工作拧螺丝。
 但是有没有想过为什么整个前端圈，或者绝大部分面试，不仅是前端，各种职位都是这样呢？难道就没人来解决这个问题吗？
@@ -696,10 +696,10 @@ TDD 的原理是在开发功能代码之前，先编写单元测试用例代码�
     
     <item>
       <title>2018 年度总结, 三个角色的转变</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</link>
       <pubDate>Tue, 15 Jan 2019 16:54:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</guid>
       <description>2018已经结束了，总结自己这一年来就是三个角色的转变：自己从一个学生成为了一个社会人，从一个读者变成了一个自媒体人，从一个在校学习者变成了终身学习者。
 每一种角色的转变意味着责任的转变，每多一种角色，就会多承担一份责任。角色变得越大，责任也会承担得越大，当然收获得也更大。
 技术成长 对于技术成长，我感觉我莫名其妙的就走在了前端的前沿，刚刚在知乎上看到一个帖子2019 前端技术规划该包含什么？很多大佬在规划里面都谈到 Rxjs、Typescript、函数式编程、Flutter、PWA、Node 相关, 然而事实就是这么巧(或者可以说我眼界比较远，偷笑)，在 2018 年我很多都已经接触过了，比如 Rxjs、TS、函数式编程、Node 等。
@@ -714,10 +714,10 @@ Rxjs 官网 30 天精通 Rxjs 程墨老师的深入浅出 Rxjs 聊函数式编�
     
     <item>
       <title>浅谈未来几年前端的发展方向</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</link>
       <pubDate>Tue, 13 Nov 2018 16:41:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</guid>
       <description>在知乎上看到这么一个问题，觉得很有意思，以下是原提问者的见解
 过去五年前端的发展过程基本上是一个工程化的过程,框架和工程化工具层出不穷。
 近两年其实发展已经比较迟滞了。
@@ -739,10 +739,10 @@ Rxjs 官网 30 天精通 Rxjs 程墨老师的深入浅出 Rxjs 聊函数式编�
     
     <item>
       <title>拥有自己的知识体系，形成自己解决问题的方法论</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</link>
       <pubDate>Fri, 03 Aug 2018 16:15:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</guid>
       <description>前言 最近在星球里群里都有小伙伴说道自己对未来的路比较迷茫，一旦闲下来就不知道自己改干啥，今天我这篇文章就是让你觉得一天给你 25 个小时你都不够用，觉得睡觉都是浪费时间。 今天我谈的就是关于【构建知识体系，形成自己解决问题的方法论】，这个话题以前我在给在校准备找工作的同学的几个建议这篇文章中谈到过，但是没有将如何去构建自己的知识体系，这次将深入这个话题进行探讨。
 什么是知识体系 无论是大到一个星系还是小至一个原子，其本质都是一个个的系统。 那我们如何来掌握这个系统呢？通过“框架”来简化对系统构成元素以及元素间有机联系。因此有目的地运用“框架”来思考、学习，能够让我们更全面、更快速、更深入地分析、解决问题，以及更高效地学习新知识和技能。
 简单来说，知识体系就是一个系统构成元素以及元素之间的有机联系的简化体现。
@@ -763,10 +763,10 @@ Rxjs 官网 30 天精通 Rxjs 程墨老师的深入浅出 Rxjs 聊函数式编�
     
     <item>
       <title>毕业记—我的大学无憾了</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</link>
       <pubDate>Sat, 07 Jul 2018 16:47:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</guid>
       <description>如果玩抖音的同学，我相信对上面这个图片并不陌生，在六月份的时候疯狂刷这个，但是当时并没有任何感觉，直到我那毕业的那天，提起背包离开学校的那天，我才真正的感受到，我要离开学校了。
 自己已经不是一个学生了，熟悉的学校，熟悉的班级，熟悉的同学，熟悉的老师，这次，真的说再见了。
 还没来得及跟给我传授过知识老师，陪了我四年的大学同学，以及实验室的学弟学妹们好好的说再见，就提着行李，背着书包离开了学校。
@@ -792,10 +792,10 @@ Rxjs 官网 30 天精通 Rxjs 程墨老师的深入浅出 Rxjs 聊函数式编�
     
     <item>
       <title>Javascript 是最好的语言，不服来辩</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</link>
       <pubDate>Thu, 24 May 2018 17:03:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</guid>
       <description>看到这个标题相信很多人就要开始跟我争论了，PHP 才是最好的语言，那就请原谅下，你说是就是，我们来看看就知道了。
 有一条 Atwood 定律：any application that can be written in JavaScript, will eventually be written in JavaScript
 翻译一下就是：任何可以用 JavaScript 来写的应用，最终都将用 JavaScript 来写
@@ -809,10 +809,10 @@ Electron 是由 Github 开发，用 HTML，CSS 和 JavaScript 来构建跨平台
     
     <item>
       <title>给在校准备找工作的同学的几个建议</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</link>
       <pubDate>Tue, 22 May 2018 12:23:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</guid>
       <description>了解 vim 养成 git 规范 学深比学广更重要 拥有自己的知识体系，形成解决问题的方法论 了解 vim Vim 被誉为&amp;quot;编辑器之神&amp;quot;，这可不是虚的。
 在我用了 vim 半年之后，我建议我身边的每一位程序员都去学习 vim 。
 因为一旦你学会了 vim 的操作，你就像中了毒一样，你会讨厌鼠标，讨厌在你敲着敲着键盘，突然又要去移动光标，因为把手从键盘移动到鼠标上的时间远远大于手指在键盘按键的切换。
@@ -834,10 +834,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>三板斧使你走上人生巅峰</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</link>
       <pubDate>Fri, 11 May 2018 14:32:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</guid>
       <description>在我目前的认知里，我觉得未来有三个技能是需要掌握的，分别是：写作、编程、理财。我相信如果这三个技能都掌握了，我相信你里财富自由之路已经不远了。
 想要走上财富自由，主要看你的「睡后」收入，就是在你睡觉的时候还有的输入，比如你录视频卖、写书、做自媒体写文章、理财等等，程序员如果增加「睡后」输入，请看 Stromzhang 的 这篇文章 。这些都会让你在你睡觉了之后还有收入，跟你上班出售自己的时间相比，你花在这些能增加「睡后」收入的时间可以重复卖这些时间。
 比如一个作家花一年的时间写了一本书，可以畅销十年；那些做自媒体的写出一款爆文，到处转发，也可以流行好多天。
@@ -875,10 +875,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>5 点可以让你提高面试通过率建议(干货)</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</guid>
       <description>自从我发过几篇关于面试经历的文章，由于我面试结果还不错，所有很多人来询问我一些面试相关的问题， 我这里给到 5 点建议，希望对大家有帮助。
 1. 简历里应该惜字如金 简历简历，可以分为简和历。简，简单简洁之意，历，经历，总体就是简单的表达自己的经历。
 我看到一些人的简历写了四、五页，甚至十来页的都有，每个项目把细节都写出来了，甚至还把项目截图给贴在了简历里面，生怕面试官不能理解需求，我建议最多不超过 2 页，亮点能写两页就已经很牛逼了。
@@ -909,10 +909,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>三个比它们等效 ES5 速度慢的 ES 6 函数</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</guid>
       <description>[Meting] [Music server=&amp;ldquo;tencent&amp;rdquo; id=&amp;ldquo;000AwJtd3Wp27b&amp;rdquo; type=&amp;ldquo;song&amp;rdquo;/] [/Meting]
 我在 medium 上看到一篇 3 JavaScript Performance Mistakes You Should Stop Doing 文章(点击阅读全文可以查看原文，需要科学上网)，大概意思就是说有 3 个 JavaScript 性能错误，你不应该再去写了。很多“歪果仁”也是一看到这个标题就开始**“喷”**作者了，下文会详细说。我先介绍下这篇文章的主要内容
 文章主要内容： 当 ES5 发布的时候，JavaScript 引入了很多新的数组函数。其中包括 forEach，reduce，map，filter - 它们让我们感觉语言在不断增长，功能越来越强大，编写代码变得更加有趣和流畅，结果更易于阅读和理解。
@@ -925,10 +925,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>为什么javascript经常被黑？</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</guid>
       <description>前言 这个问题是知乎上有人邀我回答的，感觉挺有意思的，所以发出来大家讨论下
 1. 语言自身问题 Javascript 之父在花 10 天设计出来的，再牛逼的人，10 天设计出来的肯定会有很多设计不合理的东西，哪些不合理的东西，可以去看《JavaScript语言精粹》，导致这本语言一直是最具争论的一门语言。
 但是背负着这么大的舆论，那么多很烂的特性，还要兼容各种浏览器，js 还能发展得这么好，web前端，移动，服务端，桌面端，甚至游戏，物联网，机器学习等，可见那些好的特性还是非常好的，具体可以看我的这篇文章&amp;ndash;Javascript 是最好的语言，不服来辩。
@@ -942,10 +942,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>另一个视角看待这次 antd</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</guid>
       <description>公众号相信大家今天都已经知道了 antd 这次的事故了，不知道的简单回顾一下。
 今天圣诞节，所以在 type 是 primary 的 Button 上都加上了雪花。
 就是在 antd 3.9.3 的时候增加了一个定时器，到 12 月 25 的时候增加一个 christmas 的 css 类，还给 title 改为了 Ho Ho Ho。具体 commit 见：https://github.com/ant-design/ant-design/commit/00aebeb9756afecc884ad48486084836b9a2707a
@@ -965,10 +965,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>我也想做自己喜欢做的事儿</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</guid>
       <description>我今天看到一视频，给了我非常大感触。是 B 站上的一个视频，标题名叫：《这有可能是我最后一期视频了，再见了 B 站》， 视频链接可以点击「原文链接」得到。
 这个视频大概讲的是这样：
 一个富二代，大学毕业以后没有去家里帮爸妈，由于自己非常喜欢游戏，所以就想做自媒体，自己赚钱养自己，做了差不多一年半，在 B 站拥有不多不少的 25 万粉丝，由于他自己喜欢的是单机游戏，但是国内喜欢单机游戏的人太少，所以在 B 站涨粉缓慢，慢慢的，迫于生计，不得追求快速涨粉，不至于入不敷出。
@@ -994,10 +994,10 @@ For Loop, average loop time: ~10 microsecondsFor-Of, average loop time: ~110 mi
     
     <item>
       <title>根据 React 历史来聊如何理解虚拟 DOM</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</guid>
       <description>最近我发现很多面试题里面都有「如何理解虚拟 DOM」这个题，我觉得这个题应该没有想象中那么好答，因为很多人没有真正理解虚拟 DOM 它的价值所在，我这篇从虚拟 DOM 的诞生过程来引出它的价值以及历史地位，帮助你深入的理解它。
 什么是虚拟DOM 本质上是 JavaScript 对象，这个对象就是更加轻量级的对 DOM 的描述。
 对，就是这么简单！

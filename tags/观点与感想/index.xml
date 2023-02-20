@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>观点与感想 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/</link>
-    <description>Recent content in 观点与感想 on ExampleSite</description>
+    <title>观点与感想 on 桃园</title>
+    <link>/tags/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/</link>
+    <description>Recent content in 观点与感想 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 May 2021 10:16:31 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 10:16:31 +0000</lastBuildDate><atom:link href="/tags/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>理清业务团队开发和业务的关系</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</link>
       <pubDate>Sun, 16 May 2021 10:16:31 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</guid>
       <description>关于开发是否应该深入了解业务，听到两种我觉得不正确的类型：
 「我是开发，我就做好开发就行了，业务交给产品和运营同学」。不懂业务，完全不想了解型。 「懂业务之后就可以跟产品 PK 了，方便砍需求」。懂业务，目的不正确型。 我的观点是要想当一个优秀的开发者，必须懂业务，不是为了跟产品 PK，而是为了预判未来的发展方向，好指导自己写的代码可以适应未来更久的时间。
 懂业务，目的不正确型。 作为一个开发，不知道多少人经常会在耳边听到这么一句话：多了解业务，多了解业务。

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>思考 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E6%80%9D%E8%80%83/</link>
-    <description>Recent content in 思考 on ExampleSite</description>
+    <title>思考 on 桃园</title>
+    <link>/tags/%E6%80%9D%E8%80%83/</link>
+    <description>Recent content in 思考 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Feb 2023 20:24:26 +0800</lastBuildDate><atom:link href="https://examplesite.com/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 20:24:26 +0800</lastBuildDate><atom:link href="/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023 关于图像互动技术前景思考</title>
-      <link>https://examplesite.com/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</link>
+      <link>/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</link>
       <pubDate>Sun, 19 Feb 2023 20:24:26 +0800</pubDate>
       
-      <guid>https://examplesite.com/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</guid>
+      <guid>/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</guid>
       <description>前言 很久没有在外部写文章，跟我的读者们交流了，一些知心一点的同事，也离职了。所以最近感觉有点缺外部的输入，还是想写点文章，跟各种各样的朋友交流一下。 熟悉我的人应该知道，去年参加了支付宝的五福的前端开发，主要负责的是 AI 年画。 年画里面其实是有很多图形互动技术，比如秒轮廓，让后让兔子动起来，然后整个过度动画到装饰页面，装饰页面对于贴纸相关的操作，里面其实用到了大量的图形互动技术，主要用的是蚂蚁的 2D 互动引擎 Tiny.js。
 后面我会整理一下，把年画的一些方案公布出来，有兴趣的可以看一下。
 在做五福之前，我从来没有接触互动技术，对于如何开发互动应用没有任何概念，另外像五福这种大促时间又紧，任务又重，压力十分之大。 还好跟我合作的 partner 是懂的，并且有互动技术大佬给我们当技术顾问，所以才能顺利的上线并取得了不错的效果。
@@ -29,10 +29,10 @@
     
     <item>
       <title>读者问题|关于如何学习的讨论</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</link>
       <pubDate>Mon, 13 Jan 2020 23:23:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</guid>
       <description>一个读者的困惑，我做了简单的解答，希望能对他有所帮助。
 ## ##1. 如何把一个知识由浅入深的学习？
 见问题 2
@@ -60,10 +60,10 @@
     
     <item>
       <title>我也想做自己喜欢做的事儿</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</guid>
       <description>我今天看到一视频，给了我非常大感触。是 B 站上的一个视频，标题名叫：《这有可能是我最后一期视频了，再见了 B 站》， 视频链接可以点击「原文链接」得到。
 这个视频大概讲的是这样：
 一个富二代，大学毕业以后没有去家里帮爸妈，由于自己非常喜欢游戏，所以就想做自媒体，自己赚钱养自己，做了差不多一年半，在 B 站拥有不多不少的 25 万粉丝，由于他自己喜欢的是单机游戏，但是国内喜欢单机游戏的人太少，所以在 B 站涨粉缓慢，慢慢的，迫于生计，不得追求快速涨粉，不至于入不敷出。

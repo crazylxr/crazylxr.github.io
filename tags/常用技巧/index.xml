@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>常用技巧 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
-    <description>Recent content in 常用技巧 on ExampleSite</description>
+    <title>常用技巧 on 桃园</title>
+    <link>/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
+    <description>Recent content in 常用技巧 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Nov 2019 17:46:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Nov 2019 17:46:00 +0000</lastBuildDate><atom:link href="/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>通过fetch发送 post 请求下载文件</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/284/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/284/</link>
       <pubDate>Fri, 22 Nov 2019 17:46:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/284/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/284/</guid>
       <description>背景 最近遇到一个下载的需求，由于 url 参数太长(常用的下载方法 a 标签或者 location.href 的方法都是 get 请求，get 请求参数长度有限制)，无法下载，考虑了好几种方案，最终还是觉得通过 ajax 的 POST 方法进行下载，比较容易实现，下面记录实现过程以及遇到的问题。
 但是由于 AJAX 并不会唤起浏览器的下载窗口，AJAX设计的初衷就是用来实现异步刷新的，用以改善原始的 form 表单提交刷新页面的问题，那么如何来解决呢？
 POST 方法下载实现原理 通过 fetch 请求获取文件，然后利用 Blob 对象来接收处理，在接收到后端返回的文件后，把其转化一下，放入a标签的href中，并触发下载行为。

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>git on ExampleSite</title>
-    <link>https://examplesite.com/tags/git/</link>
-    <description>Recent content in git on ExampleSite</description>
+    <title>git on 桃园</title>
+    <link>/tags/git/</link>
+    <description>Recent content in git on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 Sep 2021 15:30:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 15:30:00 +0000</lastBuildDate><atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git commit 规范和 如何在 commit 里使用 emoji</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</link>
       <pubDate>Sun, 05 Sep 2021 15:30:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</guid>
       <description>前言 大家好，我是桃翁，今天给大家带来的是关于 git commit 那些事儿，希望大家喜欢。
 对于规范 git commit message 我是分成了两种类型去看待。
 对于通用库、开源项目这类多人维护，而且极大可能别人会来看这份代码的，一定要规范，特别是对于开源项目，往往会要列 Change Log，规范好 commit 节省自己整理 log 的时间，也方便了用户。
@@ -29,10 +29,10 @@
     
     <item>
       <title>git 之修改 commit 以及 rebase 的使用</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/228/</link>
       <pubDate>Tue, 22 Jan 2019 18:27:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/228/</guid>
       <description>我在提交中犯了一个错误，我该如何解决？
 我的提交历史一团遭，我改如何让它整洁？
 如果您有过上述问题，那么这篇文章适合您。这篇文章介绍了一个让你成为 Git 专家的主题列表。

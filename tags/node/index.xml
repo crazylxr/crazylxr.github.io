@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>node on ExampleSite</title>
-    <link>https://examplesite.com/tags/node/</link>
-    <description>Recent content in node on ExampleSite</description>
+    <title>node on 桃园</title>
+    <link>/tags/node/</link>
+    <description>Recent content in node on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Jan 2019 10:10:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jan 2019 10:10:00 +0000</lastBuildDate><atom:link href="/tags/node/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pm2 使用教程</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</link>
       <pubDate>Wed, 30 Jan 2019 10:10:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</guid>
       <description>简介 PM2 是 node 进程管理工具，可以利用它来简化很多 node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等，而且使用非常简单。
 安装 npm install -g pm2 快速使用 pm2 start app.js 常用命令 启动 参数说明：
 --watch：监听应用目录的变化，一旦发生变化，自动重启。如果要精确监听、不见听的目录，最好通过配置文件。 -i --instances：启用多少个实例，可用于负载均衡。如果-i 0或者-i max，则根据当前机器核数确定实例数目。 --ignore-watch：排除监听的目录/文件，可以是特定的文件名，也可以是正则。比如--ignore-watch=&amp;quot;test node_modules &amp;quot;some scripts&amp;quot;&amp;quot; -n --name：应用的名称。查看应用信息的时候可以用到。 -o --output &amp;lt;path&amp;gt;：标准输出日志文件的路径。 -e --error &amp;lt;path&amp;gt;：错误输出日志文件的路径。 --interpreter &amp;lt;interpreter&amp;gt;：the interpreter pm2 should use for executing app (bash, python&amp;hellip;)。比如你用的coffee script来编写应用。 重启 pm2 restart app.js 3.3 停止 停止特定的应用。可以先通过pm2 list获取应用的名字（&amp;ndash;name指定的）或者进程id。
@@ -27,10 +27,10 @@ pm2 stop app_name|app_id pm2 stop all 从进程列表删除进程 // pm2 delete 
     
     <item>
       <title>cenos下安装node.js和mongodb</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</link>
       <pubDate>Fri, 05 Jan 2018 19:20:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</guid>
       <description>&lt;h2 id=&#34;nodejs安装&#34;&gt;node.js安装&lt;/h2&gt;
 &lt;p&gt;下载源码&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /usr/local/src/

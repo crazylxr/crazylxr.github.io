@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>计算机相关 on ExampleSite</title>
-    <link>https://examplesite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/</link>
-    <description>Recent content in 计算机相关 on ExampleSite</description>
+    <title>计算机相关 on 桃园</title>
+    <link>/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/</link>
+    <description>Recent content in 计算机相关 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 Sep 2021 15:30:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 15:30:00 +0000</lastBuildDate><atom:link href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git commit 规范和 如何在 commit 里使用 emoji</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</link>
       <pubDate>Sun, 05 Sep 2021 15:30:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</guid>
       <description>前言 大家好，我是桃翁，今天给大家带来的是关于 git commit 那些事儿，希望大家喜欢。
 对于规范 git commit message 我是分成了两种类型去看待。
 对于通用库、开源项目这类多人维护，而且极大可能别人会来看这份代码的，一定要规范，特别是对于开源项目，往往会要列 Change Log，规范好 commit 节省自己整理 log 的时间，也方便了用户。
@@ -29,10 +29,10 @@
     
     <item>
       <title>每个前端工程师都应该了解的图片知识</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/264/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/264/</link>
       <pubDate>Mon, 20 May 2019 21:44:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/264/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/264/</guid>
       <description>前言 随着web的发展，网站资源的流量也变得越来越大。据统计，60% 的网站流量均来自网站图片，可见对图片合理优化可以大幅影响网站流量，减小带宽消耗和服务器压力。
 有时候你花大力气去配置 webpack 使打包体积减少，不如好好优化几张图片，这篇文章就是让你明白如何选择正确的图片，并且让你明白这么多图片格式，在什么场景下使用什么格式，如果想看答案，那么直接滑到文末看图即可。
 我的更多文章可以看 GitHub博客,
@@ -63,10 +63,10 @@ GIF 的特性是帧动画。</description>
     
     <item>
       <title>pm2 使用教程</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</link>
       <pubDate>Wed, 30 Jan 2019 10:10:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</guid>
       <description>简介 PM2 是 node 进程管理工具，可以利用它来简化很多 node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等，而且使用非常简单。
 安装 npm install -g pm2 快速使用 pm2 start app.js 常用命令 启动 参数说明：
 --watch：监听应用目录的变化，一旦发生变化，自动重启。如果要精确监听、不见听的目录，最好通过配置文件。 -i --instances：启用多少个实例，可用于负载均衡。如果-i 0或者-i max，则根据当前机器核数确定实例数目。 --ignore-watch：排除监听的目录/文件，可以是特定的文件名，也可以是正则。比如--ignore-watch=&amp;quot;test node_modules &amp;quot;some scripts&amp;quot;&amp;quot; -n --name：应用的名称。查看应用信息的时候可以用到。 -o --output &amp;lt;path&amp;gt;：标准输出日志文件的路径。 -e --error &amp;lt;path&amp;gt;：错误输出日志文件的路径。 --interpreter &amp;lt;interpreter&amp;gt;：the interpreter pm2 should use for executing app (bash, python&amp;hellip;)。比如你用的coffee script来编写应用。 重启 pm2 restart app.js 3.3 停止 停止特定的应用。可以先通过pm2 list获取应用的名字（&amp;ndash;name指定的）或者进程id。
@@ -77,10 +77,10 @@ pm2 stop app_name|app_id pm2 stop all 从进程列表删除进程 // pm2 delete 
     
     <item>
       <title>git 之修改 commit 以及 rebase 的使用</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/228/</link>
       <pubDate>Tue, 22 Jan 2019 18:27:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/228/</guid>
       <description>我在提交中犯了一个错误，我该如何解决？
 我的提交历史一团遭，我改如何让它整洁？
 如果您有过上述问题，那么这篇文章适合您。这篇文章介绍了一个让你成为 Git 专家的主题列表。
@@ -101,10 +101,10 @@ git commit --amend --author“作者姓名&amp;lt;作者电子邮件&amp;gt;” 
     
     <item>
       <title>像素相关概念：PPI、DPI、设备像素、独立像素</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/146/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/146/</link>
       <pubDate>Fri, 30 Mar 2018 15:19:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/146/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/146/</guid>
       <description>欢迎访问我的个人站点
 前言 我相信对于像素，英文「pixel」，缩写「px」，这个概念并不陌生吧，不管是设计师设计图片用的单位 px，还是前端工程师在 css 里面的单位 px等等，很多领域都会用到这个单位，但是当我问他们一些问题的时候，基本上都答得不好。
 比如：
@@ -117,20 +117,20 @@ iPhone 6 的分辨率是 750 x 1334 像素，然而我们我们在写 css 的时
     
     <item>
       <title>如何将多个 maven 项目统一管理</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/51/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/51/</link>
       <pubDate>Thu, 22 Mar 2018 10:21:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/51/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/51/</guid>
       <description>简介 在我们一个人采用微服务构架的时候，我们会创建很多个 maven 项目。然后如果从 IDE 里面导入项目就要导入很多次，为了方便统一管理，我们可以将多个 maven 放在一个 项目里统一管理，然后我们导入项目的时候就可以直接导入一个项目就 OK。
 操作方法 在多个项目的父目录建立一个文件夹，创建一个 pox.xml 文件 代码规则 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&amp;lt;project xmlns=&amp;#34;http://maven.apache.org/POM/4.0.0&amp;#34; xmlns:xsi=&amp;#34;http://www.w3.org/2001-XMLSchema-instance&amp;#34;xsi:schemaLocation=&amp;#34;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&amp;#34;&amp;gt;&amp;lt;modelVersion&amp;gt;4.0.0&amp;lt;/modelVersion&amp;gt;&amp;lt;groupId&amp;gt;com.lxr&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;maiba_be&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;0.0.1-SNAPSHOT&amp;lt;/version&amp;gt;&amp;lt;!-- packaging 把 jar 改成 pox --&amp;gt;&amp;lt;packaging&amp;gt;pom&amp;lt;/packaging&amp;gt;&amp;lt;!-- 这里面放每个微服务的 artifactId--&amp;gt;&amp;lt;modules&amp;gt;&amp;lt;module&amp;gt;goodsService&amp;lt;/module&amp;gt;&amp;lt;/modules&amp;gt;&amp;lt;!-- 为了解决依赖版本问题 --&amp;gt;&amp;lt;dependencyManagement&amp;gt;&amp;lt;dependencies&amp;gt;&amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;Camden.SR3&amp;lt;/version&amp;gt;&amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&amp;lt;/dependency&amp;gt;&amp;lt;/dependencies&amp;gt;&amp;lt;/dependencyManagement&amp;gt;&amp;lt;properties&amp;gt;&amp;lt;project.build.sourceEncoding&amp;gt;UTF-8&amp;lt;/project.build.sourceEncoding&amp;gt;&amp;lt;project.reporting.outputEncoding&amp;gt;UTF-8&amp;lt;/project.reporting.outputEncoding&amp;gt;&amp;lt;java.version&amp;gt;1.8&amp;lt;/java.version&amp;gt;&amp;lt;/properties&amp;gt;&amp;lt;parent&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-boot-starter-parent&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;1.4.2.RELEASE&amp;lt;/version&amp;gt;&amp;lt;/parent&amp;gt;&amp;lt;build&amp;gt;&amp;lt;plugins&amp;gt;&amp;lt;plugin&amp;gt;&amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring-boot-maven-plugin&amp;lt;/artifactId&amp;gt;&amp;lt;/plugin&amp;gt;&amp;lt;/plugins&amp;gt;&amp;lt;/build&amp;gt;&amp;lt;/project&amp;gt; 每个微服务项目的 pox.</description>
     </item>
     
     <item>
       <title>vim 入门指南</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/50/</link>
       <pubDate>Tue, 20 Mar 2018 23:28:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/50/</guid>
       <description>个人站点：桃园
 0. 前言 0.1 简介 vim 被誉为『编辑器之神』，与之同时代的 emacs 被誉为『神之编辑器』。可以看得出 vim 在编辑器的地位是很高的，得益于 vim 的指法，敲起代码来如行云流水。特别膜拜创始人创始出这么方便的敲代码的指法，这篇文章就是来带你入坑 vim 指法操作。
 0.2 前端的我为什么要学习 vim 在当今前端开发工具百花齐放的时代（VS Code、Sublime、Atom 以及 IDE Webstorm），我为什么还要介绍 20 多年前开发的一个老古董呢？在这里我想说的是出身虽然老，但是所带来的价值并没有减,一旦习惯了 vim 的指法之后，你会觉得不用 vim 操作写代码会觉得很不习惯，甚至不知道怎么操作。然而用在支持 vim 指法的编辑上写代码你会觉得如行云流水，如果再配个机械键盘，简直是享受，特别符合极客的风格。
@@ -142,10 +142,10 @@ A：当然不是。首先 vim 的学习成本还是很高的，因为他跟平�
     
     <item>
       <title>在spacemacs中支持editorconfig</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/37/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/37/</link>
       <pubDate>Mon, 29 Jan 2018 16:15:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/37/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/37/</guid>
       <description>editorconfig 是在项目存储库中有一个名为 .editorconfig 的文件，这样参与的开发者的编辑和 ide 可以自动调整。
 有一个 emacs/spacemacs 模式，可以很容易地在以下步骤中进行集成：
 将 editorconfig 添加到 dotspacemacs-additional-packages。 将（editorconfig-mode 1）添加到 dotspacemacs/user-config。 更多的细节记录在插件库的 README。
@@ -156,19 +156,19 @@ dotspacemacs-additional-packages &amp;#39;( editorconfig ) 第二步：从你的
     
     <item>
       <title>数据库基础知识</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/19/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/19/</link>
       <pubDate>Fri, 05 Jan 2018 19:43:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/19/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/19/</guid>
       <description>&lt;p&gt;数据库基础知识&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>cenos下安装node.js和mongodb</title>
-      <link>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</link>
+      <link>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</link>
       <pubDate>Fri, 05 Jan 2018 19:20:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</guid>
+      <guid>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</guid>
       <description>&lt;h2 id=&#34;nodejs安装&#34;&gt;node.js安装&lt;/h2&gt;
 &lt;p&gt;下载源码&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /usr/local/src/
@@ -178,10 +178,10 @@ dotspacemacs-additional-packages &amp;#39;( editorconfig ) 第二步：从你的
     
     <item>
       <title>认识函数式编程</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/190/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/190/</guid>
       <description>最开始接触函数式编程的时候是在小米工作的时候，那个时候看老大以前写的代码各种 compose，然后一些 ramda 的一些工具函数，看着很吃力，然后极力吐槽函数式编程，现在回想起来，那个时候的自己真的是见识短浅，只想说,&amp;lsquo;真香&amp;rsquo;。
 最近在研究函数式编程，真的是在学习的过程中感觉自己的思维提升了很多，抽象能力大大的提高了，让我深深的感受到了函数式编程的魅力。所以我打算后面用 5 到 8 篇的篇幅，详细的介绍一下函数式编程的思想，基础、如何设计、测试等。
 今天这篇文章主要介绍函数式编程的思想。

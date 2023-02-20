@@ -2,456 +2,456 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://examplesite.com/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</loc>
+    <loc>/posts/2023/02-19-%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E4%BA%92%E5%8A%A8%E6%8A%80%E6%9C%AF%E5%89%8D%E6%99%AF%E6%80%9D%E8%80%83/</loc>
     <lastmod>2023-02-19T20:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2023-02-19T20:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/</loc>
+    <loc>/posts/</loc>
     <lastmod>2023-02-19T20:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/</loc>
+    <loc>/tags/</loc>
     <lastmod>2023-02-19T20:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/</loc>
+    <loc>/tags/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2023-02-19T20:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%80%9D%E8%80%83/</loc>
+    <loc>/</loc>
     <lastmod>2023-02-19T20:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/%E7%AC%94%E8%AE%B0%E6%9C%AC/</loc>
+    <loc>/categories/%E7%AC%94%E8%AE%B0%E6%9C%AC/</loc>
     <lastmod>2023-02-19T20:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E8%81%8C%E5%9C%BA/</loc>
+    <loc>/tags/%E8%81%8C%E5%9C%BA/</loc>
     <lastmod>2023-02-19T20:24:26+08:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%84%9F%E6%82%9F%E5%BF%83%E5%BE%97/</loc>
+    <loc>/tags/%E6%84%9F%E6%82%9F%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2022-03-21T22:22:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</loc>
+    <loc>/posts/2022/03-21-%E6%9C%89%E4%B8%80%E7%A7%8D%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E6%96%B9%E6%A1%88%E5%8F%AB%E4%B8%8D%E5%81%9A%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF/</loc>
     <lastmod>2022-03-21T22:22:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/</loc>
+    <loc>/categories/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/</loc>
     <lastmod>2022-03-21T22:22:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/03-19-%E5%80%BA%E5%88%B8%E5%9F%BA%E9%87%91/</loc>
+    <loc>/posts/2022/03-19-%E5%80%BA%E5%88%B8%E5%9F%BA%E9%87%91/</loc>
     <lastmod>2022-03-19T22:55:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E5%9F%BA%E9%87%91/</loc>
+    <loc>/tags/%E5%9F%BA%E9%87%91/</loc>
     <lastmod>2022-03-19T22:55:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2/</loc>
+    <loc>/categories/%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2/</loc>
     <lastmod>2022-03-19T22:55:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</loc>
+    <loc>/posts/2022/03-15-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E4%B8%80%E5%A6%82%E4%BD%95%E5%9B%9E%E7%AD%94%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%87%8D%E6%8E%92%E5%92%8C%E9%87%8D%E7%BB%98/</loc>
     <lastmod>2022-03-15T22:14:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-03-15T22:14:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
+    <loc>/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
     <lastmod>2022-03-15T22:14:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E9%9D%A2%E8%AF%95/</loc>
+    <loc>/tags/%E9%9D%A2%E8%AF%95/</loc>
     <lastmod>2022-03-15T22:14:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</loc>
+    <loc>/posts/2022/03-11-%E5%81%9A%E4%BA%BA%E8%A6%81%E5%81%9A%E5%AD%A6%E4%B9%A0%E5%9E%8B%E5%81%9A%E4%BA%8B%E5%84%BF%E8%A6%81%E5%81%9A%E4%BB%B7%E5%80%BC%E5%9E%8B/</loc>
     <lastmod>2022-03-11T22:29:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</loc>
+    <loc>/posts/2022/03-10-%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%A7%98%E8%AF%80--%E4%BF%9D%E6%8C%81%E4%BD%8E%E6%9C%9F%E6%9C%9B/</loc>
     <lastmod>2022-03-10T22:55:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</loc>
+    <loc>/posts/2022/03-09-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B3%95%E5%AE%9D/</loc>
     <lastmod>2022-03-09T22:47:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/react/</loc>
+    <loc>/tags/react/</loc>
     <lastmod>2022-03-09T08:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/typescript/</loc>
+    <loc>/tags/typescript/</loc>
     <lastmod>2022-03-09T08:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</loc>
+    <loc>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</loc>
     <lastmod>2022-03-09T08:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E8%AF%91%E6%96%87/</loc>
+    <loc>/tags/%E8%AF%91%E6%96%87/</loc>
     <lastmod>2022-03-09T08:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</loc>
+    <loc>/posts/2022/03-08-%E5%9B%9E%E9%A1%BE%E8%BF%87%E5%8E%BB%E6%AF%94%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5%E9%87%8D%E8%A6%81%E4%B8%80%E7%99%BE%E5%80%8D/</loc>
     <lastmod>2022-03-08T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</loc>
+    <loc>/posts/2022/%E4%B8%93%E6%B3%A8%E4%BA%8E%E8%87%AA%E5%B7%B1%E8%83%BD%E5%81%9A%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84%E4%BA%8B%E6%83%85/</loc>
     <lastmod>2022-03-07T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</loc>
+    <loc>/posts/2022/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E8%8A%B1%E9%92%B1/</loc>
     <lastmod>2022-03-06T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E8%8A%B1%E4%BA%86-499-%E5%AD%A6%E5%88%B0%E7%9A%84%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E9%97%AE%E9%A2%98-&#43;-%E5%9B%9E%E7%AD%94/</loc>
+    <loc>/posts/2022/%E5%AE%9E%E6%88%98%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E8%8A%B1%E4%BA%86-499-%E5%AD%A6%E5%88%B0%E7%9A%84%E5%86%99%E4%BD%9C%E6%96%B9%E6%B3%95%E9%97%AE%E9%A2%98-&#43;-%E5%9B%9E%E7%AD%94/</loc>
     <lastmod>2022-03-01T19:25:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%8A%80%E5%B7%A7/</loc>
+    <loc>/tags/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-03-01T19:25:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2021-09-05T15:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/2021-09-05-git-commit%E8%A7%84%E8%8C%83/</loc>
     <lastmod>2021-09-05T15:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/</loc>
+    <loc>/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2021-09-05T15:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/css/</loc>
+    <loc>/tags/css/</loc>
     <lastmod>2021-07-01T15:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/img-he-picture-de-qu-bie-he-shi-yong-chang-jing/</loc>
     <lastmod>2021-07-01T15:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/</loc>
+    <loc>/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/</loc>
     <lastmod>2021-07-01T15:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/337/</loc>
     <lastmod>2021-05-27T08:57:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%AF%91%E6%96%87/336/</loc>
+    <loc>/posts/%E8%AF%91%E6%96%87/336/</loc>
     <lastmod>2021-05-24T08:27:43+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2021-05-24T08:27:43+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</loc>
     <lastmod>2021-05-16T10:16:31+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/</loc>
+    <loc>/tags/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/</loc>
     <lastmod>2021-05-16T10:16:31+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E9%9A%8F%E6%83%B3/</loc>
+    <loc>/tags/%E9%9A%8F%E6%83%B3/</loc>
     <lastmod>2021-05-16T10:16:31+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/2021-03-13-%E5%9C%A8%E8%9A%82%E8%9A%81%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C%E4%B8%80/</loc>
     <lastmod>2021-03-13T14:49:27+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E8%9A%82%E8%9A%81/</loc>
+    <loc>/tags/%E8%9A%82%E8%9A%81/</loc>
     <lastmod>2021-03-13T14:49:27+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%80%BB%E7%BB%93/</loc>
+    <loc>/tags/%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2021-01-24T19:19:06+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/326/</loc>
     <lastmod>2021-01-24T19:19:06+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/324/</loc>
     <lastmod>2020-09-12T21:22:24+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%A1%83%E7%BF%81%E5%9C%A8%E8%9A%82%E8%9A%81/</loc>
+    <loc>/tags/%E6%A1%83%E7%BF%81%E5%9C%A8%E8%9A%82%E8%9A%81/</loc>
     <lastmod>2020-09-12T21:22:24+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/321/</loc>
     <lastmod>2020-05-18T12:49:46+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/319/</loc>
     <lastmod>2020-05-10T21:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E5%86%99%E4%BD%9C/</loc>
+    <loc>/tags/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2020-05-10T21:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/318/</loc>
     <lastmod>2020-05-07T13:17:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</loc>
     <lastmod>2020-04-30T16:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/javascript/</loc>
+    <loc>/tags/javascript/</loc>
     <lastmod>2020-04-02T16:52:06+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</loc>
     <lastmod>2020-04-02T16:52:06+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/314/</loc>
     <lastmod>2020-04-02T16:51:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E5%B7%A5%E7%A8%8B%E5%8C%96/</loc>
+    <loc>/tags/%E5%B7%A5%E7%A8%8B%E5%8C%96/</loc>
     <lastmod>2020-04-02T16:51:22+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</loc>
+    <loc>/posts/%E8%AF%91%E6%96%87/302/</loc>
     <lastmod>2020-03-03T10:09:33+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/299/</loc>
     <lastmod>2020-01-13T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%AF%91%E6%96%87/296/</loc>
+    <loc>/posts/%E8%AF%91%E6%96%87/296/</loc>
     <lastmod>2020-01-07T21:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/295/</loc>
     <lastmod>2020-01-03T17:01:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    <loc>/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2019-11-22T17:46:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/284/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/284/</loc>
     <lastmod>2019-11-22T17:46:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/280/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/280/</loc>
     <lastmod>2019-11-19T08:32:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
+    <loc>/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2019-11-19T08:32:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/php/</loc>
+    <loc>/tags/php/</loc>
     <lastmod>2019-11-14T21:45:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2019-11-14T21:45:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/272/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/272/</loc>
     <lastmod>2019-11-14T21:45:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/270/</loc>
     <lastmod>2019-11-07T21:51:07+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/271/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/271/</loc>
     <lastmod>2019-10-14T21:51:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</loc>
     <lastmod>2019-09-09T21:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/257/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/257/</loc>
     <lastmod>2019-09-05T21:37:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/258/</loc>
     <lastmod>2019-08-15T21:39:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/261/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/261/</loc>
     <lastmod>2019-07-30T21:42:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/263/</loc>
     <lastmod>2019-05-23T21:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/264/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/264/</loc>
     <lastmod>2019-05-20T21:44:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E9%80%9A%E7%94%A8%E7%9F%A5%E8%AF%86/</loc>
+    <loc>/tags/%E9%80%9A%E7%94%A8%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2019-05-20T21:44:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/267/</loc>
     <lastmod>2019-04-03T21:46:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/268/</loc>
     <lastmod>2019-03-17T21:47:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/node/</loc>
+    <loc>/tags/node/</loc>
     <lastmod>2019-01-30T10:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</loc>
+    <loc>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/238/</loc>
     <lastmod>2019-01-30T10:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/npm/</loc>
+    <loc>/tags/npm/</loc>
     <lastmod>2019-01-28T15:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</loc>
+    <loc>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/235/</loc>
     <lastmod>2019-01-28T15:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/228/</loc>
     <lastmod>2019-01-22T18:27:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E4%B9%A6%E7%B1%8D/</loc>
+    <loc>/tags/%E4%B9%A6%E7%B1%8D/</loc>
     <lastmod>2019-01-22T17:34:33+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/227/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/227/</loc>
     <lastmod>2019-01-22T17:34:33+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/mac/</loc>
+    <loc>/tags/mac/</loc>
     <lastmod>2019-01-16T13:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/223/</loc>
     <lastmod>2019-01-16T13:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/221/</loc>
     <lastmod>2019-01-15T16:54:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
+    <loc>/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2019-01-09T13:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</loc>
     <lastmod>2019-01-09T13:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E4%BA%A4%E6%B5%81/</loc>
+    <loc>/tags/%E4%BA%A4%E6%B5%81/</loc>
     <lastmod>2019-01-03T15:16:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/215/</loc>
     <lastmod>2019-01-03T15:16:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%AF%91%E6%96%87/157/</loc>
+    <loc>/posts/%E8%AF%91%E6%96%87/157/</loc>
     <lastmod>2018-11-23T18:26:34+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/124/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/124/</loc>
     <lastmod>2018-11-20T12:03:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/117/</loc>
     <lastmod>2018-11-13T16:41:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/es6/</loc>
+    <loc>/tags/es6/</loc>
     <lastmod>2018-09-29T18:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/115/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/115/</loc>
     <lastmod>2018-09-29T18:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/316/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/316/</loc>
     <lastmod>2018-09-25T00:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/105/</loc>
     <lastmod>2018-08-07T10:34:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</loc>
+    <loc>/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</loc>
     <lastmod>2018-08-07T10:34:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/104/</loc>
     <lastmod>2018-08-03T16:15:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</loc>
     <lastmod>2018-07-07T16:47:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/95/</loc>
     <lastmod>2018-05-24T17:03:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</loc>
     <lastmod>2018-05-22T12:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/88/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/88/</loc>
     <lastmod>2018-05-14T17:09:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/</loc>
+    <loc>/categories/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/</loc>
     <lastmod>2018-05-14T14:25:07+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/87/</loc>
+    <loc>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/87/</loc>
     <lastmod>2018-05-14T14:25:07+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</loc>
     <lastmod>2018-05-11T14:32:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/74/</loc>
+    <loc>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/74/</loc>
     <lastmod>2018-05-05T19:18:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/70/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/70/</loc>
     <lastmod>2018-04-19T21:24:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</loc>
     <lastmod>2018-04-13T22:32:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/</loc>
+    <loc>/tags/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/</loc>
     <lastmod>2018-04-13T22:32:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/146/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/146/</loc>
     <lastmod>2018-03-30T15:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</loc>
+    <loc>/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</loc>
     <lastmod>2018-03-30T15:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/java/</loc>
+    <loc>/tags/java/</loc>
     <lastmod>2018-03-22T10:21:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/51/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/51/</loc>
     <lastmod>2018-03-22T10:21:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/vim/</loc>
+    <loc>/tags/vim/</loc>
     <lastmod>2018-03-20T23:28:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/50/</loc>
     <lastmod>2018-03-20T23:28:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/42/</loc>
     <lastmod>2018-03-14T09:53:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2018-03-14T09:53:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/41/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/41/</loc>
     <lastmod>2018-03-14T09:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/emacs/</loc>
+    <loc>/tags/emacs/</loc>
     <lastmod>2018-01-29T16:15:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/37/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/37/</loc>
     <lastmod>2018-01-29T16:15:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/24/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/24/</loc>
     <lastmod>2018-01-05T20:21:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/20/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/20/</loc>
     <lastmod>2018-01-05T20:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2018-01-05T19:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/19/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/19/</loc>
     <lastmod>2018-01-05T19:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</loc>
     <lastmod>2018-01-05T19:25:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</loc>
+    <loc>/posts/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/17/</loc>
     <lastmod>2018-01-05T19:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/16/</loc>
+    <loc>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/16/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%AF%91%E6%96%87/300/</loc>
+    <loc>/posts/%E8%AF%91%E6%96%87/300/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
+    <loc>/posts/2022/2021-%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</loc>
+    <loc>/posts/%E8%AF%91%E6%96%87/339/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/323/</loc>
   </url><url>
-    <loc>https://examplesite.com/tags/alfred/</loc>
+    <loc>/tags/alfred/</loc>
   </url><url>
-    <loc>https://examplesite.com/archives/</loc>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/15/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/15/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/6/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/6/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/288/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/288/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/262/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/262/</loc>
   </url><url>
-    <loc>https://examplesite.com/search/</loc>
+    <loc>/search/</loc>
   </url><url>
-    <loc>https://examplesite.com/tags/vs-code/</loc>
+    <loc>/tags/vs-code/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/226/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/290/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/96/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/253/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/253/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</loc>
+    <loc>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/292/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/294/</loc>
+    <loc>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/294/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</loc>
+    <loc>/posts/%E6%A1%83%E5%9B%AD%E5%91%A8%E5%88%8A/289/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/191/</loc>
   </url><url>
-    <loc>https://examplesite.com/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>/tags/%E5%B7%A5%E5%85%B7/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/3/</loc>
+    <loc>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/3/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/301/</loc>
   </url><url>
-    <loc>https://examplesite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</loc>
+    <loc>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/293/</loc>
   </url><url>
-    <loc>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</loc>
+    <loc>/posts/%E6%8A%80%E6%9C%AF/190/</loc>
   </url><url>
-    <loc>https://examplesite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
   </url><url>
-    <loc>https://examplesite.com/tags/%E8%B5%84%E6%BA%90/</loc>
+    <loc>/tags/%E8%B5%84%E6%BA%90/</loc>
   </url><url>
-    <loc>https://examplesite.com/tags/%E9%98%BF%E9%87%8C/</loc>
+    <loc>/tags/%E9%98%BF%E9%87%8C/</loc>
   </url>
 </urlset>

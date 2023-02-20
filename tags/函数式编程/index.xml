@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>函数式编程 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</link>
-    <description>Recent content in 函数式编程 on ExampleSite</description>
+    <title>函数式编程 on 桃园</title>
+    <link>/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 函数式编程 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Jan 2019 13:12:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jan 2019 13:12:00 +0000</lastBuildDate><atom:link href="/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>函数式编程里面的基本工具函数实现</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</link>
       <pubDate>Wed, 09 Jan 2019 13:12:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/218/</guid>
       <description>compose 实现 function compose(...args) { return (result) =&amp;gt; { return args.reduceRight((result, fn) =&amp;gt; { return fn(result) }, result) } } pipe 实现 function compose(...args) { return (result) =&amp;gt; { return args.reduce((result, fn) =&amp;gt; { return fn(result) }, result) } } 柯里化实现 function currying(fn, ...args) { if (args.length &amp;gt;= fn.length) { return fn(...args) } return function (...args2) { return currying(fn, ...args, ...args2) } } 部分应用实现 function partial(fn, ...args) { return (..._arg) =&amp;gt; { return fn(.</description>
     </item>
     
     <item>
       <title>函数式编程笔记</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</link>
       <pubDate>Fri, 05 Jan 2018 19:25:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/18/</guid>
       <description>&lt;p&gt;过去编程方式主要是以命令式编程为主，什么意思呢？简单说电脑的思维方式和我们人类的思考方式是不一样的。我们人类的大脑擅长的是分析问题，提出一个解决问题的方案，电脑则是生硬的执行指令，命令式编程就像是给电脑下达命令，让电脑去执行一样，现在主要的编程语言（比如：Java，C，C++等）都是由命令式编程构建起来的。
 ​ 而函数式编程就不一样了，这是模仿我们人类的思维方式发明出来的。例如：操作某个数组的每一个元素然后返回一个新数组，如果是计算机的思考方式，会这样想：创建一个新数组=&amp;gt;遍历旧数组=&amp;gt;给新数组赋值。如果是人类的思考方式，会这样想：创建一个数组方法，作用在旧数组上，返回新数组。这样此方法可以被重复利用。而这就是函数式编程了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>函数式编程之组合</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/253/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/253/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/253/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/253/</guid>
       <description>该系列文章不是针对前端新手，需要有一定的编程经验，而且了解 JavaScript 里面作用域，闭包等概念
 组合函数 组合是一种为软件的行为，进行清晰建模的一种简单、优雅而富于表现力的方式。通过组合小的、确定性的函数，来创建更大的软件组件和功能的过程，会生成更容易组织、理解、调试、扩展、测试和维护的软件。
 对于组合，我觉得是函数式编程里面最精髓的地方之一，所以我迫不及待的把这个概念拿出来先介绍，因为在整个学习函数式编程里，所遇到的基本上都是以组合的方式来编写代码，这也是改变你从一个面向对象，或者结构化编程思想的一个关键点。
@@ -53,10 +53,10 @@
     
     <item>
       <title>函数式编程资料</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/197/</guid>
       <description>Eric Elliott 函数式教程 征服 JavaScript 面试: 什么是函数式编程？ 组合软件：1. 函数式编程的兴衰 为什么用 JavaScript 学习函数式编程？（软件编写）（第二部分） 函数式程序员的 JavaScript 简介 (软件编写)（第三部分） 高阶函数（软件编写）（第四部分） Reduce（软件编写）（第五部分） Functor 与 Category （软件编写）（第六部分） 函数式 Mixin（软件编写）（第七部分） 为什么在使用了类之后会使得组合变得愈发困难（软件编写）（第九部分） 借助函数完成可组合的数据类型（软件编写）（第十部分） JavaScript 让 Monad 更简单（软件编写）（第十一部分） JavaScript 轻量级函数式编程 JavaScript 轻量级函数式编程
 Starkwang.log JavaScript函数式编程（一）
 JavaScript函数式编程（二）
@@ -66,10 +66,10 @@ JavaScript函数式编程（三）
     
     <item>
       <title>认识函数式编程</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/190/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/190/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/190/</guid>
       <description>最开始接触函数式编程的时候是在小米工作的时候，那个时候看老大以前写的代码各种 compose，然后一些 ramda 的一些工具函数，看着很吃力，然后极力吐槽函数式编程，现在回想起来，那个时候的自己真的是见识短浅，只想说,&amp;lsquo;真香&amp;rsquo;。
 最近在研究函数式编程，真的是在学习的过程中感觉自己的思维提升了很多，抽象能力大大的提高了，让我深深的感受到了函数式编程的魅力。所以我打算后面用 5 到 8 篇的篇幅，详细的介绍一下函数式编程的思想，基础、如何设计、测试等。
 今天这篇文章主要介绍函数式编程的思想。

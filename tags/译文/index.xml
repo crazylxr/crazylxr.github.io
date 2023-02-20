@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>译文 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E8%AF%91%E6%96%87/</link>
-    <description>Recent content in 译文 on ExampleSite</description>
+    <title>译文 on 桃园</title>
+    <link>/tags/%E8%AF%91%E6%96%87/</link>
+    <description>Recent content in 译文 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Mar 2022 08:20:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E8%AF%91%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Mar 2022 08:20:00 +0000</lastBuildDate><atom:link href="/tags/%E8%AF%91%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 React 和 TypeScript 编写干净代码的10个必知模式</title>
-      <link>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</link>
+      <link>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</link>
       <pubDate>Wed, 09 Mar 2022 08:20:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</guid>
+      <guid>/posts/2022/03-09-%E4%BD%BF%E7%94%A8-react-%E5%92%8C-typescript-something-%E7%BC%96%E5%86%99%E5%B9%B2%E5%87%80%E4%BB%A3%E7%A0%81%E7%9A%8410%E4%B8%AA%E5%BF%85%E7%9F%A5%E6%A8%A1%E5%BC%8F-copy/</guid>
       <description>React 是一个 JavaScript 库，它是当今最流行和行业领先的前端开发库。
 JavaScript 是一种松散的类型化语言，因此，它捕获了运行时。这样做的结果就是 JavaScript 错误被捕获得非常晚，这可能导致严重的 bug。
 当然 React 作为一个 JavaScript 库，也继承了这个问题。
@@ -35,10 +35,10 @@ import React, {useContext, useState} from &amp;#34;react&amp;#34;; 使用这种�
     
     <item>
       <title>如何应用 SOLID 原则在 React 中整理代码之开闭原则</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/336/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/336/</link>
       <pubDate>Mon, 24 May 2021 08:27:43 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/336/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/336/</guid>
       <description>SOLID 是一套原则。它们主要是关心代码质量和可维护性的软件专业人员的指导方针。
 React 不是面向对象，但这些原则背后的主要思想可能是有帮助的。在本文中，我将尝试演示如何应用这些原则来编写更好的代码。
 在前一篇文章中，我们讨论了单一责任原则。今天，我们将讨论 SOLID 的第二个原则: 开闭原则。
@@ -55,10 +55,10 @@ import React from &amp;#39;react&amp;#39;; export const User = ({user}) =&amp;gt
     
     <item>
       <title>理解 JavaScript 中的执行上下文和执行栈</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</link>
       <pubDate>Thu, 02 Apr 2020 16:52:06 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/315/</guid>
       <description>译者序 最近在研究 JavaScript 基础性的东西，但是看到对于执行上下文的解释我发现有两种，一种是执行上下文包含：scope(作用域)、variable object(变量对象)、this value(this 值)，另外一个种是包含：lexical environment(词法环境)、variable environment(变量环境)、this value(this 值)。
 后面我查阅了不少博客以及 ES3 和 ES5 的规范才了解到，第一种是 ES3 的规范，经典书籍《JavaScript高级程序设计》第三版就是这样解释的，也是网上广为流传的一种，另一种是 ES5 的规范。
 然后我接着又去翻了 ES2018 中的，发现又有变化了，已经增加了更多的内容了，考虑到这部分内容颇为复杂，准备后面再进行总结分享，查资料的时候看到这篇讲执行上下文(ES5 )的还不错，所以就翻译出来先分享给大家。
@@ -75,10 +75,10 @@ let a = &amp;#39;Hello World!</description>
     
     <item>
       <title>从两个角度看 Typescript 中的类型是什么?</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/302/</link>
       <pubDate>Tue, 03 Mar 2020 10:09:33 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/302/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/302/</guid>
       <description>0. 作者以及原文介绍 作者是 Dr. Axel Rauschmayer，号称”德国阮一峰“，本文原文来自于他的博客：https://2ality.com/2020-02/understanding-types-typescript.html，不熟悉他的可以关注一下他的博客。
 1. 每个角度都从这三个问题来解释 以下三个问题对于理解类型是如何工作的非常重要，需要从这两个角度中的每一个角度来回答。
 myVariable 的类型 MyType 意味着什么？ let myVariable: MyType = /*...*/; Sourcetype 可以分配给 TargetType 吗? let source: SourceType = /*...*/; let target: TargetType = source; TypeUnion 是如何从 Type1、 Type2 和 Type3 衍生而来的？ type TypeUnion = Type1 | Type2 | Type3; 2. 角度 1： 类型是一组值 从这个角度来看，类型是一组值：
@@ -88,10 +88,10 @@ myVariable 的类型 MyType 意味着什么？ let myVariable: MyType = /*...*/;
     
     <item>
       <title>你可能不知道的 React Hooks</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/296/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/296/</link>
       <pubDate>Tue, 07 Jan 2020 21:50:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/296/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/296/</guid>
       <description>本文是译文，原文地址是：https://medium.com/@sdolidze/the-iceberg-of-react-hooks-af0b588f43fb
 React Hooks 与类组件不同，它提供了用于优化和组合应用程序的简单方式，并且使用了最少的样板文件。
 如果没有深入的知识，由于微妙的 bug 和抽象层漏洞，可能会出现性能问题，代码复杂性也会增加。
@@ -103,10 +103,10 @@ Level 1：setInterval export default function Level01() { console.</description>
     
     <item>
       <title>git 之修改 commit 以及 rebase 的使用</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/228/</link>
       <pubDate>Tue, 22 Jan 2019 18:27:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/228/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/228/</guid>
       <description>我在提交中犯了一个错误，我该如何解决？
 我的提交历史一团遭，我改如何让它整洁？
 如果您有过上述问题，那么这篇文章适合您。这篇文章介绍了一个让你成为 Git 专家的主题列表。
@@ -127,10 +127,10 @@ git commit --amend --author“作者姓名&amp;lt;作者电子邮件&amp;gt;” 
     
     <item>
       <title>破坏开发人员生产力的十二件事</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/157/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/157/</link>
       <pubDate>Fri, 23 Nov 2018 18:26:34 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/157/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/157/</guid>
       <description>今天的文章是来自 medium 的一篇文章，点赞数有将近 1 万 9，所以翻译出来给大家分享一下，有些概念怕大家不了解，所以我放了一些 维基百科的解释。如果有翻译得不是很好的地方，请看原文：https://hackernoon.com/top-12-things-that-destroy-developer-productivity-2ddf0abc190
 正文：
 很多文章都涉及技术主管和项目经理的角色。我们经常遇到的一个共同主题是如何提高团队的工作效率。但是在你集中精力来提高生产力之前，你可能首先要考虑是什么在摧毁它，以便建立一个可靠的基础。不幸的是，即使 Peopleware 近 30 年前发布，我们也看到许多团队在一些（消极的）显着方式中遭受巨大的生产力损失！
@@ -145,10 +145,10 @@ As Paul Graham wrote, “A single meeting can blow a whole afternoon by breaking
     
     <item>
       <title>2020 年你应该知道的 React 库</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/300/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/300/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/300/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/300/</guid>
       <description>声明：本文为译文，原文链接：https://www.robinwieruch.de/react-libraries
 React 已经诞生很久了，自从它诞生开始，围绕组件驱动形成了一个非常全面的生态，但是来自其他编程语言或者框架的开发人员很难找到要构建一个 React 系统的所有组件。如果你是来自于像 Angular 这样的框架的开发者，你可能已经习惯了框架包含了所需要的所有功能，
 然而对于 React 来说，它的核心并不是完善所有的可选库。 这是优势还是劣势取决于你自己。 当我从 Angular 切换到 React，我绝对经历了它作为 React 的优势。
@@ -161,10 +161,10 @@ React 已经诞生很久了，自从它诞生开始，围绕组件驱动形成�
     
     <item>
       <title>4个你从未听说过的强大的 JavaScript 运算符</title>
-      <link>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</link>
+      <link>/posts/%E8%AF%91%E6%96%87/339/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%AF%91%E6%96%87/339/</guid>
+      <guid>/posts/%E8%AF%91%E6%96%87/339/</guid>
       <description>你有没有花一个下午的时间浏览过 Mozilla 文档？如果你有，你会很清楚网上有很多关于 JavaScript 的信息。这使得人们很容易忽略一些不同寻常的 JavaScript 操作符。
 然而，仅仅因为这些操作符不常见并不意味着它们不强大！它们在语法上看起来都很相似，但是当它们以不同的方式工作时，请务必阅读它们。
 让我们开始吧！

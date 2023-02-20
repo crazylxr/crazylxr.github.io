@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>核心概念 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</link>
-    <description>Recent content in 核心概念 on ExampleSite</description>
+    <title>核心概念 on 桃园</title>
+    <link>/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</link>
+    <description>Recent content in 核心概念 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Aug 2018 10:34:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Aug 2018 10:34:00 +0000</lastBuildDate><atom:link href="/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript核心概念(1):类型转换</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/105/</link>
       <pubDate>Tue, 07 Aug 2018 10:34:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/105/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/105/</guid>
       <description>看到这个是不是有一种想打人的感觉，垃圾 JavaScript，这特么都什么鬼，相信很多人不管是笔试还是面试，都被 JS 的类型转换难道过，相信认真看完我这篇文章，妈妈再也不用担心类型转换的问题了。
 原始值到原始值的转换 原始值转化为布尔值
 所有的假值(undefined、null、0、-0、NaN、””)会被转化为 false，其他都会被转为 true

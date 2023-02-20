@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>随想 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E9%9A%8F%E6%83%B3/</link>
-    <description>Recent content in 随想 on ExampleSite</description>
+    <title>随想 on 桃园</title>
+    <link>/tags/%E9%9A%8F%E6%83%B3/</link>
+    <description>Recent content in 随想 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 May 2021 10:16:31 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E9%9A%8F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 10:16:31 +0000</lastBuildDate><atom:link href="/tags/%E9%9A%8F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>理清业务团队开发和业务的关系</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</link>
       <pubDate>Sun, 16 May 2021 10:16:31 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/li-qing-ye-wu-tuan-dui-kai-fa-he-ye-wu-de-guan-xi/</guid>
       <description>关于开发是否应该深入了解业务，听到两种我觉得不正确的类型：
 「我是开发，我就做好开发就行了，业务交给产品和运营同学」。不懂业务，完全不想了解型。 「懂业务之后就可以跟产品 PK 了，方便砍需求」。懂业务，目的不正确型。 我的观点是要想当一个优秀的开发者，必须懂业务，不是为了跟产品 PK，而是为了预判未来的发展方向，好指导自己写的代码可以适应未来更久的时间。
 懂业务，目的不正确型。 作为一个开发，不知道多少人经常会在耳边听到这么一句话：多了解业务，多了解业务。
@@ -42,10 +42,10 @@
     
     <item>
       <title>离开蘑菇街后，我最近的一些想法</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</link>
       <pubDate>Thu, 30 Apr 2020 16:19:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/317/</guid>
       <description>前言 被裁之后我就一直在家复习，面试，所以就一直没有写文章，没有太多心思搭理公众号，现在也拿了两个 offer 了，所以开始回到正途。
 胎死腹中的 Vue 3.0 Beta 文章 4 月 17 日，早上我收到了浪浪(浪里行舟)的消息，给我发了一个微博消息，尤大在微博上宣布发布 Vue 3.0 Beta 了，然后跟我说这是热点，让我写一篇文章，我就暂停了前一天晚上定时发的文章，准备写一篇详细介绍 Vue 3.0 Beta 所发布的东西。
 所以当天我早早的来到了公司，希望在上班前能搞定，然后就开始翻阅 vue-next 的文档以及草案，想从根源去探究 vue 3.0 Beta 能给我们带来什么。
@@ -80,10 +80,10 @@
     
     <item>
       <title>看到这段话，真的觉得现在的读者要求比较高</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</link>
       <pubDate>Mon, 09 Sep 2019 21:35:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/255/</guid>
       <description>最近看到这样一段文字，然后掘金的运营还发了一个沸点，看了心理觉得真不是滋味呀。
 图片具体内容如下：
 如果你在阅读文章的过程中，觉得有不同意的，请憋住，把文章看完再说。
@@ -128,10 +128,10 @@ list 愿意点赞的往往是想收藏，然后可能是设计的原因，不管
     
     <item>
       <title>毕业记—我的大学无憾了</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</link>
       <pubDate>Sat, 07 Jul 2018 16:47:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/100/</guid>
       <description>如果玩抖音的同学，我相信对上面这个图片并不陌生，在六月份的时候疯狂刷这个，但是当时并没有任何感觉，直到我那毕业的那天，提起背包离开学校的那天，我才真正的感受到，我要离开学校了。
 自己已经不是一个学生了，熟悉的学校，熟悉的班级，熟悉的同学，熟悉的老师，这次，真的说再见了。
 还没来得及跟给我传授过知识老师，陪了我四年的大学同学，以及实验室的学弟学妹们好好的说再见，就提着行李，背着书包离开了学校。
@@ -157,10 +157,10 @@ list 愿意点赞的往往是想收藏，然后可能是设计的原因，不管
     
     <item>
       <title>给在校准备找工作的同学的几个建议</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</link>
       <pubDate>Tue, 22 May 2018 12:23:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/91/</guid>
       <description>了解 vim 养成 git 规范 学深比学广更重要 拥有自己的知识体系，形成解决问题的方法论 了解 vim Vim 被誉为&amp;quot;编辑器之神&amp;quot;，这可不是虚的。
 在我用了 vim 半年之后，我建议我身边的每一位程序员都去学习 vim 。
 因为一旦你学会了 vim 的操作，你就像中了毒一样，你会讨厌鼠标，讨厌在你敲着敲着键盘，突然又要去移动光标，因为把手从键盘移动到鼠标上的时间远远大于手指在键盘按键的切换。
@@ -182,10 +182,10 @@ Git 规范 Git 作为我认为最优秀的版本管理工具，那是程序员�
     
     <item>
       <title>三板斧使你走上人生巅峰</title>
-      <link>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</link>
+      <link>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</link>
       <pubDate>Fri, 11 May 2018 14:32:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</guid>
+      <guid>/posts/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/81/</guid>
       <description>在我目前的认知里，我觉得未来有三个技能是需要掌握的，分别是：写作、编程、理财。我相信如果这三个技能都掌握了，我相信你里财富自由之路已经不远了。
 想要走上财富自由，主要看你的「睡后」收入，就是在你睡觉的时候还有的输入，比如你录视频卖、写书、做自媒体写文章、理财等等，程序员如果增加「睡后」输入，请看 Stromzhang 的 这篇文章 。这些都会让你在你睡觉了之后还有收入，跟你上班出售自己的时间相比，你花在这些能增加「睡后」收入的时间可以重复卖这些时间。
 比如一个作家花一年的时间写了一本书，可以畅销十年；那些做自媒体的写出一款爆文，到处转发，也可以流行好多天。

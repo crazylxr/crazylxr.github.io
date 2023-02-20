@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>vim on ExampleSite</title>
-    <link>https://examplesite.com/tags/vim/</link>
-    <description>Recent content in vim on ExampleSite</description>
+    <title>vim on 桃园</title>
+    <link>/tags/vim/</link>
+    <description>Recent content in vim on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Mar 2018 23:28:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Mar 2018 23:28:00 +0000</lastBuildDate><atom:link href="/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim 入门指南</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/50/</link>
       <pubDate>Tue, 20 Mar 2018 23:28:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/50/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/50/</guid>
       <description>个人站点：桃园
 0. 前言 0.1 简介 vim 被誉为『编辑器之神』，与之同时代的 emacs 被誉为『神之编辑器』。可以看得出 vim 在编辑器的地位是很高的，得益于 vim 的指法，敲起代码来如行云流水。特别膜拜创始人创始出这么方便的敲代码的指法，这篇文章就是来带你入坑 vim 指法操作。
 0.2 前端的我为什么要学习 vim 在当今前端开发工具百花齐放的时代（VS Code、Sublime、Atom 以及 IDE Webstorm），我为什么还要介绍 20 多年前开发的一个老古董呢？在这里我想说的是出身虽然老，但是所带来的价值并没有减,一旦习惯了 vim 的指法之后，你会觉得不用 vim 操作写代码会觉得很不习惯，甚至不知道怎么操作。然而用在支持 vim 指法的编辑上写代码你会觉得如行云流水，如果再配个机械键盘，简直是享受，特别符合极客的风格。

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>数据结构 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
-    <description>Recent content in 数据结构 on ExampleSite</description>
+    <title>数据结构 on 桃园</title>
+    <link>/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+    <description>Recent content in 数据结构 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Mar 2018 09:53:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Mar 2018 09:53:00 +0000</lastBuildDate><atom:link href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript数据结构之数组栈队列</title>
-      <link>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</link>
+      <link>/posts/%E6%8A%80%E6%9C%AF/42/</link>
       <pubDate>Wed, 14 Mar 2018 09:53:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E6%8A%80%E6%9C%AF/42/</guid>
+      <guid>/posts/%E6%8A%80%E6%9C%AF/42/</guid>
       <description>1. 数组 数组是平时使用最常用的数据结构，在JavaScript中数组是动态的分配大小,在这里我不会介绍JavaScript里面数组的所有的方法，而是针对数据结构这个方向谈谈所用到的方法。
 1.1 创建和初始化数组 //创建空数组var array = new Array();//[]//初始化数组var array = new Array(1,2,3); var array = Array.of(1,2,3);//ES6的方法//[1,2,3]//创建大小为5的数组var array = new Array();//ES6的方法//[undefined,undefined,undefined,undefined,undefined]//给数组赋值var array = new Array();array[0] = 1 ;array[1] = 2 ;array[2] = 3 ;//[1,2,3] 1.2 添加元素 1.2.1往数组后添加元素 var number = [1,2,3];number[number.length] = 4;//[1,2,3,4]//或者var number = [1,2,3];number.push(4);//[1,2,3,4] 1.2.2往数组前面添加元素 var number = [1,2,3];number.</description>
     </item>

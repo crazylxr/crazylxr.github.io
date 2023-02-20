@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005-Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>程序人生 on ExampleSite</title>
-    <link>https://examplesite.com/tags/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/</link>
-    <description>Recent content in 程序人生 on ExampleSite</description>
+    <title>程序人生 on 桃园</title>
+    <link>/tags/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/</link>
+    <description>Recent content in 程序人生 on 桃园</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>桃园</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 13 Apr 2018 22:32:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Apr 2018 22:32:00 +0000</lastBuildDate><atom:link href="/tags/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>你不知道的黑客</title>
-      <link>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</link>
+      <link>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</link>
       <pubDate>Fri, 13 Apr 2018 22:32:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</guid>
+      <guid>/posts/%E7%AC%94%E8%AE%B0%E6%9C%AC/68/</guid>
       <description>前言 我相信大家对于『黑客』这个词并不陌生，特别是对我们搞计算机的人来说，那是相当的熟悉。
 在一般人的眼里『黑客』（hacker）就是入侵计算机的人，就是『计算机犯罪』的同义词。但是，它的原意并非如此。
 起源 在 20 世纪 60 年代初，麻省理工学院有一个学生团体叫做『铁路模型技术俱乐部』，他们把难题的解决方法称为 hack。
