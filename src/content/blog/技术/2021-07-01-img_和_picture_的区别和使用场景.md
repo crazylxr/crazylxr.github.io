@@ -1,5 +1,5 @@
 ---
-layout: post
+
 cid: 341
 title: img 和 picture 的区别和使用场景
 status: publish

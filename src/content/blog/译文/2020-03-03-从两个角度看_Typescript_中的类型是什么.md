@@ -1,9 +1,8 @@
 ---
 cid: 302
-title: 从两个角度看 Typescript 中的类型是什么? 
+title: 从两个角度看Typescript中的类型是什么 
 date: 2020-03-03 10:09:33
 updated: 2020-03-03 10:10:01
-status: publish
 author: 桃翁
 categories: 
   - 技术

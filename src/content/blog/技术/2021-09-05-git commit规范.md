@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: git commit 规范和 如何在 commit 里使用 emoji
 cid: 20210905
 categories:
