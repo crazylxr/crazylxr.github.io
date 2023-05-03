@@ -1,0 +1,123 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+const sites = [
+  {
+    name: "Google",
+    description: "全球最大的搜索引擎",
+    logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    url: "https://www.google.com",
+  },
+  {
+    name: "Google",
+    description: "全球最大的搜索引擎",
+    logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    url: "https://www.google.com",
+  },
+  {
+    name: "Google",
+    description: "全球最大的搜索引擎",
+    logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    url: "https://www.google.com",
+  },
+  {
+    name: "Google",
+    description: "全球最大的搜索引擎",
+    logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    url: "https://www.google.com",
+  },
+  {
+    name: "Google",
+    description: "全球最大的搜索引擎",
+    logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    url: "https://www.google.com",
+  },
+];
+---
+
+<Layout>
+  <div class="container">
+    <h1>AI 网站导航</h1>
+    <ul class="sites">
+      {
+        sites.map(site => (
+          <li>
+            <a href={site.url} target="_blank" rel="noopener">
+              <div class="logo">
+                <img src={site.logo} alt={`${site.name} Logo`} />
+              </div>
+              <div class="info">
+                <h2>{site.name}</h2>
+                <p>{site.description}</p>
+              </div>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>
+
+<style>
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .sites {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  li {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .logo img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .info {
+    margin-left: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+</style>
