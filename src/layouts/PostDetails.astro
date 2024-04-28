@@ -24,7 +24,7 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
   <Header />
   <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
     <button
-      class="focus-outline mt-8 mb-2 flex hover:opacity-75"
+      class="focus-outline mb-2 mt-8 flex hover:opacity-75"
       onclick="history.back()"
     >
       <svg xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,8 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
   import twikoo from "twikoo";
 
   twikoo({
-    envId: "https://twikoo-zeabur-production-82cd.up.railway.app", // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+    envId:
+      "https://taoweng-twikoo-netlify.netlify.app/.netlify/functions/twikoo", // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
     el: "#tcomment", // 容器元素
   }).then(() => {
     console.log("comment loading success");
