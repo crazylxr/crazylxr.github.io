@@ -51,9 +51,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <small>
             是我用来记录我的个人成长、分享我的所见所闻的地方。本站是由 Astro
             生成的静态站点，使用 Paper 主题，部署在 <a
-              href="https://vercel.com/"
+              href="https://app.netlify.com/"
               target="_blank"
-              rel="noopener">Vercel</a
+              rel="noopener">Netlify</a
             >
             ，并使用 <a target="_blank" href="https://twikoo.js.org/">Twikoo</a>
             作为评论留言系统，<span style="border-bottom:#ecb04e 2px solid">
@@ -150,7 +150,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <style>
   /* ===== Hero Section ===== */
   #hero {
-    @apply pt-8 pb-6;
+    @apply pb-6 pt-8;
   }
   #hero h1 {
     @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
@@ -168,13 +168,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;
   }
   .social-links {
-    @apply mr-2 mb-1 whitespace-nowrap sm:mb-0;
+    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
   }
 
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
   #recent-posts {
-    @apply pt-12 pb-6;
+    @apply pb-6 pt-12;
   }
   #featured h2,
   #recent-posts h2 {
