@@ -1,0 +1,11 @@
+[
+  { "title": "ChatGPT", "category": "Conversational", "description": "OpenAI's chat model for general purpose Q&A and assistants.", "href": "https://chat.openai.com/" },
+  { "title": "Claude", "category": "Conversational", "description": "Anthropic's assistant-focused model.", "href": "https://www.anthropic.com/" },
+  { "title": "Bard", "category": "Conversational", "description": "Google's conversational AI.", "href": "https://bard.google.com/" },
+  { "title": "GitHub Copilot", "category": "Developer Tools", "description": "AI pair programmer that suggests code and completions.", "href": "https://github.com/features/copilot" },
+  { "title": "Hugging Face", "category": "Models & APIs", "description": "Model hub, datasets, and inference APIs.", "href": "https://huggingface.co/" },
+  { "title": "Replicate", "category": "Models & APIs", "description": "Run machine learning models in the cloud via API.", "href": "https://replicate.com/" },
+  { "title": "DALL·E", "category": "Images", "description": "OpenAI's image generation model.", "href": "https://openai.com/dall-e" },
+  { "title": "Midjourney", "category": "Images", "description": "Community-focused image generator.", "href": "https://www.midjourney.com/" },
+  { "title": "Stable Diffusion", "category": "Images", "description": "Open-source image synthesis models.", "href": "https://stability.ai/" }
+]

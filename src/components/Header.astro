@@ -3,11 +3,8 @@ import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
-import logoPNG from "/assets/logo.png";
-import logoSVG from "/assets/logo.svg";
-
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
+  activeNav?: "posts" | "tags" | "about" | "search" | "ai";
 }
 
 const { activeNav } = Astro.props;
@@ -21,7 +18,7 @@ const { activeNav } = Astro.props;
         {
           LOGO_IMAGE.enable ? (
             <img
-              src={LOGO_IMAGE.svg ? logoSVG : logoPNG}
+              src={LOGO_IMAGE.svg ? "/assets/logo.svg" : "/assets/logo.png"}
               alt="AstroPaper Logo"
               width={LOGO_IMAGE.width}
               height={LOGO_IMAGE.height}
@@ -58,6 +55,16 @@ const { activeNav } = Astro.props;
           <li>
             <a href="/about" class={activeNav === "about" ? "active" : ""}>
               About
+            </a>
+          </li>
+          <li>
+            <a
+              href="/ai"
+              class={activeNav === "ai" ? "active" : ""}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AI
             </a>
           </li>
           <li>
@@ -107,7 +114,7 @@ const { activeNav } = Astro.props;
 
 <style>
   #skip-to-content {
-    @apply absolute -top-full left-16 z-50 bg-skin-accent py-2 px-3 text-skin-inverted transition-all focus:top-4;
+    @apply absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-inverted transition-all focus:top-4;
   }
   .nav-container {
     @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
@@ -129,20 +136,20 @@ const { activeNav } = Astro.props;
     @apply flex w-full flex-col items-center bg-skin-fill sm:ml-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0;
   }
   nav ul {
-    @apply mt-4 grid w-44 grid-cols-2 grid-rows-4 gap-y-2 gap-x-2 sm:mt-0 sm:ml-0 sm:w-auto sm:gap-y-0 sm:gap-x-5;
+    @apply mt-4 grid w-44 grid-cols-2 grid-rows-4 gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:flex sm:w-auto sm:flex-row sm:gap-x-5 sm:gap-y-0;
   }
   nav ul li {
-    @apply col-span-2 flex items-center justify-center;
+    @apply col-span-2 flex items-center justify-center sm:col-span-1;
   }
   nav ul li a {
-    @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
+    @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:w-auto sm:px-2 sm:py-1 sm:text-left;
   }
   nav ul li:nth-child(4) a {
-    @apply w-auto;
+    @apply w-auto sm:w-auto;
   }
   nav ul li:nth-child(4),
   nav ul li:nth-child(5) {
-    @apply col-span-1;
+    @apply col-span-1 sm:col-span-1;
   }
   nav a.active {
     @apply underline decoration-wavy decoration-2 underline-offset-4;
