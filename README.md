@@ -1,153 +1,197 @@
-# AstroPaper 📄
+# 桃翁的博客 📄
 
-![AstroPaper](public/astropaper-og.jpg)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+一个基于 Astro 构建的个人技术博客，专注于前端开发、技术分享和个人思考。
 
-This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
+本项目基于 [AstroPaper](https://github.com/satnaing/astro-paper) 主题开发，并根据个人需求进行了定制化改造。
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
+## 🌐 在线访问
 
-## 🔥 Features
+访问地址：[https://taoweng.site/](https://taoweng.site/)
 
-- [x] type-safe markdown
-- [x] super fast performance
-- [x] accessible (Keyboard/VoiceOver)
-- [x] responsive (mobile ~ desktops)
-- [x] SEO-friendly
-- [x] light & dark mode
-- [x] fuzzy search
-- [x] draft posts & pagination
-- [x] sitemap & rss feed
-- [x] followed best practices
-- [x] highly customizable
-- [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
+## ✨ 特色功能
 
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
+- [x] 类型安全的 Markdown 内容管理
+- [x] 极速性能表现
+- [x] 完全响应式设计（移动端到桌面端）
+- [x] SEO 友好
+- [x] 亮色/暗色主题切换
+- [x] 模糊搜索功能
+- [x] 草稿文章与分页功能
+- [x] 自动生成 Sitemap 和 RSS 订阅
+- [x] 文章动态 OG 图片生成
+- [x] AI 工具导航页面
+- [x] 网站导航收藏页面
+- [x] 标签分类系统
+- [x] 评论系统集成（Twikoo）
 
-## ✅ Lighthouse Score
-
-<p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
-    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  <a>
-</p>
-
-## 🚀 Project Structure
-
-Inside of AstroPaper, you'll see the following folders and files:
+## 🚀 项目结构
 
 ```bash
 /
 ├── public/
 │   ├── assets/
-│   │   └── logo.svg
-│   │   └── logo.png
-│   └── favicon.svg
-│   └── astropaper-og.jpg
-│   └── robots.txt
-│   └── toggle-theme.js
+│   │   └── ai-icons/         # AI 工具图标
+│   ├── robots.txt
+│   └── toggle-theme.js        # 主题切换脚本
+├── scripts/
+│   └── update-ai-icons.js     # AI 图标更新脚本
 ├── src/
 │   ├── assets/
-│   │   └── socialIcons.ts
-│   ├── components/
+│   │   └── socialIcons.ts     # 社交媒体图标配置
+│   ├── components/            # 可复用组件
+│   │   ├── Header.astro
+│   │   ├── Footer.astro
+│   │   ├── Search.tsx
+│   │   └── ...
 │   ├── content/
-│   │   |  blog/
-│   │   |    └── some-blog-posts.md
-│   │   └── _schemas.ts
-│   │   └── config.ts
-│   ├── layouts/
-│   └── pages/
-│   └── styles/
-│   └── utils/
-│   └── config.ts
-│   └── types.ts
-└── package.json
+│   │   ├── blog/              # 博客文章目录
+│   │   │   ├── 2022/
+│   │   │   ├── 2023/
+│   │   │   ├── 2024/
+│   │   │   ├── 技术/
+│   │   │   ├── 笔记本/
+│   │   │   ├── 观点与感想/
+│   │   │   ├── 桃园周刊/
+│   │   │   └── 译文/
+│   │   ├── _schemas.ts        # 内容类型定义
+│   │   └── config.ts          # 内容集合配置
+│   ├── data/
+│   │   └── ai.json            # AI 工具数据
+│   ├── layouts/               # 页面布局
+│   │   ├── Layout.astro
+│   │   ├── WideLayout.astro
+│   │   └── PostDetails.astro
+│   ├── pages/                 # 路由页面
+│   │   ├── index.astro        # 首页
+│   │   ├── about.md           # 关于页面
+│   │   ├── ai.astro           # AI 工具页面
+│   │   ├── nav.astro          # 导航页面
+│   │   ├── search.astro       # 搜索页面
+│   │   ├── posts/             # 文章列表和详情
+│   │   └── tags/              # 标签页面
+│   ├── styles/
+│   │   └── base.css           # 基础样式
+│   ├── utils/                 # 工具函数
+│   └── config.ts              # 网站配置
+├── astro.config.mjs           # Astro 配置
+├── tailwind.config.cjs        # Tailwind 配置
+└── tsconfig.json              # TypeScript 配置
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 💻 技术栈
 
-Any static assets, like images, can be placed in the `public/` directory.
+**核心框架** - [Astro](https://astro.build/) 5.15.4  
+**类型检查** - [TypeScript](https://www.typescriptlang.org/)  
+**UI 组件** - [React](https://reactjs.org/) 19.2.0  
+**样式方案** - [TailwindCSS](https://tailwindcss.com/) 3.4.18  
+**模糊搜索** - [Fuse.js](https://fusejs.io/) 7.1.0  
+**评论系统** - [Twikoo](https://twikoo.js.org/) 1.6.44  
+**代码格式化** - [Prettier](https://prettier.io/)  
+**代码检查** - [ESLint](https://eslint.org)  
+**部署平台** - [Vercel](https://vercel.com/)
 
-All blog posts are stored in `src/content/blog` directory.
+## 🛠️ 本地开发
 
-## 📖 Documentation
-
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
-
-- Configuration - [markdown](src/content/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-> For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
-
-## 💻 Tech Stack
-
-**Main Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Component Framework** - [ReactJS](https://reactjs.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma](https://figma.com)  
-**Fuzzy Search** - [FuseJS](https://fusejs.io/)  
-**Icons** - [Boxicons](https://boxicons.com/) | [Tablers](https://tabler-icons.io/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)  
-**Linting** - [ESLint](https://eslint.org)
-
-## 👨🏻‍💻 Running Locally
-
-The easiest way to run this project locally is to run the following command in your desired directory.
+### 克隆项目
 
 ```bash
-# npm 6.x
-npm create astro@latest --template satnaing/astro-paper
-
-# npm 7+, extra double-dash is needed:
-npm create astro@latest -- --template satnaing/astro-paper
-
-# yarn
-yarn create astro --template satnaing/astro-paper
+git clone https://github.com/crazylxr/crazylxr.github.io.git
+cd crazylxr.github.io
 ```
 
-## Google Site Verification (optional)
-
-You can easily add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) in AstroPaper using environment variable. This step is optional. If you don't add the following env variable, the google-site-verification tag won't appear in the html `<head>` section.
+### 安装依赖
 
 ```bash
-# in your environment variable file (.env)
-PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
+npm install
 ```
 
-## 🧞 Commands
+### 启动开发服务器
 
-All commands are run from the root of the project, from a terminal:
+```bash
+npm run dev
+```
 
-| Command                | Action                                                                                                                           |
-| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `npm install`          | Installs dependencies                                                                                                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`                                                                                      |
-| `npm run build`        | Build your production site to `./dist/`                                                                                          |
-| `npm run preview`      | Preview your build locally, before deploying                                                                                     |
-| `npm run format:check` | Check code format with Prettier                                                                                                  |
-| `npm run format`       | Format codes with Prettier                                                                                                       |
-| `npm run sync`         | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `npm run cz`           | Commit code changes with commitizen                                                                                              |
-| `npm run lint`         | Lint with ESLint                                                                                                                 |
+访问 `http://localhost:4321` 查看网站。
 
-## ✨ Feedback & Suggestions
+## 📝 内容管理
 
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@satnaing.dev). Alternatively, feel free to open an issue if you find bugs or want to request new features.
+### 添加新文章
 
-## 📜 License
+1. 在 `src/content/blog/` 目录下创建新的 Markdown 文件
+2. 添加 frontmatter 元数据：
 
-Licensed under the MIT License, Copyright © 2023
+```markdown
+---
+title: "文章标题"
+description: "文章描述"
+pubDatetime: 2024-01-01T00:00:00Z
+tags: ["标签1", "标签2"]
+---
+
+文章正文内容...
+```
+
+### 文章分类
+
+博客文章按以下目录组织：
+
+- `技术/` - 技术文章和教程
+- `观点与感想/` - 个人观点和思考
+- `笔记本/` - 学习笔记
+- `桃园周刊/` - 周刊内容
+- `译文/` - 翻译文章
+- 按年份分类：`2022/`、`2023/`、`2024/`
+
+### 更新 AI 工具列表
+
+编辑 `src/data/ai.json` 文件，添加或修改 AI 工具信息。
+
+详细说明参见：[src/data/README.md](src/data/README.md)
+
+## 🧞 可用命令
+
+所有命令都在项目根目录的终端中运行：
+
+| 命令                   | 说明                                  |
+| :--------------------- | :------------------------------------ |
+| `npm install`          | 安装依赖                              |
+| `npm run dev`          | 启动本地开发服务器 `localhost:4321`   |
+| `npm run build`        | 构建生产版本到 `./dist/` 目录         |
+| `npm run preview`      | 本地预览构建后的网站                  |
+| `npm run format:check` | 使用 Prettier 检查代码格式            |
+| `npm run format`       | 使用 Prettier 格式化代码              |
+| `npm run sync`         | 为所有 Astro 模块生成 TypeScript 类型 |
+| `npm run cz`           | 使用 commitizen 提交代码              |
+| `npm run lint`         | 使用 ESLint 检查代码                  |
+
+## 📄 配置说明
+
+网站配置位于 `src/config.ts`，可以修改以下内容：
+
+- 网站基本信息（标题、描述、作者等）
+- 社交媒体链接
+- 每页文章数量
+- 主题设置
+
+## 📜 开源协议
+
+本项目基于 MIT 协议开源。
+
+## 🙏 致谢
+
+- 感谢 [Sat Naing](https://satnaing.dev) 创建的 [AstroPaper](https://github.com/satnaing/astro-paper) 主题
+- 感谢 Astro 团队提供的优秀框架
+
+## � 联系方式
+
+- 邮箱：1076629390@qq.com
+- GitHub：[@crazylxr](https://github.com/crazylxr)
+- 网站：[taoweng.site](https://taoweng.site/)
 
 ---
 
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻
+用 ❤️ 构建 by 桃翁
