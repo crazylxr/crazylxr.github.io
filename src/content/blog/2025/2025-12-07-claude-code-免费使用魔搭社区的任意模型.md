@@ -37,7 +37,11 @@ Claude Code 免费使用魔搭社区的任意模型，每天 2000 次免费调�
   - base_url 固定为：[https://api-inference.modelscope.cn](https://api-inference.modelscope.cn/)（无需追加/v1）。
   - api_key 使用你在魔搭生成并去掉 ms- 前缀后的 Access Token。
   - model 填写魔搭模型库中的 Model ID，例如 “Qwen/Qwen2.5-7B-Instruct”、“Qwen/Qwen3-Coder-480B-A35B-Instruct” 等。模型库 ID 在[这里](https://modelscope.cn/models?page=1&tabKey=task&tasks=hotTask%3Atext-generation&type=tasks)
-    ![[Pasted image 20251206113909.png]] 这个就是模型 ID
+
+  ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d28d379e-72ac-4bbd-a567-71c0f91b3011/363c7392-18f3-4528-a712-d0424a61a601/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466235B2IUP%2F20251207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251207T040654Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCjEpABOIBgBqT%2B0xiQg%2BpMbV5C2xYIqshohi1x1ztIuAIgef6ZI4yeEcs9Z%2BQHs8gR8utqTmVTH7nYVaYFo5ccnVgqiAQIgf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEDzWWIl5%2B9%2FU4lWlyrcA%2BxtjG5G6aDYveI88Ac2FQxFSqfTWJ%2B5BBkTD1l17Bw6DS13s%2BQphFnAf1E75Sj4N815xX2B%2FsIpwkFtPwUXsWS2Ac3OdWlnny8Heushs8WkmlrCWl5lom6aQdpD3LTlU3XqpHCuiaJ8oluCji2Dbq1aGS6bp%2BsWN8dAB6blnHhzxZMWUAqROLHpn5FIY9EXQPv7B9tXWA6Ml0w9S%2B9HqJRGQwGuvWMV2O4lnncvAR%2B9%2BAmV60sr%2FudeThTpP%2BDi0Nntyza7ZWzFr5qU2uJmnQaubvAZCU%2B38b1Epo7QT4CuGoFPny02vG%2BlqMgx8%2BNjrYqIslTw5FiQ7rbiTQOvS820TBN5EZHQ1gU%2BFsFzF%2BTGJn%2FSqJ%2F9X%2BqMpRFzrHLYb3fOqZoTrBYEEOEqIHfOK4T6aIEBkj4ZjgeD%2Fab2GN2zaD3RG7js%2BP6awO3B5IDRgCDtAp9mmmkNj8CqGUN2vOUrHLbtiO024wJUxGJvqweB8BLa7sS%2FFhdaEF2QEGVWstzoxIhvmkDqmILtLPeFHZTjsh2zlnYdh8KP2Yb6PSnWjiPKJYSDMpzALwk57Yd9%2B%2BdUylkR%2Fl%2FA852k3GHIzO3tvF27woLWZQ%2Bd0WZFnBA%2BBzydH%2BoVrqRifCPnMIX90skGOqUBSa%2B7sFBxl5YhJ1oneMCM5Bkl9V8yvEzqao3hIjUOHpUcu2oyUjtieJhAAXTOhg3rUJ97IytjrUmkkbxYT6oMQ7cefprX3qmcD7z%2F7gQ3UkyoDx%2FUP%2BuW5fNYm0RWX72RKQy2Qlkxrx0ro7b6z4V3Z2t7KAJc4I6n7TFV63PdnKFdGVhiKzUqF4Brdao8WwUCAxkVksa2rign8MiDerV86aA5kJbH&X-Amz-Signature=53dbeb1de67f9d0ecd82a38fea879705ffbe736906e21f2cd0e15be29044abb5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+  这个就是模型 ID
+
 - Anthropic 风格调用：
   - 使用官方 anthropic SDK，即可直接进行流式或非流式调用；
   - 接口遵循 Anthropic 的 messages 结构和必须显式指定 max_tokens 的约束，方便控制生成长度和成本。
