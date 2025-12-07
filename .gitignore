@@ -24,3 +24,7 @@ pnpm-debug.log*
 # ignore .astro directory
 .astro
 .history
+
+# Notion 同步的图片文件（使用 CDN 或自己的图床）
+public/assets/notion-images/
+

@@ -260,11 +260,24 @@ src/content/blog/
 
 ### 3. 图片无法显示
 
-**原因**: Notion 内部图片链接有时效限制
+**原因**: Notion 内部图片链接有时效限制（通常 1 小时左右，之后返回 AccessDenied）
 
-**建议**:
-- 使用外部图床（如 Cloudinary, 七牛云, 腾讯云 COS）
-- 或在同步脚本中添加图片下载逻辑
+**解决方案** ✅: 已自动处理！
+- 同步脚本会自动下载 Notion 中的图片
+- 将图片保存到 `/public/assets/notion-images/`
+- 自动替换 Markdown 中的图片链接为本地路径
+- 图片文件名使用 URL 哈希，避免重复下载
+
+**工作流程**:
+```
+Notion 文章 → 提取内容 → 识别图片 URL → 下载到本地 → 替换链接 → 保存 Markdown
+```
+
+**说明**:
+- 首次同步会下载所有图片，可能需要较长时间
+- 之后同步会跳过已存在的图片，加速同步过程
+- 图片文件存储在 `public/assets/notion-images/`（已添加到 `.gitignore`）
+- 如需上传到 CDN，可在 GitHub Actions 中配置额外步骤
 
 ### 4. 修改同步频率
 

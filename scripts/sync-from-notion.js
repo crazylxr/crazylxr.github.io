@@ -11,6 +11,9 @@ import { NotionToMarkdown } from 'notion-to-md';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import https from 'https';
+import http from 'http';
+import crypto from 'crypto';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -19,6 +22,8 @@ const __dirname = path.dirname(__filename);
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID;
 const OUTPUT_DIR = path.join(__dirname, '../src/content/blog');
+const PUBLIC_ASSETS_DIR = path.join(__dirname, '../public/assets/notion-images');
+const RELATIVE_ASSETS_PATH = '/assets/notion-images'; // 在 Markdown 中使用的相对路径
 
 // 初始化 Notion 客户端
 const notion = new Client({ auth: NOTION_TOKEN });
@@ -128,6 +133,120 @@ function getYearDirectory(date) {
 }
 
 /**
+ * 下载图片文件
+ */
+async function downloadImage(url) {
+  return new Promise((resolve, reject) => {
+    const protocol = url.startsWith('https') ? https : http;
+    
+    protocol.get(url, { 
+      timeout: 10000,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; Notion-Sync/1.0)'
+      }
+    }, async (response) => {
+      try {
+        // 检查响应状态
+        if (response.statusCode !== 200) {
+          reject(new Error(`HTTP ${response.statusCode}: ${url}`));
+          return;
+        }
+
+        const chunks = [];
+        response.on('data', chunk => chunks.push(chunk));
+        response.on('end', () => {
+          resolve(Buffer.concat(chunks));
+        });
+      } catch (error) {
+        reject(error);
+      }
+    }).on('error', reject);
+  });
+}
+
+/**
+ * 生成安全的文件名
+ */
+function generateSafeFileName(url) {
+  // 从 URL 获取原始文件名或扩展名
+  const urlPath = new URL(url).pathname;
+  const originalName = path.basename(urlPath).split('?')[0] || 'image';
+  
+  // 使用 URL 的哈希作为唯一标识符，保留原始扩展名
+  const hash = crypto.createHash('md5').update(url).digest('hex').slice(0, 8);
+  const ext = path.extname(originalName) || '.jpg';
+  
+  return `${hash}${ext}`;
+}
+
+/**
+ * 保存图片到本地
+ */
+async function saveImage(url) {
+  try {
+    // 确保资源目录存在
+    await ensureDir(PUBLIC_ASSETS_DIR);
+
+    // 生成本地文件名
+    const fileName = generateSafeFileName(url);
+    const filePath = path.join(PUBLIC_ASSETS_DIR, fileName);
+
+    // 如果文件已存在，直接返回
+    try {
+      await fs.access(filePath);
+      console.log(`  📸 图片已存在: ${RELATIVE_ASSETS_PATH}/${fileName}`);
+      return `${RELATIVE_ASSETS_PATH}/${fileName}`;
+    } catch {
+      // 文件不存在，继续下载
+    }
+
+    // 下载图片
+    console.log(`  ⬇️  下载图片: ${url.slice(0, 80)}...`);
+    const imageBuffer = await downloadImage(url);
+
+    // 保存到本地
+    await fs.writeFile(filePath, imageBuffer);
+    console.log(`  ✅ 图片已保存: ${RELATIVE_ASSETS_PATH}/${fileName}`);
+
+    return `${RELATIVE_ASSETS_PATH}/${fileName}`;
+  } catch (error) {
+    console.error(`  ❌ 图片下载失败: ${error.message}`);
+    // 返回原始 URL，降级处理
+    return url;
+  }
+}
+
+/**
+ * 替换 Markdown 中的 Notion 图片链接为本地链接
+ */
+async function replaceNotionImages(content) {
+  // 匹配 Markdown 中的图片语法: ![alt](url)
+  const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
+  
+  let updatedContent = content;
+  const matches = [...content.matchAll(imageRegex)];
+
+  for (const match of matches) {
+    const fullMatch = match[0];
+    const altText = match[1];
+    const imageUrl = match[2];
+
+    // 只处理 Notion 的图片 URL（包含 amazonaws 或 notion 的 CDN）
+    if (imageUrl.includes('amazonaws') || imageUrl.includes('notion') || imageUrl.includes('s3')) {
+      try {
+        const localPath = await saveImage(imageUrl);
+        const newImageMarkdown = `![${altText}](${localPath})`;
+        updatedContent = updatedContent.replace(fullMatch, newImageMarkdown);
+      } catch (error) {
+        console.error(`  ❌ 处理图片失败: ${error.message}`);
+      }
+    }
+  }
+
+  return updatedContent;
+}
+
+/**
  * 同步单篇文章
  */
 async function syncPost(page) {
@@ -140,10 +259,16 @@ async function syncPost(page) {
       return { skipped: true, title: properties.title };
     }
 
+    console.log(`\n📄 处理文章: ${properties.title}`);
+
     // 获取文章内容
     const mdBlocks = await n2m.pageToMarkdown(page.id);
     const mdString = n2m.toMarkdownString(mdBlocks);
-    const content = mdString.parent || '';
+    let content = mdString.parent || '';
+
+    // 替换 Notion 图片为本地图片
+    console.log(`  🔄 处理文章中的图片...`);
+    content = await replaceNotionImages(content);
 
     // 生成完整的 Markdown 文件
     const frontmatter = generateFrontmatter(properties);
@@ -247,7 +372,7 @@ async function main() {
       const result = await syncPost(post);
       results.push(result);
       // 添加延迟避免 API 限流
-      await new Promise(resolve => setTimeout(resolve, 300));
+      await new Promise(resolve => setTimeout(resolve, 500));
     }
 
     // 统计结果
