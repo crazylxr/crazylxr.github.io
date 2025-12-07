@@ -59,7 +59,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add src/content/blog/
           git commit -m "🔄 自动同步 Notion 内容 - $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          git pull --rebase origin master
+          git push origin master
 
       - name: ✅ 同步完成
         if: steps.verify-changed-files.outputs.changed == 'true'
