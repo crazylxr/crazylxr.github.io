@@ -1,0 +1,72 @@
+name: Sync Content from Notion
+
+on:
+  # 定时触发 - 每6小时同步一次
+  schedule:
+    - cron: "0 */6 * * *" # 每6小时执行一次
+
+  # 手动触发
+  workflow_dispatch:
+
+  # 当脚本变更时也触发（可选）
+  push:
+    paths:
+      - "scripts/sync-from-notion.js"
+      - ".github/workflows/sync-content.yml"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔄 Checkout 代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 📦 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: 📥 安装依赖
+        run: npm ci
+
+      - name: 🔄 从 Notion 同步内容
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: node scripts/sync-from-notion.js
+
+      - name: 📝 检查文件变更
+        id: verify-changed-files
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "📌 没有检测到内容变更"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "✨ 检测到内容变更:"
+            git status --short
+          fi
+
+      - name: 💾 提交变更
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/content/blog/
+          git commit -m "🔄 自动同步 Notion 内容 - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+
+      - name: ✅ 同步完成
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          echo "🎉 内容已成功同步并提交!"
+          echo "📦 Vercel 将自动部署更新"
+
+      - name: ℹ️ 无变更
+        if: steps.verify-changed-files.outputs.changed == 'false'
+        run: echo "📌 内容无变更，跳过提交"
