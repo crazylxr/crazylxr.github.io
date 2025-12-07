@@ -109,6 +109,17 @@ async function ensureDir(dirPath) {
 }
 
 /**
+ * 读取文件内容，如果不存在则返回 null
+ */
+async function readFileIfExists(filePath) {
+  try {
+    return await fs.readFile(filePath, 'utf-8');
+  } catch {
+    return null;
+  }
+}
+
+/**
  * 获取年份目录
  */
 function getYearDirectory(date) {
@@ -144,6 +155,13 @@ async function syncPost(page) {
 
     const fileName = generateFileName(properties.title, properties.pubDatetime, properties.slug);
     const filePath = path.join(yearDir, fileName);
+
+    // 如果文件存在且内容相同，则跳过写入，避免无意义的 diff
+    const existingContent = await readFileIfExists(filePath);
+    if (existingContent && existingContent === fullContent) {
+      console.log(`⚖️  无变化，跳过写入: ${fileName}`);
+      return { skipped: true, title: properties.title };
+    }
 
     // 写入文件
     await fs.writeFile(filePath, fullContent, 'utf-8');
