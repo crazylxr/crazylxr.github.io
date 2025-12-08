@@ -1,6 +1,7 @@
 ---
 import { SITE } from "@config";
 import "../styles/base.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
@@ -28,7 +29,7 @@ const socialImageURL = new URL(
 const fallbackImageURL = new URL(SITE.ogImage, Astro.url.origin).href;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -97,5 +98,6 @@ const fallbackImageURL = new URL(SITE.ogImage, Astro.url.origin).href;
         s.parentNode.insertBefore(hm, s);
       })();
     </script>
+    <SpeedInsights />
   </body>
 </html>
