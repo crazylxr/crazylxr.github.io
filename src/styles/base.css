@@ -61,7 +61,7 @@
     prose-code:rounded prose-code:bg-skin-card 
     prose-code:bg-opacity-75 prose-code:p-1 prose-code:!text-skin-base 
     prose-code:before:!content-[''] prose-code:after:!content-['']
-    prose-pre:!text-skin-base prose-ol:!text-skin-base 
+    prose-ol:!text-skin-base 
     prose-ul:overflow-x-clip prose-ul:!text-skin-base prose-li:marker:!text-skin-accent
     prose-table:text-skin-base prose-th:border
     prose-th:border-skin-line prose-td:border 
@@ -71,6 +71,12 @@
   }
   .prose a {
     @apply hover:!text-skin-accent;
+  }
+  /* 让 pre > code 继承 Shiki 的颜色，避免 prose-code 的 !important 文字色覆盖高亮 */
+  .prose pre code {
+    color: inherit !important;
+    background: transparent !important;
+    padding: 0 !important;
   }
   .prose thead th:first-child,
   tbody td:first-child,
