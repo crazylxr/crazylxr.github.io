@@ -38,7 +38,7 @@ Claude Code 免费使用魔搭社区的任意模型，每天 2000 次免费调�
   - api_key 使用你在魔搭生成并去掉 ms- 前缀后的 Access Token。
   - model 填写魔搭模型库中的 Model ID，例如 “Qwen/Qwen2.5-7B-Instruct”、“Qwen/Qwen3-Coder-480B-A35B-Instruct” 等。模型库 ID 在[这里](https://modelscope.cn/models?page=1&tabKey=task&tasks=hotTask%3Atext-generation&type=tasks)
 
-  ![image.png](/assets/notion-images/5f45bb20.png)
+  ![image.png](/assets/notion-images/888b76e7.png)
 
   这个就是模型 ID
 
