@@ -1,6 +1,5 @@
 ---
 title: "沉浸式 AI Coding：Ghostty + Claude Code + Yazi + Lazygit 终端工作流实践"
-postSlug: "沉浸式-ai-coding-2026"
 description: "介绍一套完整的终端原生 AI 编程工作流，从 Ghostty 终端到 Claude Code AI 编程、Yazi 文件管理、Lazygit 版本控制，实现从需求到提交全程不离开终端的高效开发体验。"
 author: "桃翁"
 date: 2026-04-18T00:00:00.000Z
