@@ -21,6 +21,7 @@ const __dirname = path.dirname(__filename);
 // 配置
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID;
+const WITHDRAW_PAGE_ID = process.env.WITHDRAW_PAGE_ID;
 const OUTPUT_DIR = path.join(__dirname, '../src/content/blog');
 const PUBLIC_ASSETS_DIR = path.join(__dirname, '../public/assets/notion-images');
 const RELATIVE_ASSETS_PATH = '/assets/notion-images'; // 在 Markdown 中使用的相对路径
@@ -43,7 +44,7 @@ function formatDate(date) {
  */
 function generateFileName(title, date, slug) {
   const formattedDate = formatDate(date);
-  const safeSlug = slug || title
+  const safeSlug = (slug || title)
     .toLowerCase()
     .replace(/[^\u4e00-\u9fa5a-z0-9]+/gi, '-')
     .replace(/^-|-$/g, '');
@@ -127,9 +128,35 @@ async function readFileIfExists(filePath) {
 /**
  * 获取年份目录
  */
-function getYearDirectory(date) {
+function getYearDirectory(date, outputDir = OUTPUT_DIR) {
   const year = new Date(date).getFullYear();
-  return path.join(OUTPUT_DIR, year.toString());
+  return path.join(outputDir, year.toString());
+}
+
+function getPostFilePath(properties, outputDir = OUTPUT_DIR) {
+  const yearDir = getYearDirectory(properties.pubDatetime, outputDir);
+  const fileName = generateFileName(
+    properties.title,
+    properties.pubDatetime,
+    properties.slug
+  );
+  return path.join(yearDir, fileName);
+}
+
+async function removePublishedPost(properties, outputDir = OUTPUT_DIR) {
+  const filePath = getPostFilePath(properties, outputDir);
+
+  try {
+    await fs.unlink(filePath);
+    console.log(`🗑️  已撤回网站文章: ${path.basename(filePath)}`);
+    return { removed: true, title: properties.title, path: filePath };
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      console.log(`⏭️  草稿未在网站发布: ${properties.title}`);
+      return { skipped: true, title: properties.title };
+    }
+    throw error;
+  }
 }
 
 /**
@@ -253,7 +280,7 @@ async function syncPost(page) {
   try {
     const properties = extractProperties(page);
     
-    // 跳过草稿（除非需要同步草稿）
+    // 普通同步不处理草稿，撤回由 workflow input 精确指定
     if (properties.draft) {
       console.log(`⏭️  跳过草稿: ${properties.title}`);
       return { skipped: true, title: properties.title };
@@ -278,8 +305,8 @@ async function syncPost(page) {
     const yearDir = getYearDirectory(properties.pubDatetime);
     await ensureDir(yearDir);
 
-    const fileName = generateFileName(properties.title, properties.pubDatetime, properties.slug);
-    const filePath = path.join(yearDir, fileName);
+    const filePath = getPostFilePath(properties);
+    const fileName = path.basename(filePath);
 
     // 如果文件存在且内容相同，则跳过写入，避免无意义的 diff
     const existingContent = await readFileIfExists(filePath);
@@ -361,6 +388,20 @@ async function main() {
     // 确保输出目录存在
     await ensureDir(OUTPUT_DIR);
 
+    if (WITHDRAW_PAGE_ID) {
+      console.log(`📤 正在撤回 Notion 页面: ${WITHDRAW_PAGE_ID}`);
+      const page = await notion.pages.retrieve({ page_id: WITHDRAW_PAGE_ID });
+      const properties = extractProperties(page);
+
+      if (!properties.draft) {
+        throw new Error(`撤回失败：《${properties.title}》的 Notion 状态不是 Draft`);
+      }
+
+      await removePublishedPost(properties);
+      console.log('✅ 撤回处理完成');
+      return;
+    }
+
     // 获取文章列表
     console.log('📥 正在获取 Notion 文章列表...');
     const posts = await fetchPublishedPosts();
@@ -398,5 +439,8 @@ async function main() {
   }
 }
 
-// 运行主函数
-main();
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+  main();
+}
+
+export { generateFileName, getPostFilePath, removePublishedPost };

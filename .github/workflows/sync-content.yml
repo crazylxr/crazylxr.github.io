@@ -7,6 +7,11 @@ on:
 
   # 手动触发
   workflow_dispatch:
+    inputs:
+      withdraw_page_id:
+        description: "需要撤回的 Notion 页面 ID（留空则正常同步）"
+        required: false
+        type: string
 
   # 当脚本变更时也触发（可选）
   push:
@@ -38,6 +43,7 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          WITHDRAW_PAGE_ID: ${{ inputs.withdraw_page_id }}
         run: node scripts/sync-from-notion.js
 
       - name: 📝 检查文件变更
