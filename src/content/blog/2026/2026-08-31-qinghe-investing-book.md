@@ -9,7 +9,7 @@ tags:
   - 基本面分析
   - 写作
 featured: false
-draft: true
+draft: false
 ---
 
 假设你常去的一家奶茶店，去年营业收入 120 万元，净利润 15 万元。
