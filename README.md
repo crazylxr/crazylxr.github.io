@@ -1,259 +1,213 @@
-# 桃翁的博客 📝
+<div align="center">
 
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-5.15.4-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwindcss-3.4.18-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+# 桃翁的博客
 
-一个基于 [Astro](https://astro.build/) 构建的个人技术博客，专注于前端开发、技术分享和个人思考。
+一个记录前端技术、学习笔记与个人思考的个人博客。
 
-本项目基于 [AstroPaper](https://github.com/satnaing/astro-paper) 主题开发，并根据个人需求进行了定制化改造。
+[在线访问](https://taoweng.site/) · [浏览文章](https://taoweng.site/posts/) · [RSS 订阅](https://taoweng.site/rss.xml)
 
-## 🌐 在线访问
+[![Deploy to GitHub Pages](https://github.com/crazylxr/crazylxr.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/crazylxr/crazylxr.github.io/actions/workflows/deploy.yml)
+[![Astro](https://img.shields.io/badge/Astro-5-FF5D01?logo=astro&logoColor=white)](https://astro.build/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/github/license/crazylxr/crazylxr.github.io)](LICENSE)
 
-网站地址：[https://taoweng.site/](https://taoweng.site/)
+</div>
 
-## ✨ 主要特色
+## 关于项目
 
-- [x] 🎯 类型安全的 Markdown 内容管理
-- [x] ⚡ 极速性能表现（Astro 静态生成）
-- [x] 📱 完全响应式设计（移动端到桌面端）
-- [x] 🔍 SEO 友好
-- [x] 🌓 亮色/暗色主题切换
-- [x] 🔎 模糊搜索功能
-- [x] ✍️ 草稿文章与分页功能
-- [x] 📡 自动生成 Sitemap 和 RSS 订阅
-- [x] 🖼️ 文章动态 OG 图片生成
-- [x] 🤖 AI 工具导航页面
-- [x] 🔗 网站导航收藏页面
-- [x] 🏷️ 灵活的标签分类系统
-- [x] 💬 评论系统集成（Twikoo）
-- [x] 🔄 Notion 数据同步功能
+本站基于 [AstroPaper](https://github.com/satnaing/astro-paper) 主题开发，在保留简洁阅读体验的基础上，加入了内容分类、全文搜索、评论、AI 工具导航、网站收藏导航和 Notion 内容同步等能力。
 
-## 🚀 项目结构
+网站使用 Astro 静态生成，适合博客这类以内容为主的场景：页面加载快、部署简单，也便于通过 Markdown 和 Git 长期维护。
 
-```bash
-/
-├── public/
-│   ├── assets/
-│   │   └── ai-icons/         # AI 工具图标
-│   ├── robots.txt
-│   └── toggle-theme.js        # 主题切换脚本
-├── scripts/
-│   └── update-ai-icons.js     # AI 图标更新脚本
-├── src/
-│   ├── assets/
-│   │   └── socialIcons.ts     # 社交媒体图标配置
-│   ├── components/            # 可复用组件
-│   │   ├── Header.astro
-│   │   ├── Footer.astro
-│   │   ├── Search.tsx
-│   │   └── ...
-│   ├── content/
-│   │   ├── blog/              # 博客文章目录
-│   │   │   ├── 2022/
-│   │   │   ├── 2023/
-│   │   │   ├── 2024/
-│   │   │   ├── 技术/
-│   │   │   ├── 笔记本/
-│   │   │   ├── 观点与感想/
-│   │   │   ├── 桃园周刊/
-│   │   │   └── 译文/
-│   │   ├── _schemas.ts        # 内容类型定义
-│   │   └── config.ts          # 内容集合配置
-│   ├── data/
-│   │   └── ai.json            # AI 工具数据
-│   ├── layouts/               # 页面布局
-│   │   ├── Layout.astro
-│   │   ├── WideLayout.astro
-│   │   └── PostDetails.astro
-│   ├── pages/                 # 路由页面
-│   │   ├── index.astro        # 首页
-│   │   ├── about.md           # 关于页面
-│   │   ├── ai.astro           # AI 工具页面
-│   │   ├── nav.astro          # 导航页面
-│   │   ├── search.astro       # 搜索页面
-│   │   ├── posts/             # 文章列表和详情
-│   │   └── tags/              # 标签页面
-│   ├── styles/
-│   │   └── base.css           # 基础样式
-│   ├── utils/                 # 工具函数
-│   └── config.ts              # 网站配置
-├── astro.config.mjs           # Astro 配置
-├── tailwind.config.cjs        # Tailwind 配置
-└── tsconfig.json              # TypeScript 配置
-```
+## 主要功能
 
-## 💻 技术栈
+- Markdown 内容管理与类型校验
+- 响应式布局及亮色 / 暗色主题
+- 文章分页、标签分类、置顶与草稿
+- 基于 Fuse.js 的模糊搜索
+- Sitemap、RSS 与动态 Open Graph 图片
+- KaTeX 数学公式及代码高亮
+- Twikoo 评论系统
+- AI 工具导航与网站收藏导航
+- Notion 数据库定时同步
+- GitHub Actions 自动构建并部署到 GitHub Pages
 
-| 类别         | 技术                                          | 版本   |
-| ------------ | --------------------------------------------- | ------ |
-| **框架**     | [Astro](https://astro.build/)                 | 5.15.4 |
-| **语言**     | [TypeScript](https://www.typescriptlang.org/) | Latest |
-| **UI**       | [React](https://reactjs.org/)                 | 19.2.0 |
-| **样式**     | [TailwindCSS](https://tailwindcss.com/)       | 3.4.18 |
-| **搜索**     | [Fuse.js](https://fusejs.io/)                 | 7.1.0  |
-| **评论**     | [Twikoo](https://twikoo.js.org/)              | 1.6.44 |
-| **数据同步** | [Notion API](https://developers.notion.com/)  | -      |
-| **静态生成** | [Satori](https://github.com/vercel/satori)    | 0.18.3 |
-| **代码检查** | [ESLint](https://eslint.org)                  | 9.39.1 |
-| **代码格式** | [Prettier](https://prettier.io/)              | 3.6.2  |
-| **部署**     | [Vercel](https://vercel.com/)                 | -      |
+## 技术栈
 
-## 🛠️ 本地开发
+| 领域 | 方案                                          |
+| ---- | --------------------------------------------- |
+| 框架 | [Astro 5](https://astro.build/)               |
+| 语言 | [TypeScript](https://www.typescriptlang.org/) |
+| UI   | [React 19](https://react.dev/)                |
+| 样式 | [Tailwind CSS 3](https://tailwindcss.com/)    |
+| 搜索 | [Fuse.js](https://www.fusejs.io/)             |
+| 内容 | Markdown + Astro Content Collections          |
+| 评论 | [Twikoo](https://twikoo.js.org/)              |
+| 部署 | GitHub Actions + GitHub Pages                 |
 
-### 克隆项目
+具体版本以 [`package.json`](package.json) 和 [`package-lock.json`](package-lock.json) 为准。
+
+## 快速开始
+
+### 环境要求
+
+- Node.js 20 或更高版本
+- npm
+
+### 本地运行
 
 ```bash
 git clone https://github.com/crazylxr/crazylxr.github.io.git
 cd crazylxr.github.io
-```
-
-### 安装依赖
-
-```bash
-npm install
-```
-
-### 启动开发服务器
-
-```bash
+npm ci
 npm run dev
 ```
 
-访问 `http://localhost:4321` 查看网站。
+启动后访问 <http://localhost:4321>。
 
-## 📝 内容管理
+提交变更前，建议执行完整检查：
 
-### 添加新文章
+```bash
+npm test
+npm run lint
+npm run format:check
+npm run build
+```
 
-在 `src/content/blog/` 目录下创建新的 Markdown 文件，添加以下 frontmatter 元数据：
+## 内容维护
+
+### 新建文章
+
+在 `src/content/blog/` 的对应分类或年份目录中创建 Markdown 文件：
 
 ```markdown
 ---
 title: "文章标题"
-description: "文章简短描述"
-pubDatetime: 2024-12-07T00:00:00Z
-modDatetime: 2024-12-07T00:00:00Z
+date: 2026-08-31 10:00:00
+author: "桃翁"
+description: "用于文章列表与 SEO 的简短摘要"
 featured: false
 draft: false
 tags:
-  - "标签1"
-  - "标签2"
+  - Astro
+  - 前端
 ---
 
-文章正文内容...
+从这里开始写正文。
 ```
 
-**frontmatter 字段说明：**
+字段说明：
 
-- `title` - 文章标题（必填）
-- `description` - 文章描述（必填，用于 SEO）
-- `pubDatetime` - 发布时间（必填）
-- `modDatetime` - 修改时间（可选）
-- `featured` - 是否在首页置顶（可选，默认 false）
-- `draft` - 是否为草稿（可选，默认 false）
-- `tags` - 文章标签数组（可选）
+| 字段          | 是否必填 | 说明                         |
+| ------------- | -------- | ---------------------------- |
+| `title`       | 是       | 文章标题                     |
+| `date`        | 是       | 发布时间                     |
+| `author`      | 否       | 作者名称                     |
+| `description` | 否       | 文章摘要，用于列表展示和 SEO |
+| `postSlug`    | 否       | 自定义文章 URL 标识          |
+| `featured`    | 否       | 是否作为精选文章展示         |
+| `draft`       | 否       | 是否为草稿                   |
+| `tags`        | 否       | 标签列表，默认值为 `others`  |
+| `ogImage`     | 否       | 自定义社交分享图片           |
 
-### 文章分类组织
+字段约束定义在 [`src/content/_schemas.ts`](src/content/_schemas.ts)。文章目前按年份和内容类型组织：
 
-博客文章按以下目录组织，便于管理和检索：
-
-```
+```text
 src/content/blog/
-├── 2024/              # 2024 年文章
-├── 2023/              # 2023 年文章
-├── 2022/              # 2022 年文章
-├── 技术/              # 技术教程和深度分析
-├── 观点与感想/        # 个人想法和观察
-├── 笔记本/            # 学习笔记和知识总结
-├── 桃园周刊/          # 周刊内容
-└── 译文/              # 翻译的文章
+├── 2022/ ... 2026/   # 按年份归档
+├── 基础教程/
+├── 技术/
+├── 桃园周刊/
+├── 笔记本/
+├── 观点与感想/
+└── 译文/
 ```
 
-### 更新 AI 工具列表
+### 维护 AI 工具导航
 
-编辑 `src/data/ai.json` 文件，添加或修改 AI 工具信息。详见 [src/data/README.md](src/data/README.md)
+- `src/data/ai-config.json`：需要收录的 AI 工具名称
+- `src/data/ai.json`：页面使用的完整工具数据
+- `scripts/update-ai-icons.js`：抓取并更新工具信息的脚本
 
-### Notion 数据同步
+更新数据：
 
-项目支持从 Notion 数据库同步博客内容：
+```bash
+node scripts/update-ai-icons.js
+```
+
+详细说明见 [`scripts/README.md`](scripts/README.md)。
+
+### 从 Notion 同步文章
+
+本地创建 `.env` 并配置以下变量：
+
+```dotenv
+NOTION_TOKEN=your_notion_token
+NOTION_DATABASE_ID=your_database_id
+```
+
+然后运行：
 
 ```bash
 npm run sync:notion
 ```
 
-配置说明详见：[docs/NOTION_SYNC_GUIDE.md](docs/NOTION_SYNC_GUIDE.md)
+GitHub Actions 也会每 6 小时执行一次同步。完整配置步骤和字段映射见 [`docs/NOTION_SYNC_GUIDE.md`](docs/NOTION_SYNC_GUIDE.md)。请勿提交 `.env` 或任何真实密钥。
 
-## 🧞 可用命令
+## 常用命令
 
-所有命令都在项目根目录的终端中运行：
+| 命令                   | 用途                     |
+| ---------------------- | ------------------------ |
+| `npm run dev`          | 启动本地开发服务器       |
+| `npm run build`        | 构建生产版本到 `dist/`   |
+| `npm run preview`      | 预览生产构建结果         |
+| `npm test`             | 运行 Markdown 渲染测试   |
+| `npm run sync`         | 生成 Astro 类型定义      |
+| `npm run sync:notion`  | 从 Notion 同步文章       |
+| `npm run lint`         | 执行 ESLint 检查         |
+| `npm run format:check` | 检查代码格式             |
+| `npm run format`       | 使用 Prettier 格式化代码 |
+| `npm run cz`           | 使用 Commitizen 创建提交 |
 
-| 命令                   | 说明                                  |
-| ---------------------- | ------------------------------------- |
-| `npm install`          | 安装所有依赖                          |
-| `npm run dev`          | 启动本地开发服务器 `localhost:4321`   |
-| `npm start`            | 启动开发服务器（别名）                |
-| `npm run build`        | 构建生产版本到 `./dist/` 目录         |
-| `npm run preview`      | 本地预览构建后的网站                  |
-| `npm run sync`         | 为所有 Astro 模块生成 TypeScript 类型 |
-| `npm run sync:notion`  | 从 Notion 同步博客数据                |
-| `npm run format:check` | 使用 Prettier 检查代码格式            |
-| `npm run format`       | 使用 Prettier 格式化代码              |
-| `npm run lint`         | 使用 ESLint 检查代码                  |
-| `npm run cz`           | 使用 commitizen 提交代码              |
+## 目录结构
 
-## ⚙️ 配置说明
-
-### 网站配置
-
-网站基本配置位于 `src/config.ts`，可以修改以下内容：
-
-```typescript
-export const SITE = {
-  website: "https://taoweng.site/", // 网站 URL
-  author: "桃翁", // 作者名称
-  desc: "一个前端工程师的博客", // 网站描述
-  title: "Home", // 页面标题
-  ogImage: "astropaper-og.jpg", // OG 图片
-  lightAndDarkMode: true, // 是否启用暗黑模式
-  postPerPage: 10, // 每页显示文章数
-};
+```text
+.
+├── public/                 # 静态资源
+├── scripts/                # 内容同步及数据维护脚本
+├── src/
+│   ├── components/        # Astro / React 组件
+│   ├── content/blog/      # Markdown 文章
+│   ├── data/              # AI 导航等结构化数据
+│   ├── layouts/           # 页面布局
+│   ├── pages/             # 文件路由
+│   ├── styles/            # 全局样式
+│   ├── utils/             # 通用工具
+│   └── config.ts          # 网站与社交链接配置
+├── tests/                  # 自动化测试
+├── astro.config.mjs       # Astro 配置
+└── tailwind.config.cjs    # Tailwind CSS 配置
 ```
 
-### 主题切换
+## 配置与部署
 
-网站支持亮色/暗色主题切换，主题切换脚本位于 `public/toggle-theme.js`
+网站标题、作者、描述、分页数量和社交链接集中在 [`src/config.ts`](src/config.ts) 中维护。
 
-### 社交媒体配置
+推送到 `master` 分支后，[`deploy.yml`](.github/workflows/deploy.yml) 会自动安装依赖、执行生产构建，并把 `dist/` 发布到 GitHub Pages。Notion 同步由独立的 [`sync-content.yml`](.github/workflows/sync-content.yml) 工作流负责。
 
-在 `src/config.ts` 的 `SOCIALS` 数组中配置社交媒体链接
+## 致谢
 
-## 📄 开源许可证
+- [AstroPaper](https://github.com/satnaing/astro-paper) 提供了项目的主题基础
+- [Astro](https://astro.build/) 提供了优秀的内容型网站开发体验
 
-本项目基于 [MIT](LICENSE) 协议开源。
+## License
 
-## 🙏 致谢
-
-- [Sat Naing](https://satnaing.dev) - 创建的 [AstroPaper](https://github.com/satnaing/astro-paper) 主题
-- [Astro](https://astro.build/) 团队 - 提供的优秀框架
-- 所有贡献者的支持与反馈
-
-## 📬 联系方式
-
-- 📧 邮箱：[1076629390@qq.com](mailto:1076629390@qq.com)
-- 🐙 GitHub：[@crazylxr](https://github.com/crazylxr)
-- 🌐 个人网站：[taoweng.site](https://taoweng.site/)
-- 🐦 Twitter：[@Tao_Weng](https://twitter.com/Tao_Weng)
+本项目基于 [MIT License](LICENSE) 开源。
 
 ---
 
 <div align="center">
 
-用 ❤️ 构建 by 桃翁
-
-![GitHub](https://img.shields.io/badge/GitHub-crazylxr-blue?logo=github&style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/crazylxr/crazylxr.github.io?style=flat-square)
-![License](https://img.shields.io/github/license/crazylxr/crazylxr.github.io?style=flat-square)
+Made with ❤️ by [桃翁](https://github.com/crazylxr)
 
 </div>
