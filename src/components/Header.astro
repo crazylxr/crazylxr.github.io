@@ -48,6 +48,15 @@ const { activeNav } = Astro.props;
             </a>
           </li>
           <li>
+            <a
+              href="https://crazylxr.github.io/qinghe-investing-book/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Books
+            </a>
+          </li>
+          <li>
             <a href="/tags" class={activeNav === "tags" ? "active" : ""}>
               Tags
             </a>
@@ -144,11 +153,11 @@ const { activeNav } = Astro.props;
   nav ul li a {
     @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:w-auto sm:px-2 sm:py-1 sm:text-left;
   }
-  nav ul li:nth-child(4) a {
+  nav ul li:nth-child(5) a {
     @apply w-auto sm:w-auto;
   }
-  nav ul li:nth-child(4),
-  nav ul li:nth-child(5) {
+  nav ul li:nth-child(5),
+  nav ul li:nth-child(6) {
     @apply col-span-1 sm:col-span-1;
   }
   nav a.active {
