@@ -33,7 +33,7 @@ jobs:
       - name: 📦 安装 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22.12.0"
           cache: "npm"
 
       - name: 📥 安装依赖
@@ -72,7 +72,7 @@ jobs:
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
           echo "🎉 内容已成功同步并提交!"
-          echo "📦 Vercel 将自动部署更新"
+          echo "📦 GitHub Pages 将自动部署更新"
 
       - name: ℹ️ 无变更
         if: steps.verify-changed-files.outputs.changed == 'false'

@@ -2,7 +2,7 @@
 
 ## 项目结构与模块组织
 
-本仓库是基于 Astro 5 的静态博客。页面路由位于 `src/pages/`，共享布局与组件分别放在 `src/layouts/`、`src/components/`；通用逻辑放在 `src/utils/`，全局样式位于 `src/styles/base.css`。文章使用 Markdown，统一存放于 `src/content/blog/`，其 frontmatter 约束由 `src/content/config.ts` 和 `src/content/_schemas.ts` 定义。AI 导航数据位于 `src/data/`，静态图片、字体和浏览器脚本放在 `public/`。自动化脚本位于 `scripts/`，Node 测试位于 `tests/`。
+本仓库是基于 Astro 7 的静态博客。页面路由位于 `src/pages/`，共享布局与组件分别放在 `src/layouts/`、`src/components/`；通用逻辑放在 `src/utils/`，全局样式位于 `src/styles/base.css`。文章使用 Markdown，统一存放于 `src/content/blog/`，其 frontmatter 约束由 `src/content.config.ts` 和 `src/content/_schemas.ts` 定义。AI 导航数据位于 `src/data/`，静态图片、字体和浏览器脚本放在 `public/`。自动化脚本位于 `scripts/`，Node 测试位于 `tests/`。
 
 ## 构建、测试与本地开发
 

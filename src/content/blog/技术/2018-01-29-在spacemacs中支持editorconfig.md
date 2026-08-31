@@ -5,12 +5,11 @@ date: 2018-01-29 16:15:00
 updated: 2018-11-20 22:07:06
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 计算机相关
-tags: 
+tags:
   - emacs
 ---
-
 
 editorconfig 是在项目存储库中有一个名为 .editorconfig 的文件，这样参与的开发者的编辑和 ide 可以自动调整。
 
@@ -22,6 +21,7 @@ editorconfig 是在项目存储库中有一个名为 .editorconfig 的文件，�
 更多的细节记录在插件库的 [README](https://github.com/editorconfig/editorconfig-emacs#readme)。
 
 ## 源码片段
+
 第一步：添加插件到 additional packages:
 
 ```lisp

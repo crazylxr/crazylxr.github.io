@@ -9,7 +9,8 @@
 !astro.config.mjs
 !package.json
 !.prettierrc
-!.eslintrc.js
+!eslint.config.js
 !README.md
+!AGENTS.md
 # Ignore backup files
 **/*.bak

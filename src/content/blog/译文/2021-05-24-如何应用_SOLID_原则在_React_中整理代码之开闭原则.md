@@ -5,14 +5,13 @@ date: 2021-05-24 08:27:43
 updated: 2021-05-24 08:27:43
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - react
   - 设计模式
   - 译文
 ---
-
 
 SOLID 是一套原则。它们主要是关心代码质量和可维护性的软件专业人员的指导方针。
 
@@ -47,23 +46,18 @@ React 不是面向对象，但这些原则背后的主要思想可能是有帮�
 第一个也是显而易见的解决方案：在组件中包含一个条件，并根据不同的用户类型呈现不同的信息。
 
 ```javascript
-import React from 'react';
+import React from "react";
 
-export const User = ({user}) => {
-
-    return <>
-        <div> Name: {user.name}</div>
-        <div> Email: {user.email}</div>
-        {
-            user.type === 'SUPER_ADMIN' &&
-            <div> Details about super admin</div>
-        }
-        {
-            user.type === 'ADMIN' &&
-            <div> Details about admin</div>
-        }
+export const User = ({ user }) => {
+  return (
+    <>
+      <div> Name: {user.name}</div>
+      <div> Email: {user.email}</div>
+      {user.type === "SUPER_ADMIN" && <div> Details about super admin</div>}
+      {user.type === "ADMIN" && <div> Details about admin</div>}
     </>
-}
+  );
+};
 ```
 
 你知道这里出了什么问题吗？
@@ -92,31 +86,33 @@ export const User = ({user}) => {
 现在，我们需要以这样一种方式设计代码，即不需要在 `User.js` 组件中添加条件。让我们为 `SuperAdmin` 创建一个单独的组件:
 
 ```javascript
-import React from 'react';
-import {User} from "./User";
+import React from "react";
+import { User } from "./User";
 
-export const SuperAdmin = ({user}) => {
-
-    return <>
-        <User user={user} />
-        <div> This is super admin user details</div>
+export const SuperAdmin = ({ user }) => {
+  return (
+    <>
+      <User user={user} />
+      <div> This is super admin user details</div>
     </>
-}
+  );
+};
 ```
 
 类似地，另一个是针对 `Admin` 用户的:
 
 ```javascript
-import React from 'react';
-import {User} from "./User";
+import React from "react";
+import { User } from "./User";
 
-export const Admin = ({user}) => {
-
-    return <>
-        <User user={user} />
-        <div> This is admin user details</div>
+export const Admin = ({ user }) => {
+  return (
+    <>
+      <User user={user} />
+      <div> This is admin user details</div>
     </>
-}
+  );
+};
 ```
 
 现在我们的 App.js 文件变成了:
@@ -128,14 +124,14 @@ import SuperAdmin from './SuperAdmin'
 
 
 export default function App = () =>{
-  
+
   const user = {}
-  
+
   const userByTypes = {
     'admin' : <Admin /> ,
     'superadmin' : <SuperAdmin />
   }
-  
+
   return <div>
     {userByTypes[`${user.type}`]}
   <div/>
@@ -161,6 +157,3 @@ SOLID 是一套原则。它们并不是强制性的，您必须应用于每个�
 了解这些原则会让你走很长的路，因为在一天结束的时候，一段好的代码才是最重要的，而且没有单一的方法来做事情。
 
 > 本文为译文，原文链接：https://betterprogramming.pub/applying-the-open-closed-principle-to-write-clean-react-components-4e4514963e40
-
-
-

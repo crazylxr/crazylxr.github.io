@@ -1,10 +1,10 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { createMarkdownProcessor } from '@astrojs/markdown-remark';
-import astroConfig from '../astro.config.mjs';
+import { markdownProcessorOptions } from '../astro.config.mjs';
 
 async function render(markdown) {
-  const processor = await createMarkdownProcessor(astroConfig.markdown);
+  const processor = await createMarkdownProcessor(markdownProcessorOptions);
   return (await processor.render(markdown)).code;
 }
 

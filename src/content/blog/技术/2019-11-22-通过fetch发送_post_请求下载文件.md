@@ -5,12 +5,11 @@ date: 2019-11-22 17:46:00
 updated: 2020-03-10 12:29:17
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - 常用技巧
 ---
-
 
 ## 背景
 
@@ -26,26 +25,28 @@ tags:
 
 ```javascript
 fetch(url, {
-  method: 'POST',
+  method: "POST",
   body: JSON.stringify(params),
   header: {
-     'Content-Type': 'application/json;charset=UTF-8'
-  }
-}).then(function(response) {
-  return response.blob();
-}).then(function(blob) {
-  const link = document.createElement('a')
-  link.style.display = 'none'
-  link.href = URL.createObjectURL(blob)
-  document.body.appendChild(link)
-  link.click()
-  // 释放的 URL 对象以及移除 a 标签
-  URL.revokeObjectURL(link.href)
-  document.body.removeChild(link)
-});
+    "Content-Type": "application/json;charset=UTF-8",
+  },
+})
+  .then(function (response) {
+    return response.blob();
+  })
+  .then(function (blob) {
+    const link = document.createElement("a");
+    link.style.display = "none";
+    link.href = URL.createObjectURL(blob);
+    document.body.appendChild(link);
+    link.click();
+    // 释放的 URL 对象以及移除 a 标签
+    URL.revokeObjectURL(link.href);
+    document.body.removeChild(link);
+  });
 ```
 
-这里需要注意的是要记得要调用  response  的 blob 方法，这样才会返回一个 blob，如果你没用过 blob 的话，可能你以前只知道 json 和 text，其实 response 的 body 还可以转化为 [`arrayBuffer`](https://developer.mozilla.org/zh-CN/docs/Web/API/Body/arrayBuffer) 和 [`formData`](https://developer.mozilla.org/zh-CN/docs/Web/API/Body/formData)。
+这里需要注意的是要记得要调用 response 的 blob 方法，这样才会返回一个 blob，如果你没用过 blob 的话，可能你以前只知道 json 和 text，其实 response 的 body 还可以转化为 [`arrayBuffer`](https://developer.mozilla.org/zh-CN/docs/Web/API/Body/arrayBuffer) 和 [`formData`](https://developer.mozilla.org/zh-CN/docs/Web/API/Body/formData)。
 
 具体 Response 可以见 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
 
@@ -55,7 +56,7 @@ fetch(url, {
 
 我这边的方案是把文件名放在 response 的 headers 里，放在 **content-disposition** 字段里，有个 fileName 字段，用来存放文件名。
 
-> 我感觉在下载文件的时候 **content-disposition**  字段对于他们后端来说感觉是都会加的，因为最开始我用 get 下载的时候就已经有这个字段了，如果你们后端没有设置这个 header ，可以设置一下，当然也可以设置到其他字段里。
+> 我感觉在下载文件的时候 **content-disposition** 字段对于他们后端来说感觉是都会加的，因为最开始我用 get 下载的时候就已经有这个字段了，如果你们后端没有设置这个 header ，可以设置一下，当然也可以设置到其他字段里。
 
 ![4F2C21FF-0B49-456C-A79B-6AA58FF14353](http://imgs.taoweng.site/2019-11-22-091004.jpg)
 
@@ -78,7 +79,7 @@ attachment;fileName=%E7%9B%B4%E6%92%AD%E6%97%B6%E9%95%BF%E4%B8%BB%E6%92%AD%E6%98
 然后你就可以通过多种方式将文件名给提取出来，我这里采用的是通过 `split`方法来提取的。
 
 ```javascript
-res.headers.get('content-disposition').split(';')[1].split('=')[1]
+res.headers.get("content-disposition").split(";")[1].split("=")[1];
 ```
 
 ## 最终的实现
@@ -87,29 +88,34 @@ res.headers.get('content-disposition').split(';')[1].split('=')[1]
 
 ```javascript
 fetch(url, {
-  method: 'POST',
+  method: "POST",
   body: JSON.stringify(params),
   headers: {
-     'Content-Type': 'application/json;charset=UTF-8'
-  }
-}).then(function(response) {
-  const filename = res.headers.get('content-disposition').split(';')[1].split('=')[1]
-  return {
-    filename,
-    blob: response.blob()
-  }
-}).then(function(obj) {
-  const link = document.createElement('a')
-  link.style.display = 'none'
-  // a 标签的 download 属性就是下载下来的文件名
-  link.download = obj.filename
-  link.href = URL.createObjectURL(obj.blob)
-  document.body.appendChild(link)
-  link.click()
-  // 释放的 URL 对象以及移除 a 标签
-  URL.revokeObjectURL(link.href)
-  document.body.removeChild(link)
-});
+    "Content-Type": "application/json;charset=UTF-8",
+  },
+})
+  .then(function (response) {
+    const filename = res.headers
+      .get("content-disposition")
+      .split(";")[1]
+      .split("=")[1];
+    return {
+      filename,
+      blob: response.blob(),
+    };
+  })
+  .then(function (obj) {
+    const link = document.createElement("a");
+    link.style.display = "none";
+    // a 标签的 download 属性就是下载下来的文件名
+    link.download = obj.filename;
+    link.href = URL.createObjectURL(obj.blob);
+    document.body.appendChild(link);
+    link.click();
+    // 释放的 URL 对象以及移除 a 标签
+    URL.revokeObjectURL(link.href);
+    document.body.removeChild(link);
+  });
 ```
 
 本以为就可以了，但是下载下来打开 excel 发现内容是 Promise，然后才发现原来 `response.blob()` 返回的是一个 promise。
@@ -118,27 +124,30 @@ fetch(url, {
 
 ```javascript
 fetch(url, {
-  method: 'POST',
+  method: "POST",
   body: JSON.stringify(params),
   headers: {
-     'Content-Type': 'application/json;charset=UTF-8'
-  }
-}).then(function(response) {
-  const filename = res.headers.get('content-disposition').split(';')[1].split('=')[1]
-  
+    "Content-Type": "application/json;charset=UTF-8",
+  },
+}).then(function (response) {
+  const filename = res.headers
+    .get("content-disposition")
+    .split(";")[1]
+    .split("=")[1];
+
   response.blob().then(blob => {
-    const link = document.createElement('a')
-    link.style.display = 'none'
+    const link = document.createElement("a");
+    link.style.display = "none";
     // a 标签的 download 属性就是下载下来的文件名
-    link.download = filename
-    link.href = URL.createObjectURL(blob)
-    document.body.appendChild(link)
-    link.click()
+    link.download = filename;
+    link.href = URL.createObjectURL(blob);
+    document.body.appendChild(link);
+    link.click();
     // 释放的 URL 对象以及移除 a 标签
-    URL.revokeObjectURL(link.href)
-    document.body.removeChild(link)
-   })
-})
+    URL.revokeObjectURL(link.href);
+    document.body.removeChild(link);
+  });
+});
 ```
 
 不过这种 then 里面又套了 then ，看着有点不好看，所以用 async/await 重新写了一版：

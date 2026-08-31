@@ -1,17 +1,16 @@
 ---
 cid: 296
-title: 你可能不知道的 React Hooks 
+title: 你可能不知道的 React Hooks
 date: 2020-01-07 21:50:00
 updated: 2020-01-21 12:10:04
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - react
   - 译文
 ---
-
 
 > 本文是译文，原文地址是：https://medium.com/@sdolidze/the-iceberg-of-react-hooks-af0b588f43fb
 
@@ -31,7 +30,7 @@ tags:
 
 ```javascript
 export default function Level00() {
-  console.log('renderLevel00');
+  console.log("renderLevel00");
   const [count, setCount] = useState(0);
   return (
     <div>
@@ -49,7 +48,7 @@ export default function Level00() {
 
 ```javascript
 export default function Level01() {
-  console.log('renderLevel01');
+  console.log("renderLevel01");
   const [count, setCount] = useState(0);
   setInterval(() => {
     setCount(count + 1);
@@ -60,7 +59,7 @@ export default function Level01() {
 
 此代码的目的是每 500 毫秒增加计数器。 这段代码存在巨大的**内存泄漏**并且实现不正确。 它很容易让浏览器标签崩溃。 由于 Level01 函数在每次渲染发生时被调用，所以每次触发渲染时这个组件都会创建新的 interval。
 
-> *突变、订阅、计时器、日志记录和其他副作用不允许出现在函数组件的主体中(称为 React 的 render 阶段)。 这样做会导致用户界面中的错误和不一致。*
+> _突变、订阅、计时器、日志记录和其他副作用不允许出现在函数组件的主体中(称为 React 的 render 阶段)。 这样做会导致用户界面中的错误和不一致。_
 
 [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect)
 
@@ -68,7 +67,7 @@ export default function Level01() {
 
 ```javascript
 export default function Level02() {
-  console.log('renderLevel02');
+  console.log("renderLevel02");
   const [count, setCount] = useState(0);
   useEffect(() => {
     setInterval(() => {
@@ -79,15 +78,15 @@ export default function Level02() {
 }
 ```
 
-大多数副作用放在  `useEffect` 内部。 但是此代码还有巨大的资源泄漏，并且实现不正确。 `useEffect`  的默认行为是在每次渲染后运行，所以每次计数更改都会创建新的 **Interval**。
+大多数副作用放在 `useEffect` 内部。 但是此代码还有巨大的资源泄漏，并且实现不正确。 `useEffect` 的默认行为是在每次渲染后运行，所以每次计数更改都会创建新的 **Interval**。
 
- [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect), [Timing of Effects](https://reactjs.org/docs/hooks-reference.html#timing-of-effects).
+[Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect), [Timing of Effects](https://reactjs.org/docs/hooks-reference.html#timing-of-effects).
 
 ### Level 3: 只运行一次
 
 ```javascript
 export default function Level03() {
-  console.log('renderLevel03');
+  console.log("renderLevel03");
   const [count, setCount] = useState(0);
   useEffect(() => {
     setInterval(() => {
@@ -110,18 +109,18 @@ export default function Level03() {
 
 ```javascript
 useEffect(() => {
-    const interval = setInterval(() => {
-      setCount(count + 1);
-    }, 300);
-    return () => clearInterval(interval);
-  }, []);
+  const interval = setInterval(() => {
+    setCount(count + 1);
+  }, 300);
+  return () => clearInterval(interval);
+}, []);
 ```
 
 为了防止资源泄漏，Hooks 的生命周期结束时，必须清理所有内容。 在这种情况下，组件卸载后将调用返回的函数。
 
 这段代码没有资源泄漏，但是实现不正确，就像之前的代码一样。
 
- [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [Cleaning up an effect](https://reactjs.org/docs/hooks-reference.html#cleaning-up-an-effect).
+[Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [Cleaning up an effect](https://reactjs.org/docs/hooks-reference.html#cleaning-up-an-effect).
 
 ### Level 5：使用 count 作为依赖项
 
@@ -138,7 +137,7 @@ useEffect(() => {
 
 这段代码工作正常，没有任何错误，但是还是有点不好，每 500 毫秒创建和释放 setInterval， 每个 setInterval 总是调用一次。
 
- [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect), [Conditionally firing an effect](https://reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect).
+[Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect), [Conditionally firing an effect](https://reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect).
 
 ### Level 6：setTimeout
 
@@ -178,18 +177,18 @@ useEffect(() => {
 
 ```javascript
 export default function Level08() {
-  console.log('renderLevel08');  
-  const [count, setCount] = useState(0);  
-  let interval = null;  
-  
+  console.log("renderLevel08");
+  const [count, setCount] = useState(0);
+  let interval = null;
+
   const start = () => {
     interval = setInterval(() => {
       setCount(c => c + 1);
     }, 500);
-  };  
+  };
   const stop = () => {
     clearInterval(interval);
-  };  
+  };
   return (
     <div>
       count => {count}
@@ -208,20 +207,20 @@ export default function Level08() {
 
 ```javascript
 export default function Level09() {
-  console.log('renderLevel09');  
-  const [count, setCount] = useState(0);  
-  const intervalRef = useRef(null); 
-  
+  console.log("renderLevel09");
+  const [count, setCount] = useState(0);
+  const intervalRef = useRef(null);
+
   const start = () => {
     intervalRef.current = setInterval(() => {
       setCount(c => c + 1);
     }, 500);
-  };  
-  
+  };
+
   const stop = () => {
     clearInterval(intervalRef.current);
-  };  
-  
+  };
+
   return (
     <div>
       count => {count}
@@ -236,33 +235,33 @@ export default function Level09() {
 
 这个代码看起来是正确的，但是有一个微妙的错误。 如果 start 被多次调用，那么 setInterval 将被多次调用，从而触发资源泄漏。
 
- [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [useRef](https://reactjs.org/docs/hooks-reference.html#useref)
+[Hooks API Reference](https://reactjs.org/docs/hooks-reference.html): [useRef](https://reactjs.org/docs/hooks-reference.html#useref)
 
 ### Level 10: useCallback
 
 ```javascript
 export default function Level10() {
-  console.log('renderLevel10');  
-  const [count, setCount] = useState(0);  
-  const intervalRef = useRef(null);  
-  
+  console.log("renderLevel10");
+  const [count, setCount] = useState(0);
+  const intervalRef = useRef(null);
+
   const start = () => {
     if (intervalRef.current !== null) {
       return;
-    }    
+    }
     intervalRef.current = setInterval(() => {
       setCount(c => c + 1);
     }, 500);
-  };  
-  
+  };
+
   const stop = () => {
     if (intervalRef.current === null) {
       return;
-    }    
+    }
     clearInterval(intervalRef.current);
     intervalRef.current = null;
-  };  
-  
+  };
+
   return (
     <div>
       count => {count}
@@ -286,22 +285,22 @@ export default function Level10() {
 ### Level 11: useCallback
 
 ```javascript
-const intervalRef = useRef(null);  
+const intervalRef = useRef(null);
 
 const start = useCallback(() => {
     if (intervalRef.current !== null) {
       return;
-    }    
+    }
     intervalRef.current = setInterval(() => {
       setCount(c => c + 1);
     }, 500);
-  }, []);  
+  }, []);
 
 const stop = useCallback(() => {
   if (intervalRef.current === null) {
     return;
-  }    
-  
+  }
+
   clearInterval(intervalRef.current);
     intervalRef.current = null;
   }, []);
@@ -327,29 +326,29 @@ const stop = useCallback(() => {
 ```javascript
 function useCounter(initialValue, ms) {
   const [count, setCount] = useState(initialValue);
-  const intervalRef = useRef(null);  
-  
+  const intervalRef = useRef(null);
+
   const start = useCallback(() => {
     if (intervalRef.current !== null) {
       return;
-    }    
+    }
     intervalRef.current = setInterval(() => {
       setCount(c => c + 1);
     }, ms);
-  }, []);  
-  
+  }, []);
+
   const stop = useCallback(() => {
     if (intervalRef.current === null) {
       return;
-    }    
+    }
     clearInterval(intervalRef.current);
     intervalRef.current = null;
-  }, []);  
-  
+  }, []);
+
   const reset = useCallback(() => {
     setCount(0);
-  }, []);  
-  
+  }, []);
+
   return { count, start, stop, reset };
 }
 ```
@@ -358,9 +357,9 @@ function useCounter(initialValue, ms) {
 
 ```javascript
 export default function Level12() {
-  console.log('renderLevel12');  
-  const { count, start, stop, reset } = useCounter(0, 500);  
-  
+  console.log("renderLevel12");
+  const { count, start, stop, reset } = useCounter(0, 500);
+
   return (
     <div>
       count => {count}
@@ -382,7 +381,7 @@ export default function Level12() {
 
 绿色 hooks 是现代 React 应用程序的主要构件。 它们几乎在任何地方都可以安全地使用，而不需要太多的思考
 
-1. `useReducer` 
+1. `useReducer`
 2. `useState`
 3. `useContext`
 
@@ -411,6 +410,5 @@ export default function Level12() {
 6. 如果你保存在`useRef` 的值的生命周期小于组件本身，在处理资源时不要忘记取消设置值
 7. 谨慎使用无限递归导致资源衰竭
 8. 在需要的时候使用 Memoize 函数和对象来提高性能
-9.  正确捕获输入依赖项(`undefined`=> 每一次渲染,`[a, b]` =>  当`a` or 或`b`改变的时候渲染, 改变,`[]` => 只改变一次)
+9. 正确捕获输入依赖项(`undefined`=> 每一次渲染,`[a, b]` => 当`a` or 或`b`改变的时候渲染, 改变,`[]` => 只改变一次)
 10. 对于复杂的用例可以通过自定义 Hooks 来实现。
-

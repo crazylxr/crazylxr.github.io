@@ -241,7 +241,7 @@ const categories = Array.from(
           const esc = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
           const re = new RegExp(esc, "ig");
           return String(text).replace(re, m => `<mark>${m}</mark>`);
-        } catch (e) {
+        } catch {
           return text;
         }
       }

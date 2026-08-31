@@ -5,14 +5,13 @@ date: 2019-01-22 18:27:00
 updated: 2019-01-22 18:35:10
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 计算机相关
-tags: 
+tags:
   - git
   - 译文
 thumb: http://ipengineer.net/wp-content/uploads/2015-04-git-logo.jpg?w=640
 ---
-
 
 我在提交中犯了一个错误，我该如何解决？
 
@@ -24,7 +23,8 @@ thumb: http://ipengineer.net/wp-content/uploads/2015-04-git-logo.jpg?w=640
 
 ## 我的提交中犯了一个错误。我该怎么办？
 
-### 情景 1 
+### 情景 1
+
 假设您已经提交了一堆文件并意识到您输入的提交消息实际上并不清楚。现在您要更改提交消息。为此，您可以使用 `git commit --amend`
 
 ```bash
@@ -32,17 +32,20 @@ git commit --amend -m “新提交消息”
 ```
 
 ### 情景 2
+
 假设您想提交六个文件，但是，错误地，您最终只提交了五个文件。您可能认为可以创建新提交并将第6个文件添加到该提交。
 
 这种方法没有错。但是，为了保持整洁的提交历史，如果你真的可以以某种方式将此文件添加到您之前的提交本身，那会不会更好？这也可以通过以下方式完成 `git commit --amend`：
 
 ```bash
-git add file6 
+git add file6
 git commit --amend --no-edit
 ```
+
 `--no-edit` 表示提交消息不会更改
 
 ### 场景3
+
 无论何时在 Git 中进行提交，提交都会附上作者姓名和作者电子邮件。通常，当您第一次设置 Git 时，您需要设置作者姓名和电子邮件。您无需担心每次提交的作者详细信息。
 
 也就是说，对于特定项目，您可能希望使用不同的电子邮件 ID。您需要使用以下命令为该项目配置电子邮件 ID：
@@ -70,6 +73,7 @@ git commit --amend --author“作者姓名<作者电子邮件>”
 ![以下是提交历史记录在本地存储库中的显示方式。](http://imgs.taoweng.site/blog/typecho/1548153123.png)
 
 ### 如何使提交历史看起来更整洁？
+
 这就是 rebase 拯救的地方。
 
 ### 什么是变基(rebase)？
@@ -103,6 +107,7 @@ git rebase release
 ![](http://imgs.taoweng.site/blog/typecho/1548153188.png)
 
 #### 第 1 步
+
 1. 运行该命令的那一刻，feature 分支指向 release 分支的头部。
 2. 现在，feature 分支有三个提交：Rcommit1，Rcommit2 Rcommit3。
 3. 您可能想知道 Fcommit1和 Fcommit2 发生了什么。
@@ -115,7 +120,7 @@ git rebase release
 3. 如果存在冲突，git 会通知您，您必须手动解决冲突。解决冲突后，使用以下命令继续重新绑定
 
 ```bash
-git add fixedfile 
+git add fixedfile
 git rebase --continue
 ```
 

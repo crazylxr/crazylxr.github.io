@@ -5,15 +5,12 @@ date: 2019-07-30 21:42:00
 updated: 2020-01-21 12:11:35
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - react
   - JavaScript
 ---
-
-
-
 
 > 文章首发于[个人博客](http://www.taoweng.site/)
 
@@ -68,7 +65,7 @@ React16 的 diff 策略采用从链表头部开始比较的算法，是**层次�
 
 ## 前置知识介绍
 
- 这篇文章主要是从 React 的源码的逻辑出发介绍的，所以介绍之前了解下只怎么进入到这个 diff 函数的，react 的 diff 算法是从 `reconcileChildren` 开始的
+这篇文章主要是从 React 的源码的逻辑出发介绍的，所以介绍之前了解下只怎么进入到这个 diff 函数的，react 的 diff 算法是从 `reconcileChildren` 开始的
 
 ```javascript
 export function reconcileChildren(
@@ -102,7 +99,6 @@ export function reconcileChildren(
 ```javascript
 export const reconcileChildFibers = ChildReconciler(true);
 export const mountChildFibers = ChildReconciler(false);
-
 ```
 
 他们都是通过 `ChildReconciler` 函数来的，只是传递的参数不同而已。这个参数叫`shouldTrackSideEffects`，他的作用是判断是否要增加一些`effectTag`，主要是用来优化初次渲染的，因为初次渲染没有更新操作。
@@ -141,34 +137,29 @@ function reconcileChildFibers(
 // demo1：当前 ui 对应的节点的 jsx
 return (
   <div>
-  // ...
-  	<div>
-  		<xxx></xxx>
-  		<xxx></xxx>
-  	</div>
-  //...
-	</div>
-)
+    // ...
+    <div>
+      <xxx></xxx>
+      <xxx></xxx>
+    </div>
+    //...
+  </div>
+);
 
 // demo2：更新成功后的节点对应的 jsx
 
 return (
   <div>
-  // ...
-  	<div>
-  		前端桃园
-  	</div>
-  //...
-	</div>
-)
-
+    // ...
+    <div>前端桃园</div>
+    //...
+  </div>
+);
 ```
 
 对应的单链表结构图：
 
 ![image-20190714223931338](http://imgs.taoweng.site/2019-07-28-134126.png)
-
-
 
 对于 diff TextNode 会有两种情况。
 
@@ -185,12 +176,12 @@ return (
 
 ```javascript
 if (currentFirstChild !== null && currentFirstChild.tag === HostText) {
-      // We already have an existing node so let's just update it and delete
-      // the rest.
-      deleteRemainingChildren(returnFiber, currentFirstChild.sibling);
-      const existing = useFiber(currentFirstChild, textContent, expirationTime);
-      existing.return = returnFiber;
-      return existing;
+  // We already have an existing node so let's just update it and delete
+  // the rest.
+  deleteRemainingChildren(returnFiber, currentFirstChild.sibling);
+  const existing = useFiber(currentFirstChild, textContent, expirationTime);
+  existing.return = returnFiber;
+  return existing;
 }
 ```
 
@@ -203,9 +194,9 @@ if (currentFirstChild !== null && currentFirstChild.tag === HostText) {
 ```javascript
 deleteRemainingChildren(returnFiber, currentFirstChild);
 const created = createFiberFromText(
-    textContent,
-    returnFiber.mode,
-    expirationTime,
+  textContent,
+  returnFiber.mode,
+  expirationTime
 );
 created.return = returnFiber;
 ```
@@ -284,8 +275,8 @@ while (child !== null) {
   if (child.key === key) {
     if (
       child.tag === Fragment
-      ? element.type === REACT_FRAGMENT_TYPE
-      : child.elementType === element.type
+        ? element.type === REACT_FRAGMENT_TYPE
+        : child.elementType === element.type
     ) {
       // 复用节点逻辑，省略该部分代码，和上面复用节点的代码相同
       // code ...
@@ -313,7 +304,7 @@ if (element.type === REACT_FRAGMENT_TYPE) {
     element.props.children,
     returnFiber.mode,
     expirationTime,
-    element.key,
+    element.key
   );
   created.return = returnFiber;
   return created;
@@ -321,7 +312,7 @@ if (element.type === REACT_FRAGMENT_TYPE) {
   const created = createFiberFromElement(
     element,
     returnFiber.mode,
-    expirationTime,
+    expirationTime
   );
   created.ref = coerceRef(returnFiber, currentFirstChild, element);
   created.return = returnFiber;
@@ -352,7 +343,7 @@ Diff Array 算是 Diff 中最难的一部分了，比较的复杂，因为做了
 不过对于 newChild 可能会有很多种类型，简单的看下源码是如何进行判断的。
 
 ```javascript
- const key = oldFiber !== null ? oldFiber.key : null;
+const key = oldFiber !== null ? oldFiber.key : null;
 ```
 
 前面的经验可得，判断是否可以复用，常常会根据 key 是否相同来决定，所以首先获取了老节点的 key 是否存在。如果不存在老节点很可能是 TextNode 或者是 Fragment。
@@ -362,7 +353,7 @@ Diff Array 算是 Diff 中最难的一部分了，比较的复杂，因为做了
 **当 newChild 是 TextNode 的时候**
 
 ```javascript
-if (typeof newChild === 'string' || typeof newChild === 'number') {
+if (typeof newChild === "string" || typeof newChild === "number") {
   // 对于新的节点如果是 string 或者 number，那么都是没有 key 的，
   // 所有如果老的节点有 key 的话，就不能复用，直接返回 null。
   // 老的节点 key 为 null 的话，代表老的节点是文本节点，就可以复用
@@ -370,12 +361,7 @@ if (typeof newChild === 'string' || typeof newChild === 'number') {
     return null;
   }
 
-  return updateTextNode(
-    returnFiber,
-    oldFiber,
-    '' + newChild,
-    expirationTime,
-  );
+  return updateTextNode(returnFiber, oldFiber, "" + newChild, expirationTime);
 }
 ```
 
@@ -388,14 +374,14 @@ if (typeof newChild === 'string' || typeof newChild === 'number') {
 newChild 是 Object 的时候基本上走的就是 ReactElement 的逻辑了，判断 key 和 元素的类型是否相等来判断是否可以复用。
 
 ```javascript
-if (typeof newChild === 'object' && newChild !== null) {
+if (typeof newChild === "object" && newChild !== null) {
   // 有 $$typeof 代表就是 ReactElement
   switch (newChild.$$typeof) {
     case REACT_ELEMENT_TYPE: {
-				// ReactElement 的逻辑 
+      // ReactElement 的逻辑
     }
     case REACT_PORTAL_TYPE: {
-				// 调用 updatePortal
+      // 调用 updatePortal
     }
   }
 
@@ -409,7 +395,7 @@ if (typeof newChild === 'object' && newChild !== null) {
       oldFiber,
       newChild,
       expirationTime,
-      null,
+      null
     );
   }
 }
@@ -426,23 +412,23 @@ if (typeof newChild === 'object' && newChild !== null) {
 那么循环一个一个对比，就是遍历数组的过程。
 
 ```javascript
-let newIdx = 0 // 新数组的索引
+let newIdx = 0; // 新数组的索引
 for (; oldFiber !== null && newIdx < newChildren.length; newIdx++) {
   // 遍历老的节点
-  nextOldFiber = oldFiber.sibling; 
+  nextOldFiber = oldFiber.sibling;
   // 返回复用节点的函数，newFiber 就是复用的节点。
   // 如果为空，就代表同位置对比已经不能复用了，循环结束。
   const newFiber = updateSlot(
     returnFiber,
     oldFiber,
     newChildren[newIdx],
-    expirationTime,
+    expirationTime
   );
-  
+
   if (newFiber === null) {
     break;
   }
-  
+
   // 其他 code，比如删除复用的节点
 }
 ```
@@ -481,7 +467,7 @@ if (oldFiber === null) {
     const newFiber = createChild(
       returnFiber,
       newChildren[newIdx],
-      expirationTime,
+      expirationTime
     );
   }
   return resultingFirstChild;
@@ -540,11 +526,10 @@ for (; newIdx < newChildren.length; newIdx++) {
     returnFiber,
     newIdx,
     newChildren[newIdx],
-    expirationTime,
+    expirationTime
   );
- // 省略删除 existingChildren 中的元素和添加 Placement 副作用的情况
+  // 省略删除 existingChildren 中的元素和添加 Placement 副作用的情况
 }
-
 ```
 
 到这里新数组遍历完毕，也就是**同一层**的 Diff 过程完毕，接下来进行总结一下。

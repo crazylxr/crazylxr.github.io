@@ -5,13 +5,12 @@ date: 2019-12-19 21:14:54
 updated: 2019-12-19 21:15:30
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 笔记本
-tags: 
+tags:
   - 工具
   - VS Code
 ---
-
 
 ## 简介
 
@@ -41,11 +40,11 @@ Fira Code 就是利用这个特性对编程中的常用符号进行优化，比�
 
 打开 VS Code，如果在安装字体之前已经打开了，**一定要重启 **VS Code，否则识别不到新字体。
 
-打开菜单File > Preferences > Settings，或者点击 File 后使用快捷键 `Ctrl+,`即可打开，然后打开 **settings.json**  文件，找到 `editor.fontFamily`字段，然后再把 Fira Code 添加到第一个，并且加上 `"editor.fontLigatures": true` 。
+打开菜单File > Preferences > Settings，或者点击 File 后使用快捷键 `Ctrl+,`即可打开，然后打开 **settings.json** 文件，找到 `editor.fontFamily`字段，然后再把 Fira Code 添加到第一个，并且加上 `"editor.fontLigatures": true` 。
 
 ```json
 "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-"editor.fontLigatures": true, //这个控制是否启用字体连字，true 启用，false 不启用，这里选择启用 
+"editor.fontLigatures": true, //这个控制是否启用字体连字，true 启用，false 不启用，这里选择启用
 ```
 
 ## 完成

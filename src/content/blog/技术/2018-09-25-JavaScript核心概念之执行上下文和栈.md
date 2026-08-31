@@ -1,18 +1,16 @@
 ---
-
 cid: 316
 title: JavaScript核心概念之执行上下文和栈
 date: 2018-09-25 00:52:00
 updated: 2020-04-08 12:23:15
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - JavaScript
 thumb: https://upload-images.jianshu.io/upload_images/1784374-19c91d87d8923fa2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/630/format/webp
 ---
-
 
 > 桃翁桃翁，问个问题呢，据说 js 里面有个执行上下文，这个概念是个什么东东哦？据说挺重要的，给我科普科普呗。
 
@@ -23,6 +21,7 @@ Emm… 这个概念非常的抽象，简单来说呢，就是 JS 在执行某段
 > 哇，还是好抽象啊，你能不能画个图举个栗子呢？
 
 在之前说的执行上下文就是解释器在执行 JS 某段代码的时候做的一些事，那么首先我们把代码分个类。
+
 - Global 代码：代码第一次执行时默认的环境。
 - Function 代码：执行到一个函数中。
 - Eval 代码：文本在eval函数内部执行。
@@ -58,24 +57,29 @@ Emm… 这个概念非常的抽象，简单来说呢，就是 JS 在执行某段
 > 这些大概明白了，不过你说在创建执行上下文做的那些事儿，我还是有点迷糊，能再详细说说吗？
 
 那我们首先看点代码：
+
 ```javascript
 // 例1
 console.log(a); // 报错，a is not defined
 ```
+
 ```javascript
 // 例2
 console.log(a); // undefined
 var a;
 ```
+
 ```
 // 例 3
 console.log(a); // undefined
 var a = 666;
 ```
+
 ```javascript
 // 例 4
 console.log(this); // window 对象
 ```
+
 ```
 // 例 5
 function foo(x) {
@@ -85,18 +89,21 @@ function foo(x) {
 
 foo(666);
 ```
+
 ```javascript
 // 例 6
 // 函数表达式
 console.log(foo); // undefined
-var foo = function foo() {}
+var foo = function foo() {};
 ```
+
 ```javascript
-// 例 7 
+// 例 7
 // 函数声明
 console.log(foo); // function() {}
 function foo() {}
 ```
+
 这 7 个例子相信大家对这些答案都是没有疑惑的，最基础的东西，例 1 报错，a 未定义，很正常。例 2、例 3 输出都是 undefined，说明浏览器在执行 console.log(a) 时，已经知道了 a 是 undefined，但却不知道 a 是 666（例 3）。
 
 看例 4 就知道，当执行这条语句的时候 this 已经被赋值了。

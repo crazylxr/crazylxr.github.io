@@ -218,7 +218,7 @@ async function getToolDetails(detailUrl, toolName) {
             .replace(/^ai/, '');
           
           for (const link of validLinks) {
-            const linkDomain = link.match(/https?:\/\/(?:www\.)?([^\/]+)/);
+            const linkDomain = link.match(/https?:\/\/(?:www\.)?([^/]+)/);
             
             if (linkDomain) {
               const domain = linkDomain[1].toLowerCase();

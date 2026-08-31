@@ -5,13 +5,12 @@ date: 2019-10-14 21:51:00
 updated: 2020-03-10 12:29:54
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - react
   - JavaScript
 ---
-
 
 ## 遇到问题
 

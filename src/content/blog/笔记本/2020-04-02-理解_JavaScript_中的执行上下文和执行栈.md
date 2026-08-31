@@ -5,13 +5,12 @@ date: 2020-04-02 16:52:06
 updated: 2020-04-02 16:52:50
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - JavaScript
   - 译文
 ---
-
 
 ## 译者序
 
@@ -97,7 +96,7 @@ ExecutionContext = {
 }
 ```
 
-#### this 绑定：**
+#### this 绑定：\*\*
 
 在全局执行上下文中，`this` 的值指向全局对象。(在浏览器中，`this`引用 Window 对象)。
 
@@ -105,18 +104,18 @@ ExecutionContext = {
 
 ```javascript
 let foo = {
-  baz: function() {
-  console.log(this);
-  }
-}
+  baz: function () {
+    console.log(this);
+  },
+};
 
-foo.baz();   // 'this' 引用 'foo', 因为 'baz' 被
-             // 对象 'foo' 调用
+foo.baz(); // 'this' 引用 'foo', 因为 'baz' 被
+// 对象 'foo' 调用
 
 let bar = foo.baz;
 
-bar();       // 'this' 指向全局 window 对象，因为
-             // 没有指定引用对象
+bar(); // 'this' 指向全局 window 对象，因为
+// 没有指定引用对象
 ```
 
 #### 词法环境
@@ -191,8 +190,8 @@ const b = 30;
 var c;
 
 function multiply(e, f) {
- var g = 20;
- return e * f * g;
+  var g = 20;
+  return e * f * g;
 }
 
 c = multiply(20, 30);
@@ -268,4 +267,3 @@ VariableEnvironment: {
 ### 结论
 
 我们已经讨论过 JavaScript 程序内部是如何执行的。虽然要成为一名卓越的 JavaScript 开发者并不需要学会全部这些概念，但是如果对上面概念能有不错的理解将有助于你更轻松，更深入地理解其他概念，如变量声明提升，作用域和闭包。
-

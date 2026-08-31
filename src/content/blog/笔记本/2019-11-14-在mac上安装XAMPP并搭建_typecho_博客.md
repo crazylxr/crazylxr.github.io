@@ -5,14 +5,12 @@ date: 2019-11-14 21:45:00
 updated: 2020-01-21 12:10:57
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 笔记本
-tags: 
+tags:
   - 博客
   - PHP
 ---
-
-
 
 在 v 站上看一个自己非常喜欢的博客主题：[阿星Plus](https://meowv.com/)，但是由于是用 .Net 写的，自己完全不熟悉 .Net，所以就准备自己按照他的博客风格写一份 typecho的主题。
 
@@ -64,7 +62,7 @@ XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。
 
 ### 2. 安装 typecho 报：对不起,无法连接数据库,请先检查数据库配置再继续进行安装。
 
-问题肯定就是数据库的问题，需要在数据库里建立一个名为 **typecho**  的数据库，步骤如下：
+问题肯定就是数据库的问题，需要在数据库里建立一个名为 **typecho** 的数据库，步骤如下：
 
 1. 打开 phpmyadmin，地址是：http://localhost/phpmyadmin。
 2. 新建数据库 名为 typecho 的数据库。

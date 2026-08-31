@@ -99,7 +99,6 @@ let dataView = new DataView(buffer);
 ​`DataView`​ 提供了多种方法来读取和写入数据，这些方法允许你指定数据类型和字节偏移量。
 
 - **读取数据**：
-
   - ​`getInt8(byteOffset)`​
   - ​`getUint8(byteOffset)`​
   - ​`getInt16(byteOffset, littleEndian)`​
@@ -110,7 +109,6 @@ let dataView = new DataView(buffer);
   - ​`getFloat64(byteOffset, littleEndian)`​
 
 - **写入数据**：
-
   - ​`setInt8(byteOffset, value)`​
   - ​`setUint8(byteOffset, value)`​
   - ​`setInt16(byteOffset, value, littleEndian)`​
@@ -171,7 +169,6 @@ console.log(dataView.getFloat32(4)); // 输出：3.14
 ### 创建 Blob 和 File
 
 - **Blob**：
-
   - 可以通过构造函数直接创建一个空的 `Blob`​。
   - 也可以通过传递数据（如字符串、数组或 `TypedArray`​）和选项（如 `type`​）来创建。
 
@@ -180,7 +177,6 @@ console.log(dataView.getFloat32(4)); // 输出：3.14
   ```
 
 - **File**：
-
   - 通常通过 `<input type="file">`​ 元素或拖放操作获取文件，然后将其转换为 `File`​ 对象。
   - 也可以通过将文件数据和文件名传递给 `File`​ 构造函数来创建。
 
@@ -335,7 +331,6 @@ Base64 编码是一种非常实用的工具，尤其是在需要在文本环境�
 1. **数据表示**：`ArrayBuffer`​ 和 `Blob`​ 都用于表示原始二进制数据，但 `Blob`​ 更多地用于处理文件和图像等大型二进制对象，而 `ArrayBuffer`​ 更多地用于在需要高效数据访问和传输的场景中。
 2. **编码与传输**：Base64 编码可以将 `ArrayBuffer`​ 或 `Blob`​ 中的二进制数据转换为可打印的文本格式，这使得二进制数据可以以文本形式存储和传输。这对于在不支持二进制传输的环境中传输数据非常有用。
 3. **转换**：
-
    - 可以将 `ArrayBuffer`​ 或 `Blob`​ 转换为 Base64 编码的字符串，以便在文本格式中存储或传输。
    - 也可以将 Base64 编码的字符串解码回 `ArrayBuffer`​ 或 `Blob`​，以便在需要时重新获取原始二进制数据。
 

@@ -1,16 +1,15 @@
 ---
 cid: 302
-title: 从两个角度看Typescript中的类型是什么 
+title: 从两个角度看Typescript中的类型是什么
 date: 2020-03-03 10:09:33
 updated: 2020-03-03 10:10:01
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - typescript
   - 译文
 ---
-
 
 ## 0. 作者以及原文介绍
 
@@ -33,7 +32,7 @@ let source: SourceType = /*...*/;
 let target: TargetType = source;
 ```
 
-3. `TypeUnion` 是如何从` Type1`、 `Type2 `和  `Type3` 衍生而来的？
+3. `TypeUnion` 是如何从` Type1`、 `Type2 `和 `Type3` 衍生而来的？
 
 ```typescript
 type TypeUnion = Type1 | Type2 | Type3;
@@ -55,7 +54,7 @@ type TypeUnion = Type1 | Type2 | Type3;
 - 源代码有个位置，每个位置都有一个静态类型。 在支持 **Typescript** 的编辑器中，如果我们将鼠标悬停在某个位置的上方，就可以看到该位置的静态类型。
 - 当源位置通过赋值、函数调用等方式连接到目标位置时，源位置的类型必须与目标位置的类型兼容。 **Typescript** 规范通过所谓的类型关系定义类型的兼容性。
 - 类型关系分配兼容性定义了源类型 `S` 何时可以分配给目标类型 `T`:
-  - `S` 和 `T`  都是一样的类型
+  - `S` 和 `T` 都是一样的类型
   - `S` 或者 `T` 是 any 类型。
   - 等等
 
@@ -76,7 +75,7 @@ arr.push(123);
 // %inferred-type: number[]
 arr;
 
-arr.push('abc');
+arr.push("abc");
 // %inferred-type: (string | number)[]
 arr;
 ```

@@ -7,7 +7,7 @@
 [在线访问](https://taoweng.site/) · [浏览文章](https://taoweng.site/posts/) · [RSS 订阅](https://taoweng.site/rss.xml)
 
 [![Deploy to GitHub Pages](https://github.com/crazylxr/crazylxr.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/crazylxr/crazylxr.github.io/actions/workflows/deploy.yml)
-[![Astro](https://img.shields.io/badge/Astro-5-FF5D01?logo=astro&logoColor=white)](https://astro.build/)
+[![Astro](https://img.shields.io/badge/Astro-7-FF5D01?logo=astro&logoColor=white)](https://astro.build/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/github/license/crazylxr/crazylxr.github.io)](LICENSE)
 
@@ -36,7 +36,7 @@
 
 | 领域 | 方案                                          |
 | ---- | --------------------------------------------- |
-| 框架 | [Astro 5](https://astro.build/)               |
+| 框架 | [Astro 7](https://astro.build/)               |
 | 语言 | [TypeScript](https://www.typescriptlang.org/) |
 | UI   | [React 19](https://react.dev/)                |
 | 样式 | [Tailwind CSS 3](https://tailwindcss.com/)    |
@@ -51,7 +51,7 @@
 
 ### 环境要求
 
-- Node.js 20 或更高版本
+- Node.js 22.12.0 或更高版本
 - npm
 
 ### 本地运行

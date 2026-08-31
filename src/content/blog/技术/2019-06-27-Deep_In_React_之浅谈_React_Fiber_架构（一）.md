@@ -5,13 +5,12 @@ date: 2019-06-27 21:42:00
 updated: 2020-01-21 12:11:43
 status: publish
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - react
   - JavaScript
 ---
-
 
 > 文章首发于[个人博客](http://taoweng.site)
 
@@ -59,9 +58,7 @@ React 作为我最喜欢的框架，没有之一，我愿意花很多时间来�
 
 ![image-20190603163205451](http://imgs.taoweng.site/2019-06-25-151230.png)
 
-*浏览器一帧内的工作*
-
-
+_浏览器一帧内的工作_
 
 通过上图可看到，一帧内需要完成如下六个步骤的任务：
 
@@ -153,7 +150,7 @@ FIber Node，承载了非常关键的上下文信息，可以说是贯彻整个�
   ...
   // 跟当前Fiber相关本地状态（比如浏览器环境就是DOM节点）
   stateNode: any,
-    
+
     // 单链表树结构
   return: Fiber | null,// 指向他在Fiber节点树中的`parent`，用来在处理完这个节点之后向上返回
   child: Fiber | null,// 指向自己的第一个子节点
@@ -164,12 +161,12 @@ FIber Node，承载了非常关键的上下文信息，可以说是贯彻整个�
   memoizedProps: any,  // 上一次渲染完成之后的props
   updateQueue: UpdateQueue<any> | null,  // 该Fiber对应的组件产生的Update会存放在这个队列里面
   memoizedState: any, // 上一次渲染的时候的state
-    
+
   // Scheduler 相关
   expirationTime: ExpirationTime,  // 代表任务在未来的哪个时间点应该被完成，不包括他的子树产生的任务
   // 快速确定子树中是否有不在等待的变化
   childExpirationTime: ExpirationTime,
-    
+
  // 在Fiber树更新的过程中，每个Fiber都会有一个跟其对应的Fiber
   // 我们称他为`current <==> workInProgress`
   // 在渲染完成之后他们会交换位置
@@ -289,6 +286,6 @@ WorkInProgress Tree 构造完毕，得到的就是新的 Fiber Tree，然后喜�
 
 ## 参考
 
-- [完全理解 React Fiber]([http://www.ayqy.net/blog/dive-into-react-fiber/#articleHeader4](http://www.ayqy.net/blog/dive-into-react-fiber/#articleHeader4))
+- [完全理解 React Fiber](<[http://www.ayqy.net/blog/dive-into-react-fiber/#articleHeader4](http://www.ayqy.net/blog/dive-into-react-fiber/#articleHeader4)>)
 - [Fiber](https://happy-alex.github.io/js/react/fiber/)
 - [React16源码之React Fiber架构](https://github.com/HuJiaoHJ/blog/issues/7#)

@@ -2,14 +2,13 @@
 title: 使用 React 和 TypeScript 编写干净代码的10个必知模式
 date: 2022-03-09 08:20:00
 author: 桃翁
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - react
   - typescript
   - 译文
 ---
-
 
 React 是一个 JavaScript 库，它是当今最流行和行业领先的前端开发库。
 
@@ -40,7 +39,7 @@ import * as React from "react";
 虽然上面的代码可以工作，但是如果我们不使用 React 的所有内容，那么导入它们是令人困惑的，也不是一个好的做法。一个更好的模式是使用如下所示的默认导出:
 
 ```javascript
-import React, {useContext, useState} from "react";
+import React, { useContext, useState } from "react";
 ```
 
 使用这种方法，我们可以从 React 模块中解构我们需要的东西，而不是导入所有的内容。
@@ -298,12 +297,12 @@ class Friends extends Component {
 由于类中的所有成员在默认情况下和运行时都是 `public` 的，因此不需要通过显式使用 `public` 关键字来添加额外的样板文件。相反，使用下面的模式:
 
 ```javascript
-import { Component } from "react"
+import { Component } from "react";
 
 class Friends extends Component {
-  fetchFriends () {}
-  render () {
-    return // jsx blob
+  fetchFriends() {}
+  render() {
+    return; // jsx blob
   }
 }
 ```
@@ -329,13 +328,13 @@ class Friends extends Component {
 有不同的方法使 JavaScript 类的属性/方法私有化，使用下划线(\_)变数命名原则如下:
 
 ```javascript
-import {Component} from "react"
+import { Component } from "react";
 
 class Friends extends Component {
-  _fetchProfileByID () {}
+  _fetchProfileByID() {}
 
-  render () {
-    return // jsx blob
+  render() {
+    return; // jsx blob
   }
 }
 ```
@@ -345,13 +344,13 @@ class Friends extends Component {
 但是有了新的 ECMAScript 类字段的提议，我们可以通过使用私有字段轻松优雅地实现这一点，如下所示:
 
 ```javascript
-import {Component} from "react"
+import { Component } from "react";
 
 class Friends extends Component {
-  #fetchProfileByID () {}
+  #fetchProfileByID() {}
 
-  render () {
-    return // jsx blob
+  render() {
+    return; // jsx blob
   }
 }
 ```
@@ -391,4 +390,3 @@ function fetchData (status: Response): void => {
 为了使您的代码更干净、更好，不要忘记实现一个健壮的 [TODO/issue ](https://www.stepsize.com/?utm_source=dev.to&utm_medium=referral&utm_campaign=patterns "TODO/issue ")过程。它将帮助您的工程团队获得技术债务的可见性，在代码库问题上进行协作，并更好地规划冲刺。
 
 本文译自：https://dev.to/alexomeyer/10-must-know-patterns-for-writing-clean-code-with-react-and-typescript-1m0g
-
