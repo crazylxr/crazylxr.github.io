@@ -40,7 +40,7 @@ const ogUrl = new URL(
       <Content />
     </article>
 
-    <ul class="tags-container">
+    <ul class="tags-container flex flex-wrap gap-2">
       {tags.map(tag => <Tag name={tag} />)}
     </ul>
     <div id="tcomment"></div>
