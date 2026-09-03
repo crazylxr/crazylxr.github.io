@@ -23,7 +23,7 @@ export const markdownProcessorOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://crazylxr.github.io",
+  site: "https://www.taoweng.site",
   integrations: [react(), sitemap()],
   markdown: {
     processor: unified(markdownProcessorOptions),
