@@ -26,7 +26,7 @@ draft: false
 
 这些问题，也是我写《用一家奶茶店学会股票投资》的起点。
 
-![《用一家奶茶店学会股票投资》封面：从街角茶铺走向资本市场](https://crazylxr.github.io/qinghe-investing-book/assets/01-%E5%B0%81%E9%9D%A2-%E8%A1%97%E8%A7%92%E8%8C%B6%E9%93%BA%E4%B8%8E%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA.png)
+![《用一家奶茶店学会股票投资》封面：从街角茶铺走向资本市场](https://qinghe.taoweng.site/assets/01-%E5%B0%81%E9%9D%A2-%E8%A1%97%E8%A7%92%E8%8C%B6%E9%93%BA%E4%B8%8E%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA.png)
 
 ## 为什么要用一家奶茶店讲股票投资？
 
@@ -93,6 +93,6 @@ draft: false
 
 这正是我想通过这本书，和你一起完成的事。
 
-**[在线免费阅读《用一家奶茶店学会股票投资》](https://crazylxr.github.io/qinghe-investing-book/)**
+**[在线免费阅读《用一家奶茶店学会股票投资》](https://qinghe.taoweng.site/)**
 
 如果你身边也有人正在学习基本面投资，欢迎把这本书转给他。也欢迎你读完以后告诉我：80 万元，这家奶茶店你买吗？
