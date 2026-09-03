@@ -84,13 +84,7 @@ const fallbackImageURL = new URL(SITE.ogImage, Astro.url.origin).href;
     }
 
     <script is:inline src="/toggle-theme.js"></script>
-  </head>
-  <body>
-    <slot />
-
-    <script>
-      // 百度统计
-
+    <script is:inline>
       var _hmt = _hmt || [];
       (function () {
         var hm = document.createElement("script");
@@ -99,6 +93,9 @@ const fallbackImageURL = new URL(SITE.ogImage, Astro.url.origin).href;
         s.parentNode.insertBefore(hm, s);
       })();
     </script>
+  </head>
+  <body>
+    <slot />
     <SpeedInsights />
   </body>
 </html>
