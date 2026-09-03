@@ -51,13 +51,15 @@ const ogUrl = new URL(
 <script>
   import twikoo from "twikoo";
 
-  twikoo({
-    envId:
-      "https://taoweng-twikoo-netlify.netlify.app/.netlify/functions/twikoo", // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
-    el: "#tcomment", // 容器元素
-  }).then(() => {
-    console.log("comment loading success");
-  });
+  twikoo
+    .init({
+      envId:
+        "https://taoweng-twikoo-netlify.netlify.app/.netlify/functions/twikoo", // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+      el: "#tcomment", // 容器元素
+    })
+    .then(() => {
+      console.log("comment loading success");
+    });
 </script>
 
 <style>
