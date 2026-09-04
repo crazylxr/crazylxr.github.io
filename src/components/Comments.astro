@@ -1,0 +1,15 @@
+<div id="tcomment"></div>
+
+<script>
+  import twikoo from "twikoo";
+
+  twikoo
+    .init({
+      envId:
+        "https://taoweng-twikoo-netlify.netlify.app/.netlify/functions/twikoo",
+      el: "#tcomment",
+    })
+    .then(() => {
+      console.log("comment loading success");
+    });
+</script>

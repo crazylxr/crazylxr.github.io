@@ -5,7 +5,7 @@ import test from "node:test";
 const COMMENT_ENDPOINT =
   "https://taoweng-twikoo-netlify.netlify.app/.netlify/functions/twikoo";
 
-test("built post script initializes Twikoo through its public API", async () => {
+test("built comment script initializes Twikoo through its public API", async () => {
   const assetNames = await readdir("dist/_astro");
   const scriptContents = await Promise.all(
     assetNames
@@ -22,4 +22,17 @@ test("built post script initializes Twikoo through its public API", async () => 
     true,
     "expected the built script to call Twikoo's init API",
   );
+});
+
+test("built about page renders and loads Twikoo comments", async () => {
+  const aboutPage = await readFile("dist/about/index.html", "utf8");
+  const commentAssetPath = aboutPage.match(
+    /<script type="module" src="\/(_astro\/Comments[^"]+\.js)"><\/script>/,
+  )?.[1];
+
+  assert.match(aboutPage, /<div id="tcomment"><\/div>/);
+  assert.ok(commentAssetPath, "expected the About page to load the comment script");
+
+  const commentScript = await readFile(`dist/${commentAssetPath}`, "utf8");
+  assert.equal(commentScript.includes(COMMENT_ENDPOINT), true);
 });

@@ -1,5 +1,6 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Comments from "@components/Comments.astro";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import { SITE } from "@config";
@@ -100,6 +101,10 @@ const pageDescription =
       <p>
         把模糊的想法写下来，才能看清它的轮廓；把经验沉淀成文字，才能在未来复用。如果这些内容恰好能帮到你，那就更有意义了。
       </p>
+    </section>
+
+    <section class="comments" aria-label="评论">
+      <Comments />
     </section>
   </main>
 
@@ -207,6 +212,10 @@ const pageDescription =
 
   .why-write p {
     @apply mb-0 mt-5 max-w-[46rem] leading-8;
+  }
+
+  .comments {
+    @apply mt-12 border-t border-skin-line pt-10;
   }
 </style>
 

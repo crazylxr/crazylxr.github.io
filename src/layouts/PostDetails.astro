@@ -4,6 +4,7 @@ import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Tag from "@components/Tag.astro";
 import Datetime from "@components/Datetime";
+import Comments from "@components/Comments.astro";
 import { render, type CollectionEntry } from "astro:content";
 
 export interface Props {
@@ -43,24 +44,10 @@ const ogUrl = new URL(
     <ul class="tags-container flex flex-wrap gap-2">
       {tags.map(tag => <Tag name={tag} />)}
     </ul>
-    <div id="tcomment"></div>
+    <Comments />
   </main>
   <Footer />
 </Layout>
-
-<script>
-  import twikoo from "twikoo";
-
-  twikoo
-    .init({
-      envId:
-        "https://taoweng-twikoo-netlify.netlify.app/.netlify/functions/twikoo", // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
-      el: "#tcomment", // 容器元素
-    })
-    .then(() => {
-      console.log("comment loading success");
-    });
-</script>
 
 <style>
   main {
