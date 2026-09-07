@@ -46,16 +46,19 @@ jobs:
           WITHDRAW_PAGE_ID: ${{ inputs.withdraw_page_id }}
         run: node scripts/sync-from-notion.js
 
-      - name: 📝 检查文件变更
+      - name: 📝 格式化并检查文件变更
         id: verify-changed-files
         run: |
-          if git diff --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+          git add -- src/content/blog/
+          # 格式化可能消除全部差异；允许此情况，再判断是否需要提交。
+          npx lint-staged --allow-empty
+          if git diff --cached --quiet -- src/content/blog/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "📌 没有检测到内容变更"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "✨ 检测到内容变更:"
-            git status --short
+            git status --short -- src/content/blog/
           fi
 
       - name: 💾 提交变更
@@ -63,7 +66,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add src/content/blog/
           git commit -m "🔄 自动同步 Notion 内容 - $(date +'%Y-%m-%d %H:%M:%S')"
           git pull --rebase origin master
           git push origin master
