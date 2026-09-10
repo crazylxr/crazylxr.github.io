@@ -1,16 +1,22 @@
 # Repository Guidelines
 
+## 协作约定
+
+请用中文沟通。开始修改前检查 `git status --short`，保留已有改动；提交时只暂存本次任务涉及的文件。依赖版本与命令以 `package.json`、`package-lock.json` 为准，格式与检查规则以 `.prettierrc`、`eslint.config.js` 为准。
+
 ## 项目结构与模块组织
 
 本仓库是基于 Astro 7 的静态博客。页面路由位于 `src/pages/`，共享布局与组件分别放在 `src/layouts/`、`src/components/`；通用逻辑放在 `src/utils/`，全局样式位于 `src/styles/base.css`。文章使用 Markdown，统一存放于 `src/content/blog/`，其 frontmatter 约束由 `src/content.config.ts` 和 `src/content/_schemas.ts` 定义。AI 导航数据位于 `src/data/`，静态图片、字体和浏览器脚本放在 `public/`。自动化脚本位于 `scripts/`，Node 测试位于 `tests/`。
 
 ## 构建、测试与本地开发
 
+使用 Node.js 22.12.0 或更高版本（与 `package.json` 的 engines 约束一致），GitHub Actions 当前使用 22.12.0。通过 npm 和现有锁文件管理依赖。
+
 - `npm ci`：按照 `package-lock.json` 安装可复现依赖。
 - `npm run dev`：启动本地开发服务器，默认地址为 `http://localhost:4321`。
 - `npm run build`：执行生产构建并输出到 `dist/`；提交前应运行此命令。
 - `npm run preview`：本地预览已生成的生产站点。
-- `npm test`：运行 `tests/*.test.mjs` 中的 Node 测试。
+- `npm test`：运行 `tests/*.test.mjs` 中的 Node 测试；部分测试读取 `dist/`，应先完成本次修改后的构建。
 - `npm run format:check` / `npm run lint`：检查格式与 ESLint 规则；使用 `npm run format` 自动格式化。
 
 ## 编码风格与命名规范
@@ -19,12 +25,24 @@
 
 ## 测试指南
 
-测试使用 `node:test` 与 `node:assert/strict`，文件命名为 `*.test.mjs`。修改 Markdown 渲染、配置或工具逻辑时，应补充最小回归测试，覆盖可观察输出而非内部实现。仓库暂未设置覆盖率门槛；至少保证 `npm test` 与 `npm run build` 通过。
+测试使用 `node:test` 与 `node:assert/strict`，文件命名为 `*.test.mjs`。修改 Markdown 渲染、配置或工具逻辑时，应补充最小回归测试，覆盖可观察输出而非内部实现。仓库暂未设置覆盖率门槛；按 `npm run build`、`npm test` 的顺序验证，避免使用旧的构建产物。交付时说明实际执行的检查和未通过的原因。
+
+OG 图片生成器 `src/utils/generateOgImage.tsx` 在构建时从 `www.1001fonts.com` 下载字体。若构建在此处失败，先确认是否为远程请求问题，再判断是否与本次改动有关。
+
+## 内容与共享组件
+
+- 修改文章前查看 `src/content/_schemas.ts`，保留既有分类、`postSlug` 与发布状态，避免无意改变文章地址或公开草稿。
+- 评论使用共享组件 `src/components/Comments.astro`；修改时同时检查文章页与关于页，并验证构建后的初始化脚本。
+- 修改 AI 导航数据或更新脚本时，先阅读 `scripts/README.md`，确认配置输入和生成文件的关系。
 
 ## 提交与 Pull Request
 
-人工提交沿用 Conventional Commits，例如 `feat: add tag filter`、`fix: render Notion tables`、`content: publish weekly post`；Notion 自动同步提交保留现有 `🔄 自动同步 Notion 内容 - 时间` 格式。PR 应说明目的、主要改动与验证命令，关联相关 issue；涉及页面、样式或响应式布局时附前后截图。保持改动聚焦，不提交 `.env`、密钥、`dist/` 或本地缓存。
+人工提交沿用 Conventional Commits，例如 `feat: add tag filter`、`fix: render Notion tables`、`content: publish weekly post`；Notion 自动同步提交保留现有 `🔄 自动同步 Notion 内容 - 时间` 格式。PR 应说明目的、主要改动与验证命令，关联相关 issue；涉及页面、样式或响应式布局时附前后截图。保持改动聚焦，不提交 `.env`、密钥、`dist/` 或 `.workbuddy/` 等本地工具缓存。
 
 ## 配置与内容同步
 
 `npm run sync:notion` 依赖本地环境变量。仅提交示例或文档化的变量名，真实凭据保留在未跟踪的 `.env` 中。同步后检查内容差异，避免把非预期删除或草稿状态变更混入提交。
+
+同步行为与撤回入口见 `.github/workflows/sync-content.yml` 和 `scripts/sync-from-notion.js`。修改同步逻辑时检查对应的 `tests/notion-sync-workflow.test.mjs`。
+
+执行发布任务时，先查看 `.github/workflows/deploy.yml`：当前通过 `master` 推送、手动触发或成功完成的 Notion 同步工作流部署到 GitHub Pages。推送前检查远程是否新增同步提交；工作区干净且仅需快进时使用 `git pull --ff-only origin master`，本地已有待发布提交时使用 `git pull --rebase origin master` 并检查合并结果，不用强制推送覆盖同步内容。发布完成以部署工作流成功及 `https://www.taoweng.site` 对应页面的实际内容验证为准。
