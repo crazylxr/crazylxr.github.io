@@ -1,16 +1,3 @@
-# 依赖安全补丁
-
-`npm install` 和 `npm ci` 会通过 `postinstall` 自动运行
-`scripts/patch-braces.mjs`，为 `braces@3.0.3` 的解析器增加 100 层嵌套限制，
-覆盖花括号和圆括号，避免递归编译或展开时栈溢出。
-补丁对应 [GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm)，
-上游尚未发布修复版本。脚本校验原始源码的 SHA-256，并支持重复执行；
-依赖版本或源码变化时会中止安装，届时应复核补丁或在上游修复后移除。
-不要使用 `--ignore-scripts` 跳过安全补丁。
-
-补丁保留真实依赖版本，Dependabot 和 `npm audit` 仍可能报告这一项。
-`tests/dependency-security.test.mjs` 验证正常模式、恶意深度模式和 KaTeX 安全行为。
-
 # AI 工具数据自动更新
 
 ## 简介

@@ -40,7 +40,7 @@
 | 框架 | [Astro 7](https://astro.build/)               |
 | 语言 | [TypeScript](https://www.typescriptlang.org/) |
 | UI   | [React 19](https://react.dev/)                |
-| 样式 | [Tailwind CSS 3](https://tailwindcss.com/)    |
+| 样式 | [Tailwind CSS 4](https://tailwindcss.com/)    |
 | 搜索 | [Fuse.js](https://www.fusejs.io/)             |
 | 内容 | Markdown + Astro Content Collections          |
 | 评论 | [Twikoo](https://twikoo.js.org/)              |
@@ -52,7 +52,7 @@
 
 ### 环境要求
 
-- Node.js 22.19.0 或更高版本
+- Node.js 22.22.3+（22.x）、24.16.0+（24.x）或 26.3.0+，以 `package.json` 为准
 - npm
 
 ### 本地运行
@@ -176,7 +176,7 @@ GitHub Actions 也会每 6 小时执行一次同步。需要手动同步时，�
 | `npm run lint`         | 执行 ESLint 检查           |
 | `npm run format:check` | 检查代码格式               |
 | `npm run format`       | 使用 Prettier 格式化代码   |
-| `npm run cz`           | 使用 Commitizen 创建提交   |
+| `npm run cz`           | 使用 czg 创建规范提交      |
 
 ## 目录结构
 

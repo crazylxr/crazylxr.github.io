@@ -10,7 +10,7 @@ const { name, size = "sm" } = Astro.props;
 <li class="inline-flex">
   <a
     href={`/tags/${name.toLowerCase()}`}
-    class={`group inline-flex items-center gap-1 rounded-full border border-skin-line bg-skin-card bg-opacity-30 no-underline transition hover:-translate-y-0.5 hover:border-skin-accent hover:bg-opacity-60 hover:text-skin-accent ${
+    class={`group inline-flex items-center gap-1 rounded-full border border-skin-line bg-skin-card/30 no-underline transition hover:-translate-y-0.5 hover:border-skin-accent hover:bg-skin-card/60 hover:text-skin-accent ${
       size === "sm" ? "px-2.5 py-1 text-sm" : "px-3 py-1.5 text-lg"
     }`}
   >

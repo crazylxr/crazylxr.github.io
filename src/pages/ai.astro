@@ -44,7 +44,7 @@ const categories = Array.from(
           </span>
           <input
             id="ai-search-input"
-            class="block w-full rounded border border-skin-fill bg-skin-fill py-3 pl-10 pr-3"
+            class="block w-full rounded border border-skin-base bg-skin-fill py-3 pr-3 pl-10"
             placeholder="搜索工具..."
           />
         </label>
@@ -119,14 +119,15 @@ const categories = Array.from(
 </style>
 
 <style>
+  @reference "../styles/base.css";
   #ai-hero h1 {
     @apply my-4 text-3xl font-bold sm:text-4xl;
   }
   #ai-search input:focus {
-    @apply outline-none ring-2 ring-sky-300;
+    @apply ring-2 ring-sky-300 outline-hidden;
   }
   .card {
-    @apply border border-skin-fill;
+    @apply border border-skin-base;
     position: relative;
   }
   .card:hover {

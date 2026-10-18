@@ -112,24 +112,29 @@ const pageDescription =
 </Layout>
 
 <style>
+  @reference "../styles/base.css";
   #main-content {
-    @apply mx-auto w-full max-w-3xl px-4 pb-20 pt-12 sm:pb-28 sm:pt-16;
+    @apply mx-auto w-full max-w-3xl px-4 pt-12 pb-20 sm:pt-16 sm:pb-28;
   }
 
   .about-hero h1 {
-    @apply m-0 text-[2rem] font-medium leading-[1.45] tracking-[0.08em] sm:text-[2.6rem] sm:leading-[1.5];
+    @apply m-0 text-[2rem] leading-[1.45] font-medium tracking-[0.08em] sm:text-[2.6rem] sm:leading-[1.5];
   }
 
   .intro {
-    @apply mb-0 mt-8 text-base font-medium leading-8 sm:mt-9 sm:text-lg;
+    @apply mt-8 mb-0 text-base leading-8 font-medium sm:mt-9 sm:text-lg sm:leading-7;
   }
 
   .story {
-    @apply mt-8 max-w-[46rem] space-y-5 leading-8;
+    @apply mt-8 max-w-[46rem] leading-8;
   }
 
   .story p {
     @apply m-0;
+  }
+
+  .story p + p {
+    @apply mt-5;
   }
 
   .work {
@@ -137,7 +142,7 @@ const pageDescription =
   }
 
   .work article {
-    @apply flex min-w-0 flex-col border-b border-skin-line py-7 last:border-b-0 sm:border-b-0 sm:border-r sm:px-8 sm:first:pl-0 sm:last:border-r-0 sm:last:pr-0;
+    @apply flex min-w-0 flex-col border-b border-skin-line py-7 last:border-b-0 sm:border-r sm:border-b-0 sm:px-8 sm:first:pl-0 sm:last:border-r-0 sm:last:pr-0;
   }
 
   .eyebrow {
@@ -145,11 +150,11 @@ const pageDescription =
   }
 
   .work h2 {
-    @apply mb-0 mt-4 break-words text-xl font-semibold leading-8;
+    @apply mt-4 mb-0 text-xl leading-8 font-semibold break-words;
   }
 
   .work article > p:not(.eyebrow) {
-    @apply mb-0 mt-4 text-sm leading-7 opacity-80;
+    @apply mt-4 mb-0 text-sm leading-7 opacity-80;
   }
 
   .work .action {
@@ -165,7 +170,7 @@ const pageDescription =
   }
 
   .work .action:focus-visible {
-    @apply rounded-sm outline-dashed outline-2 outline-offset-4;
+    @apply rounded-xs outline-2 outline-offset-4 outline-dashed;
     outline-color: rgb(var(--color-accent));
   }
 
@@ -187,7 +192,7 @@ const pageDescription =
   }
 
   .dialog-header h2 {
-    @apply mb-0 mt-2 text-xl font-semibold;
+    @apply mt-2 mb-0 text-xl font-semibold;
   }
 
   .dialog-header button {
@@ -199,7 +204,7 @@ const pageDescription =
   }
 
   .dialog-hint {
-    @apply mb-0 mt-5 text-center text-sm leading-6 opacity-70;
+    @apply mt-5 mb-0 text-center text-sm leading-6 opacity-70;
   }
 
   .why-write {
@@ -211,7 +216,7 @@ const pageDescription =
   }
 
   .why-write p {
-    @apply mb-0 mt-5 max-w-[46rem] leading-8;
+    @apply mt-5 mb-0 max-w-[46rem] leading-8;
   }
 
   .comments {

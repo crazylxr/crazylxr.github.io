@@ -1,6 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../../tailwind.config.cjs";
+
+/* Preserve the existing hover behavior on touch devices as well. */
+@custom-variant hover (&:hover);
+
+@utility display-none {
+  @apply hidden;
+}
+
+@utility focus-outline {
+  @apply outline-2 outline-offset-1 outline-skin-accent focus-visible:no-underline focus-visible:outline-dashed;
+  outline-style: none;
+}
 
 @layer base {
   :root,
@@ -29,14 +40,15 @@
     display: block;
   }
   body {
-    @apply flex min-h-screen flex-col bg-skin-fill font-mono text-skin-base selection:bg-skin-accent selection:bg-opacity-70 selection:text-skin-inverted;
+    @apply flex min-h-screen flex-col bg-skin-fill font-mono text-skin-base selection:bg-skin-accent/70 selection:text-skin-fill;
   }
   section,
   footer {
     @apply mx-auto max-w-3xl px-4;
   }
   a {
-    @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
+    @apply outline-2 outline-offset-1 outline-skin-accent focus-visible:no-underline focus-visible:outline-dashed;
+    outline-style: none;
   }
   svg {
     @apply inline-block h-6 w-6 fill-skin-base group-hover:fill-skin-accent;
@@ -44,47 +56,6 @@
   svg.icon-tabler {
     @apply inline-block h-6 w-6 scale-125 fill-transparent stroke-current stroke-2 opacity-90 group-hover:fill-transparent sm:scale-110;
   }
-  .prose {
-    @apply prose-headings:!mb-3 prose-headings:!text-skin-base prose-h3:italic prose-p:!text-skin-base prose-a:!text-skin-base prose-a:!decoration-dashed prose-a:underline-offset-8 hover:prose-a:text-skin-accent prose-blockquote:!border-l-skin-accent prose-blockquote:border-opacity-50 prose-blockquote:opacity-80 prose-figcaption:!text-skin-base prose-figcaption:opacity-70 prose-strong:!text-skin-base prose-code:rounded prose-code:bg-skin-card prose-code:bg-opacity-75 prose-code:p-1 prose-code:!text-skin-base prose-code:before:!content-[''] prose-code:after:!content-[''] prose-ol:!text-skin-base prose-ul:overflow-x-clip prose-ul:!text-skin-base prose-li:marker:!text-skin-accent prose-table:text-skin-base prose-th:border prose-th:border-skin-line prose-td:border prose-td:border-skin-line prose-img:mx-auto prose-img:!mt-2 prose-img:border-2 prose-img:border-skin-line prose-hr:!border-skin-line;
-  }
-  .prose a {
-    @apply hover:!text-skin-accent;
-  }
-  /* 让 pre > code 继承 Shiki 的颜色，避免 prose-code 的 !important 文字色覆盖高亮 */
-  .prose pre code {
-    color: inherit !important;
-    background: transparent !important;
-    padding: 0 !important;
-  }
-  .prose thead th:first-child,
-  tbody td:first-child,
-  tfoot td:first-child {
-    padding-left: 0.5714286em;
-  }
-  .prose table {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-  .prose .katex-display {
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding-block: 0.25rem;
-  }
-  .prose h2#table-of-contents {
-    @apply mb-2;
-  }
-  .prose details {
-    @apply inline-block cursor-pointer select-none text-skin-base;
-  }
-  .prose summary {
-    @apply focus-outline;
-  }
-  .prose h2#table-of-contents + p {
-    @apply hidden;
-  }
-
   /* ===== scrollbar ===== */
   html {
     overflow-y: scroll;
@@ -111,11 +82,50 @@
   }
 }
 
-@layer components {
-  .display-none {
-    @apply hidden;
+/* Article overrides must share the typography plugin's layer in v4. */
+@layer utilities {
+  .prose {
+    @apply prose-headings:!mb-3 prose-headings:!text-skin-base prose-h3:italic prose-p:!text-skin-base prose-a:!text-skin-base prose-a:!decoration-dashed prose-a:underline-offset-8 hover:prose-a:text-skin-accent prose-blockquote:!border-l-skin-accent/50 prose-blockquote:opacity-80 prose-figcaption:!text-skin-base prose-figcaption:opacity-70 prose-strong:!text-skin-base prose-code:rounded-sm prose-code:bg-skin-card/75 prose-code:p-1 prose-code:!text-skin-base prose-code:before:!content-[''] prose-code:after:!content-[''] prose-ol:!text-skin-base prose-ul:overflow-x-clip prose-ul:!text-skin-base prose-li:marker:!text-skin-accent prose-table:text-skin-base prose-th:border prose-th:border-skin-line prose-td:border prose-td:border-skin-line prose-img:mx-auto prose-img:!mt-2 prose-img:border-2 prose-img:border-skin-line prose-hr:!border-skin-line;
   }
-  .focus-outline {
-    @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
+  .prose a {
+    @apply hover:!text-skin-accent;
+  }
+  /* 让 pre > code 继承 Shiki 的颜色，避免 prose-code 的 !important 文字色覆盖高亮 */
+  .prose pre code {
+    color: inherit !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+  .prose thead th:first-child,
+  tbody td:first-child,
+  tfoot td:first-child {
+    padding-left: 0.5714286em;
+  }
+  .prose th {
+    padding-top: 1px;
+  }
+
+  .prose table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .prose .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-block: 0.25rem;
+  }
+  .prose h2#table-of-contents {
+    @apply mb-2;
+  }
+  .prose details {
+    @apply inline-block cursor-pointer text-skin-base select-none;
+  }
+  .prose summary {
+    @apply focus-outline;
+  }
+  .prose h2#table-of-contents + p {
+    @apply hidden;
   }
 }

@@ -1,19 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-
-function withOpacity(variableName) {
-  return ({ opacityValue }) => {
-    if (opacityValue !== undefined) {
-      return `rgba(var(${variableName}), ${opacityValue})`;
-    }
-    return `rgb(var(${variableName}))`;
-  };
-}
-
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    // Remove the following screen breakpoint or add other breakpoints
-    // if one breakpoint is not enough for you
     screens: {
       sm: "640px",
       md: "768px",
@@ -21,50 +9,65 @@ module.exports = {
       xl: "1280px",
       "2xl": "1536px",
     },
-
-    // Uncomment the following extend
-    // if existing Tailwind color palette will be used
-
-    // extend: {
-    textColor: {
-      skin: {
-        base: withOpacity("--color-text-base"),
-        accent: withOpacity("--color-accent"),
-        inverted: withOpacity("--color-fill"),
+    extend: {
+      // Keep the existing article palette instead of v4 typography defaults.
+      typography: {
+        DEFAULT: {
+          css: {
+            "--tw-prose-body": "#374151",
+            "--tw-prose-headings": "#111827",
+            "--tw-prose-lead": "#4b5563",
+            "--tw-prose-links": "#111827",
+            "--tw-prose-bold": "#111827",
+            "--tw-prose-counters": "#6b7280",
+            "--tw-prose-bullets": "#d1d5db",
+            "--tw-prose-hr": "#e5e7eb",
+            "--tw-prose-quotes": "#111827",
+            "--tw-prose-quote-borders": "#e5e7eb",
+            "--tw-prose-captions": "#6b7280",
+            "--tw-prose-kbd": "#111827",
+            "--tw-prose-kbd-shadows": "#1118271a",
+            "--tw-prose-code": "#111827",
+            "--tw-prose-pre-code": "#e5e7eb",
+            "--tw-prose-pre-bg": "#1f2937",
+            "--tw-prose-th-borders": "#d1d5db",
+            "--tw-prose-td-borders": "#e5e7eb",
+            "--tw-prose-invert-body": "#d1d5db",
+            "--tw-prose-invert-headings": "#fff",
+            "--tw-prose-invert-lead": "#9ca3af",
+            "--tw-prose-invert-links": "#fff",
+            "--tw-prose-invert-bold": "#fff",
+            "--tw-prose-invert-counters": "#9ca3af",
+            "--tw-prose-invert-bullets": "#4b5563",
+            "--tw-prose-invert-hr": "#374151",
+            "--tw-prose-invert-quotes": "#f3f4f6",
+            "--tw-prose-invert-quote-borders": "#374151",
+            "--tw-prose-invert-captions": "#9ca3af",
+            "--tw-prose-invert-kbd": "#fff",
+            "--tw-prose-invert-kbd-shadows": "#ffffff1a",
+            "--tw-prose-invert-code": "#fff",
+            "--tw-prose-invert-pre-code": "#d1d5db",
+            "--tw-prose-invert-pre-bg": "#00000080",
+            "--tw-prose-invert-th-borders": "#4b5563",
+            "--tw-prose-invert-td-borders": "#374151",
+          },
+        },
       },
-    },
-    backgroundColor: {
-      skin: {
-        fill: withOpacity("--color-fill"),
-        accent: withOpacity("--color-accent"),
-        inverted: withOpacity("--color-text-base"),
-        card: withOpacity("--color-card"),
-        "card-muted": withOpacity("--color-card-muted"),
+      colors: {
+        sky: { 300: "#7dd3fc" },
+        skin: {
+          base: "rgb(var(--color-text-base))",
+          accent: "rgb(var(--color-accent))",
+          fill: "rgb(var(--color-fill))",
+          card: "rgb(var(--color-card))",
+          "card-muted": "rgb(var(--color-card-muted))",
+          line: "rgb(var(--color-border))",
+        },
       },
-    },
-    outlineColor: {
-      skin: {
-        fill: withOpacity("--color-accent"),
-      },
-    },
-    borderColor: {
-      skin: {
-        line: withOpacity("--color-border"),
-        fill: withOpacity("--color-text-base"),
-        accent: withOpacity("--color-accent"),
-      },
-    },
-    fill: {
-      skin: {
-        base: withOpacity("--color-text-base"),
-        accent: withOpacity("--color-accent"),
-      },
-      transparent: "transparent",
     },
     fontFamily: {
       mono: ["IBM Plex Mono", "monospace"],
     },
-    // },
   },
   plugins: [require("@tailwindcss/typography")],
 };

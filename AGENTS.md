@@ -10,7 +10,7 @@
 
 ## 构建、测试与本地开发
 
-使用 Node.js 22.19.0 或更高版本（与 `package.json` 的 engines 约束一致），GitHub Actions 当前使用 22.23.2。通过 npm 和现有锁文件管理依赖。
+Node.js 版本须满足 `package.json` 的 engines 约束，GitHub Actions 当前使用 22.23.2。通过 npm 和现有锁文件管理依赖。
 
 - `npm ci`：按照 `package-lock.json` 安装可复现依赖。
 - `npm run dev`：启动本地开发服务器，默认地址为 `http://localhost:4321`。

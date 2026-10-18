@@ -69,7 +69,7 @@ const { activeNav } = Astro.props;
           <li>
             <LinkButton
               href="/search"
-              className={`focus-outline p-3 sm:p-1 ${
+              className={`p-3 focus-outline sm:p-1 ${
                 activeNav === "search" ? "active" : ""
               }`}
               ariaLabel="search"
@@ -112,8 +112,9 @@ const { activeNav } = Astro.props;
 </header>
 
 <style>
+  @reference "../styles/base.css";
   #skip-to-content {
-    @apply absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-inverted transition-all focus:top-4;
+    @apply absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-fill transition-all focus:top-4;
   }
   .nav-container {
     @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
@@ -135,7 +136,7 @@ const { activeNav } = Astro.props;
     @apply flex w-full flex-col items-center bg-skin-fill sm:ml-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0;
   }
   nav ul {
-    @apply mt-4 grid w-44 grid-cols-2 grid-rows-4 gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:flex sm:w-auto sm:flex-row sm:gap-x-5 sm:gap-y-0;
+    @apply mt-4 grid w-44 grid-cols-2 grid-rows-4 gap-x-2 gap-y-2 sm:mt-0 sm:ml-0 sm:flex sm:w-auto sm:flex-row sm:gap-x-5 sm:gap-y-0;
   }
   nav ul li {
     @apply col-span-2 flex items-center justify-center sm:col-span-1;
@@ -174,7 +175,7 @@ const { activeNav } = Astro.props;
     @apply h-5 w-6 flex-col items-end justify-between;
   }
   .icon-container div {
-    @apply h-0.5 bg-skin-inverted transition-all;
+    @apply h-0.5 bg-skin-base transition-all;
   }
   #first-line {
     @apply w-full;

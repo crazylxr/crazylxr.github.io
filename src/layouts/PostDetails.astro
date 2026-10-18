@@ -26,7 +26,7 @@ const ogUrl = new URL(
 <Layout title={title} author={author} description={description} ogImage={ogUrl}>
   <Header />
   <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
-    <a href="/posts" class="focus-outline mb-2 mt-8 flex hover:opacity-75">
+    <a href="/posts" class="mt-8 mb-2 flex focus-outline hover:opacity-75">
       <svg xmlns="http://www.w3.org/2000/svg"
         ><path
           d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
@@ -37,7 +37,7 @@ const ogUrl = new URL(
   <main id="main-content">
     <h1 class="post-title">{title}</h1>
     <Datetime datetime={date} size="lg" className="my-2" />
-    <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
+    <article id="article" role="article" class="mx-auto prose mt-8 max-w-3xl">
       <Content />
     </article>
 
@@ -50,6 +50,7 @@ const ogUrl = new URL(
 </Layout>
 
 <style>
+  @reference "../styles/base.css";
   main {
     @apply mx-auto w-full max-w-3xl px-4 pb-12;
   }

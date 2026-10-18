@@ -6,6 +6,7 @@ import remarkCollapse from "remark-collapse";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import sitemap from "@astrojs/sitemap";
+import tailwindcss from "@tailwindcss/vite";
 
 export const markdownProcessorOptions = {
   remarkPlugins: [
@@ -25,6 +26,9 @@ export const markdownProcessorOptions = {
 export default defineConfig({
   site: "https://www.taoweng.site",
   integrations: [react(), sitemap()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
   markdown: {
     processor: unified(markdownProcessorOptions),
     shikiConfig: {
