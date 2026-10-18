@@ -4,7 +4,7 @@
   "private": false,
   "type": "module",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.19.0"
   },
   "scripts": {
     "dev": "astro dev",
@@ -19,7 +19,8 @@
     "format": "prettier --write .",
     "cz": "cz",
     "prepare": "husky",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "node scripts/patch-braces.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.4",
@@ -31,7 +32,7 @@
     "dotenv": "^17.2.3",
     "fuse.js": "^7.1.0",
     "github-slugger": "^2.0.0",
-    "katex": "^0.16.47",
+    "katex": "^0.18.2",
     "notion-to-md": "^3.1.1",
     "postcss": "^8.5.26",
     "rehype-katex": "^7.0.1",
@@ -72,5 +73,9 @@
     "*.{js,ts,jsx,tsx,astro,json,md}": [
       "prettier --write"
     ]
+  },
+  "overrides": {
+    "katex": "$katex",
+    "postcss-selector-parser": "^7.1.6"
   }
 }
